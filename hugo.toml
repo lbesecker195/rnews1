@@ -1,4 +1,4 @@
-baseURL = 'https://example.com/'
+baseURL = 'https://www.rnews1.com/'
 title = 'RNews1.com'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
@@ -117,7 +117,7 @@ defaultContentLanguageInSubdir = true
 
 
 [outputs]
-  home = ["HTML"]       # Disables RSS for the homepage
+  home = ["HTML", "RSS"]       # Disables RSS for the homepage
   section = ["HTML", "RSS"] # Enables RSS only for section lists (e.g., /posts/)
   taxonomy = ["HTML"]    # Disables RSS for tag/category list pages
   term = ["HTML"]        # Disables RSS for individual tag/category pages
