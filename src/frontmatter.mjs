@@ -13,6 +13,9 @@ const TRANSLATABLE_KEYS = new Set([
   "seo_title",
   "meta_description",
   "metadescription",
+  "tweet",
+  "tweets",
+  "social",
 ]);
 
 const DATE_KEYS = new Set(["date", "lastmod", "publishdate", "expirydate"]);
@@ -77,9 +80,9 @@ export function applyTranslatedStrings(data, translated) {
 }
 
 function parseYamlMapping(fmText) {
-  const quotedDates = preQuoteBareScalars(fmText);
+  const repaired = preQuoteBareScalars(foldUnclosedQuotedLines(attachOrphanHandleLines(fmText)));
 
-  const doc = YAML.parseDocument(quotedDates);
+  const doc = YAML.parseDocument(repaired);
   if (doc.errors?.length) {
     throw new Error(`YAML front matter: ${doc.errors[0].message}`);
   }
@@ -132,6 +135,43 @@ function writeYamlValue(lines, key, value, indent) {
   }
 }
 
+function attachOrphanHandleLines(fmText) {
+  const lines = fmText.split(/\r?\n/);
+  const out = [];
+  for (const line of lines) {
+    if (/^[ \t]*[@#]/.test(line) && out.length > 0 && /:\s/.test(out[out.length - 1])) {
+      out[out.length - 1] = `${out[out.length - 1]} ${line.trim()}`;
+      continue;
+    }
+    out.push(line);
+  }
+  return out.join("\n");
+}
+
+function foldUnclosedQuotedLines(fmText) {
+  const lines = fmText.split(/\r?\n/);
+  const out = [];
+
+  for (let i = 0; i < lines.length; i++) {
+    let line = lines[i];
+    const pair = line.match(/^([ \t]*)([A-Za-z0-9_-]+):\s*(.*)$/);
+    if (pair) {
+      let val = pair[3];
+      while (hasUnclosedQuotes(val) && i + 1 < lines.length) {
+        const next = lines[i + 1];
+        if (/^[ \t]*[A-Za-z0-9_-]+:\s/.test(next) && !hasUnclosedQuotes(val)) break;
+        if (/^[ \t]*[A-Za-z0-9_-]+:\s/.test(next) && quoteCount(val) % 2 === 0) break;
+        i += 1;
+        val = `${val} ${next.trim()}`;
+      }
+      line = `${pair[1]}${pair[2]}: ${val.trim()}`;
+    }
+    out.push(line);
+  }
+
+  return out.join("\n");
+}
+
 function preQuoteBareScalars(fmText) {
   return fmText
     .split(/\r?\n/)
@@ -141,10 +181,7 @@ function preQuoteBareScalars(fmText) {
         const [, indent, key, raw] = pair;
         const val = raw.trim();
         if (shouldLeaveBare(val)) return line;
-        if (DATE_KEYS.has(key.toLowerCase())) {
-          return `${indent}${key}: "${escapeQuotes(val)}"`;
-        }
-        return `${indent}${key}: "${escapeQuotes(val)}"`;
+        return `${indent}${key}: "${stripWrappingQuotes(val)}"`;
       }
 
       const item = line.match(/^([ \t]*)-\s+(.*)$/);
@@ -153,7 +190,7 @@ function preQuoteBareScalars(fmText) {
         const val = raw.trim();
         if (shouldLeaveBare(val) || /^[A-Za-z0-9][A-Za-z0-9 _-]*$/.test(val)) return line;
         if (val.includes(":") || val.includes("#") || val.includes('"') || val.includes("'")) {
-          return `${indent}- "${escapeQuotes(val)}"`;
+          return `${indent}- "${stripWrappingQuotes(val)}"`;
         }
       }
       return line;
@@ -167,12 +204,37 @@ function shouldLeaveBare(val) {
   if (val.startsWith("{") || val.startsWith("[")) return true;
   if (val === "true" || val === "false" || val === "null") return true;
   if (/^-?\d+(\.\d+)?$/.test(val)) return true;
-  if (isWrapped(val, '"') || isWrapped(val, "'")) return true;
+  if (isCleanWrapped(val, '"') || isCleanWrapped(val, "'")) return true;
   return false;
 }
 
-function isWrapped(val, q) {
-  return val.startsWith(q) && val.endsWith(q) && val.length >= 2;
+function isCleanWrapped(val, q) {
+  if (!(val.startsWith(q) && val.endsWith(q) && val.length >= 2)) return false;
+  return quoteCount(val) === 2;
+}
+
+function hasUnclosedQuotes(s) {
+  return quoteCount(s) % 2 === 1;
+}
+
+function quoteCount(s) {
+  let n = 0;
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === "\\") {
+      i += 1;
+      continue;
+    }
+    if (s[i] === '"') n += 1;
+  }
+  return n;
+}
+
+function stripWrappingQuotes(s) {
+  let inner = s;
+  if (inner.length >= 2 && inner.startsWith('"') && inner.endsWith('"')) {
+    inner = inner.slice(1, -1);
+  }
+  return escapeQuotes(inner);
 }
 
 function escapeQuotes(s) {

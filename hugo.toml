@@ -114,3 +114,10 @@ defaultContentLanguageInSubdir = true
 [markup.goldmark.parser.attribute]
   title = true
   block = true
+
+
+[outputs]
+  home = ["HTML"]       # Disables RSS for the homepage
+  section = ["HTML", "RSS"] # Enables RSS only for section lists (e.g., /posts/)
+  taxonomy = ["HTML"]    # Disables RSS for tag/category list pages
+  term = ["HTML"]        # Disables RSS for individual tag/category pages

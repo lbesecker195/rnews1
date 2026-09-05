@@ -19,8 +19,11 @@ export function createTranslator({
         targetLang,
         title: frontMatterStrings.title ?? null,
         description: frontMatterStrings.description ?? null,
+        tweet: frontMatterStrings.tweet ?? frontMatterStrings.tweets ?? null,
         otherFrontMatter: Object.fromEntries(
-          Object.entries(frontMatterStrings).filter(([k]) => k !== "title" && k !== "description"),
+          Object.entries(frontMatterStrings).filter(
+            ([k]) => k !== "title" && k !== "description" && k !== "tweet" && k !== "tweets",
+          ),
         ),
         body,
       };
@@ -28,12 +31,14 @@ export function createTranslator({
       const system = [
         "You are a professional translator for a Hugo static site.",
         `Translate from ${sourceLang} to ${targetLanguageName} (${targetLang}).`,
-        "Return ONLY valid JSON with keys: title, description, otherFrontMatter, body.",
+        "Return ONLY valid JSON with keys: title, description, tweet, otherFrontMatter, body.",
         "Rules:",
         "- Preserve Markdown structure, headings, lists, links, images, HTML, and whitespace intent.",
         "- Do not translate URLs, file paths, Hugo shortcodes ({{< ... >}} and {{% ... %}}), code spans, or fenced code blocks.",
         "- Do not translate YAML keys, slugs, dates, or IDs.",
         "- Keep link text translated when it is prose; keep the href unchanged.",
+        "- Translate tweet prose into the target language. Keep @handles, #hashtags, URLs, cashtags, and emojis unchanged. Do not add new hashtags or mentions. Keep the tweet to one line.",
+        "- If tweet is null, return tweet as null.",
         "- Do not add commentary, quotes around the whole document, or markdown fences around the JSON.",
         "- otherFrontMatter must use the same keys you were given.",
         "- description must be a single line of prose, no raw line breaks.",
@@ -58,6 +63,12 @@ export function createTranslator({
           ...frontMatterStrings,
           ...(typeof data.title === "string" ? { title: data.title } : {}),
           ...(typeof data.description === "string" ? { description: data.description } : {}),
+          ...(typeof data.tweet === "string" && frontMatterStrings.tweet
+            ? { tweet: data.tweet }
+            : {}),
+          ...(typeof data.tweet === "string" && frontMatterStrings.tweets
+            ? { tweets: data.tweet }
+            : {}),
           ...other,
         },
         body: typeof data.body === "string" ? data.body : body,
