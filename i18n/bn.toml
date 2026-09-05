@@ -1,0 +1,59 @@
+[nav_ai]
+other = "এআই"
+
+[nav_business]
+other = "ব্যবসা"
+
+[nav_cosmos]
+other = "মহাকাশ"
+
+[nav_crypto]
+other = "ক্রিপ্টো"
+
+[nav_entertainment]
+other = "বিনোদন"
+
+[nav_health]
+other = "স্বাস্থ্য"
+
+[nav_science]
+other = "বিজ্ঞান"
+
+[nav_sports]
+other = "খেলা"
+
+[nav_technology]
+other = "প্রযুক্তি"
+
+[nav_usa]
+other = "যুক্তরাষ্ট্র"
+
+[nav_world]
+other = "বিশ্ব"
+
+[read_article]
+other = "নিবন্ধ পড়ুন"
+
+[continue_reading]
+other = "পড়তে থাকুন"
+
+[related_note]
+other = "যৌথ শিরোনাম খণ্ড থেকে মিলিয়ে দেওয়া"
+
+[min_read]
+other = "মিনিটের পাঠ"
+
+[hero_title]
+other = "RNews1 -- গুরুত্বপূর্ণ বিষয়"
+
+[hero_lead]
+other = "যত্ন করে প্রতিবেদিত।"
+
+[menu_label]
+other = "মেনু"
+
+[nav_label]
+other = "বিভাগ"
+
+[lang_label]
+other = "ভাষা"

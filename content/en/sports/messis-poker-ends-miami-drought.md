@@ -1,0 +1,136 @@
+---
+categories:
+- Sports
+date: 2026-08-29 19:18:00-07:00
+description: "Lionel Messi scored four goals as Inter Miami thrashed CF Montréal 7-1 on Saturday, Yahoo Sports reports, lifting him to 17 goals and the MLS Golden Boot lead ahead of FC Dallas’ Petar Musa. Two strikes were free kicks: a 40th-minute curler mishandled by Montréal’s defense restored the lead, and a stoppage-time free kick cleared the wall into the right side of the net. Early in the second half he powered through traffic; in the 83rd he chipped goalkeeper Thomas Gillier. It was Messi’s first four-goal MLS haul after hat tricks versus New England (2024) and Nashville (2025). Miami’s seven goals set a franchise single- game record and snapped a winless MLS run since July 25. The Herons have 56 regular-season goals but trail Eastern Conference leaders Nashville by 10 points. MARCA notes Casemiro’s first club goal, Messi’s assist to Luis Suárez, and teen Alexander Shaw’s late long-range strike in the rout."
+draft: false
+translationKey: messis-poker-ends-miami-drought
+tags:
+- Lionel Messi
+- Inter Miami
+- CF Montréal
+- MLS
+- Golden Boot
+- Petar Musa
+- Casemiro
+- Luis Suárez
+- Alexander Shaw
+title: "Messi’s Poker Ends Miami Drought"
+
+---
+
+# Messi’s Poker Ends Miami Drought
+
+**Lionel Messi** scored **four goals** as **Inter Miami** thrashed **CF Montréal 7-1** on Saturday, *Yahoo Sports* reports, lifting him to **17 goals** and the **MLS Golden Boot** lead ahead of **FC Dallas’ Petar Musa**. Two of the strikes were **free kicks**: a **40th-minute** curler mishandled by Montréal’s defense restored the lead, and a **stoppage-time** free kick cleared the wall into the right side of the net. Early in the second half he powered through traffic; in the **83rd** he chipped goalkeeper **Thomas Gillier**. It was Messi’s *first four-goal MLS haul* after hat tricks versus **New England (2024)** and **Nashville (2025)**. Miami’s **seven goals** set a **franchise single-game record** and snapped a winless MLS run since **July 25**. The **Herons** have **56 regular-season goals** but trail Eastern Conference leaders Nashville by **10 points**. *MARCA* notes **Casemiro’s first club goal**, Messi’s assist to **Luis Suárez**, and teen **Alexander Shaw’s** late long-range strike in the rout.
+
+That is the whole night in a single paragraph, and still it does not feel like enough. Four goals. Seven for the team. A drought ended. A Golden Boot lead taken. A franchise record set. A teenager’s long-range strike. A first club goal from Casemiro. An assist for Luis Suárez. The scoreboard said **7-1**. The calendar said Saturday. The drought said July 25. Messi answered all of it.
+
+## Four goals, a 7-1 scoreline, and a Golden Boot lead
+
+Lionel Messi scored four goals. Inter Miami thrashed CF Montréal 7-1. *Yahoo Sports* reported the result on Saturday. Those three sentences are the spine. Everything else in the night hangs from them.
+
+Four goals from one player in a single MLS match is not a routine box-score line. It is a poker — four of a kind — and it is the first time Messi has done it in this league. The 7-1 score is not a close contest dressed up as a statement. It is a *thrashing*. CF Montréal were on the wrong end of a franchise single-game record. Inter Miami put seven past them. Messi accounted for four of those seven, and he also provided an assist to Luis Suárez, which means his fingerprints were on still more of the night than the four-goal haul already describes.
+
+The Golden Boot race moved with him. The four goals lifted Messi to **17 goals** and the MLS Golden Boot lead, ahead of FC Dallas’ **Petar Musa**. That is not a mid-table footnote. The Golden Boot is the league’s scoring title. Seventeen is the number that now sits at the top of that list. Musa, of FC Dallas, is the name *Yahoo Sports* places immediately behind him. Messi did not inch into the lead with a tap-in in a 1-0. He took it with a four-goal night in a 7-1.
+
+A drought does not end quietly when it ends like this. Inter Miami had been winless in MLS since July 25. Saturday snapped that run. The method was not a grind. It was a record. Seven goals in one game. Four from Messi. The Herons, as the club is called in the reporting, now have **56 regular-season goals** on the season. They still trail Eastern Conference leaders Nashville by **10 points**. The attack is producing. The table is not yet matching the attack. Saturday did not close that 10-point gap in a single evening, but it did end the winless stretch and it did set a franchise mark that now sits on the club’s books.
+
+## The 40th-minute curler that restored the lead
+
+Two of Messi’s four strikes were free kicks. That is a specific, unusual share of a four-goal night. Open-play finishes are the default. Free kicks are the exception. Messi made the exception half the haul.
+
+The first of those free kicks arrived in the **40th minute**. It was a curler. Montréal’s defense mishandled it. The strike restored the lead. Those details, from *Yahoo Sports*, are the entire official account of that goal, and they are enough to locate it in the match. The 40th minute is late in the first half. A curler is a ball that bends. A mishandled free kick by the defending side is a goal that should have been prevented and was not. Restoring the lead means Inter Miami had the lead, saw it slip, and then had it again because of Messi’s curler.
+
+The reporting does not name a Montréal scorer, a minute for an equalizer, or any other intervening detail. It does not need to. The language is precise: the 40th-minute curler *restored* the lead. Restoration is not the same as opening. Something had happened to the lead before the 40th minute. Messi put it back. Montréal’s defense mishandled the curler. The first half still had time left, but the lead was Miami’s again because of a free kick.
+
+A free-kick curler in the 40th minute, mishandled, restoring a lead, is the kind of goal that changes a match’s temperature before the interval. Inter Miami were not merely surviving until halftime. They were going into the second half with the lead restored by the player who would eventually score four.
+
+## Early in the second half: through traffic
+
+Early in the second half, Messi powered through traffic. That is the strike *Yahoo Sports* places after the 40th-minute free kick and before the 83rd-minute chip. Powering through traffic is not a free kick. It is open play. It is contact, bodies, a path that has to be forced rather than bent around a wall.
+
+The phrasing matters because it is one of the four finishes that made this Messi’s first four-goal MLS haul. Two free kicks, a power-through-traffic strike early in the second half, and a chip in the 83rd. The variety is the point. This was not four of the same goal. It was a poker hand built from different suits: set-piece, open-play force, and a chip.
+
+CF Montréal had already seen the 40th-minute curler mishandled. Early in the second half they saw Messi go through traffic and score again. A team being thrashed 7-1 does not typically get thrashed by a single type of action. Miami’s night had volume. Messi’s night had range. The traffic goal is the one that says the match was not only a dead-ball exhibition. He could still run at a defense and finish.
+
+The second half had only just begun. The 83rd minute was still a long way off. The stoppage-time free kick was farther still. Messi was already multiplying. Inter Miami were already on the way to seven. The drought that had lasted since July 25 was already in the process of ending, even if the final score had not yet reached the franchise record.
+
+## The 83rd-minute chip over Thomas Gillier
+
+In the **83rd** minute, Messi chipped goalkeeper **Thomas Gillier**. A chip is a particular finish. It is not a blast. It is not a curler from a free kick. It is a ball lifted over a goalkeeper. Gillier is the name in the Montréal net. He is the one *Yahoo Sports* attaches to this goal, the one who was chipped.
+
+The 83rd minute is late. A four-goal haul that includes a goal in the 83rd is a haul that lasted almost the entire match. Messi had already scored the 40th-minute curler and the early-second-half strike through traffic. He was not finished. The chip in the 83rd made it three before stoppage time made it four.
+
+Thomas Gillier is not a footnote. He is the goalkeeper who faced a franchise-record seven and who, in the 83rd, was beaten by a chip from Messi. Montréal’s defense had already mishandled the 40th-minute curler. Gillier, in the 83rd, was the last line on a chip. The 7-1 thrashing has a face in goal, and that face is Gillier’s.
+
+A chip in the 83rd, with the match already tilting toward a rout, is also a statement about appetite. Messi could have had two or three and let the night close. He chipped Gillier late. Then he still had a stoppage-time free kick left. The first four-goal MLS haul was not going to arrive as a hat trick plus a polite evening. It was going to arrive as four.
+
+## Stoppage time: over the wall, into the right side
+
+The fourth goal was the second free kick. It came in **stoppage time**. It cleared the wall. It went into the **right side of the net**. Those are the facts. A stoppage-time free kick that clears the wall and finds the right side of the net is a closing argument. The match was already a thrashing. Messi still took the set piece and still put it where it counted.
+
+Two free kicks in a four-goal night: the 40th-minute curler that restored the lead, mishandled by Montréal’s defense, and the stoppage-time strike that cleared the wall into the right side. The first one bent. The last one cleared. Both counted. Together they bookend the haul — one before halftime, one after 90, with the traffic goal and the chip in between.
+
+Stoppage time is when a 7-1 can become something a player remembers as complete. Messi’s first four-goal MLS haul needed this one. Hat tricks versus New England in **2024** and versus Nashville in **2025** had been the previous peaks in this league. Saturday went one further. The stoppage-time free kick is the goal that turned a hat-trick night into a poker night. Without it, the headline is different. With it, the drought ends on four, the Golden Boot lead sits at 17, and the franchise record of seven has Messi’s name on four of them.
+
+*Yahoo Sports* is the outlet that reported the four-goal night, the 7-1, the Golden Boot lead, the two free kicks, the 40th-minute curler, the traffic strike, the 83rd-minute chip, the stoppage-time free kick, the first four-goal MLS haul, the prior hat tricks, the franchise record, the July 25 drought, the 56 regular-season goals, and the 10-point gap to Nashville. *MARCA* is the outlet that added the rest of the supporting cast.
+
+## A first four-goal MLS haul — after New England and Nashville
+
+It was Messi’s first four-goal MLS haul. That sentence needs to sit alone for a moment. Hat tricks versus New England in 2024 and versus Nashville in 2025 were the previous high-water marks. Three is not four. Saturday was the first time the MLS column reached four.
+
+New England in 2024. Nashville in 2025. CF Montréal on Saturday. The progression is a ladder: a hat trick, another hat trick, then a poker. The opponents are named. The years are named. The league is MLS. No other four-goal night exists in that ledger, according to the reporting. This one does.
+
+Nashville appears twice in the night’s facts, in two different roles. Nashville were the opponent for the 2025 hat trick. Nashville are also the **Eastern Conference leaders**, 10 points clear of Inter Miami. The same club name sits in Messi’s personal scoring history and on the table Miami is chasing. Saturday’s four-goal haul did not catch Nashville in the standings. It did add a new line next to the 2025 hat trick against them: a four-goal night against someone else, while Nashville remain 10 points ahead.
+
+A first four-goal MLS haul, after those two hat tricks, is also a statement about how long Messi has been producing in this league. 2024, 2025, and now this Saturday. The Golden Boot lead at 17 goals is the seasonal expression of the same fact. Petar Musa of FC Dallas is the closest name. Messi is ahead. Four in one night is how he got there on this particular Saturday.
+
+## Seven goals, a franchise record, and a drought since July 25
+
+Miami’s seven goals set a franchise single-game record. That is a club mark, not only a Messi mark. The 7-1 is now the most Inter Miami have scored in a single game. CF Montréal were the opponent. Saturday was the date. The winless MLS run since July 25 was the thing the record also snapped.
+
+A franchise single-game record and a snapped drought can be the same match. They were, on Saturday. Inter Miami had not won in MLS since July 25. Then they scored seven. Then they won 7-1. The drought did not end 1-0. It ended with a record. The Herons have **56 regular-season goals**. That season total now includes the seven from Saturday. Fifty-six is a volume number. It says the attack has been scoring even when the results, since July 25, had not been wins.
+
+The tension in the table is the 10 points. Eastern Conference leaders Nashville sit 10 points clear. Inter Miami can have 56 regular-season goals, a franchise-record seven in one night, and a four-goal Messi haul, and still trail by 10. The drought’s end is not the same as a title race seized. It is a win, a record, and a reminder that the Herons’ problem since July 25 had been winning, not generating the raw material of goals over a full regular season.
+
+Seven goals in one game will inflate a season total quickly. Fifty-six now includes that inflation. The 10-point gap to Nashville does not include a matching inflation in points from the weeks since July 25, because those weeks were winless. Saturday put a result back on the board in the only way a 7-1 can: all at once, and loudly.
+
+## What MARCA added: Casemiro, Suárez, and Alexander Shaw
+
+*MARCA* notes three further details that complete the 7-1. **Casemiro’s first club goal**. Messi’s **assist to Luis Suárez**. Teen **Alexander Shaw’s** late long-range strike. Those are the named contributions beyond Messi’s four.
+
+Casemiro’s first club goal is a milestone that would headline a quieter Saturday. On this Saturday it is one of seven. First club goals do not wait for a 1-0. They arrive in a rout. Casemiro scored for the club for the first time in the same match Messi scored four times, Suárez took an assist from Messi, and a teenager hit a late long-range strike. The box score is crowded on purpose. A franchise single-game record of seven needs more than one man, even when that man scores four.
+
+Messi’s assist to Luis Suárez is the line that stops the night from being only a four-goal story. Messi scored four and he also set up Suárez. The haul is goals plus creation. Suárez is the name on the receiving end. The assist is Messi’s. In a 7-1, that combination — four goals and an assist — is how a single player can touch a majority of a franchise record without scoring all seven.
+
+Teen Alexander Shaw’s late long-range strike is the last named goal in the MARCA account. A teenager. Late. Long-range. In a rout. Shaw is not described as a veteran finishing a move at the far post. He is a teen hitting a late long-range strike while Inter Miami are already burying CF Montréal. The drought since July 25 ended with room for that kind of goal: the one that happens because the night has already been won and a young player still has a shot from distance.
+
+The 7-1, then, has a shape. Messi’s 40th-minute curler restored the lead. He powered through traffic early in the second half. He chipped Gillier in the 83rd. He cleared the wall in stoppage time into the right side of the net. Casemiro scored a first club goal. Suárez scored from a Messi assist. Shaw, a teen, scored late from long range. Seven goals. A franchise record. A thrashing. *Yahoo Sports* and *MARCA* together name the night.
+
+## The Golden Boot, Petar Musa, and what 17 means
+
+The four goals lifted Messi to 17 and the MLS Golden Boot lead, ahead of FC Dallas’ Petar Musa. The Golden Boot is the scoring race. Seventeen is the lead number. Musa is the name in second, attached to FC Dallas. *Yahoo Sports* is the source that places Messi ahead after Saturday.
+
+A Golden Boot lead taken on a four-goal night is a lead taken in a burst. It is not a slow accumulation that edges a rival by one in a 1-1. It is four in a 7-1. Musa remains the closest listed challenger. The lead is Messi’s. The total is 17. The night that produced the lead also produced a franchise record for Inter Miami and the end of a winless MLS run since July 25.
+
+Scoring titles in a league are season-long arguments. One Saturday can still decide who is wearing the lead. This Saturday did that. Messi’s first four-goal MLS haul, after the 2024 hat trick against New England and the 2025 hat trick against Nashville, is also a Golden Boot intervention. The same four goals do both jobs: they make personal history in MLS, and they put 17 at the top of the list ahead of Musa.
+
+FC Dallas are not in this match. They are in the Golden Boot sentence. Petar Musa is not a Montréal defender. He is the man Messi has now passed. The 7-1 against CF Montréal is the vehicle. The Golden Boot is the destination of the four-goal line. Seventeen is the number that will sit next to Messi’s name until someone — Musa or otherwise — catches it.
+
+## Nashville, 10 points, and the table the record does not fix
+
+The Herons have 56 regular-season goals but trail Eastern Conference leaders Nashville by 10 points. That is the most incomplete-feeling fact in Saturday’s report, and it is also the most honest. Saturday was a 7-1. Saturday was a franchise single-game record. Saturday snapped a winless MLS run since July 25. Saturday did not erase a 10-point gap to Nashville.
+
+Nashville are the Eastern Conference leaders. Inter Miami are the team with 56 regular-season goals and a new single-game record of seven. Goals are not points. A drought since July 25 is a points problem. Ending it 7-1 is the right kind of end, and it is still only one result. Ten points is a large gap. The reporting does not give a remaining-match count, and this account will not invent one.
+
+The 2025 hat trick against Nashville sits in Messi’s MLS past. The 10-point deficit to Nashville sits in Inter Miami’s MLS present. The same opponent-turned-leader is the measuring stick twice. Messi has already had a three-goal night against them. He has now had a four-goal night against someone else. The Herons still trail them by 10.
+
+Fifty-six regular-season goals is an attacking identity. A franchise-record seven in one game is that identity at full volume. A winless run from July 25 until Saturday is the identity’s interruption. The 7-1 is the resumption. The table, with Nashville 10 points clear in the East, is the unfinished sentence. Casemiro’s first club goal, Suárez’s finish from Messi’s assist, Shaw’s late long-range strike, and Messi’s four do not move Nashville. They move Miami. They snap the drought. They set the record. They leave the 10-point gap as the thing Saturday could not fix.
+
+## A Saturday that finally had a scoreline
+
+The facts are finite, and they are all in. Lionel Messi scored four goals. Inter Miami thrashed CF Montréal 7-1 on Saturday. *Yahoo Sports* reported it. He moved to 17 goals and the MLS Golden Boot lead, ahead of FC Dallas’ Petar Musa. Two strikes were free kicks: a 40th-minute curler mishandled by Montréal’s defense that restored the lead, and a stoppage-time free kick that cleared the wall into the right side of the net. Early in the second half he powered through traffic. In the 83rd he chipped goalkeeper Thomas Gillier. It was his first four-goal MLS haul, after hat tricks versus New England in 2024 and Nashville in 2025. Miami’s seven goals set a franchise single-game record and snapped a winless MLS run since July 25. The Herons have 56 regular-season goals and still trail Eastern Conference leaders Nashville by 10 points. *MARCA* notes Casemiro’s first club goal, Messi’s assist to Luis Suárez, and teen Alexander Shaw’s late long-range strike in the rout.
+
+No other names. No other numbers. The night does not need them. Four goals is the poker. 7-1 is the thrashing. July 25 is the drought that ended. Seventeen is the Golden Boot lead. Seven is the franchise record. Gillier is the goalkeeper who was chipped. Musa is the man behind Messi. Nashville are the leaders, 10 points clear, and also the 2025 hat-trick opponent. Casemiro has a first club goal. Suárez has a Messi assist. Shaw, a teen, has a late long-range strike.
+
+Inter Miami are the Herons. On Saturday, against CF Montréal, they finally had a scoreline that matched the attack they have been building toward 56 regular-season goals. Messi, for the first time in MLS, had four. The drought is over. The table is not. The record is new. The Golden Boot lead is his.

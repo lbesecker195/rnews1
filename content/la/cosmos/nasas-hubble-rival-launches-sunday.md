@@ -1,0 +1,89 @@
+---
+categories:
+- "Cosmos"
+date: 2026-08-29 16:52:00-07:00
+description: "Telescopium spatiale Nancy Grace Roman NASAe, pretio 4,3 miliardorum dollariorum, die Solis 30 Augusti hora 7:26 ante meridiem ET (4:26 PT) e suggestu 39A Centri Spatialis Kennedy deducendum est ope Falcon Heavy SpaceX; novem mensibus ante tempus, postquam crebras Domus Albae conatus cancellationis superavit. Speculum eius principale, 2,4 metra latum, eiusdem magnitudinis ac Hubblei, a Nationali Officio Explorationis aëreae ex programmate satellitum speculatoriorum annullato donatum atque ad observationes infrarubras spatii profundi denuo formatum est. Camera trecentorum megapixelorum caelum circiter mille vicibus celerius quam Hubble perscrutabitur; una imago integra dimidium miliones televisificarum 4K compleret. Ex puncto L2 Terrae-Solis Roman miliardum galaxiarum numerabit, energiam obscuram et Tensionem Hubblei investigabit, atque microlentibus adhibitis decem milia exoplanetarum inveniet. Coronagraphum mundos classis Iovis centies milies minus lucidos quam stellas suas videre conabitur. Julie McEnery, scientiae consiliaria propositi, dixit explorationes demonstrare posse exemplar cosmologicum commune falsum esse. Tempestas die Solis tantum circiter 50 centesimis fausta est; dies Lunae subsidium est."
+draft: false
+translationKey: "nasas-hubble-rival-launches-sunday"
+tags:
+- "NASA"
+- "Roman Space Telescope"
+- "Hubble"
+- "Falcon Heavy"
+- "dark energy"
+- "exoplanets"
+title: "Aemulus Hubblei NASAe die Solis deducitur"
+---
+# Aemulus Hubblei NASAe die Solis deducitur
+
+## Tempus dominicale quod paene numquam advenit
+
+Telescopium spatiale Nancy Grace Roman NASAe, **pretio 4,3 miliardorum dollariorum**, die Solis 30 Augusti hora **7:26 ante meridiem ET** (**4:26 ante meridiem PT**) e suggestu **39A** **Centri Spatialis Kennedy** ope **Falcon Heavy SpaceX** deducendum est. Tempus accurate definitum est, quia fenestra deducendi talis est. Ironia quoque. Observatorium *novem mensibus ante tempus* volat, et omnino volat tantum postquam crebras Domus Albae conatus cancellationis superavit.
+
+Roman est proximum telescopium spatiale NASAe campi lati, nomine astronomi appellatum qui primum NASAe programma astrophysicum condidit atque, multo antequam id populare esset, contendit caelum perscrutandum esse potius quam simpliciter exemplis probandum. Hubble demonstravit magnum speculum supra atmosphaeram cosmologiam denuo scribere posse. Roman est instrumentum ad hanc scripturam renovandam magnitudine industriali designatum. Non est substitutum stricto sensu. Hubble adhuc diligenter aspiciet. Roman autem late percurret.
+
+Locus deductionis est idem concretum quod homines ad Lunam et onera gravia versus spatium profundum misit. Suggestus 39A nunc tam commercialis quam gubernationis est. Vehiculum est Falcon Heavy, eruca tribus nucleis composita qua SpaceX utitur cum sarcina gravis est et destinatio longe abest. Destinatio non est orbita humilis Telluris. Roman versus **L2 Terrae-Solis** mittitur, locum gravitatis longe ultra Lunam situm, ubi attractio Terrae et Solis naviculam in statione stabili continere sinit, clara et frigida conspectu cosmatis.
+
+Tempestas die Solis tantum circiter **50 centesimis** fausta est. Dies Lunae subsidium est. Florida exeunte Augusto cum indicibus sarcinarum non paciscitur. Praedictio aeque probabilis non significat deductionem omittendam. Commemorat telescopium, quod cancellationem politicam superavit, tamen tonitruo morari posse.
+
+## Speculum satellitis speculatorii ad infrarubra refectum
+
+Speculum principale Romanis **2,4 metra** latum est, eiusdem magnitudinis ac Hubblei. Hoc non tam fortuita consilii similitudo est quam fortuita superflui copia. Vitrum a **Nationali Officio Explorationis Aëreae** ex programmate satellitis speculatorii annullato donatum est atque *ad observationes infrarubras spatii profundi denuo formatum*. Speculum quod ad Terram despicere summa subtilitate destinatum erat, nunc foras spectabit, pari subtilitate, ad galaxias tam remotas ut lux earum in infrarubrum extensa sit.
+
+Donum est una ex mirabilioribus originibus fabularum astronomiae recentis. Systemata optica secreta et observatoria civilia semper quandam familiaritatem habuerunt: specula magna stabilia, diligens luminis aberrantis protectio, detectores qui signum tenue contra fundum strepentem retinere possunt. Cum programma satellitis speculatorii ferramentum non adhibitum relinquat, ferramentum non obliviscitur quomodo photons colligat. Tantum novum praeceptum opticum requirit. Opticum 2,4 metrorum ad astronomiam infrarubram reficere non est opus illud polire et mittere. Superficies apta esse debet ad aliam luminis regionem, aliam condicionem thermicam et aliam indolem scientificam. Hubble ad opus universale acutum in ultraviolaceo, visibili et prope infrarubro constructus est. Roman mittitur ad locum ubi Universum expandens multam historiae quam Hubble nobilem fecit occultavit.
+
+Comparatio cum Hubble inevitabilis est et aliquantum iniqua. Vis Hubblei est profunditas in parvo caeli spatio: diuturna inspectio quae campum obscurum in museum galaxiarum vertit. Vis Romanis est amplitudo. Eadem classis aperturae, aliud munus. Donum NRO hoc munus satis parvo pretio fecit ut superaret, vix quidem, certamina de pecunia quae omnem magnam missionem astrophysicam NASAe sequuntur. Observatorium pretio 4,3 miliardorum dollariorum adhuc observatorium 4,3 miliardorum est. Vilius est quam futurum fuisset si procuratio speculum a materia rudis incepisset.
+
+Infrarubrum est cardo. Galaxiae remotae tam celeriter recedunt ut lumen stellare quod caeruleum aut flavum vidissemus tamquam calor adveniat. Energia obscura, acceleratio inexplicata expansionis cosmicae, historia est scripta in illa luce extensa. Sic etiam census galaxiarum quae formatae sunt cum Universum fractionem aetatis hodiernae habebat. Telescopium quod in infrarubro bene operari nequit explorationem ad quam Roman venditus est perficere non potest. Speculum speculatorium refectum est quo NASA missioni infrarubrae campi lati oculum classis Hubblei dedit.
+
+## Camera quae Hubble superat
+
+Camera **trecentorum megapixelorum** caelum circiter **mille vicibus** celerius quam Hubble perscrutabitur. Numerus ipsa missio est. Camerae Hubblei exquisitae sunt sed, ad explorationes spectantes, lentae. Numquam ad caelum tegulatum destinatae erant. Campus focalis Romanis destinatus est. Una imago integra *dimidium miliones* televisificarum **4K** compleret. Haec comparatio regula est officii divulgationis, sed etiam descriptionem honestam quaestionis datorum praebet. Unus imago Romanis non est pulchra pictura sensu Hubblei. Est regio caeli.
+
+Celeritas hic non significat naviculam currere. Significat coniunctionem campi lati et detectoris magni permittere Roman ut intra hebdomades colligat quod expeditio Hubblei similis annos ad congregandum indigeret, si omnino id congregare posset. Circiter mille vicibus celerius discrimen est inter opus singulare et tabulam. Cosmologia per generationem exemplis exquisitis sed tabulis imperfectis haesit. Energia obscura argumentum statisticum est. Tensio Hubblei argumentum statisticum est. Inventio decem milium exoplanetarum per microlentes argumentum statisticum est. Nullum horum propositum perfici potest uno campo pulchro diu inspecto.
+
+Instrumentum trecentorum megapixelorum igitur non est specificatio vanitatis. Est causa cur eadem classis speculi 2,4 metrorum aliud genus scientiae agere possit. Resolutio Hubblei singulas galaxias in res biographiae fecit. Romanis **etendue** — productum aperturae et campi — multitudinem galaxiarum in censum vertit. Miliardum galaxiarum non est slogan si camera assequi non potest. Imago dimidii miliones televisificarum est species census miliardi galaxiarum dum ad Terram descendit.
+
+Effectus operationalis adest. Telescopium tam velox archivum tam magnum producit. Argumentum publicum pro Roman semper scientia fuit. Argumentum occultum est archivum naviculam supervicturum. Archivum Hubblei alterum observatorium factum est. Archivum Romanis maius erit iam primo die quo aperietur.
+
+## Ex L2, census et venatio
+
+Ex **L2 Terrae-Solis**, Roman **miliardum** galaxiarum numerabit, **energiam obscuram** et **Tensionem Hubblei** investigabit, atque *microlentibus* adhibitis *decem milia* exoplanetarum inveniet. Haec non sunt tria incepta secundaria. Idem ferramentum tribus modis adhibitum est.
+
+L2 est ratio practica cur ferramentum omnia haec facere possit. Prope Terram telescopium infrarubrum campi lati contra calorem, lucem aberrantem et planetam nimis magnam in caelo pugnat. In L2 Terra et Sol fere eadem regione siti sunt, quo unum scutum solare multum laboris efficere potest. Navicula in balneo thermico obscuro et stabili diu aspicere potest atque aequales expositiones longas capere quas exploratio requirit. Hubble, in orbita humili Telluris, numquam hanc commoditatem habuit. Intrat et exit lucem solis, lumen reflexum Terrae et Anomaliam Atlantici Australis. Roman mittitur in locum ubi caelum stabile manet.
+
+Census miliardi galaxiarum est fundamentum. Galaxiae sunt particulae probatoriae in incremento structurae cosmicae. Earum situs, figurae et distantiae indicant quomodo gravitas materiam congregaverit et quomodo aliud quiddam — energia obscura — spatium separaverit. Lentitudo gravitatis debilis, levissima deformitas galaxiarum posteriorum a materia priore causata, illum censum in tabulam materiae obscurae vertit. Congregatio eum in historiam expansionis vertit. Roman ita designatus est ut hae mensurae non limitentur numero galaxiarum quas telescopium invenire potest. Miliardus est magnitudo exempli quam cosmologia desideravit ab eis primis indiciis expansionis accelerari.
+
+Energia obscura nomen accelerationis est, non explicatio. Exemplar cosmologicum commune eam constantem habet, energiam vacui quae non mutatur dum Universum crescit. Haec suppositio egregie prospera et magis magisque incommoda fuit. Si constans falsa est — si energia obscura evolvitur, aut si gravitas ipsa a descriptione Einsteiniana in maximis ordinibus recedit — exploratio infrarubra lata et profunda una ex paucis viis est id cognoscendi. Venatio Romanis non est venatio novae particulae in spelunca. Est venatio discrepantiae inter praedictiones exemplaris et formas ac distantias miliardi galaxiarum.
+
+**Tensio Hubblei** est forma acutior eiusdem sollicitudinis. Duae rationes diligentes celeritatem expansionis Universi metiendi inter se non conveniunt. Una methodus ab stellis et supernovis propinquis sursum procedit. Altera ab afterglow Magni Crepitus deorsum procedit. Spatium, quamquam notitia melioratur, non evanuit. Durius factum est. Missio quae et scalam distantiae localem emendare et historiam expansionis magnarum scalarum describere potest ad illud intervallum destinata est. Roman partim venditus est ut iudicaret utrum tensio error sit quem nondum invenimus an rima in exemplo.
+
+Microlentitudo est pars planetaria propositi. Cum stella, aut stella cum planetis, fere exacte ante stellam longius remotam transit, gravitas lucem posteriorem ad breve tempus auget. Forma illius micantis potest mundos detegere qui longe a stellis suis siti sunt, etiam planetas qui methodis transitus et velocitatis radialis, quae duobus proximis decenniis dominatae sunt, invisibiles essent. Spatium locus aptus est huic rei. Series temporis continua et non impedita ex L2 eventus qui dies durant atque anomalias quae horas durant capere potest. Decem milia exoplanetarum est fructus qui possibilis fit cum camera trecentorum megapixelorum agros stellatos densos sine interruptionibus noctis orbitae Telluris observare potest. Planetae quos Roman maxime additurus est non sunt qui iam in catalogis sunt. Sunt illi quorum orbitae latae et frigidae sunt atque parum exploratae — distributio quae decernit utrum systema nostrum solare typicum sit.
+
+## Coronagraphum et mundi centies milies minus lucidi
+
+*Coronagraphum* mundos **classis Iovis** **centies milies** minus lucidos quam stellas suas videre conabitur. Haec sententia facile legitur et effici paene impossibile est.
+
+Coronagraphum est larva et series opticorum quae stellam obstruunt, ut vicinitas eius tenuis photographari possit. Telescopia terrestria huius artis formas decenniis adhibuerunt. Atmosphaera Telluris magnam partem operis dissolvit. In spatio terminus est ipsum telescopium: lux dispersa, reliqua lux stellarum, parvae imperfectiones in speculo 2,4 metrorum quod primum ad hoc munus formatum non erat. Centies milies minus lucidum est discrimen necessarium ut planeta classis Iovis e fulgore stellae similis Soli, ad distantiam utilem, extrahatur. Coronagraphum Romanis demonstratio technologiae est quae dentes scientificos habet. Si operatur, via est ad futuras missiones multo maiores quae mundos classis Terrae photographarent. Si ex parte tantum operatur, tamen ingeniariis docet quomodo umbram tam stabilem teneant.
+
+Instrumentum iuxta cameram explorationis sedet, non pro ea. Roman non deducitur ut imager exoplanetarum qui etiam cosmologiam agat. Est telescopium explorationis quod coronagraphum portat, quia eadem stabilis suggestus in L2 rara occasio est. Mundi classis Iovis sunt primae scopus reales: maiores, luce reflexa vel emissione thermica clariores quam planeta saxeus, et tamen centies milies minus lucidi quam stella quae eos superat. Numerus est causa cur nemo hoc cum imagine alterius Terrae confundere debeat. Est causa cur conatus tanti sit.
+
+Microlentitudo et coronagraphum inter se complent potius quam redundant. Microlentitudo planetas per gravitatem invenit nec eos videre debet. Coronagraphum eos videre conatur et multo pauciores inveniet. Una efficiunt propositum quod exoplanetas ut multitudinem et ut mundos singulos tractat. Decem milia per micantem lucem; pauci, si optica sustineant, per imaginem.
+
+## Scientiae consiliaria et exemplar quod fortasse falsum est
+
+Scientiae consiliaria propositi **Julie McEnery** dixit explorationes fortasse demonstrare *exemplar cosmologicum commune falsum esse*. Revolutionem non promittit. Punctum expendendi 4,3 miliardorum dollariorum in tabulam describit.
+
+Exemplar commune — materia, paulum ordinaria et multum obscura, una cum constante cosmologica — omnes magnas explorationes proximorum viginti annorum superavit, interdum incommode. Cum radiophonia cosmica congruit. Cum forma generali congregationis galaxiarum congruit. Non sine contentione congruit omnibus mensuris localibus expansionis. Non explicat quid energia obscura sit. Non explicat cur energia vacui theoriae camporum quanticorum tot ordinibus magnitudinis maior sit quam acceleratio quam observamus, nisi illam discrepantiam problema alienum habeat. Exploratio quae modo decisivo falsa esse potest maioris pretii est quam exploratio quae tantum accuratius de exemplo iam ab omnibus adhibito dicere potest.
+
+Dictum McEnery est sincera forma propositionis vendendae. Roman exemplar confirmare potest exemplo quod nemo negare possit. Demonstrare potest energiam obscuram non constantem esse. Tensionem Hubblei acuere potest donec de stella male calibrata culpari nequeat. Nihil horum facere potest et tamen archivum miliardi galaxiarum relinquere quo generatio proxima meliorem quaestionem ponat. Periculum quod scientiae consiliaria nominat est periculum quod missio suscipere destinata est.
+
+Nihil horum fit si eruca non volat. Crebri conatus cancellationis Domus Albae non erant pars secundaria. Paene finis erant. Magnae missiones scientificae NASAe in cyclis pecuniariis aut vivunt aut moriuntur, qui parum ad promptitudinem camerae trecentorum megapixelorum pertinent. Roman hos conatus superavit et deinde mature cucurrit — novem mensibus mature — quod in hoc negotio rarius est quam deductio felix. Mature non idem est ac securum. Idem est ac satis paratum esse ut die Solis mane in suggestu 39A utatur.
+
+## Tempestas aeque probabilis et mora Lunae
+
+Historia operationalis pridie deductionis paene vulgaris est post politicam. Tempestas die Solis tantum circiter 50 centesimis fausta est. Dies Lunae subsidium est. Centrum Spatiale Kennedy exeunte Augusto locus est ubi procellae aurae maritimae post meridiem crescunt et venti superiorum graduum cum zona commoditatis erucae congruere recusant. Falcon Heavy diem exspectare potest. Telescopium quod iam minas cancellationis superavit diem exspectare potest. Scientia incipere non potest antequam navicula iter ad L2 suscipiat, et L2 attingi non potest antequam nuclei accendantur.
+
+Si dies Solis obtinet, series nota et adhuc mirabilis erit: sarcina ante auroram in 39A, discessus portantis gravis hora 7:26 ante meridiem ET, 4:26 ante meridiem PT, atque sarcina quae initium habuit in vitro explorationis reliquo, versus punctum in spatio ascendens ubi caelum circiter mille vicibus celerius quam Hubble photographari potest. Si dies Solis non obtinet, eadem sarcina die Lunae iterum conabitur. Praedictio est iactus nummi. Missio autem, post certamina pecuniaria, non est.
+
+Roman non est Hubble. Diametrum speculi Hubblei habet, cameram celeriorem, locum stationis obscuriorem et indicem operum qui Universum ut datorum collectionem potius quam pinacothecam tractat. Conabitur miliardum galaxiarum numerare, energiam obscuram ponderare, Tensionem Hubblei interrogare, decem milia exoplanetarum in momento quo stellae posticae clariores fiunt invenire atque, coronagrapho adhibito, mundos classis Iovis centies milies minus lucidos quam soles suos quaerere. Julie McEnery iam palam dixit ad quid ferramentum destinatum sit. Explorationes demonstrare possunt exemplar cosmologicum commune falsum esse. Primum tempestas melior quam aequa esse debet. Deinde Falcon Heavy facere debet quod observatorium pretio 4,3 miliardorum dollariorum, novem mensibus ante vetus consilium suum et fortuito exsistens, requirit: e suggestu 39A abire et ex via Terrae se subducere.

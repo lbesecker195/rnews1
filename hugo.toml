@@ -1,0 +1,116 @@
+baseURL = 'https://example.com/'
+title = 'RNews1.com'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    languageName = 'English'
+    languageCode = 'en'
+    weight = 1
+    [languages.en.params]
+      description = 'Science, health, and cosmos reporting.'
+  [languages.es]
+    contentDir = 'content/es'
+    languageName = 'Español'
+    languageCode = 'es'
+    weight = 2
+    [languages.es.params]
+      description = 'Ciencia, salud y cosmos.'
+  [languages.it]
+    contentDir = 'content/it'
+    languageName = 'Italiano'
+    languageCode = 'it'
+    weight = 3
+    [languages.it.params]
+      description = 'Scienza, salute e cosmo.'
+  [languages.fr]
+    contentDir = 'content/fr'
+    languageName = 'Français'
+    languageCode = 'fr'
+    weight = 4
+    [languages.fr.params]
+      description = 'Science, santé et cosmos.'
+  [languages.ar]
+    contentDir = 'content/ar'
+    languageName = 'العربية'
+    languageCode = 'ar'
+    weight = 5
+    languageDirection = 'rtl'
+    [languages.ar.params]
+      description = 'العلم والصحة والكون.'
+  [languages.la]
+    contentDir = 'content/la'
+    languageName = 'Latina'
+    languageCode = 'la'
+    weight = 6
+    [languages.la.params]
+      description = 'Scientia, valetudo, caelum.'
+  [languages.hi]
+    contentDir = 'content/hi'
+    languageName = 'हिन्दी'
+    languageCode = 'hi'
+    weight = 7
+    [languages.hi.params]
+      description = 'विज्ञान, स्वास्थ्य और ब्रह्मांड।'
+  [languages.bn]
+    contentDir = 'content/bn'
+    languageName = 'বাংলা'
+    languageCode = 'bn'
+    weight = 8
+    [languages.bn.params]
+      description = 'বিজ্ঞান, স্বাস্থ্য ও মহাবিশ্ব।'
+  [languages.pt]
+    contentDir = 'content/pt'
+    languageName = 'Português'
+    languageCode = 'pt'
+    weight = 9
+    [languages.pt.params]
+      description = 'Ciência, saúde e cosmos.'
+  [languages.ru]
+    contentDir = 'content/ru'
+    languageName = 'Русский'
+    languageCode = 'ru'
+    weight = 10
+    [languages.ru.params]
+      description = 'Наука, здоровье и космос.'
+  [languages.ur]
+    contentDir = 'content/ur'
+    languageName = 'اردو'
+    languageCode = 'ur'
+    weight = 11
+    languageDirection = 'rtl'
+    [languages.ur.params]
+      description = 'سائنس، صحت اور کائنات۔'
+  [languages.zh]
+    contentDir = 'content/zh'
+    languageName = '中文'
+    languageCode = 'zh-CN'
+    weight = 12
+    [languages.zh.params]
+      description = '科学、健康与宇宙。'
+
+[related]
+  includeNewer = true
+  threshold = 5
+  toLower = false
+  [[related.indices]]
+    name = 'fragmentrefs'
+    type = 'fragments'
+    weight = 100
+    applyFilter = true
+  [[related.indices]]
+    name = 'categories'
+    weight = 10
+  [[related.indices]]
+    name = 'tags'
+    weight = 5
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+[markup.goldmark.renderer]
+  unsafe = true
+[markup.goldmark.parser.attribute]
+  title = true
+  block = true

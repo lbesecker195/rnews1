@@ -1,0 +1,18 @@
+{
+  "name": "hugo-i18n-translate",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "description": "Translate Hugo content/en/{category} articles into content/{lang}/{category} with quoted YAML front matter.",
+  "scripts": {
+    "translate": "node src/translate-content.mjs",
+    "fix": "node src/translate-content.mjs --fix-only",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "yaml": "^2.8.1"
+  }
+}

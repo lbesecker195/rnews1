@@ -1,0 +1,59 @@
+[nav_ai]
+other = "IA"
+
+[nav_business]
+other = "Negócios"
+
+[nav_cosmos]
+other = "Cosmos"
+
+[nav_crypto]
+other = "Cripto"
+
+[nav_entertainment]
+other = "Entretenimento"
+
+[nav_health]
+other = "Saúde"
+
+[nav_science]
+other = "Ciência"
+
+[nav_sports]
+other = "Esportes"
+
+[nav_technology]
+other = "Tecnologia"
+
+[nav_usa]
+other = "EUA"
+
+[nav_world]
+other = "Mundo"
+
+[read_article]
+other = "Ler artigo"
+
+[continue_reading]
+other = "Continuar lendo"
+
+[related_note]
+other = "Relacionado por trechos de título em comum"
+
+[min_read]
+other = "min de leitura"
+
+[hero_title]
+other = "RNews1 -- Temas importantes"
+
+[hero_lead]
+other = "Reportado com rigor."
+
+[menu_label]
+other = "Menu"
+
+[nav_label]
+other = "Seções"
+
+[lang_label]
+other = "Idiomas"

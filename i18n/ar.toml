@@ -1,0 +1,59 @@
+[nav_ai]
+other = "الذكاء الاصطناعي"
+
+[nav_business]
+other = "أعمال"
+
+[nav_cosmos]
+other = "الكون"
+
+[nav_crypto]
+other = "العملات المشفرة"
+
+[nav_entertainment]
+other = "ترفيه"
+
+[nav_health]
+other = "صحة"
+
+[nav_science]
+other = "علوم"
+
+[nav_sports]
+other = "رياضة"
+
+[nav_technology]
+other = "تكنولوجيا"
+
+[nav_usa]
+other = "الولايات المتحدة"
+
+[nav_world]
+other = "العالم"
+
+[read_article]
+other = "اقرأ المقال"
+
+[continue_reading]
+other = "تابع القراءة"
+
+[related_note]
+other = "مرتبط عبر أجزاء مشتركة من العناوين"
+
+[min_read]
+other = "دقيقة قراءة"
+
+[hero_title]
+other = "RNews1 -- موضوعات مهمة"
+
+[hero_lead]
+other = "تغطية متأنية."
+
+[menu_label]
+other = "القائمة"
+
+[nav_label]
+other = "الأقسام"
+
+[lang_label]
+other = "اللغات"

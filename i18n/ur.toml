@@ -1,0 +1,59 @@
+[nav_ai]
+other = "اے آئی"
+
+[nav_business]
+other = "کاروبار"
+
+[nav_cosmos]
+other = "کائنات"
+
+[nav_crypto]
+other = "کرپٹو"
+
+[nav_entertainment]
+other = "تفریح"
+
+[nav_health]
+other = "صحت"
+
+[nav_science]
+other = "سائنس"
+
+[nav_sports]
+other = "کھیل"
+
+[nav_technology]
+other = "ٹیکنالوجی"
+
+[nav_usa]
+other = "امریکا"
+
+[nav_world]
+other = "دنیا"
+
+[read_article]
+other = "مضمون پڑھیں"
+
+[continue_reading]
+other = "پڑھنا جاری رکھیں"
+
+[related_note]
+other = "مشترکہ عنوانی ٹکڑوں سے جوڑا گیا"
+
+[min_read]
+other = "منٹ مطالعہ"
+
+[hero_title]
+other = "RNews1 -- اہم موضوعات"
+
+[hero_lead]
+other = "احتیاط سے رپورٹ کیا گیا۔"
+
+[menu_label]
+other = "مینو"
+
+[nav_label]
+other = "اقسام"
+
+[lang_label]
+other = "زبانیں"

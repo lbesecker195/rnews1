@@ -1,0 +1,59 @@
+[nav_ai]
+other = "AI"
+
+[nav_business]
+other = "Business"
+
+[nav_cosmos]
+other = "Cosmos"
+
+[nav_crypto]
+other = "Crypto"
+
+[nav_entertainment]
+other = "Entertainment"
+
+[nav_health]
+other = "Health"
+
+[nav_science]
+other = "Science"
+
+[nav_sports]
+other = "Sports"
+
+[nav_technology]
+other = "Technology"
+
+[nav_usa]
+other = "USA"
+
+[nav_world]
+other = "World"
+
+[read_article]
+other = "Read article"
+
+[continue_reading]
+other = "Continue reading"
+
+[related_note]
+other = "Matched via shared heading fragments"
+
+[min_read]
+other = "min read"
+
+[hero_title]
+other = "RNews1 -- Important Topics"
+
+[hero_lead]
+other = "Reported with care."
+
+[menu_label]
+other = "Menu"
+
+[nav_label]
+other = "Sections"
+
+[lang_label]
+other = "Languages"

@@ -1,0 +1,59 @@
+[nav_ai]
+other = "एआई"
+
+[nav_business]
+other = "व्यापार"
+
+[nav_cosmos]
+other = "ब्रह्मांड"
+
+[nav_crypto]
+other = "क्रिप्टो"
+
+[nav_entertainment]
+other = "मनोरंजन"
+
+[nav_health]
+other = "स्वास्थ्य"
+
+[nav_science]
+other = "विज्ञान"
+
+[nav_sports]
+other = "खेल"
+
+[nav_technology]
+other = "तकनीक"
+
+[nav_usa]
+other = "अमेरिका"
+
+[nav_world]
+other = "विश्व"
+
+[read_article]
+other = "लेख पढ़ें"
+
+[continue_reading]
+other = "आगे पढ़ें"
+
+[related_note]
+other = "साझा शीर्षक अंशों से मिलाया गया"
+
+[min_read]
+other = "मिनट का पाठ"
+
+[hero_title]
+other = "RNews1 -- महत्वपूर्ण विषय"
+
+[hero_lead]
+other = "सावधानी से रिपोर्ट किया गया।"
+
+[menu_label]
+other = "मेनू"
+
+[nav_label]
+other = "अनुभाग"
+
+[lang_label]
+other = "भाषाएँ"

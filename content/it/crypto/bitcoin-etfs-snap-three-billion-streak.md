@@ -1,0 +1,69 @@
+---
+categories:
+- "Crypto"
+date: 2026-08-29 16:52:00-07:00
+description: "Venerdì gli ETF spot Bitcoin statunitensi hanno registrato 201,9 milioni di dollari di deflussi netti, chiudendo una corsa all’acquisto di nove giorni che aveva assorbito 3,04 miliardi — il più forte bid ETF ininterrotto di questo mercato orso, secondo Ecoinometrics e Farside Investors. Bitcoin è sceso di circa il 3,2 percento a 77.696 dollari. ARKB di ARK 21Shares ha guidato i rimborsi con 114,9 milioni, poi Bitwise BITB (49,7 milioni), BlackRock IBIT (33,4 milioni) e VanEck HODL (13,2 milioni); un afflusso da 9,3 milioni di Morgan Stanley li ha compensati solo in parte. Venerdì ha cancellato circa il 6,6 percento del bottino di nove sedute. Il saldo settimanale degli ETF Bitcoin è rimasto positivo a circa 925 milioni; il complesso detiene ancora circa 97 miliardi e 54,6 miliardi di afflussi netti cumulativi. La svolta: gli ETF Ethereum hanno aggiunto 102 milioni su una striscia di 10 giorni oltre 1,5 miliardi, XRP circa 26 milioni, Solana 17 milioni — combinati 145 milioni in entrata. CryptoSlate avverte che i dati a livello di fondo non dimostrano una rotazione diretta. Il dato di lunedì decide se venerdì è stata una pausa o una spaccatura nella domanda istituzionale."
+draft: false
+translationKey: "bitcoin-etfs-snap-three-billion-streak"
+tags:
+- "Bitcoin"
+- "ETFs"
+- "Ethereum"
+- "XRP"
+- "Solana"
+- "BlackRock"
+title: "Gli ETF Bitcoin interrompono la striscia da tre miliardi"
+---
+# Gli ETF Bitcoin interrompono la striscia da tre miliardi
+
+Il bid si è spezzato di venerdì. Gli **ETF spot Bitcoin statunitensi** hanno registrato **201,9 milioni di dollari** di *deflussi netti*, chiudendo una corsa all’acquisto di **nove giorni** che aveva assorbito **3,04 miliardi di dollari** — il *più forte bid ETF ininterrotto di questo mercato orso*, secondo **Ecoinometrics** e **Farside Investors**. **Bitcoin** è scivolato di circa il **3,2 percento** a **77.696 dollari**. Il numero che aveva dato un pavimento a questo calo era la creazione quotidiana di quote ETF. Per nove sedute quel pavimento ha tenuto. Poi ha smesso.
+
+Un giorno di rimborsi da **201,9 milioni di dollari** non è, di per sé, un cambio di regime. Il complesso spot Bitcoin ha visto flush peggiori da quando i prodotti sono nati nel gennaio 2024. Quello che *è*, invece, è l’interruzione dell’unica abitudine istituzionale che stava funzionando: una corsa dritta di nove sedute che ha assorbito più di tre miliardi di dollari mentre la moneta sottostante viveva in un nastro da mercato orso. **Venerdì ha cancellato circa il 6,6 percento** di quel bottino di nove sedute. La striscia è finita. La discussione su cosa l’abbia sostituita sta appena iniziando.
+
+## Chi ha venduto, e chi ha comprato appena {#who-sold-and-who-barely-bought}
+
+I deflussi non sono stati distribuiti in modo uniforme, ed è così che questi giorni appaiono sempre una volta pubblicato il nastro a livello di fondo. **ARKB di ARK 21Shares** ha guidato i rimborsi con **114,9 milioni di dollari**, poi **Bitwise BITB** (**49,7 milioni**), **BlackRock IBIT** (**33,4 milioni**) e **VanEck HODL** (**13,2 milioni**). Un afflusso da **9,3 milioni di Morgan Stanley** li ha compensati *solo in parte*. Sommate quelle quattro stampe di rimborso e l’unica creazione modesta, e state guardando i **201,9 milioni di dollari** netti.
+
+### Il flagship ha comunque perso un po’ {#the-flagship-still-leaked-a-little}
+
+**ARKB** come leader è una nota di carattere, non un mistero. Il franchise crypto di ARK è da tempo l’espressione ad alto beta del complesso spot Bitcoin: più piccolo di **IBIT**, più rapido a gonfiarsi e sgonfiarsi quando il bid adiacente al retail si gira. Un giorno da **114,9 milioni di dollari** in **ARKB** è una frazione ampia della personalità di quel fondo. Il **BITB** di **Bitwise** che segue con **49,7 milioni** estende la stessa storia in un altro emittente non gigante. La stampa più osservata è quella di **BlackRock**. **IBIT** è il flagship, il prodotto che i consulenti finanziari riconoscono davvero, quello che ha trasformato un asset un tempo esotico in un ticker che può vivere in un portafoglio modello. **33,4 milioni di dollari** in uscita da **IBIT** non sono una corsa al fondo. Non sono nemmeno niente, perché il fatto che **IBIT** restasse *dentro* è stato il supporto psicologico sotto ogni precedente calo di questo ciclo.
+
+I **13,2 milioni di dollari** di **VanEck HODL** sono il più piccolo dei rimborsi nominati e fanno comunque parte della stessa marea. L’unica stampa contraria — un afflusso da **9,3 milioni di dollari** da **Morgan Stanley** — è la statistica che impedisce a venerdì di leggere come unanime. Ha *compensato solo in parte* il resto, che è un modo educato di dire che per il netto non è importato, e un modo utile di dire che la vendita non è stata un veto di mercato su ogni involucro che detiene Bitcoin.
+
+## Un bid da mercato orso, interrotto {#a-bear-market-bid-interrupted}
+
+Per capire perché una striscia di nove giorni da **3,04 miliardi di dollari** sia diventata un titolo, conviene ricordare a che servono questi ETF. Un ETF spot Bitcoin non inventa la domanda. Impacchetta una domanda che un tempo arrivava come login su Coinbase, futures offshore o il mercato grigio dei trust, e permette a un conto pensione di comprare la moneta senza toccare un wallet. Dal gennaio 2024 quel confezionamento è la rampa d’accesso americana dominante. In un mercato toro, la rampa sembra una celebrazione. In un *mercato orso*, sembra uno sponsor: il bid che si presenta quando tutti gli altri sono stanchi.
+
+**Ecoinometrics** e **Farside Investors**, i due studi che sono diventati i tabellonisti non ufficiali di questo complesso, hanno definito la corsa di nove giorni il *più forte bid ETF ininterrotto di questo mercato orso*. Quella frase fa molto lavoro. *Ininterrotto* significa nessun giorno di rimborsi in mezzo a rovinare la narrazione. *Più forte* è una classifica rispetto ad altre strisce nello stesso downtrend, non una pretesa che il 2026 sia stato una festa. *Questo mercato orso* è l’ammissione che **Bitcoin** a **77.696 dollari**, dopo uno scivolone del **3,2 percento** di venerdì, non è una moneta ai massimi. È una moneta che, fino a venerdì, era stata accumulata in silenzio attraverso prodotti regolamentati mentre il prezzo andava dall’altra parte.
+
+**Venerdì ha cancellato circa il 6,6 percento** dei **3,04 miliardi di dollari**. Fate la matematica emotiva, non solo l’aritmetica. Più del novanta percento del bottino di nove giorni è ancora nel complesso. La striscia è morta; lo stock di acquisti no. Ecco perché il numero settimanale sembra ancora un bid.
+
+## La settimana è ancora verde {#the-week-is-still-green}
+
+**Il saldo settimanale degli ETF Bitcoin è rimasto positivo a circa 925 milioni di dollari.** Quella frase è quella che impedisce di leggere troppo in un venerdì. Una singola seduta da **201,9 milioni di dollari** di deflussi netti, brutta com’è dopo nove luci verdi, non ha ribaltato la settimana. Consulenti che ribilanciano il venerdì, trader che sbiadiscono una striscia e partecipanti autorizzati che consegnano Bitcoin a fronte di quote rimborsate possono tutti produrre una stampa da **201,9 milioni di dollari** senza una conversione filosofica.
+
+Lo stock del complesso è ancora più grande. *Detiene ancora circa **97 miliardi di dollari*** e **54,6 miliardi di dollari** di *afflussi netti cumulativi*. Quelle due cifre misurano cose diverse ed è facile mescolarle. Gli asset di circa **97 miliardi di dollari** sono il valore di mercato attuale del Bitcoin seduto nei fondi — prezzo per monete, marcato a un mercato che è appena scivolato del **3,2 percento** a **77.696 dollari**. Gli *afflussi netti cumulativi* di **54,6 miliardi di dollari** sono il cash cumulativo entrato meno il cash uscito dalla nascita, un numero di flusso che non eguaglia automaticamente gli asset perché le monete si sono mosse di prezzo. Insieme dicono lo stesso fatto politico: l’ETF spot Bitcoin americano non è più un esperimento. È un angolo da **97 miliardi di dollari** dell’industria dei fondi che ha raccolto **54,6 miliardi di dollari** netti nella sua vita, e ha appena visto la sua migliore abbuffata da mercato orso di nove giorni interrotta da un venerdì.
+
+Un deflusso da **201,9 milioni di dollari** contro **97 miliardi di dollari** di asset è una frazione di un percento del mucchio. È una frazione ampia di un ciclo di notizie. Entrambe le cose possono essere vere.
+
+## La svolta negli altri ticker {#the-twist-in-the-other-tickers}
+
+Se venerdì fosse stata solo una storia Bitcoin, sarebbe già stata sufficiente. Non lo è stata. Gli **ETF Ethereum hanno aggiunto 102 milioni di dollari** su una striscia di **10 giorni** *oltre 1,5 miliardi di dollari*. **XRP** ha visto circa **26 milioni di dollari**. **Solana** ha visto **17 milioni di dollari**. Combinati, sono **145 milioni di dollari** *in entrata* nel complesso spot non-Bitcoin nello stesso giorno in cui i fondi Bitcoin sono andati **201,9 milioni di dollari** *in uscita*.
+
+### La correlazione non è un bonifico {#correlation-is-not-a-wire-transfer}
+
+La tentazione è chiamarla una rotazione. Il nastro è quasi troppo pulito: il trade originale degli ETF crypto inciampa, e i cugini altcoin — ora avvolti nei propri prodotti spot statunitensi — catturano un bid. La striscia di **10 giorni** di **Ethereum** *oltre 1,5 miliardi di dollari* è, in durata, persino più ostinata della corsa di nove giorni spezzata di Bitcoin, e l’aggiunta di **102 milioni di dollari** di venerdì dice che l’ostinazione è sopravvissuta al contatto con il giorno rosso di Bitcoin. **XRP** a circa **26 milioni di dollari** e **Solana** a **17 milioni di dollari** sono più piccoli in dollari e più grandi in simbolismo. Due anni fa quegli asset erano quelli su cui gli avvocati discutevano nelle aule di tribunale. Ora hanno abbastanza di un involucro di fondo da stampare accanto a **IBIT** su una tabella di flussi del venerdì.
+
+**CryptoSlate** *avverte che i dati a livello di fondo non dimostrano una rotazione diretta.* Quell’avvertenza è la supervisione adulta in questo pezzo, e dovrebbe restare lì. Vedere **201,9 milioni di dollari** lasciare gli ETF Bitcoin e **145 milioni di dollari** entrare negli ETF Ethereum, XRP e Solana nello stesso giorno di calendario non dimostra che gli *stessi* dollari abbiano attraversato il corridoio. Partecipanti autorizzati, market maker e modelli di asset allocation possono produrre stampe coincidenti per ragioni che non hanno niente a che fare con uno strategist che dichiara «sovrappeso ETH». Un ribilanciamento via da Bitcoin in una manica può atterrare in cash. Una manica separata può comprare Ether perché un paniere di creazione è scaduto. La correlazione non è un bonifico.
+
+Tuttavia, le *ottiche* di una spaccatura sono ora sulla pagina. Bitcoin, il prodotto che ha creato la categoria, ha preso il deflusso. I cugini più nuovi hanno preso l’afflusso. **Il dato di lunedì** decide se venerdì è stata una *pausa* o una *spaccatura nella domanda istituzionale*.
+
+## Cosa sta decidendo lunedì {#what-monday-is-actually-deciding}
+
+Le storie sui flussi ETF hanno il brutto vizio di trasformare una seduta in una teoria del tutto. **Il dato di lunedì** è uno strumento migliore della retorica di venerdì. Se i fondi Bitcoin tornano a raccogliere denaro, venerdì sembra quello che i **925 milioni di dollari** settimanali già implicano: una pausa in una settimana ancora positiva, un graffio del 6,6 percento in una corsa da **3,04 miliardi di dollari**, un giorno giù del **3,2 percento** in una moneta a **77.696 dollari**. Se sanguinano di nuovo mentre la striscia di **10 giorni** di Ethereum continua oltre **1,5 miliardi di dollari**, e mentre **XRP** e **Solana** continuano a stampare afflussi, allora la *spaccatura nella domanda istituzionale* smette di essere una clausola cautelativa e inizia a essere il titolo di lavoro.
+
+I meccanismi sotto quel test sono noiosi, ed è per questo che sono affidabili. Gli ETF crypto spot creano e rimborsano in natura o in cash attraverso partecipanti autorizzati. Un giorno di deflusso netto significa che sono state rimborsate più quote di quelle create. Qualcuno — un allocator, un hedge fund, un modello, un essere umano con un telefono — voleva meno quote. I **114,9 milioni di dollari** di **ARKB** dicono che gran parte di quel qualcuno era nella manica ad alto beta. I **33,4 milioni di dollari** di **IBIT** dicono che una parte di quel qualcuno era nella manica di default. L’afflusso da **9,3 milioni di dollari** di **Morgan Stanley** dice che non tutti hanno ricevuto il memo.
+
+**Bitcoin** a **77.696 dollari** dopo un calo del **3,2 percento** è lo sfondo di prezzo, non il flusso. I prezzi possono cadere nei giorni in cui i fondi raccolgono denaro, e i fondi possono perdere denaro nei giorni in cui la moneta esplode. Venerdì si sono mossi insieme: la moneta è scivolata, gli ETF Bitcoin hanno stampato **201,9 milioni di dollari** di deflussi netti, e la striscia di nove giorni da **3,04 miliardi di dollari** — il *più forte bid ETF ininterrotto di questo mercato orso*, nel racconto di **Ecoinometrics** e **Farside Investors** — è finita.
+
+Cosa non è finito: la settimana, ancora su di circa **925 milioni di dollari**; il complesso, ancora circa **97 miliardi di dollari** in asset e **54,6 miliardi di dollari** di afflussi netti cumulativi; o l’altro trade, con **Ethereum** che aggiunge **102 milioni di dollari**, **XRP** circa **26 milioni** e **Solana** **17 milioni**, **145 milioni di dollari** combinati. L’avvertimento di **CryptoSlate** resta. **Lunedì** metterà sotto di esso un secondo punto dati. Fino ad allora, l’unico fatto che non ha bisogno di una clausola è quello che ha spezzato il titolo: la striscia da tre miliardi di dollari non è più una striscia.

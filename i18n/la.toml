@@ -1,0 +1,59 @@
+[nav_ai]
+other = "Intelligentia artificialis"
+
+[nav_business]
+other = "Negotia"
+
+[nav_cosmos]
+other = "Cosmos"
+
+[nav_crypto]
+other = "Cryptomonetae"
+
+[nav_entertainment]
+other = "Oblectamenta"
+
+[nav_health]
+other = "Valetudo"
+
+[nav_science]
+other = "Scientia"
+
+[nav_sports]
+other = "Ludi"
+
+[nav_technology]
+other = "Technologia"
+
+[nav_usa]
+other = "Civitates Foederatae"
+
+[nav_world]
+other = "Orbis"
+
+[read_article]
+other = "Articulum lege"
+
+[continue_reading]
+other = "Perge legere"
+
+[related_note]
+other = "Per communia titulorum fragmenta coniunctum"
+
+[min_read]
+other = "min lectionis"
+
+[hero_title]
+other = "RNews1 -- Argumenta gravia"
+
+[hero_lead]
+other = "Cura relatum."
+
+[menu_label]
+other = "Index"
+
+[nav_label]
+other = "Partes"
+
+[lang_label]
+other = "Linguae"

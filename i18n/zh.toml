@@ -1,0 +1,59 @@
+[nav_ai]
+other = "人工智能"
+
+[nav_business]
+other = "商业"
+
+[nav_cosmos]
+other = "宇宙"
+
+[nav_crypto]
+other = "加密货币"
+
+[nav_entertainment]
+other = "文娱"
+
+[nav_health]
+other = "健康"
+
+[nav_science]
+other = "科学"
+
+[nav_sports]
+other = "体育"
+
+[nav_technology]
+other = "科技"
+
+[nav_usa]
+other = "美国"
+
+[nav_world]
+other = "国际"
+
+[read_article]
+other = "阅读全文"
+
+[continue_reading]
+other = "继续阅读"
+
+[related_note]
+other = "通过共同的标题片段匹配"
+
+[min_read]
+other = "分钟阅读"
+
+[hero_title]
+other = "RNews1 -- 重要议题"
+
+[hero_lead]
+other = "审慎报道。"
+
+[menu_label]
+other = "菜单"
+
+[nav_label]
+other = "栏目"
+
+[lang_label]
+other = "语言"

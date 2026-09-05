@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.LanguageCode }}" dir="{{ or .Site.Language.LanguageDirection `ltr` }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+    /* Desktop Navigation */
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+    /* Mobile Navigation Toggle */
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="{{ "/" | relLangURL }}" class="site-title">{{ .Site.Title }}</a>
+      
+      <!-- Desktop Menu -->
+      <nav class="site-nav desktop-nav" aria-label="{{ i18n "nav_label" | default "Sections" }}">
+        {{ range sort .Site.Sections "Title" }}
+          {{ if .RegularPages }}
+            {{ $key := printf "nav_%s" .Section }}
+            {{ $label := i18n $key }}
+            {{ if or (not $label) (eq $label $key) }}
+              {{ $label = or .Title | singularize }}
+            {{ end }}
+            <a
+              no-follow href="{{ .RelPermalink }}"
+              {{ if or (eq $.Section .Section) (eq $.RelPermalink .RelPermalink) }}aria-current="page"{{ end }}
+            >{{ $label }}</a>
+          {{ end }}
+        {{ end }}
+      </nav>
+
+      <!-- Mobile Menu Toggle -->
+      <details class="mobile-nav-toggle">
+        <summary aria-label="{{ i18n "menu_label" | default "Menu" }}">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="{{ i18n "nav_label" | default "Sections" }}">
+          {{ range sort .Site.Sections "Title" }}
+            {{ if .RegularPages }}
+              {{ $key := printf "nav_%s" .Section }}
+              {{ $label := i18n $key }}
+              {{ if or (not $label) (eq $label $key) }}
+                {{ $label = or .Title | humanize | singularize }}
+              {{ end }}
+              <a
+                href="{{ .RelPermalink }}"
+                {{ if or (eq $.Section .Section) (eq $.RelPermalink .RelPermalink) }}aria-current="page"{{ end }}
+              >{{ $label }}</a>
+            {{ end }}
+          {{ end }}
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+      <nav class="lang-switch" aria-label="{{ i18n "lang_label" }}">
+        {{ range .AllTranslations }}
+          <a no-follow href="{{ .RelPermalink }}"{{ if eq .Lang $.Lang }} aria-current="page"{{ end }}>{{ .Language.LanguageName }}</a>
+        {{ end }}
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

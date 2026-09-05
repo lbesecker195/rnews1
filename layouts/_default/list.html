@@ -1,0 +1,20 @@
+{{ define "main" }}
+<header class="list-header">
+  <h1>{{ $key := printf "nav_%s" .Section }}
+            {{ $label := i18n $key }}
+            {{ if or (not $label) (eq $label $key) }}
+              {{ $label = or .Title | singularize }}
+            {{ end }}
+          {{ $label }}</h1>
+  {{ with .Description }}<p class="list-desc">{{ . }}</p>{{ end }}
+</header>
+<div class="post-list">
+  {{ range .Pages.ByDate.Reverse }}
+  <article class="post-card">
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ with .Description }}<p class="summary">{{ . | truncate 160 }}</p>{{ end }}
+    <a class="read-more" href="{{ .RelPermalink }}">{{ i18n "read_article" }}</a>
+  </article>
+  {{ end }}
+</div>
+{{ end }}

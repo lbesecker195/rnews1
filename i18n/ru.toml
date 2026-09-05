@@ -1,0 +1,59 @@
+[nav_ai]
+other = "ИИ"
+
+[nav_business]
+other = "Бизнес"
+
+[nav_cosmos]
+other = "Космос"
+
+[nav_crypto]
+other = "Крипто"
+
+[nav_entertainment]
+other = "Развлечения"
+
+[nav_health]
+other = "Здоровье"
+
+[nav_science]
+other = "Наука"
+
+[nav_sports]
+other = "Спорт"
+
+[nav_technology]
+other = "Технологии"
+
+[nav_usa]
+other = "США"
+
+[nav_world]
+other = "Мир"
+
+[read_article]
+other = "Читать статью"
+
+[continue_reading]
+other = "Читать далее"
+
+[related_note]
+other = "Связано по общим фрагментам заголовков"
+
+[min_read]
+other = "мин чтения"
+
+[hero_title]
+other = "RNews1 -- Важные темы"
+
+[hero_lead]
+other = "Сообщаем внимательно."
+
+[menu_label]
+other = "Меню"
+
+[nav_label]
+other = "Разделы"
+
+[lang_label]
+other = "Языки"
