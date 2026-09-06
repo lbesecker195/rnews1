@@ -1,11 +1,25 @@
-<rss version="2.0" 
-     xmlns:content="http://purl.org"
-     xmlns:wfw="http://wellformedweb.org"
-     xmlns:dc="http://purl.org"
-     xmlns:atom="http://w3.org"
-     xmlns:sy="http://purl.org"
-     xmlns:slash="http://purl.org">
+{{- /* layouts/_default/rss.xml */ -}}
+{{- $pagedLimit := int (.Site.Config.Services.RSS.Limit | default 20) -}}
+
+{{- /* Filter pages for the blog section, enforcing Kind "page" */ -}}
+{{- $pages := where (where .Site.RegularPages ".Section" "blog") "Kind" "page" -}}
+
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+    {{- /* Channel Header Information */ -}}
+    <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ .Title }} on {{ .Site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content in Blog on {{ .Site.Title }}</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>{{ site.Language.Locale | default site.Language.Lang }}</language>
+    {{- with .Site.Copyright }}
+    <copyright>{{ . }}</copyright>
+    {{- end }}
+    {{- if not .Date.IsZero }}
+    <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+    {{- end }}
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
 
     {{ range .Site.RegularPages }}
 <item>
