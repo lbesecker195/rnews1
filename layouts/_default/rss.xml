@@ -12,7 +12,6 @@
     <link>{{ .Permalink }}</link>
     <description>Recent content in Blog on {{ .Site.Title }}</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>{{ .Language.Lang }}</language>
     {{- with .Site.Copyright }}
     <copyright>{{ . }}</copyright>
     {{- end }}
