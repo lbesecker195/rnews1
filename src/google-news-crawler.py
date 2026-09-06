@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 """
-Google News RSS Crawler with Viral Tweet Generation - Batched Processing
-Processes industries in batches of 2 to reduce rate limiting and improve reliability.
+Google News RSS Crawler with Optimized Viral Tweet Generation
+Writes directly to ./content/en/{industry} directory structure.
+Uses 1 large + 1 micro account per tweet for optimal engagement.
+Generates 5-10 relevant tags per article.
 """
 
 import os
 import sys
 import json
 import time
-import shutil
-import zipfile
-import tempfile
 import asyncio
 import re
+import random
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -40,20 +40,56 @@ GOOGLE_NEWS_FEEDS = {
 INDUSTRIES = list(GOOGLE_NEWS_FEEDS.keys())
 BATCH_SIZE = 2
 
-# Industry-specific X.com influencers and hashtags
-INDUSTRY_INFLUENCERS = {
-    "AI": ["@ylecun", "@karpathy"],
-    "Business": ["@elonmusk", "@garyvee"],
-    "Cosmos": ["@nasa", "@neil_tyson"],
-    "Compliance": ["@CISAgov", "@SecurityJoe"],
-    "Crypto": ["@CZ_binance", "@aantonop"],
-    "Entertainment": ["@eonline", "@Variety"],
-    "Health": ["@WHO", "@DrFauci"],
-    "Science": ["@ScienceMagazine", "@NatGeo"],
-    "Sports": ["@ESPN", "@SkySports"],
-    "Technology": ["@TechCrunch", "@vergetech"],
-    "USA": ["@NPR", "@CNNpolitics"],
-    "World": ["@Reuters", "@AP"],
+# X.com accounts: 1 large + 1 micro per industry for optimal engagement
+INDUSTRY_ACCOUNTS = {
+    "AI": {
+        "large": ["@openai", "@DeepMind"],
+        "micro": ["@jacksonwofford", "@npew", "@hardmaru", "@emollick", "@karpathy"]
+    },
+    "Business": {
+        "large": ["@WSJ", "@Bloomberg"],
+        "micro": ["@ycombinator", "@jason", "@peakscale", "@paulg", "@naval"]
+    },
+    "Cosmos": {
+        "large": ["@nasa", "@ESA"],
+        "micro": ["@CarlSagan", "@sciencechannel", "@universe_today", "@nasahubble", "@spacedotcom"]
+    },
+    "Compliance": {
+        "large": ["@CISAgov", "@SecurityWeekly"],
+        "micro": ["@jeremiahgrossman", "@troyhunt", "@schneierblog", "@SwiftOnSecurity", "@davidbott"]
+    },
+    "Crypto": {
+        "large": ["@CoinDesk", "@Cointelegraph"],
+        "micro": ["@aantonop", "@chrislbrwn", "@aaronkday", "@raoulGMI", "@DocumentingBTC"]
+    },
+    "Entertainment": {
+        "large": ["@Variety", "@TheHollywoodRpt"],
+        "micro": ["@entmaven", "@nikitalowrey", "@toniarmstrong", "@enterainment", "@carlesgates"]
+    },
+    "Health": {
+        "large": ["@WHO", "@CDCgov"],
+        "micro": ["@drericding", "@sailorrooscott", "@AriellaNarrative", "@drsanjaygupta", "@thehealthsite"]
+    },
+    "Science": {
+        "large": ["@ScienceMagazine", "@NatGeo"],
+        "micro": ["@carlasomoza", "@drsarahvj", "@BrianMalow", "@SciCommCollab", "@ScienceDaily"]
+    },
+    "Sports": {
+        "large": ["@ESPN", "@SkySports"],
+        "micro": ["@sportsintel", "@FournierFootball", "@SBNationGIF", "@SoccerInsider", "@thescore"]
+    },
+    "Technology": {
+        "large": ["@TechCrunch", "@vergetech"],
+        "micro": ["@mmasnick", "@stevesilberman", "@theonion", "@swyx", "@jsoverson"]
+    },
+    "USA": {
+        "large": ["@AP", "@Reuters"],
+        "micro": ["@nprpolitics", "@NPR", "@NBCNews", "@CBSNews", "@CNN"]
+    },
+    "World": {
+        "large": ["@Reuters", "@BBCNews"],
+        "micro": ["@FT", "@TheEconomist", "@AlJazeera", "@ReutersWorld", "@globalbriefing"]
+    }
 }
 
 INDUSTRY_HASHTAGS = {
@@ -73,13 +109,13 @@ INDUSTRY_HASHTAGS = {
 
 
 class GoogleNewsCrawler:
-    def __init__(self, api_key: Optional[str] = None):
+    def __init__(self, api_key: Optional[str] = None, content_base: str = "./content/en"):
         """Initialize the crawler with Anthropic API key."""
         self.api_key = api_key or os.environ.get("ANTHROPIC_API_KEY")
         if not self.api_key:
             raise ValueError("ANTHROPIC_API_KEY environment variable not set")
         self.client = Anthropic(api_key=self.api_key)
-        self.temp_dir = None
+        self.content_base = content_base
         self.semaphore = asyncio.Semaphore(2)
 
     def fetch_feed(self, industry: str, retries: int = 1) -> List[Dict]:
@@ -126,12 +162,10 @@ class GoogleNewsCrawler:
 
     def _extract_number(self, text: str) -> int:
         """Extract number from text, handling markdown formatting."""
-        # Remove markdown formatting
         text = re.sub(r'\*+', '', text)
         text = re.sub(r'_+', '', text)
         text = text.strip()
         
-        # Find first integer in text
         match = re.search(r'\d+', text)
         if match:
             return int(match.group())
@@ -226,22 +260,78 @@ Output ONLY valid JSON (no markdown, no formatting):
 
             return None
 
+    async def generate_tags(self, title: str, description: str, content: str, industry: str) -> List[str]:
+        """Generate 5-10 relevant tags based on article content."""
+        try:
+            tag_prompt = f"""Analyze this article and generate 5-10 relevant, SEO-friendly tags (lowercase, no spaces, use hyphens).
+Include: the industry category, main topics, and key concepts mentioned.
+
+Title: {title}
+Description: {description}
+First 500 chars of content: {content[:500]}
+
+Return ONLY a JSON array of tags, like this:
+["tag1", "tag2", "tag3", "tag4", "tag5"]
+
+Ensure:
+- 5-10 tags total
+- lowercase only
+- hyphens for multi-word tags
+- no # or @ symbols
+- always include: "{industry.lower()}"
+"""
+
+            message = self.client.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=200,
+                messages=[{"role": "user", "content": tag_prompt}]
+            )
+
+            response_text = ""
+            for block in message.content:
+                if hasattr(block, 'text'):
+                    response_text += block.text
+
+            # Extract JSON array
+            try:
+                tags = json.loads(response_text)
+                if isinstance(tags, list) and 5 <= len(tags) <= 10:
+                    return tags
+            except json.JSONDecodeError:
+                start = response_text.find("[")
+                end = response_text.rfind("]") + 1
+                if start != -1 and end > start:
+                    tags = json.loads(response_text[start:end])
+                    if isinstance(tags, list) and 5 <= len(tags) <= 10:
+                        return tags
+
+        except Exception as e:
+            print(f"  ⚠ Error generating tags: {str(e)}", file=sys.stderr)
+
+        # Fallback tags if generation fails
+        return [industry.lower(), "news", "breaking-news", "trending", "analysis"]
+
     def generate_slug(self, title: str) -> str:
         """Generate SEO slug."""
         words = title.split()[:7]
         return slugify(" ".join(words), max_length=60)
 
     def enrich_tweet(self, tweet: str, slug: str, industry: str) -> str:
-        """Add influencers, hashtags, and URL to tweet."""
-        influencers = INDUSTRY_INFLUENCERS.get(industry, ["@News", "@Trending"])
+        """Format tweet: @users tweet_content url #hashtags"""
+        accounts = INDUSTRY_ACCOUNTS.get(industry, {"large": ["@News"], "micro": ["@Trending"]})
         hashtags = INDUSTRY_HASHTAGS.get(industry, ["#News", "#Trending", "#Breaking"])
-
+        
+        # Randomly select 1 large and 1 micro account
+        large_account = random.choice(accounts["large"])
+        micro_account = random.choice(accounts["micro"])
+        
         url = f"www.rnews1.com/en/{industry.lower()}/{slug}/"
+        
+        # Format: @user1 @user2 tweet_content url #hashtag1 #hashtag2 #hashtag3
+        return f"{large_account} {micro_account} {tweet} {url} {hashtags[0]} {hashtags[1]} {hashtags[2]}"
 
-        return f"{tweet} {url}\n\n{influencers[0]} {influencers[1]} {hashtags[0]} {hashtags[1]} {hashtags[2]}"
-
-    def create_article_file(self, industry: str, article_json: str, slug: str) -> Optional[Tuple[str, str]]:
-        """Create Hugo markdown with tweet in frontmatter."""
+    async def create_article_file(self, industry: str, article_json: str, slug: str) -> Optional[Tuple[str, str]]:
+        """Create Hugo markdown with tweet and tags in frontmatter."""
         try:
             data = json.loads(article_json)
             title = data.get("title", "Untitled")
@@ -249,11 +339,17 @@ Output ONLY valid JSON (no markdown, no formatting):
             content = data.get("content", "")
             base_tweet = data.get("tweet", "Check it out!")
 
+            # Generate relevant tags (5-10)
+            tags = await self.generate_tags(title, description, content, industry)
+            
             enriched_tweet = self.enrich_tweet(base_tweet, slug, industry)
+            
+            # Escape quotes for YAML safety
+            enriched_tweet = enriched_tweet.replace('"', '\\"')
 
             now = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
-            tags = [industry.lower()]
 
+            # Proper YAML frontmatter with generated tags
             front_matter = f"""---
 title: "{title}"
 description: "{description}"
@@ -271,37 +367,23 @@ tweet: "{enriched_tweet}"
             print(f"  ✗ Error creating article: {str(e)}", file=sys.stderr)
             return None
 
-    def setup_directories(self, base_dir: str) -> None:
-        """Create industry directories."""
+    def setup_directories(self) -> None:
+        """Create industry directories in ./content/en/"""
         for industry in INDUSTRIES:
-            os.makedirs(os.path.join(base_dir, "c", industry), exist_ok=True)
+            industry_dir = os.path.join(self.content_base, industry.lower())
+            os.makedirs(industry_dir, exist_ok=True)
 
-    def write_article_to_file(self, base_dir: str, industry: str, slug: str, content: str) -> bool:
-        """Write article to file."""
+    def write_article_to_file(self, industry: str, slug: str, content: str) -> bool:
+        """Write article to ./content/en/{industry}/{slug}.md"""
         try:
-            file_path = os.path.join(base_dir, "c", industry, f"{slug}.md")
+            industry_dir = os.path.join(self.content_base, industry.lower())
+            file_path = os.path.join(industry_dir, f"{slug}.md")
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(content)
-            print(f"  ✓ Wrote {industry}/{slug}.md", file=sys.stderr)
+            print(f"  ✓ Wrote {industry.lower()}/{slug}.md", file=sys.stderr)
             return True
         except Exception as e:
             print(f"  ✗ Error writing file: {str(e)}", file=sys.stderr)
-            return False
-
-    def create_zip(self, base_dir: str, output_path: str) -> bool:
-        """Create zip file."""
-        try:
-            print(f"Creating zip: {output_path}", file=sys.stderr)
-            with zipfile.ZipFile(output_path, "w", zipfile.ZIP_DEFLATED) as zipf:
-                for root, dirs, files in os.walk(os.path.join(base_dir, "c")):
-                    for file in files:
-                        file_path = os.path.join(root, file)
-                        arcname = os.path.relpath(file_path, base_dir)
-                        zipf.write(file_path, arcname)
-            print(f"✓ Created: {output_path}", file=sys.stderr)
-            return True
-        except Exception as e:
-            print(f"✗ Error: {str(e)}", file=sys.stderr)
             return False
 
     async def process_industry(self, industry: str) -> bool:
@@ -318,10 +400,10 @@ tweet: "{enriched_tweet}"
             data = json.loads(article_json)
             slug = self.generate_slug(data.get("title", "article"))
 
-            result = self.create_article_file(industry, article_json, slug)
+            result = await self.create_article_file(industry, article_json, slug)
             if result:
                 slug, content = result
-                return self.write_article_to_file(self.temp_dir, industry, slug, content)
+                return self.write_article_to_file(industry, slug, content)
             return False
 
         except Exception as e:
@@ -333,13 +415,12 @@ tweet: "{enriched_tweet}"
         tasks = [self.process_industry(industry) for industry in batch]
         return await asyncio.gather(*tasks)
 
-    async def run_async(self) -> Optional[str]:
+    async def run_async(self) -> int:
         """Execute workflow with batched processing."""
-        self.temp_dir = tempfile.mkdtemp()
-        print(f"Working directory: {self.temp_dir}\n", file=sys.stderr)
+        print(f"Writing to: {os.path.abspath(self.content_base)}\n", file=sys.stderr)
 
         try:
-            self.setup_directories(self.temp_dir)
+            self.setup_directories()
 
             # Process industries in batches
             all_results = []
@@ -358,22 +439,14 @@ tweet: "{enriched_tweet}"
 
             success_count = sum(1 for r in all_results if r)
             print(f"\n✓ Processed {success_count}/{len(INDUSTRIES)} industries", file=sys.stderr)
+            
+            return success_count
 
-            downloads_dir = os.path.expanduser("~/Downloads")
-            timestamp = datetime.now().strftime("%Y-%m-%d-%H%M%S")
-            zip_filename = f"google-news-articles-{timestamp}.zip"
-            zip_path = os.path.join(downloads_dir, zip_filename)
+        except Exception as e:
+            print(f"✗ Fatal error: {str(e)}", file=sys.stderr)
+            return 0
 
-            if self.create_zip(self.temp_dir, zip_path):
-                print(f"✓ Saved: {zip_path}", file=sys.stderr)
-                return zip_path
-            return None
-
-        finally:
-            if self.temp_dir and os.path.exists(self.temp_dir):
-                shutil.rmtree(self.temp_dir)
-
-    def run(self) -> Optional[str]:
+    def run(self) -> int:
         """Entry point."""
         return asyncio.run(self.run_async())
 
@@ -381,13 +454,17 @@ tweet: "{enriched_tweet}"
 def main():
     """Main."""
     try:
-        crawler = GoogleNewsCrawler()
+        # Get content base directory from current working directory
+        content_base = "./content/en"
+        
+        crawler = GoogleNewsCrawler(content_base=content_base)
         result = crawler.run()
-        if result:
-            print(f"✓ Articles saved: {result}")
+        
+        if result > 0:
+            print(f"✓ Successfully created {result} articles")
             sys.exit(0)
         else:
-            print("✗ Failed")
+            print("✗ Failed to create articles")
             sys.exit(1)
     except Exception as e:
         print(f"✗ Fatal: {str(e)}", file=sys.stderr)

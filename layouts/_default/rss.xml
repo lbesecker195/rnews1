@@ -1,14 +1,22 @@
-{{- /* layouts/_default/rss.xml snippet */ -}}
-{{- $pages := where (where .Site.RegularPages ".Section" "blog") "Kind" "page" -}}
-{{- range $pages -}}
-  <item>
-    <title>{{ .Title }}</title>
-    <link>{{ .Permalink }}</link>
-    <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
-    <guid>{{ .Permalink }}</guid>
-    <description>{{ .Summary | html }}</description>
-    {{- with .Params.tweet -}}
-    <tweet>{{ . | transform.XMLEscape }}</tweet>
-    {{- end -}}
-  </item>
-{{- end -}}
+<rss version="2.0" 
+     xmlns:content="http://purl.org"
+     xmlns:wfw="http://wellformedweb.org"
+     xmlns:dc="http://purl.org"
+     xmlns:atom="http://w3.org"
+     xmlns:sy="http://purl.org"
+     xmlns:slash="http://purl.org">
+  <channel>
+
+    {{ range .Site.RegularPages }}
+<item>
+  <title>{{ .Title }}</title>
+  <link>{{ .Permalink }}</link>
+  <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+  <guid>{{ .Permalink }}</guid>
+  <description>{{ .Description | html }}</description>
+  <tweet>{{ .Params.tweet }}</tweet>
+</item>
+{{ end }}
+
+</channel>
+</rss>
