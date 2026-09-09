@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Falcon 9 on RNews1.com</title>
+    <link>http://localhost:3003/en/tags/falcon-9/</link>
+    <description>Recent content in Falcon 9 on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+        <atom:link href="http://localhost:3003/en/tags/falcon-9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dragon Oxidizer Leak Delays Crew-13</title>
+      <link>http://localhost:3003/en/cosmos/dragon-oxidizer-leak-delays-crew-13/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/en/cosmos/dragon-oxidizer-leak-delays-crew-13/</guid>
+      <description>&lt;h1 id=&#34;dragon-oxidizer-leak-delays-crew-13&#34;&gt;Dragon Oxidizer Leak Delays Crew-13&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;NASA&lt;/strong&gt; and &lt;strong&gt;SpaceX&lt;/strong&gt; are adjusting the &lt;strong&gt;Crew-13&lt;/strong&gt; launch to the &lt;strong&gt;International Space Station&lt;/strong&gt; after an &lt;em&gt;oxidizer leak&lt;/em&gt; on &lt;strong&gt;Dragon&lt;/strong&gt;&amp;rsquo;s propulsion system was found during &lt;em&gt;standard prelaunch processing&lt;/em&gt;, NASA said &lt;strong&gt;August 29, 2026&lt;/strong&gt;. The finding is not a last-second abort on the pad and not a failure in flight. It is a ground discovery, made while the spacecraft was being put through the ordinary checks that come before a crew is allowed to ride it. Those checks exist so that a leak of this kind is found in Florida rather than in orbit.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Apple Music on RNews1.com</title>
+    <link>http://localhost:3003/pt/tags/apple-music/</link>
+    <description>Recent content in Apple Music on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+        <atom:link href="http://localhost:3003/pt/tags/apple-music/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Apple aumenta novamente os preços do streaming</title>
+      <link>http://localhost:3003/pt/technology/apple-jacks-up-streaming-prices-again/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/pt/technology/apple-jacks-up-streaming-prices-again/</guid>
+      <description>&lt;h1 id=&#34;a-apple-aumenta-novamente-os-preços-do-streaming&#34;&gt;A Apple aumenta novamente os preços do streaming&lt;/h1&gt;
+&lt;p&gt;A Apple nunca gostou de parecer barata. Gosta de parecer &lt;em&gt;que vale a pena&lt;/em&gt;. É essa distinção que permite a uma empresa cobrar mais por um telefone e chamar isso de bom gosto. É também assim que uma empresa pode aumentar uma conta de streaming pela &lt;strong&gt;quarta&lt;/strong&gt; vez nos Estados Unidos e ainda insistir, com a maior naturalidade, que o serviço é uma pechincha.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

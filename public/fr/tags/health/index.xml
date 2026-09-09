@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Health on RNews1.com</title>
+    <link>http://localhost:3003/fr/tags/health/</link>
+    <description>Recent content in Health on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+        <atom:link href="http://localhost:3003/fr/tags/health/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fin du contrat d’UCLA Health : crise pour les personnes à faibles revenus</title>
+      <link>http://localhost:3003/fr/health/ucla-health-contract-ends-low-income-crisis/</link>
+      <pubDate>Sat, 05 Sep 2026 20:40:01 +0000</pubDate>
+      <guid>http://localhost:3003/fr/health/ucla-health-contract-ends-low-income-crisis/</guid>
+      <description>&lt;h1 id=&#34;crise-de-laccès-aux-soins--les-patients-à-faibles-revenus-ducla-health-face-à-un-avenir-incertain&#34;&gt;Crise de l’accès aux soins : les patients à faibles revenus d’UCLA Health face à un avenir incertain&lt;/h1&gt;
+&lt;h2 id=&#34;comprendre-la-résiliation-du-contrat-et-son-impact&#34;&gt;Comprendre la résiliation du contrat et son impact&lt;/h2&gt;
+&lt;p&gt;Le paysage des soins de santé à Los Angeles connaît d’importants bouleversements alors que les patients à faibles revenus affiliés au réseau d’UCLA Health font face à un défi sans précédent : trouver de nouveaux médecins généralistes après l’expiration d’un contrat majeur. Cette situation met en évidence les vulnérabilités persistantes du système de santé américain, en particulier pour les populations économiquement défavorisées qui dépendent largement des centres médicaux universitaires et des prestataires du filet de sécurité pour recevoir des soins essentiels.&lt;/p&gt;</description>
+      
+      
+      
+      <tweet>UCLA Health contract ends, leaving low-income patients scrambling for new doctors. Healthcare access crisis deepens for vulnerable populations. Continuity of care matters. #HealthEquity #HealthcareAccess www.rnews1.com/en/health/ucla-health-contract-ends-low-income-crisis/  @WHO @DrFauci #Health #MedicalNews #Wellness</tweet>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

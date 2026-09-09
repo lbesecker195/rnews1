@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Compliance on RNews1.com</title>
+    <link>http://localhost:3003/ar/tags/compliance/</link>
+    <description>Recent content in Compliance on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language>
+    
+        <atom:link href="http://localhost:3003/ar/tags/compliance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>غرامة CNIL على مستشفى: تحليل عقوبة قدرها 500 ألف يورو</title>
+      <link>http://localhost:3003/ar/compliance/cnil-hospital-fine-eur500k-penalty-analysis/</link>
+      <pubDate>Sat, 05 Sep 2026 20:38:37 +0000</pubDate>
+      <guid>http://localhost:3003/ar/compliance/cnil-hospital-fine-eur500k-penalty-analysis/</guid>
+      <description>&lt;h1 id=&#34;تفرض-cnil-غرامة-قدرها-500000-يورو-على-مستشفى-فرنسي-دروس-رئيسية-للامتثال-لحماية-بيانات-الرعاية-الصحية&#34;&gt;تفرض CNIL غرامة قدرها 500,000 يورو على مستشفى فرنسي: دروس رئيسية للامتثال لحماية بيانات الرعاية الصحية&lt;/h1&gt;
+&lt;h2 id=&#34;الملخص-التنفيذي&#34;&gt;الملخص التنفيذي&lt;/h2&gt;
+&lt;p&gt;فرضت اللجنة الوطنية للمعلوماتية والحريات (CNIL)، وهي هيئة حماية البيانات المستقلة في فرنسا، غرامة كبيرة قدرها 500,000 يورو على مستشفى فرنسي بسبب انتهاكات اللائحة العامة لحماية البيانات (GDPR). وقد أدى الحادث إلى تعريض نحو 727,000 سجل للمرضى للخطر، مما يجعله واحداً من أكبر خروقات بيانات الرعاية الصحية في التاريخ التنظيمي الفرنسي الحديث. ويؤكد إجراء الإنفاذ هذا تصاعد شدة العقوبات التي تفرضها سلطات حماية البيانات الأوروبية، كما يمثل تذكيراً بالغ الأهمية للمؤسسات الصحية بالتزاماتها بموجب GDPR وقانون حماية البيانات الفرنسي.&lt;/p&gt;</description>
+      
+      
+      
+      <tweet>🚨 CNIL fines French hospital €500K for breaching 727K patient records. Healthcare orgs: GDPR violations carry serious penalties. Strengthen your data security NOW. #GDPR #Healthcare #Compliance #DataProtection www.rnews1.com/en/compliance/cnil-hospital-fine-eur500k-penalty-analysis/  @CISAgov @SecurityJoe #Cybersecurity #Security #DataBreach</tweet>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

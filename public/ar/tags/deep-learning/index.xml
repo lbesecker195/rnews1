@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Deep-Learning on RNews1.com</title>
+    <link>http://localhost:3003/ar/tags/deep-learning/</link>
+    <description>Recent content in Deep-Learning on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language>
+    
+        <atom:link href="http://localhost:3003/ar/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>الذكاء الاصطناعي يرسم خريطة لستة تراكيب خفية في الأرض</title>
+      <link>http://localhost:3003/ar/science/ai-maps-six-hidden-earth-structures/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/ar/science/ai-maps-six-hidden-earth-structures/</guid>
+      <description>&lt;h1 id=&#34;الذكاء-الاصطناعي-يرسم-خريطة-لستة-تراكيب-خفية-في-الأرض&#34;&gt;الذكاء الاصطناعي يرسم خريطة لستة تراكيب خفية في الأرض&lt;/h1&gt;
+&lt;p&gt;على عمق نحو &lt;strong&gt;1,800 ميل&lt;/strong&gt; تحت قدميك، يلتقي &lt;strong&gt;وشاح&lt;/strong&gt; الأرض بـ&lt;em&gt;اللب الخارجي السائل&lt;/em&gt;. وهذا التلامس ليس خطًا فاصلًا أملس. بل هو مشهد طبيعي. عرف علماء الزلازل لعقود أن قاعدة الوشاح غير منتظمة، وتضم رقعًا من مواد غريبة تشتت موجات الزلازل العابرة. وكان رسم خرائط هذه الرقع دائمًا صراعًا ضد الإشارات الخافتة والتغطية غير المتساوية. ويستخدم جهد جديد من باحثين في &lt;strong&gt;الأكاديمية الصينية للعلوم&lt;/strong&gt; نظامًا لـ&lt;strong&gt;التعلّم العميق&lt;/strong&gt;، وكومة هائلة من مخططات الزلازل القديمة، والكثير من التنظيف البشري، ليجادل بأن هذه الكتل أكثر ترابطًا وعددًا مما أظهرته الفهارس السابقة.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

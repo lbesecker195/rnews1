@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technologies | RNews1.com</title>
+  <meta name="description" content="سائنس، صحت اور کائنات۔">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/ur/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="اقسام">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ur/ai/"
+              
+            >اے آئی</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ur/business/"
+              
+            >کاروبار</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/ur/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ur/crypto/"
+              
+            >کرپٹو</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ur/entertainment/"
+              
+            >تفریح</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ur/sports/"
+              
+            >کھیل</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ur/technology/"
+              aria-current="page"
+            >ٹیکنالوجی</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ur/usa/"
+              
+            >امریکا</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ur/world/"
+              
+            >دنیا</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ur/science/"
+              
+            >سائنس</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ur/health/"
+              
+            >صحت</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ur/cosmos/"
+              
+            >کائنات</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="مینو">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="اقسام">
+          
+            
+              
+              
+              
+              <a
+                href="/ur/ai/"
+                
+              >اے آئی</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ur/business/"
+                
+              >کاروبار</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/ur/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ur/crypto/"
+                
+              >کرپٹو</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ur/entertainment/"
+                
+              >تفریح</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ur/sports/"
+                
+              >کھیل</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ur/technology/"
+                aria-current="page"
+              >ٹیکنالوجی</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ur/usa/"
+                
+              >امریکا</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ur/world/"
+                
+              >دنیا</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ur/science/"
+                
+              >سائنس</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ur/health/"
+                
+              >صحت</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ur/cosmos/"
+                
+              >کائنات</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+          ٹیکنالوجی</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/ur/technology/ai-safety-crisis-researcher-warns-of-existential/">مصنوعی ذہانت کا حفاظتی بحران: محقق نے وجودی خطرے سے خبردار کر دیا</a></h2>
+    <p class="summary">ایک ممتاز مصنوعی ذہانت کے محقق نے جدید AI نظاموں کے بارے میں خاموشی توڑتے ہوئے وجودی خطرات پر فوری تشویش کا اظہار کیا ہے، جو فوری مداخلت نہ ہونے کی صورت میں اس …</p>
+    <a class="read-more" href="/ur/technology/ai-safety-crisis-researcher-warns-of-existential/">مضمون پڑھیں</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ur/technology/tiny-e-reader-revolutionizes-digital-reading/">ننھا ای ریڈر ڈیجیٹل مطالعے میں انقلاب برپا کرتا ہے</a></h2>
+    <p class="summary">جانیں کہ دی اٹلانٹک کا نمایاں کردہ ای ریڈر ایسی انقلابی ٹیکنالوجی کیوں قرار دیا جا رہا ہے جو سادگی، نقل پذیری اور مقصد پر مبنی ڈیزائن میں بہترین توازن قائم کرتا …</p>
+    <a class="read-more" href="/ur/technology/tiny-e-reader-revolutionizes-digital-reading/">مضمون پڑھیں</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ur/technology/understanding-ai-s-impact-on-children-today/">آج بچوں پر مصنوعی ذہانت کے اثرات کو سمجھنا</a></h2>
+    <p class="summary">مصنوعی ذہانت کے ایک معروف محقق اور تین بچوں کے والد نے بتایا ہے کہ مصنوعی ذہانت کس طرح بچپن کو نئی شکل دے رہی ہے اور اس ڈیجیٹل تبدیلی سے نمٹنے کے لیے خاندانوں …</p>
+    <a class="read-more" href="/ur/technology/understanding-ai-s-impact-on-children-today/">مضمون پڑھیں</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ur/technology/critical-choices-shape-ai-s-future-now/">اہم فیصلے ابھی AI کے مستقبل کو تشکیل دے رہے ہیں</a></h2>
+    <p class="summary">جیسے جیسے مصنوعی ذہانت تیزی سے معاشرے کو بدل رہی ہے، آج کیے جانے والے ہمارے فیصلے بنیادی طور پر یہ طے کریں گے کہ AI انسانیت کے لیے فائدہ مند ثابت ہوگی یا موجودہ …</p>
+    <a class="read-more" href="/ur/technology/critical-choices-shape-ai-s-future-now/">مضمون پڑھیں</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ur/technology/flock-cameras-emerge-as-midterm-campaign-issue/">فلَک کیمروں کا وسط مدتی انتخابی مہم کا مسئلہ بن کر ابھرنا</a></h2>
+    <p class="summary">ووٹرز میں کارپوریٹ نگرانی کی ٹیکنالوجی اور ڈیٹا کی رازداری کے بارے میں تشویش بڑھ رہی ہے، جس کے باعث لائسنس پلیٹ ریڈرز وسط مدتی انتخابات میں ایک حیران کن سیاسی …</p>
+    <a class="read-more" href="/ur/technology/flock-cameras-emerge-as-midterm-campaign-issue/">مضمون پڑھیں</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ur/technology/navigating-critical-decisions-in-ai-s-turbulent-era/">اے آئی کے ہنگامہ خیز دور میں اہم فیصلوں کی رہنمائی</a></h2>
+    <p class="summary">جیسے جیسے مصنوعی ذہانت معاشرے کو نئی شکل دے رہی ہے، آج کیے جانے والے ہمارے فیصلے طے کریں گے کہ یہ تبدیلی لانے والی ٹیکنالوجی انسانیت کو فائدہ پہنچائے گی یا …</p>
+    <a class="read-more" href="/ur/technology/navigating-critical-decisions-in-ai-s-turbulent-era/">مضمون پڑھیں</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ur/technology/critical-decisions-shape-ai-s-future/">اہم فیصلے AI کے مستقبل کو تشکیل دیتے ہیں</a></h2>
+    <p class="summary">جیسے جیسے مصنوعی ذہانت تبدیلی کے ایک مرحلے میں داخل ہو رہی ہے، آج ماہرینِ ٹیکنالوجی، پالیسی سازوں اور معاشرے کے اسٹریٹجک فیصلے طے کریں گے کہ AI وسیع پیمانے پر …</p>
+    <a class="read-more" href="/ur/technology/critical-decisions-shape-ai-s-future/">مضمون پڑھیں</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ur/technology/gates-warns-turbulent-ai-era-arrives/">گیٹس نے ہنگامہ خیز اے آئی دور کے آغاز سے خبردار کر دیا</a></h2>
+    <p class="summary">بل گیٹس نے گیٹس نوٹس پر ایک نیا مضمون شائع کیا ہے، جس میں دلیل دی گئی ہے کہ ہنگامہ خیز اے آئی دور پہلے ہی آ چکا ہے اور قریبی مدت کے فیصلے طے کریں گے کہ فوائد …</p>
+    <a class="read-more" href="/ur/technology/gates-warns-turbulent-ai-era-arrives/">مضمون پڑھیں</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ur/technology/socket-sensor-warns-before-tissue-injury/">ٹشو کو نقصان پہنچنے سے پہلے خبردار کرنے والا ساکٹ سینسر</a></h2>
+    <p class="summary">زیجیانگ یونیورسٹی آف ٹیکنالوجی کے محققین نے ایک حیاتیاتی اصولوں سے متاثرہ سینسر تہہ تیار کی ہے جو مصنوعی عضو کے ساکٹ کے اندر نصب ہو کر باقی ماندہ عضو کی جلد کو …</p>
+    <a class="read-more" href="/ur/technology/socket-sensor-warns-before-tissue-injury/">مضمون پڑھیں</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ur/technology/abbott-freezes-texas-flock-camera-funding/">ایبٹ نے ٹیکساس میں فلاک کیمروں کی فنڈنگ منجمد کر دی</a></h2>
+    <p class="summary">ٹیکساس کے گورنر گریگ ایبٹ نے ریاستی اداروں کو فلاک سیفٹی کے مصنوعی ذہانت سے چلنے والے لائسنس پلیٹ کیمروں کی فنڈنگ روکنے کا حکم دیا، جبکہ رازداری کے خلاف ردعمل …</p>
+    <a class="read-more" href="/ur/technology/abbott-freezes-texas-flock-camera-funding/">مضمون پڑھیں</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ur/technology/activision-serves-cheat-seller-on-camera/">ایکٹیویژن نے کیمرے کے سامنے چیٹ فروش کو نوٹس تھما دیا</a></h2>
+    <p class="summary">کال آف ڈیوٹی کے آفیشل X اکاؤنٹ نے ایک منٹ کی ویڈیو پوسٹ کی جس میں اوہائیو کے ایک گھر پر عدالتی نوٹس پہنچانے والے نمائندے نے معروف چیٹ فروش Elocarry کو بند کرو …</p>
+    <a class="read-more" href="/ur/technology/activision-serves-cheat-seller-on-camera/">مضمون پڑھیں</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ur/technology/apple-jacks-up-streaming-prices-again/">ایپل نے اسٹریمنگ کی قیمتیں ایک بار پھر بڑھا دیں</a></h2>
+    <p class="summary">آرس ٹیکنیکا نے ورائٹی کے حوالے سے رپورٹ کیا کہ ایپل نے امریکہ میں ایپل ٹی وی کی ماہانہ قیمت 2 ڈالر بڑھا کر 15 ڈالر اور سالانہ پلان کی قیمت 20 فیصد بڑھا کر 99 سے …</p>
+    <a class="read-more" href="/ur/technology/apple-jacks-up-streaming-prices-again/">مضمون پڑھیں</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ur/technology/gta-6-crashes-twitch-and-netflix/">GTA 6 نے Twitch اور Netflix کو کریش کر دیا</a></h2>
+    <p class="summary">Streams Charts کے اعداد و شمار، جنہیں Eurogamer نے نقل کیا، کے مطابق Rockstar کی جانب سے GTA 6 کے پہلے گیم پلے، یعنی Netflix کے لیے خصوصی Extended Look، نے …</p>
+    <a class="read-more" href="/ur/technology/gta-6-crashes-twitch-and-netflix/">مضمون پڑھیں</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="زبانیں">
+        
+          <a no-follow href="/en/technology/">English</a>
+        
+          <a no-follow href="/es/technology/">Español</a>
+        
+          <a no-follow href="/it/technology/">Italiano</a>
+        
+          <a no-follow href="/fr/technology/">Français</a>
+        
+          <a no-follow href="/ar/technology/">العربية</a>
+        
+          <a no-follow href="/la/technology/">Latina</a>
+        
+          <a no-follow href="/hi/technology/">हिन्दी</a>
+        
+          <a no-follow href="/bn/technology/">বাংলা</a>
+        
+          <a no-follow href="/pt/technology/">Português</a>
+        
+          <a no-follow href="/ru/technology/">Русский</a>
+        
+          <a no-follow href="/ur/technology/" aria-current="page">اردو</a>
+        
+          <a no-follow href="/zh/technology/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

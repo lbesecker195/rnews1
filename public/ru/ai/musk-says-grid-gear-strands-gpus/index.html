@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Маск говорит, что оборудование энергосети оставляет GPU без работы | RNews1.com</title>
+  <meta name="description" content="Илон Маск написал в X 29 августа 2026 года, что примерно 15 ГВт вычислительных мощностей для ИИ, которые должны выйти онлайн в 2027 году, вероятно, будут простаивать, поскольку энергетическая инфраструктура не будет готова. Crypto Briefing сообщает, что он обвинил не чипы, а трансформаторы, проводку, контуры жидкостного охлаждения и высокопроизводительные сети. Сроки поставки высоковольтных трансформаторов теперь составляют 48–60 месяцев; очереди на подключение к электросетям Северной Америки и получение разрешений создают дополнительные задержки. Аналитики оценивают, что спрос дата-центров США на электроэнергию может достичь 66 ГВт к 2027 году; отсутствие питания для 15 ГВт замедлит развертывание отрасли. SpaceX, ставшая публичной компанией ранее в 2026 году, завершила второй квартал с 1,4 ГВт вычислительных мощностей — против 1 ГВт в первом квартале и 400 МВт годом ранее, — намерена превысить 2 ГВт к концу 2026 года и нацелена на 20 ГВт энергоснабжения и охлаждения к концу 2027 года, хотя Маск считает более реалистичными примерно 15 ГВт. Центральное место занимает Memphis Colossus под управлением xAI; упоминаются чипы Nvidia Vera Rubin и возможный отбор мощностей Microsoft. Простаивающие кластеры быстро амортизируют дорогие GPU.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/ru/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="Разделы">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/ai/"
+              aria-current="page"
+            >ИИ</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/business/"
+              
+            >Бизнес</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/ru/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/crypto/"
+              
+            >Крипто</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/entertainment/"
+              
+            >Развлечения</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/sports/"
+              
+            >Спорт</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/technology/"
+              
+            >Технологии</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/usa/"
+              
+            >США</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/world/"
+              
+            >Мир</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/health/"
+              
+            >Здоровье</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/cosmos/"
+              
+            >Космос</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/science/"
+              
+            >Наука</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="Меню">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="Разделы">
+          
+            
+              
+              
+              
+              <a
+                href="/ru/ai/"
+                aria-current="page"
+              >ИИ</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/business/"
+                
+              >Бизнес</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/ru/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/crypto/"
+                
+              >Крипто</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/entertainment/"
+                
+              >Развлечения</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/sports/"
+                
+              >Спорт</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/technology/"
+                
+              >Технологии</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/usa/"
+                
+              >США</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/world/"
+                
+              >Мир</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/health/"
+                
+              >Здоровье</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/cosmos/"
+                
+              >Космос</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/science/"
+                
+              >Наука</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="post container">
+  <header class="post-header">
+    <h1><a href="">Маск говорит, что оборудование энергосети оставляет GPU без работы</a></h1>
+    <div class="post-meta">
+      
+        <span>
+          <a href="/ru/ai/">Ai</a>
+        </span>
+      <span>·</span>
+    
+      <time datetime="2026-08-29">29 августа 2026 г.</time>
+      <span>·</span>
+      <span>10 мин чтения</span>
+    </div>
+  </header>
+  <div class="post-content">
+    
+<p><strong>Илон Маск</strong> написал в <strong>X</strong> <strong>29 августа 2026 года</strong>, что <em>примерно</em> <strong>15 ГВт</strong> <strong>вычислительных мощностей для ИИ</strong>, которые должны выйти онлайн в <strong>2027 году</strong>, вероятно, будут <em>простаивать</em>, поскольку <strong>энергетическая инфраструктура</strong> не будет готова. <strong>Crypto Briefing</strong> сообщает об этом предупреждении. Речь не о том, что чипы не будут поставлены. Речь о том, что оборудование вокруг чипов — элементы энергосети, медь, охлаждение, коммутационная сеть — не будет готово к моменту установки серверов.</p>
+<p>Простаивающий гигаватт — это кластер, который существует в заказе на закупку и, возможно, даже стоит на фальшполе, но не может получать электроэнергию. Пост <strong>Маска</strong> связывает такую судьбу с <em>примерно</em> <strong>15 ГВт</strong> <strong>вычислительных мощностей для ИИ</strong>, запланированных на <strong>2027 год</strong>. <strong>Crypto Briefing</strong> — издание, которое превратило этот пост в подробный материал о том, что именно он обвинил, как выглядит рынок трансформаторов и как то же узкое место проявляется в целевых показателях энергоснабжения и охлаждения его собственных компаний.</p>
+<h2 id="узкое-место--не-чип">Узкое место — не чип</h2>
+<p><strong>Crypto Briefing</strong> сообщает, что он обвинил <strong>трансформаторы</strong>, <strong>проводку</strong>, <strong>контуры жидкостного охлаждения</strong> и <strong>высокопроизводительные сети</strong> — <em>но не чипы</em>. Этот список представляет собой спецификацию материалов для современного зала ИИ. <strong>Трансформаторы</strong> понижают высокое напряжение энергосети до уровня, пригодного для использования в зале. <strong>Проводка</strong> передает эту мощность по территории кампуса и к стойкам. <strong>Контуры жидкостного охлаждения</strong> отводят тепло от плотных кластеров ускорителей, с которым воздух уже не справляется. <strong>Высокопроизводительные сети</strong> объединяют эти ускорители в единую систему для обучения. Ни один из этих четырех компонентов не является GPU. Но, согласно этому утверждению, именно их отсутствие означает, что <em>примерно</em> <strong>15 ГВт</strong> <strong>вычислительных мощностей для ИИ</strong>, которые должны появиться в <strong>2027 году</strong>, вероятно, будут <em>простаивать</em>.</p>
+<p>Акцент на словах <em>не чипы</em> — суть поста. Отрасль годами считала поставки ускорителей главным ограничением. <strong>Маск</strong>, публикуя сообщение в <strong>X</strong> <strong>29 августа 2026 года</strong>, рассматривает поставки ускорителей как ограничение, которое больше таковым не является. Если чипы прибудут, а <strong>трансформаторы</strong>, <strong>проводка</strong>, <strong>контуры жидкостного охлаждения</strong> и <strong>высокопроизводительные сети</strong> — нет, чипы останутся без дела. В этом и состоит смысл слов <em>простаивать</em> применительно к <strong>вычислительным мощностям для ИИ</strong>: кремний без цепи электропитания, охлаждения или сети, которые превращают набор оборудования в кластер.</p>
+<p>В изложении <strong>Crypto Briefing</strong> не появляются другие причины. Издание не упоминает нехватку генерирующих мощностей или топливный кризис. Оно называет электрооборудование и механические системы с длительными сроками поставки, а также <strong>североамериканский</strong> процесс подключения объекта к энергосети. Четыре пункта, которые назвал <strong>Маск</strong>, являются физическими. Очереди и разрешения, которые <strong>Crypto Briefing</strong> рассматривает вместе с ними, имеют процедурный характер. Вместе они составляют <strong>энергетическую инфраструктуру</strong>, которая <em>не будет готова</em> к волне <strong>2027 года</strong>.</p>
+<h2 id="четыре-пять-лет-ожидания-высоковольтного-трансформатора">Четыре-пять лет ожидания высоковольтного трансформатора</h2>
+<p>Срок поставки <strong>высоковольтных трансформаторов</strong> теперь составляет <strong>48–60 месяцев</strong>. Это четыре-пять лет. Трансформатор, заказанный в <strong>2026 году</strong> со сроком поставки <strong>48 месяцев</strong>, не станет активом <strong>2027 года</strong>. При сроке <strong>60 месяцев</strong> он появится еще позже. Год, в котором, по словам <strong>Маска</strong>, <em>примерно</em> <strong>15 ГВт</strong> <strong>вычислительных мощностей для ИИ</strong> вероятно будут <em>простаивать</em>, наступает раньше, чем истекают эти сроки.</p>
+<p>Срок поставки — не метафора. Это календарный промежуток между заказом и доставкой <strong>высоковольтного трансформатора</strong>. Сроки <strong>48–60 месяцев</strong> означают, что рынок трансформаторов уже сообщил проектам <strong>2027 года</strong>, что они отстают от графика. <strong>Маск</strong> первым в списке, приведенном <strong>Crypto Briefing</strong>, обвинил <strong>трансформаторы</strong>. Именно срок поставки придает этому обвинению конкретную дату.</p>
+<p><strong>Очереди на подключение к энергосетям Северной Америки</strong> и <strong>получение разрешений</strong> добавляют <em>дополнительные задержки</em>. В данном предложении дополнительные — значит сверх ожидания <strong>48–60 месяцев</strong> для трансформатора. Подключение — это процесс присоединения крупной новой нагрузки к энергосети. Дата-центр, которому нужны десятки или сотни мегаватт, не может просто подключиться. Он встает в <strong>очередь</strong>. <strong>Получение разрешений</strong> — отдельный гражданско-строительный и экологический процесс. <strong>Crypto Briefing</strong> помещает оба процесса в <strong>Северную Америку</strong>, где также расположен источник оценки <strong>спроса дата-центров США на электроэнергию</strong>.</p>
+<p>Проект может заказать <strong>трансформаторы</strong> и все равно оставаться в очереди на подключение. Он может пройти очередь и по-прежнему ждать <strong>разрешений</strong>. На его площадке могут быть <strong>проводка</strong>, <strong>контуры жидкостного охлаждения</strong> и <strong>высокопроизводительные сети</strong>, но не быть высоковольтного понижения, необходимого для запуска кампуса. Календарь поставок трансформаторов на <strong>48–60 месяцев</strong>, а также очереди на подключение к энергосетям <strong>Северной Америки</strong> и сроки получения <strong>разрешений</strong> объясняют, почему <strong>энергетическая инфраструктура не будет готова</strong>, даже если чипы будут.</p>
+<h2 id="шестьдесят-шесть-гигаватт-спроса-пятнадцать-без-питания">Шестьдесят шесть гигаватт спроса, пятнадцать без питания</h2>
+<p><strong>Аналитики оценивают</strong>, что <strong>спрос дата-центров США на электроэнергию</strong> может достичь <strong>66 ГВт</strong> к <strong>2027 году</strong>. Таков масштаб рынка, к которому обращено предупреждение <strong>Маска</strong>. <strong>Отсутствие питания для 15 ГВт</strong> <em>замедлит развертывание отрасли</em>. Арифметика проста: <em>примерно</em> <strong>15 ГВт</strong> <strong>вычислительных мощностей для ИИ</strong>, простаивающих без питания, — значительная доля показателя в <strong>66 ГВт</strong> для энергопотребления дата-центров США в том же году. <strong>Crypto Briefing</strong> сообщает об оценке и ее последствиях вместе.</p>
+<p><strong>66 ГВт</strong> к <strong>2027 году</strong> — это <em>оценка</em>, приписываемая <strong>аналитикам</strong>, а не измеренная нагрузка. Это сторона спроса в том же году, в котором <strong>Маск</strong> заявил, что <em>примерно</em> <strong>15 ГВт</strong> <strong>вычислительных мощностей для ИИ</strong> вероятно будут <em>простаивать</em>. <strong>Отсутствие питания для 15 ГВт</strong> — отраслевое выражение этого предупреждения. Развертывание замедляется не из-за нехватки чипов, а потому, что <strong>энергетическая инфраструктура</strong> — <strong>трансформаторы</strong>, <strong>проводка</strong>, <strong>контуры жидкостного охлаждения</strong>, <strong>высокопроизводительные сети</strong>, а также <strong>очереди на подключение к энергосетям Северной Америки</strong> и <strong>получение разрешений</strong> — не может ввести эти гигаватты в эксплуатацию.</p>
+<p>Замедление такого масштаба — проблема графика с последствиями для баланса. Мощности, которые должны появиться в <strong>2027 году</strong>, но не могут быть запитаны, не могут обучать модели, обслуживать инференс и приносить доход. <strong>Аналитики</strong>, оценивающие <strong>спрос дата-центров США на электроэнергию</strong> в <strong>66 ГВт</strong> к <strong>2027 году</strong>, описывают строительство, предполагающее наличие питания. <strong>Маск</strong> в <strong>X</strong> описывает строительство, которое может его не получить. <strong>Отсутствие питания для 15 ГВт</strong> — так <strong>Crypto Briefing</strong> переводит пост в отраслевое последствие: <em>замедление развертывания отрасли</em>.</p>
+<p>Две цифры <strong>15</strong> в материале легко перепутать, но не следует этого делать. Одна — <em>примерно</em> <strong>15 ГВт</strong> <strong>вычислительных мощностей для ИИ</strong>, которые должны выйти онлайн в <strong>2027 году</strong>, но, вероятно, будут <em>простаивать</em>. Другая, появляющаяся далее в том же материале, — это оценка <strong>Маска</strong>, что <em>около</em> <strong>15 ГВт</strong> <strong>энергоснабжения и охлаждения</strong> <strong>SpaceX</strong> <em>реалистичнее</em>, чем цель в <strong>20 ГВт</strong>. Это не один и тот же объект. Но это одна и та же единица измерения, один и тот же год и одна и та же мысль: верхний предел задает инфраструктура, а не кремний.</p>
+<h2 id="spacex-публичная-компания-и-рост-с-400-мегаватт">SpaceX, публичная компания, и рост с 400 мегаватт</h2>
+<p>Предупреждение касается не только чужих залов. <strong>SpaceX</strong>, <em>ставшая публичной компанией ранее в 2026 году</em>, завершила <strong>второй квартал</strong> с <strong>1,4 ГВт</strong> вычислительных мощностей — против <strong>1 ГВт</strong> в <strong>первом квартале</strong> и <strong>400 МВт</strong> годом ранее. Эти три показателя демонстрируют рост: <strong>400 МВт</strong> годом ранее, <strong>1 ГВт</strong> в первом квартале, <strong>1,4 ГВт</strong> по итогам второго. <strong>SpaceX</strong> <em>намерена превысить 2 ГВт</em> к <em>концу 2026 года</em>.</p>
+<p>Статус публичной компании, полученный ранее в <strong>2026 году</strong>, — корпоративный фон этой истории. <strong>Crypto Briefing</strong> сообщает о вычислительных мощностях <strong>SpaceX</strong> как о показателях публичной компании, а не как о частном слухе. <strong>Второй квартал</strong> завершился на уровне <strong>1,4 ГВт</strong> вычислительных мощностей. В <strong>первом квартале</strong> было <strong>1 ГВт</strong>. Годом ранее тот же показатель составлял <strong>400 МВт</strong>. Последовательность отражает ускорение: от <strong>400 МВт</strong> к <strong>1 ГВт</strong>, затем к <strong>1,4 ГВт</strong>, при заявленной цели <em>превысить</em> <strong>2 ГВт</strong> к концу <strong>2026 года</strong>.</p>
+<p>Вычислительные мощности в гигаваттах — это показатель мощности, а не число чипов. Это та же единица, которую <strong>Маск</strong> использовал для <em>примерно</em> <strong>15 ГВт</strong> <strong>вычислительных мощностей для ИИ</strong>, которые, по его словам, вероятно будут <em>простаивать</em> в <strong>2027 году</strong>, и которую <strong>аналитики</strong> использовали для оценки <strong>спроса дата-центров США на электроэнергию</strong> в <strong>66 ГВт</strong>. Рост <strong>SpaceX</strong> с <strong>400 МВт</strong> до <strong>1,4 ГВт</strong>, при цели <em>превысить</em> <strong>2 ГВт</strong> к <em>концу 2026 года</em>, — масштабная для одной компании версия отраслевой гонки за подключение кремния к энергосети. Поэтому узкое место, связанное с трансформаторами и подключением, — не абстрактная история об энергосети. Оно отражается в тех же отчетах, что и целевой показатель вычислительных мощностей публичной компании.</p>
+<p>Превышение <strong>2 ГВт</strong> к концу <strong>2026 года</strong> станет новым шагом по сравнению с <strong>1,4 ГВт</strong> по итогам <strong>второго квартала</strong> и большим отрывом от показателя <strong>400 МВт</strong> годом ранее. Цель выглядит агрессивной относительно этих значений. Сроки поставки <strong>высоковольтных трансформаторов</strong> в <strong>48–60 месяцев</strong>, а также задержки, вызванные <strong>очередями на подключение к энергосетям Северной Америки</strong> и <strong>получением разрешений</strong>, объясняют, почему даже агрессивная цель может столкнуться с минимальным уровнем простаивания. Чипы могут прибыть на площадку <strong>SpaceX</strong> по календарю производства полупроводников. <strong>Энергетическая инфраструктура</strong> прибывает по календарю трансформаторов и подключения. <strong>Маск</strong> говорит, что эти календари не совпадают.</p>
+<h2 id="двадцать-гигаватт-на-слайде-пятнадцать--реалистичная-отметка">Двадцать гигаватт на слайде, пятнадцать — реалистичная отметка</h2>
+<p><strong>SpaceX</strong> <em>нацелена</em> на <strong>20 ГВт</strong> <strong>энергоснабжения и охлаждения</strong> к <em>концу 2027 года</em>, при этом <strong>Маск</strong> считает <em>около</em> <strong>15 ГВт</strong> <em>более реалистичными</em>. Цель относится к <strong>энергоснабжению и охлаждению</strong>, а не к чипам. Это соответствует посту в <strong>X</strong>. Он обвинил <strong>трансформаторы</strong>, <strong>проводку</strong>, <strong>контуры жидкостного охлаждения</strong> и <strong>высокопроизводительные сети</strong> — оборудование, которое <em>и составляет</em> энергоснабжение и охлаждение, — а не ускорители.</p>
+<p><strong>20 ГВт</strong> к <em>концу 2027 года</em> — цифра со слайда. <em>Около</em> <strong>15 ГВт</strong> — то, что <strong>Маск</strong> назвал <em>более реалистичным</em>. <strong>Crypto Briefing</strong> сообщает оба показателя. Реалистичные <em>около</em> <strong>15 ГВт</strong> <strong>энергоснабжения и охлаждения</strong> против цели в <strong>20 ГВт</strong> означают снижение ожиданий на уровне компании, зафиксированное в том же году — <em>в конце 2027 года</em>, — когда отрасль столкнется с <em>примерно</em> <strong>15 ГВт</strong> простаивающих <strong>вычислительных мощностей для ИИ</strong>. Снижение касается инфраструктуры, а не кремния.</p>
+<p><strong>Memphis Colossus</strong> под управлением <strong>xAI</strong> занимает <em>центральное место</em>. Упоминаются чипы <strong>Nvidia Vera Rubin</strong> и <em>возможный</em> отбор мощностей <strong>Microsoft</strong>. Это названные элементы проекта, который должен обслуживать целевой показатель <strong>энергоснабжения и охлаждения</strong>. <strong>Colossus</strong> в <strong>Мемфисе</strong> — кластер <strong>xAI</strong>; при этом <strong>Crypto Briefing</strong> по-прежнему помещает его в центр той же энергетической истории, которая включает публичный рост вычислительных мощностей <strong>SpaceX</strong>. Чипы <strong>Nvidia Vera Rubin</strong> — ускорители, фигурирующие в этом контексте, то есть те самые <em>чипы</em>, которые <strong>Маск</strong> назвал <em>не являющимися</em> узким местом. <em>Возможный</em> отбор мощностей <strong>Microsoft</strong> упоминается как канал спроса, а не как подтвержденный показатель. Слово здесь — <em>возможный</em>. Материал не превращает его в размер контракта.</p>
+<p>Размещение этих названий рядом с целью в <strong>20 ГВт</strong> и <em>примерно</em> <strong>15 ГВт</strong>, признанными реалистичными, позволяет изданию связать публичный план <strong>SpaceX</strong> по энергоснабжению и охлаждению с залом <strong>xAI</strong>, поколением <strong>Nvidia</strong> и <em>возможным</em> покупателем <strong>Microsoft</strong>. Ничто из этого не меняет календарь поставок трансформаторов. <strong>Высоковольтные трансформаторы</strong> по-прежнему имеют сроки поставки <strong>48–60 месяцев</strong>. <strong>Очереди на подключение к энергосетям Северной Америки</strong> и <strong>получение разрешений</strong> по-прежнему добавляют <em>дополнительные задержки</em>. <strong>Memphis Colossus</strong> по-прежнему нужны <strong>проводка</strong>, <strong>контуры жидкостного охлаждения</strong> и <strong>высокопроизводительные сети</strong>, если чипы <strong>Vera Rubin</strong> должны делать больше, чем просто занимать темный зал.</p>
+<p>Центральный кластер не освобождается от очереди. Если <strong>Colossus</strong> занимает <em>центральное место</em> в проекте <strong>xAI</strong>, то он также занимает <em>центральное место</em> в проблеме <strong>энергетической инфраструктуры</strong>, которую <strong>Маск</strong> описал <strong>29 августа 2026 года</strong>. Чипы <strong>Nvidia Vera Rubin</strong> могут относиться к нужному поколению и все равно <em>простаивать</em>, если <strong>трансформаторы</strong> находятся на календаре поставки <strong>48–60 месяцев</strong>. <em>Возможный</em> отбор мощностей <strong>Microsoft</strong> может быть заявлен, но по-прежнему ждать мегаватт, которые <strong>получение разрешений</strong> еще не высвободило. Наличие названных заказчиков не поставляет оборудование.</p>
+<h2 id="амортизация-простаивающего-кластера">Амортизация простаивающего кластера</h2>
+<p><em>Простаивающие кластеры</em> быстро теряют стоимость из-за <em>быстрой амортизации</em> <em>дорогих GPU</em>. Таков финансовый вывод, который <strong>Crypto Briefing</strong> делает из поста <strong>Маска</strong> от <strong>29 августа 2026 года</strong>. GPU, который нельзя запитать, все равно стареет. <em>Дорогие GPU</em> — включая чипы <strong>Nvidia Vera Rubin</strong>, упомянутые в том же материале, — это капитальные активы с коротким сроком полезного использования на рынке, где поколения оборудования быстро сменяют друг друга. <em>Простаивание</em> — состояние кластера, который <em>не работает</em>. <em>Быстрая амортизация</em> — то, к чему приводит это состояние для актива.</p>
+<p>Здесь встречаются отраслевой и корпоративный аспекты истории. <strong>Аналитики оценивают</strong>, что <strong>спрос дата-центров США на электроэнергию</strong> может достичь <strong>66 ГВт</strong> к <strong>2027 году</strong>. <strong>Отсутствие питания для 15 ГВт</strong> <em>замедлит развертывание отрасли</em>. <em>Примерно</em> <strong>15 ГВт</strong> <strong>вычислительных мощностей для ИИ</strong>, которые должны появиться в <strong>2027 году</strong>, вероятно будут <em>простаивать</em>, поскольку <strong>энергетическая инфраструктура не будет готова</strong>. <strong>SpaceX</strong>, ставшая публичной компанией ранее в <strong>2026 году</strong>, может завершить <strong>второй квартал</strong> с <strong>1,4 ГВт</strong> вычислительных мощностей, стремиться <em>превысить</em> <strong>2 ГВт</strong> к концу <strong>2026 года</strong> и нацеливаться на <strong>20 ГВт</strong> <strong>энергоснабжения и охлаждения</strong> к <em>концу 2027 года</em>, тогда как <strong>Маск</strong> считает <em>около</em> <strong>15 ГВт</strong> <em>более реалистичными</em>. Если реалистичный объем энергоснабжения не появится, кластеры будут <em>простаивать</em>. <em>Простаивающие кластеры</em> быстро амортизируют <em>дорогие GPU</em>.</p>
+<p>Именно поэтому пост посвящен тому, как <strong>оборудование энергосети</strong> оставляет <strong>GPU</strong> без работы. GPU простаивают не из-за производителя микросхем. Их оставляют без питания <strong>трансформаторы</strong> со сроками поставки <strong>48–60 месяцев</strong>, <strong>проводка</strong>, <strong>контуры жидкостного охлаждения</strong> и <strong>высокопроизводительные сети</strong>, которые не успевают за спросом, а также <strong>очереди на подключение к энергосетям Северной Америки</strong> и <strong>получение разрешений</strong>, создающие <em>дополнительные задержки</em>. <strong>Crypto Briefing</strong> сообщает, что <strong>Маск</strong> сказал об этом в <strong>X</strong> <strong>29 августа 2026 года</strong>, при этом <strong>Memphis Colossus</strong> под управлением <strong>xAI</strong> занимает <em>центральное место</em>, чипы <strong>Nvidia Vera Rubin</strong> и <em>возможный</em> отбор мощностей <strong>Microsoft</strong> <em>упоминаются</em>, а простаивающая доля в <em>примерно <strong>15 ГВт</strong></em> нависает и над оценкой спроса США в <strong>66 ГВт</strong>, и над собственной отметкой Маска в <em>более реалистичные</em> <strong>15 ГВт</strong>.</p>
+<p>Серверы могут находиться в <strong>Мемфисе</strong>. Чипы могут быть <strong>Vera Rubin</strong>. Покупателем может стать <em>возможный</em> заказчик <strong>Microsoft</strong>. Публичной компанией может быть <strong>SpaceX</strong>, уже достигшая <strong>1,4 ГВт</strong> вычислительных мощностей после <strong>1 ГВт</strong> в <strong>первом квартале</strong> и <strong>400 МВт</strong> годом ранее и стремящаяся <em>превысить</em> <strong>2 ГВт</strong> к концу <strong>2026 года</strong>. Ничто из этого не превращает темный зал в работающий. <strong>Энергетическая инфраструктура</strong> должна быть готова. Пост <strong>Маска</strong>, как его пересказывает <strong>Crypto Briefing</strong>, говорит, что для <em>примерно</em> <strong>15 ГВт</strong> <strong>вычислительных мощностей для ИИ</strong>, которые должны появиться в <strong>2027 году</strong>, этого не произойдет.</p>
+
+  </div>
+
+  
+  <div class="article-tags">
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+  </div>
+
+
+  
+  
+  <aside class="related-posts">
+    <h2>Читать далее</h2>
+    <p class="related-note">Связано по общим фрагментам заголовков</p>
+    <ul>
+      
+      <li>
+        <a href="/ru/ai/anthropic-researcher-departure-signals-ai-safety-concerns/">Уход исследователя Anthropic сигнализирует о проблемах с безопасностью ИИ</a>
+        
+      </li>
+      
+      <li>
+        <a href="/ru/ai/parental-guide-to-ai-impact-on-children/">Руководство для родителей по влиянию ИИ на детей</a>
+        
+      </li>
+      
+      <li>
+        <a href="/ru/ai/parents-guide-understanding-ai-impact-today/">Руководство для родителей: понимание влияния ИИ сегодня</a>
+        
+      </li>
+      
+      <li>
+        <a href="/ru/ai/are-we-approaching-uncontrollable-ai-systems/">Приближаемся ли мы к неуправляемым системам ИИ?</a>
+        
+      </li>
+      
+      <li>
+        <a href="/ru/ai/ai-control-crisis-are-we-crossing-the/">Кризис контроля над ИИ: не переходим ли мы черту?</a>
+        
+      </li>
+      
+    </ul>
+  </aside>
+  
+</article>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="Языки">
+        
+          <a no-follow href="/en/ai/musk-says-grid-gear-strands-gpus/">English</a>
+        
+          <a no-follow href="/es/ai/musk-says-grid-gear-strands-gpus/">Español</a>
+        
+          <a no-follow href="/it/ai/musk-says-grid-gear-strands-gpus/">Italiano</a>
+        
+          <a no-follow href="/fr/ai/musk-says-grid-gear-strands-gpus/">Français</a>
+        
+          <a no-follow href="/ar/ai/musk-says-grid-gear-strands-gpus/">العربية</a>
+        
+          <a no-follow href="/la/ai/musk-says-grid-gear-strands-gpus/">Latina</a>
+        
+          <a no-follow href="/hi/ai/musk-says-grid-gear-strands-gpus/">हिन्दी</a>
+        
+          <a no-follow href="/bn/ai/musk-says-grid-gear-strands-gpus/">বাংলা</a>
+        
+          <a no-follow href="/pt/ai/musk-says-grid-gear-strands-gpus/">Português</a>
+        
+          <a no-follow href="/ru/ai/musk-says-grid-gear-strands-gpus/" aria-current="page">Русский</a>
+        
+          <a no-follow href="/ur/ai/musk-says-grid-gear-strands-gpus/">اردو</a>
+        
+          <a no-follow href="/zh/ai/musk-says-grid-gear-strands-gpus/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

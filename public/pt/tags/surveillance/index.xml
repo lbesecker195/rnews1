@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Surveillance on RNews1.com</title>
+    <link>http://localhost:3003/pt/tags/surveillance/</link>
+    <description>Recent content in Surveillance on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+        <atom:link href="http://localhost:3003/pt/tags/surveillance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Abbott congela financiamento das câmeras Flock no Texas</title>
+      <link>http://localhost:3003/pt/technology/abbott-freezes-texas-flock-camera-funding/</link>
+      <pubDate>Sat, 29 Aug 2026 18:11:00 -0700</pubDate>
+      <guid>http://localhost:3003/pt/technology/abbott-freezes-texas-flock-camera-funding/</guid>
+      <description>&lt;h1 id=&#34;abbott-congela-financiamento-das-câmeras-flock-no-texas&#34;&gt;Abbott congela financiamento das câmeras Flock no Texas&lt;/h1&gt;
+&lt;p&gt;O governador do Texas, &lt;strong&gt;Greg Abbott&lt;/strong&gt;, ordenou que as agências estaduais suspendessem o financiamento das câmeras de placas com inteligência artificial da &lt;strong&gt;Flock Safety&lt;/strong&gt; enquanto crescem a reação contra a vigilância e as alegações de uso indevido pela polícia. O &lt;strong&gt;Texas Tribune&lt;/strong&gt; informou que a ordem veio quando o jornal se preparava para publicar uma investigação mostrando que uma agência estadual havia destinado pelo menos &lt;strong&gt;US$ 30 milhões&lt;/strong&gt; à rede Flock por meio de subsídios para polícias locais.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

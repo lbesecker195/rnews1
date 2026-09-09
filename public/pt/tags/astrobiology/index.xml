@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Astrobiology on RNews1.com</title>
+    <link>http://localhost:3003/pt/tags/astrobiology/</link>
+    <description>Recent content in Astrobiology on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+        <atom:link href="http://localhost:3003/pt/tags/astrobiology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Uma ínfima diferença química do ARN pode revelar a origem da vida na Terra</title>
+      <link>http://localhost:3003/pt/science/rna-chemical-difference-origins-of-life/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3003/pt/science/rna-chemical-difference-origins-of-life/</guid>
+      <description>&lt;h1 id=&#34;uma-ínfima-diferença-química-do-arn-pode-revelar-a-origem-da-vida-na-terra&#34;&gt;Uma ínfima diferença química do ARN pode revelar a origem da vida na Terra&lt;/h1&gt;
+&lt;p&gt;Uma &lt;strong&gt;distinção química mínima&lt;/strong&gt; — um oxigénio a mais no açúcar do ARN — pode explicar porque os primeiros replicadores foram de ARN.&lt;/p&gt;
+&lt;h2 id=&#34;the-rna-world-hypothesis-gains-fresh-experimental-support&#34;&gt;A hipótese do mundo de ARN ganha apoio experimental&lt;/h2&gt;
+&lt;p&gt;Esse oxigénio extra facilita anéis e sítios ativos que o ADN forma com menos facilidade.&lt;/p&gt;
+&lt;h2 id=&#34;how-the-experiments-worked&#34;&gt;Como funcionaram as experiências&lt;/h2&gt;
+&lt;p&gt;Em poças secas, argilas e ciclos térmicos, o ARN formou oligómeros funcionais mais depressa.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

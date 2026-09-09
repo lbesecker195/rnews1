@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Bioinspired on RNews1.com</title>
+    <link>http://localhost:3003/it/tags/bioinspired/</link>
+    <description>Recent content in Bioinspired on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    
+        <atom:link href="http://localhost:3003/it/tags/bioinspired/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Il sensore dell’invasatura avverte prima del danno ai tessuti</title>
+      <link>http://localhost:3003/it/technology/socket-sensor-warns-before-tissue-injury/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/it/technology/socket-sensor-warns-before-tissue-injury/</guid>
+      <description>&lt;h1 id=&#34;il-sensore-dellinvasatura-avverte-prima-del-danno-ai-tessuti&#34;&gt;Il sensore dell’invasatura avverte prima del danno ai tessuti&lt;/h1&gt;
+&lt;p&gt;Un’invasatura protesica è una coppa stretta che sostiene il carico. Per chi cammina su un arto residuo, quella coppa è anche un rischio. Una pressione che dura troppo a lungo, o che si concentra sulla zona sbagliata della pelle, può danneggiare tessuti che hanno già affrontato un’amputazione, la guarigione e l’attrito quotidiano di un rivestimento. Ricercatori della &lt;strong&gt;Zhejiang University of Technology&lt;/strong&gt; hanno realizzato uno strato sensoriale &lt;em&gt;bioispirato&lt;/em&gt; progettato per essere inserito in un’invasatura protesica e segnalare pressioni capaci di danneggiare la pelle dell’arto residuo, ha riferito &lt;strong&gt;ScienceAlert&lt;/strong&gt; sulla base di uno studio pubblicato su &lt;strong&gt;Cyborg and Bionic Systems&lt;/strong&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

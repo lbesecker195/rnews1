@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Insomnia on Meridian</title>
+		<link>http://localhost:8080/it/tags/insomnia/</link>
+		<description>Recent content in Insomnia on Meridian</description>
+		<generator>Hugo</generator>
+		<language>it</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/it/tags/insomnia/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>L’uso prolungato di melatonina è associato a un rischio di insufficienza cardiaca più alto del 90%</title>
+				<link>http://localhost:8080/it/health/melatonin-heart-failure-risk/</link>
+				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:8080/it/health/melatonin-heart-failure-risk/</guid>
+				<description>&lt;h1 id=&#34;luso-prolungato-di-melatonina-è-associato-a-un-rischio-di-insufficienza-cardiaca-più-alto-del-90&#34;&gt;L’uso prolungato di melatonina è associato a un rischio di insufficienza cardiaca più alto del 90%&lt;/h1&gt;&#xA;&lt;p&gt;Un’analisi preliminare ampia ha associato l’&lt;strong&gt;uso cronico di melatonina&lt;/strong&gt; a un incremento vicino al &lt;strong&gt;90%&lt;/strong&gt; del rischio di insufficienza cardiaca.&lt;/p&gt;&#xA;&lt;h2 id=&#34;study-design-and-key-results&#34;&gt;Disegno dello studio e risultati chiave&lt;/h2&gt;&#xA;&lt;p&gt;Cartelle elettroniche, prescrizioni ripetute; segnale più forte oltre un anno e a dosi alte.&lt;/p&gt;&#xA;&lt;h2 id=&#34;possible-biological-mechanisms&#34;&gt;Possibili meccanismi biologici&lt;/h2&gt;&#xA;&lt;p&gt;Tono vascolare, pressione, ritmi circadiani del cuore — o un bias di indicazione.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

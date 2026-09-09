@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Cloud-9 on RNews1.com</title>
+    <link>http://localhost:3003/es/tags/cloud-9/</link>
+    <description>Recent content in Cloud-9 on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+        <atom:link href="http://localhost:3003/es/tags/cloud-9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Los astrónomos encuentran una galaxia sin estrellas</title>
+      <link>http://localhost:3003/es/cosmos/astronomers-find-a-galaxy-without-stars/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/es/cosmos/astronomers-find-a-galaxy-without-stars/</guid>
+      <description>&lt;h1 id=&#34;los-astrónomos-encuentran-una-galaxia-sin-estrellas&#34;&gt;Los astrónomos encuentran una galaxia sin estrellas&lt;/h1&gt;
+&lt;h2 id=&#34;a-cloud-that-should-have-become-a-galaxy&#34;&gt;Una nube que debería haberse convertido en galaxia&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Cloud-9&lt;/strong&gt;, a &lt;strong&gt;14 millones&lt;/strong&gt; de años luz cerca de &lt;strong&gt;Messier 94&lt;/strong&gt;, parece una galaxia que nunca se encendió. Esa es una frase más inquietante de lo que parece a primera vista. Se supone que las galaxias son los lugares donde el gas, la gravedad y el tiempo se ponen de acuerdo para fabricar estrellas. El cielo nocturno es un catálogo de ese acuerdo. Cloud-9 resulta interesante porque el acuerdo parece haber fallado, y porque el fallo, si es real, no es un hueco en los datos. Es un objeto.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Jobs on RNews1.com</title>
+    <link>http://localhost:3003/hi/tags/jobs/</link>
+    <description>Recent content in Jobs on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>hi</language>
+    
+        <atom:link href="http://localhost:3003/hi/tags/jobs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MIT: AI की लागत के मामले में इंसान अब भी बेहतर</title>
+      <link>http://localhost:3003/hi/ai/mit-humans-still-beat-ai-costs/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/hi/ai/mit-humans-still-beat-ai-costs/</guid>
+      <description>&lt;h1 id=&#34;mit-ai-क-लगत-क-ममल-म-इसन-अब-भ-बहतर&#34;&gt;MIT: AI की लागत के मामले में इंसान अब भी बेहतर&lt;/h1&gt;
+&lt;p&gt;कंप्यूटर-विज़न ऑटोमेशन पर &lt;em&gt;MIT CSAIL&lt;/em&gt; और &lt;em&gt;Sloan&lt;/em&gt; का व्यापक रूप से दोहराया गया अध्ययन फिर से &lt;em&gt;देर-रात की AI फ़ीड्स&lt;/em&gt; में लौट आया है और एक &lt;strong&gt;विरोधाभासी नौकरियों का कथ्य&lt;/strong&gt; सामने ला रहा है: &lt;em&gt;तकनीकी संपर्क आर्थिक प्रतिस्थापन के बराबर नहीं है&lt;/em&gt;। दावा यह नहीं है कि कैमरे देख नहीं सकते। बात यह है कि देख पाना अपने-आप में लागत निकालने के समान नहीं है। &lt;strong&gt;इंस्टॉलेशन और संचालन लागतों&lt;/strong&gt; का मॉडल बनाने वाले शोधकर्ताओं ने पाया कि &lt;em&gt;विज़न कार्यों&lt;/em&gt; से जुड़े &lt;strong&gt;अमेरिकी वेतन का केवल लगभग 23%&lt;/strong&gt; हिस्सा आज &lt;em&gt;ऑटोमेशन के लिए लागत-प्रभावी&lt;/em&gt; दिखाई देता है। &lt;strong&gt;अधिकांश कंपनियाँ अब भी लोगों को प्राथमिकता देंगी&lt;/strong&gt;, जब &lt;strong&gt;कैमरों&lt;/strong&gt;, &lt;strong&gt;मॉडलों&lt;/strong&gt; और &lt;strong&gt;रखरखाव&lt;/strong&gt; की कीमत जोड़ दी जाए।&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

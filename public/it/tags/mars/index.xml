@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Mars on Meridian</title>
+		<link>http://localhost:8080/it/tags/mars/</link>
+		<description>Recent content in Mars on Meridian</description>
+		<generator>Hugo</generator>
+		<language>it</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/it/tags/mars/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Un sistema magmatico nascosto sotto Marte svela come il pianeta rosso ha costruito la crosta</title>
+				<link>http://localhost:8080/it/cosmos/mars-magmatic-system/</link>
+				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:8080/it/cosmos/mars-magmatic-system/</guid>
+				<description>&lt;h1 id=&#34;un-sistema-magmatico-nascosto-sotto-marte-svela-come-il-pianeta-rosso-ha-costruito-la-crosta&#34;&gt;Un sistema magmatico nascosto sotto Marte svela come il pianeta rosso ha costruito la crosta&lt;/h1&gt;&#xA;&lt;p&gt;Modelli e dati sismici, gravitazionali e da meteoriti indicano un &lt;strong&gt;sistema magmatico profondo&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;piecing-together-the-evidence&#34;&gt;Mettere insieme le prove&lt;/h2&gt;&#xA;&lt;p&gt;InSight, orbiter e meteoriti SNC convergono su camere a centinaia di chilometri di profondità.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-crust-built-without-plate-tectonics&#34;&gt;Una crosta senza tettonica a placche&lt;/h2&gt;&#xA;&lt;p&gt;Marte sembra cresciuto per impulsi magmatici verticali e province vulcaniche longeve.&lt;/p&gt;&#xA;&lt;h2 id=&#34;implications-for-planetary-habitability-and-exploration&#34;&gt;Abitabilità ed esplorazione&lt;/h2&gt;&#xA;&lt;p&gt;Il calore interno prolungato può aver sostenuto sistemi idrotermali più a lungo del previsto.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Subscription on RNews1.com</title>
+    <link>http://localhost:3003/fr/tags/subscription/</link>
+    <description>Recent content in Subscription on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+        <atom:link href="http://localhost:3003/fr/tags/subscription/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apple fait encore grimper les prix du streaming</title>
+      <link>http://localhost:3003/fr/technology/apple-jacks-up-streaming-prices-again/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/fr/technology/apple-jacks-up-streaming-prices-again/</guid>
+      <description>&lt;h1 id=&#34;apple-fait-encore-grimper-les-prix-du-streaming&#34;&gt;Apple fait encore grimper les prix du streaming&lt;/h1&gt;
+&lt;p&gt;Apple n’a jamais aimé avoir l’air bon marché. Elle aime avoir l’air &lt;em&gt;d’en valoir la peine&lt;/em&gt;. Cette distinction est la façon dont une entreprise peut facturer plus cher un téléphone et appeler cela du goût. C’est aussi la façon dont une entreprise peut relever une facture de streaming pour la &lt;strong&gt;quatrième&lt;/strong&gt; fois aux États-Unis et continuer d’affirmer, le visage impassible, que le service est une affaire.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

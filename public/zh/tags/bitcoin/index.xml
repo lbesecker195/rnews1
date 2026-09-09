@@ -1,0 +1,51 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Bitcoin on RNews1.com</title>
+    <link>http://localhost:3003/zh/tags/bitcoin/</link>
+    <description>Recent content in Bitcoin on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+        <atom:link href="http://localhost:3003/zh/tags/bitcoin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>现货现金而非杠杆推动 BTC 上涨</title>
+      <link>http://localhost:3003/zh/crypto/spot-cash-not-leverage-fuels-btc/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/zh/crypto/spot-cash-not-leverage-fuels-btc/</guid>
+      <description>&lt;h1 id=&#34;现货现金而非杠杆推动-btc-上涨&#34;&gt;现货现金而非杠杆推动 BTC 上涨&lt;/h1&gt;
+&lt;p&gt;比特币最新一轮上涨，从衍生品盘面来看，并不像一场拥挤的逼空行情。&lt;strong&gt;Blockonomi&lt;/strong&gt; 援引 &lt;strong&gt;QCP Capital&lt;/strong&gt; 的观点称，&lt;strong&gt;Bitcoin&lt;/strong&gt; 从约 &lt;strong&gt;$63,500&lt;/strong&gt; 向 &lt;strong&gt;$80,000&lt;/strong&gt; 攀升、期间一度超过 &lt;strong&gt;$81,000&lt;/strong&gt;，依靠的是&lt;em&gt;现货支撑&lt;/em&gt;而非&lt;em&gt;拥挤杠杆&lt;/em&gt;。这是对市场结构的判断，而不是价格目标。它表明，推动这枚代币从六万多美元中段升向八万美元的买盘来自现金和受监管的投资载体，而通常的杠杆指标——未平仓合约、资金费率和期权拥挤度——并未呈现爆发式行情的典型信号。&lt;/p&gt;
+&lt;p&gt;这一差别很重要，因为加密货币上涨有一套人们熟悉的信号。当永续期货规模膨胀、资金费率变得昂贵、以 &lt;strong&gt;BTC&lt;/strong&gt; 计价的合约未平仓量不断堆积时，行情往往是杠杆人群彼此叠加的结果。当这些指标收缩或保持安静，而代币仍然猛烈上涨时，盘面传达的是另一种故事：有人在买入资产，而不是期货。正如 &lt;strong&gt;Blockonomi&lt;/strong&gt; 报道的那样，&lt;strong&gt;QCP Capital&lt;/strong&gt; 属于后一种判断。&lt;/p&gt;
+&lt;h2 id=&#34;八个交易日与-28-billion-etf-现金流入&#34;&gt;八个交易日与 $2.8 billion ETF 现金流入&lt;/h2&gt;
+&lt;p&gt;账本中的现金一侧来自&lt;strong&gt;美国现货比特币 ETF&lt;/strong&gt;体系。这些产品连续&lt;strong&gt;八个交易日&lt;/strong&gt;获得了&lt;em&gt;约&lt;/em&gt; &lt;strong&gt;$2.8 billion&lt;/strong&gt; 的&lt;em&gt;净流入&lt;/em&gt;。净流入不是成交量，而是申购，即因为买家希望获得敞口、而卖家不愿退出，基金发行了新份额。&lt;em&gt;连续八个交易日&lt;/em&gt;是一个持续周期，并非单日数据。以当时的价格计算，&lt;em&gt;约&lt;/em&gt; &lt;strong&gt;$2.8 billion&lt;/strong&gt; 足以对一枚从约 &lt;strong&gt;$63,500&lt;/strong&gt; 向 &lt;strong&gt;$80,000&lt;/strong&gt; 攀升的代币产生影响。&lt;/p&gt;
+&lt;p&gt;现货 ETF 本质上是&lt;em&gt;现货&lt;/em&gt;买盘。它们不运行永续合约资金费率，也不会增加以 &lt;strong&gt;BTC&lt;/strong&gt; 计价的期货未平仓量。它们将代币纳入基金并发行份额。当 &lt;strong&gt;Blockonomi&lt;/strong&gt; 和 &lt;strong&gt;QCP Capital&lt;/strong&gt; 将&lt;em&gt;现货支撑&lt;/em&gt;与&lt;em&gt;拥挤杠杆&lt;/em&gt;进行对比时，证据就在这里：连续八个交易日通过美国投资载体实现 &lt;strong&gt;$2.8 billion&lt;/strong&gt; 的净买入，同时价格一度突破 &lt;strong&gt;$81,000&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这并不意味着 &lt;strong&gt;$2.8 billion&lt;/strong&gt; 中的每一美元都是新的长期配置。净流入是扣除赎回后的剩余量。但这确实意味着，在连续八个交易日里，这一剩余量持续为正且规模可观。在一个多年来一直将期货未平仓量视为信心代理指标的市场中，&lt;strong&gt;$2.8 billion&lt;/strong&gt; 的现金流入连续周期是更直接的代理指标。这也是行情能够上涨、却不像使用杠杆的机械原因。人们正在买入代币，而价格上涨并不需要期货账本扩张。&lt;/p&gt;
+&lt;h2 id=&#34;期货未平仓量却朝相反方向变化&#34;&gt;期货未平仓量却朝相反方向变化&lt;/h2&gt;
+&lt;p&gt;ETF 在吸收代币的同时，期货账本却在收缩。&lt;strong&gt;以 BTC 计价的期货未平仓量从 8 月中旬约 646,000 BTC 降至约 588,000 BTC&lt;/strong&gt;。这代表仓位收缩，而不是扩张。8 月中旬约 &lt;strong&gt;646,000 BTC&lt;/strong&gt; 的未平仓量，代表以代币本身计价的杠杆和对冲押注存量。约 &lt;strong&gt;588,000 BTC&lt;/strong&gt; 则是更小的存量。代币从约 &lt;strong&gt;$63,500&lt;/strong&gt; 向 &lt;strong&gt;$80,000&lt;/strong&gt; 上涨时，这一存量反而缩小了。&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>比特币 ETF 三十亿美元连涨告终</title>
+      <link>http://localhost:3003/zh/crypto/bitcoin-etfs-snap-three-billion-streak/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/zh/crypto/bitcoin-etfs-snap-three-billion-streak/</guid>
+      <description>&lt;h1 id=&#34;比特币-etf-三十亿美元连涨告终&#34;&gt;比特币 ETF 三十亿美元连涨告终&lt;/h1&gt;
+&lt;p&gt;买盘在周五中断。&lt;strong&gt;美国现货比特币 ETF&lt;/strong&gt; 录得 &lt;strong&gt;2.019 亿美元&lt;/strong&gt; &lt;em&gt;净流出&lt;/em&gt;，结束了持续 &lt;strong&gt;九天&lt;/strong&gt;、吸收了 &lt;strong&gt;30.4 亿美元&lt;/strong&gt; 的买入行情——据 &lt;strong&gt;Ecoinometrics&lt;/strong&gt; 和 &lt;strong&gt;Farside Investors&lt;/strong&gt;，这是 &lt;em&gt;本轮熊市最强劲且未曾中断的 ETF 买盘&lt;/em&gt;。&lt;strong&gt;比特币&lt;/strong&gt; 下跌约 &lt;strong&gt;3.2%&lt;/strong&gt;，至 &lt;strong&gt;77,696 美元&lt;/strong&gt;。曾为这轮下跌提供底部支撑的，是 ETF 份额每日持续申购。连续九个交易日，这一底部都稳住了。然后，它没有稳住。&lt;/p&gt;
+&lt;p&gt;单日 &lt;strong&gt;2.019 亿美元&lt;/strong&gt; 的赎回本身并不意味着市场格局发生变化。自产品于 2024 年 1 月推出以来，现货比特币 ETF 经历过更严重的资金冲刷。真正值得关注的是，那个一直奏效的机构习惯被打断了：在标的资产处于熊市走势之际，连续九个交易日吸收超过 30 亿美元资金。&lt;strong&gt;周五抹去了约 6.6%&lt;/strong&gt; 的九日累计流入。连涨结束了。至于什么取代了它，争论才刚刚开始。&lt;/p&gt;
+&lt;h2 id=&#34;谁在卖出谁勉强买入&#34;&gt;谁在卖出，谁勉强买入&lt;/h2&gt;
+&lt;p&gt;资金流出并不均匀，这正是基金层面数据公布后这类交易日一贯的样子。&lt;strong&gt;ARK 21Shares 的 ARKB&lt;/strong&gt; 以 &lt;strong&gt;1.149 亿美元&lt;/strong&gt; 领跌赎回，随后是 &lt;strong&gt;Bitwise BITB&lt;/strong&gt;（&lt;strong&gt;4,970 万美元&lt;/strong&gt;）、&lt;strong&gt;BlackRock IBIT&lt;/strong&gt;（&lt;strong&gt;3,340 万美元&lt;/strong&gt;）和 &lt;strong&gt;VanEck HODL&lt;/strong&gt;（&lt;strong&gt;1,320 万美元&lt;/strong&gt;）。&lt;strong&gt;Morgan Stanley&lt;/strong&gt; 的 &lt;strong&gt;930 万美元&lt;/strong&gt; 流入仅 &lt;em&gt;部分抵消&lt;/em&gt; 了这些流出。将这四笔赎回与唯一一笔规模 modest 的申购相加，得到的正是 &lt;strong&gt;2.019 亿美元&lt;/strong&gt; 净流出。&lt;/p&gt;
+&lt;h3 id=&#34;龙头也出现了少量流出&#34;&gt;龙头也出现了少量流出&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;ARKB&lt;/strong&gt; 成为领跌者并不神秘，这更像是一条性格注脚。ARK 的加密业务长期以来都是现货比特币 ETF 体系中高贝塔的代表：规模小于 &lt;strong&gt;IBIT&lt;/strong&gt;，当贴近散户的买盘转向时，膨胀和收缩都更快。&lt;strong&gt;ARKB&lt;/strong&gt; 单日 &lt;strong&gt;1.149 亿美元&lt;/strong&gt; 的流出，很大程度上体现了该基金的特征。随后 &lt;strong&gt;Bitwise&lt;/strong&gt; 的 &lt;strong&gt;BITB&lt;/strong&gt; 流出 &lt;strong&gt;4,970 万美元&lt;/strong&gt;，则将同一故事延伸到了另一家非巨头发行商。更受关注的是 &lt;strong&gt;BlackRock&lt;/strong&gt; 的数据。&lt;strong&gt;IBIT&lt;/strong&gt; 是旗舰产品，是金融顾问真正熟悉的产品，也是把曾经新奇的资产变成可以放进模型投资组合中的股票代码的产品。&lt;strong&gt;IBIT&lt;/strong&gt; 流出 &lt;strong&gt;3,340 万美元&lt;/strong&gt; 并不是投资者争相逃离该基金，但也绝非无关紧要，因为在本轮周期此前的每次回调中，&lt;strong&gt;IBIT&lt;/strong&gt; 保持&lt;em&gt;资金流入&lt;/em&gt;一直是心理支撑。&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

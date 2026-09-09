@@ -1,0 +1,45 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>FOI on RNews1.com</title>
+    <link>http://localhost:3003/zh/tags/foi/</link>
+    <description>Recent content in FOI on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+        <atom:link href="http://localhost:3003/zh/tags/foi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AI 将垃圾投诉变成法律简报</title>
+      <link>http://localhost:3003/zh/ai/ai-turns-bin-moans-into-briefs/</link>
+      <pubDate>Sat, 29 Aug 2026 18:11:00 -0700</pubDate>
+      <guid>http://localhost:3003/zh/ai/ai-turns-bin-moans-into-briefs/</guid>
+      <description>&lt;h1 id=&#34;ai-将垃圾投诉变成法律简报&#34;&gt;AI 将垃圾投诉变成法律简报&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;英国地方议会、学校和监管机构&lt;/strong&gt;称，&lt;strong&gt;AI 起草的投诉&lt;/strong&gt;在&lt;strong&gt;篇幅和复杂程度&lt;/strong&gt;上激增，&lt;strong&gt;BBC&lt;/strong&gt; 报道称，&lt;strong&gt;首尔经济日报&lt;/strong&gt;于 &lt;strong&gt;8 月 30 日&lt;/strong&gt;进一步报道了这一消息。这个象征几乎带有喜剧色彩，直到页数真正摆在眼前。&lt;strong&gt;地方政府律师协会&lt;/strong&gt;的 &lt;strong&gt;Deborah Evans&lt;/strong&gt; 表示，一封&lt;strong&gt;过去一页 A4 纸就能写下的垃圾未清运投诉&lt;/strong&gt;，如今动辄 &lt;strong&gt;19—27 页&lt;/strong&gt;，充斥着&lt;strong&gt;判例法&lt;/strong&gt;和&lt;strong&gt;议会法案&lt;/strong&gt;——而且&lt;strong&gt;经常引用错误&lt;/strong&gt;——这种篇幅迫使&lt;strong&gt;工作人员请律师介入&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这不是一个关于居民获得新权利、要求清空垃圾桶的故事。这讲的是，当英国最古老的地方政府抱怨披上法律简报的外衣时，会发生什么。居民现在想要的，和去年一样：补做一次漏掉的收集、解释一项学校决定、公开一份记录。如今，他们有聊天机器人，只要提出要求，机器人就会用法定语言把这些诉求包装起来。&lt;strong&gt;地方议会&lt;/strong&gt;、&lt;strong&gt;学校&lt;/strong&gt;和&lt;strong&gt;监管机构&lt;/strong&gt;的官员都说，问题在于这个&lt;em&gt;包装&lt;/em&gt;本身。申诉材料看起来很专业。它们长达数十页。它们引用了并不完全理解的法律。而那些负责回复的人，已经没有足够时间。&lt;/p&gt;
+&lt;p&gt;Evans &lt;strong&gt;估计&lt;/strong&gt;，处理这波增长可能需要&lt;strong&gt;将投诉处理人员增加一倍&lt;/strong&gt;，&lt;strong&gt;否则回复会变慢&lt;/strong&gt;。这是她摆在桌面上的仅有两根杠杆。在她看来，并不存在第三种选择，让信件自行变短。&lt;/p&gt;
+&lt;h2 id=&#34;从一页-a4-到-27-页的法律简报&#34;&gt;从一页 A4 到 27 页的法律简报&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;一页 A4&lt;/strong&gt; 是每位英国投诉处理人员都熟悉的单位。它就是一张纸。上面可以写日期、街道、漏收的垃圾车，以及要求回来补收的请求。工作人员可以在接听电话的间隙读完它，也可以用一个收集时间和一声道歉作答。&lt;strong&gt;19 至 27 页&lt;/strong&gt;则是另一种东西。它足以容纳程序历史、职责清单，以及要求一线工作人员无权批准的补救措施。它长到让接收方的&lt;em&gt;任何人&lt;/em&gt;都无法把它当作普通抱怨处理。&lt;/p&gt;
+&lt;p&gt;Evans 举的例子之所以具体，是因为它很普通。抱怨仍然是&lt;em&gt;垃圾没有被清空&lt;/em&gt;。但文件已经不再是一句牢骚，而是一份&lt;strong&gt;充斥着判例法和议会法案&lt;/strong&gt;的材料。聊天机器人不知道，漏收垃圾通常是物流问题。它知道英国公法充满职责、规章和已裁判案件；如果被要求写得全面，它就会把这些内容塞进信里。当这些引文被&lt;strong&gt;错误引用&lt;/strong&gt;时，信件看起来仍然&lt;em&gt;像一份法律简报&lt;/em&gt;。改变工作流程的，正是这种外观。&lt;/p&gt;
+&lt;p&gt;投诉处理人员可以处理一封一页纸的垃圾投诉信。一份引用议会法案的二十页文件，在机构层面上会被视为法律问题，直到律师确认它不是。这就是 Evans 所说工作人员被&lt;strong&gt;迫请律师介入&lt;/strong&gt;的原因。这种介入不是偏好，而是风险决策。对于一份&lt;em&gt;看起来&lt;/em&gt;威胁要申请司法审查的材料，只回两段话，可能会让机构陷入比漏收一轮垃圾更严重的麻烦。把材料交给上级是保持安全的方式——也是队列不断增长的方式。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;BBC&lt;/strong&gt; 的报道在 &lt;strong&gt;8 月 30 日&lt;/strong&gt;被&lt;strong&gt;首尔经济日报&lt;/strong&gt;转载并扩大传播，将其描述为一种共同处境，而不是某个地方议会糟糕的一周。&lt;strong&gt;地方议会、学校和监管机构&lt;/strong&gt;都要处理投诉。它们都受时限约束。如今，它们突然无法再以过去的篇幅处理这些投诉。&lt;/p&gt;
+&lt;h2 id=&#34;增加一倍人员还是让队列增长&#34;&gt;增加一倍人员，还是让队列增长&lt;/h2&gt;
+&lt;p&gt;Evans 的估计有意呈现为二选一。&lt;strong&gt;将投诉处理人员增加一倍&lt;/strong&gt;是预算层面的表述。&lt;strong&gt;回复变慢&lt;/strong&gt;则是服务层面的表述。地方政府多年来一直在削减后台团队，而法定投诉时限却没有改变。如果同样数量的&lt;em&gt;事件&lt;/em&gt;——漏收垃圾、维修延误、有争议的决定——如今产生了多得多的&lt;em&gt;文字材料&lt;/em&gt;，那就意味着现有编制无法承受。&lt;/p&gt;
+&lt;p&gt;增加一倍不是夸张，而是她对新信件带来多少额外工作的衡量。如果一页纸的抱怨只占用一天中可估算的一小段时间，那么一份必须核查&lt;strong&gt;错误引用&lt;/strong&gt;法律的 &lt;strong&gt;19—27 页&lt;/strong&gt;材料，就不可能占用同样的一小段时间。它还要占用律师的时间。如果页数继续增加，保持时限的唯一办法就是增加人员。如果页数继续增加而人员不变，&lt;strong&gt;回复就会变慢&lt;/strong&gt;。居民于是再次写信。第二封信可能和第一封一样长。这个模型不会感到疲惫。&lt;/p&gt;
+&lt;p&gt;这就是&lt;strong&gt;篇幅和复杂程度&lt;/strong&gt;不断&lt;em&gt;激增&lt;/em&gt;的案件量中所包含的行政陷阱。复杂性不仅来自形容词和附件，还来自在任何人点击发送前核实每一条引文的必要性。被错误写出的&lt;strong&gt;议会法案&lt;/strong&gt;仍然必须查找。为错误论点引用的&lt;strong&gt;判例法&lt;/strong&gt;仍然必须阅读到足以发现错误的程度。Evans 所描述的律师介入，是不愿意在公众面前犯错所产生的成本。&lt;/p&gt;
+&lt;h2 id=&#34;学校以及多份申诉带来的压力&#34;&gt;学校，以及多份申诉带来的压力&lt;/h2&gt;
+&lt;p&gt;学校所面对的版本不是一封巨大的垃圾投诉信，而是&lt;em&gt;多重性&lt;/em&gt;。&lt;strong&gt;学校和学院领导协会&lt;/strong&gt;的 &lt;strong&gt;Pepe Di&amp;rsquo;Iasio&lt;/strong&gt; 表示，&lt;strong&gt;家长现在会提交多份 AI 生成的投诉，给教师造成压力&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;教师不是投诉处理团队。他们往往就是投诉&lt;em&gt;针对的人&lt;/em&gt;，也往往是必须起草第一份回复的人。当家长提交&lt;strong&gt;多份&lt;/strong&gt; AI 生成的投诉时，压力不只是文书工作。它还意味着教学时间被占用，意味着被投诉的孩子失去时间，也意味着其他等待会面的家庭都必须继续等待。&lt;/p&gt;
+&lt;p&gt;Di&amp;rsquo;Iasio 所在的组织代表学校和学院领导——他们处在家长、教师和管理机构之间。他们警告说，聊天机器人让&lt;em&gt;提出&lt;/em&gt;投诉变得廉价，却让&lt;em&gt;结束&lt;/em&gt;投诉变得昂贵。如果第一份回复不令人满意，模型会很乐意再生成第二封信。它还会生成第三封。每一封都可能带有 Evans 在地方议会案例中描述的那种真实法律与&lt;strong&gt;错误引用&lt;/strong&gt;混杂的内容。每一封都可能要求书面回复。每一封都落到一个已经排满课表的工作人员手中。&lt;/p&gt;
+&lt;p&gt;重要的是&lt;strong&gt;多份&lt;/strong&gt;这个词。一封长信是阅读问题。一连串长信则是一场学校无法把它当作一次事件来配置人员应对的行动。领导者不得不把课堂事实转译成回复，而这些回复还会被同样的工具拿来与下一份草稿引用的&lt;strong&gt;判例法&lt;/strong&gt;进行比较。&lt;/p&gt;
+&lt;h2 id=&#34;foi错误引文与隐性工作量&#34;&gt;FOI、错误引文与“隐性工作量”&lt;/h2&gt;
+&lt;p&gt;同样的模式已经进入信息透明工作。&lt;strong&gt;英国信息专员办公室&lt;/strong&gt;和&lt;strong&gt;数据保护官员&lt;/strong&gt;警告称，&lt;strong&gt;AI 辅助的 FOI 请求&lt;/strong&gt;同样会通过&lt;strong&gt;错误引文&lt;/strong&gt;和&lt;strong&gt;范围庞大的要求&lt;/strong&gt;增加*“隐性工作量”*。&lt;/p&gt;
+&lt;p&gt;信息自由已经是一套权利与负担并存的流程。请求人可以提出请求。公共机构必须进行检索，考虑哪些信息可以不公开，并在规定时限内回复。在这一警告中，工作量的&lt;em&gt;隐性&lt;/em&gt;部分并不是请求本身的存在，而是法律上&lt;strong&gt;错误&lt;/strong&gt;、要求范围又&lt;strong&gt;庞大&lt;/strong&gt;时产生的额外工作。一个不知道适用哪种信息制度的聊天机器人，仍然会写得仿佛自己知道。一个被要求请求所有内容的聊天机器人，会起草一份要求一切的请求。&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

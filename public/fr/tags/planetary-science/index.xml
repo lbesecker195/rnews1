@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Planetary Science on Meridian</title>
+		<link>http://localhost:8080/fr/tags/planetary-science/</link>
+		<description>Recent content in Planetary Science on Meridian</description>
+		<generator>Hugo</generator>
+		<language>fr</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/fr/tags/planetary-science/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Un système magmatique caché sous Mars révèle comment la planète rouge a bâti sa croûte</title>
+				<link>http://localhost:8080/fr/cosmos/mars-magmatic-system/</link>
+				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:8080/fr/cosmos/mars-magmatic-system/</guid>
+				<description>&lt;h1 id=&#34;un-système-magmatique-caché-sous-mars-révèle-comment-la-planète-rouge-a-bâti-sa-croûte&#34;&gt;Un système magmatique caché sous Mars révèle comment la planète rouge a bâti sa croûte&lt;/h1&gt;&#xA;&lt;p&gt;Modèles et données sismiques, gravimétriques et météoritiques pointent un &lt;strong&gt;système magmatique profond&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;piecing-together-the-evidence&#34;&gt;Assembler les preuves&lt;/h2&gt;&#xA;&lt;p&gt;InSight, orbiteurs et météorites SNC convergent vers des chambres à des centaines de kilomètres de profondeur.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-crust-built-without-plate-tectonics&#34;&gt;Une croûte sans tectonique des plaques&lt;/h2&gt;&#xA;&lt;p&gt;Mars aurait grandi par impulsions magmatiques verticales et provinces volcaniques durables.&lt;/p&gt;&#xA;&lt;h2 id=&#34;implications-for-planetary-habitability-and-exploration&#34;&gt;Habitabilité et exploration&lt;/h2&gt;&#xA;&lt;p&gt;La chaleur interne prolongée a pu soutenir des systèmes hydrothermaux plus longtemps que prévu.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

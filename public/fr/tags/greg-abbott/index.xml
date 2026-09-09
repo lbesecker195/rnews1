@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Greg Abbott on RNews1.com</title>
+    <link>http://localhost:3003/fr/tags/greg-abbott/</link>
+    <description>Recent content in Greg Abbott on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+        <atom:link href="http://localhost:3003/fr/tags/greg-abbott/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Abbott gèle le financement des caméras Flock au Texas</title>
+      <link>http://localhost:3003/fr/technology/abbott-freezes-texas-flock-camera-funding/</link>
+      <pubDate>Sat, 29 Aug 2026 18:11:00 -0700</pubDate>
+      <guid>http://localhost:3003/fr/technology/abbott-freezes-texas-flock-camera-funding/</guid>
+      <description>&lt;h1 id=&#34;abbott-gèle-le-financement-des-caméras-flock-au-texas&#34;&gt;Abbott gèle le financement des caméras Flock au Texas&lt;/h1&gt;
+&lt;p&gt;Le gouverneur du Texas, &lt;strong&gt;Greg Abbott&lt;/strong&gt;, a ordonné aux agences de l’État de suspendre le financement des caméras de lecture de plaques alimentées par l’IA de &lt;strong&gt;Flock Safety&lt;/strong&gt;, alors que la contestation liée à la vie privée et les accusations de détournement policier se multiplient. Le &lt;strong&gt;Texas Tribune&lt;/strong&gt; a indiqué que l’ordre intervenait au moment où il préparait une enquête montrant qu’une agence de l’État avait injecté au moins &lt;strong&gt;30 millions de dollars&lt;/strong&gt; dans le réseau Flock par l’intermédiaire de subventions destinées aux polices locales.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

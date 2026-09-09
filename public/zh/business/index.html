@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Businesses | RNews1.com</title>
+  <meta name="description" content="科学、健康与宇宙。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/zh/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="栏目">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/ai/"
+              
+            >人工智能</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/business/"
+              aria-current="page"
+            >商业</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/zh/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/crypto/"
+              
+            >加密货币</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/entertainment/"
+              
+            >文娱</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/sports/"
+              
+            >体育</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/technology/"
+              
+            >科技</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/usa/"
+              
+            >美国</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/world/"
+              
+            >国际</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/health/"
+              
+            >健康</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/science/"
+              
+            >科学</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/cosmos/"
+              
+            >宇宙</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="菜单">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="栏目">
+          
+            
+              
+              
+              
+              <a
+                href="/zh/ai/"
+                
+              >人工智能</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/business/"
+                aria-current="page"
+              >商业</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/zh/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/crypto/"
+                
+              >加密货币</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/entertainment/"
+                
+              >文娱</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/sports/"
+                
+              >体育</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/technology/"
+                
+              >科技</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/usa/"
+                
+              >美国</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/world/"
+                
+              >国际</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/health/"
+                
+              >健康</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/science/"
+                
+              >科学</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/cosmos/"
+                
+              >宇宙</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+          商业</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/zh/business/from-iphone-repair-to-cybersecurity-leadership/">从 iPhone 维修到网络安全领导者</a></h2>
+    <p class="summary">康涅狄格大学学生贾斯汀·法戈如何将家庭副业转变为蓬勃发展的中小企业网络安全事业。</p>
+    <a class="read-more" href="/zh/business/from-iphone-repair-to-cybersecurity-leadership/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/business/autonomous-vehicles-transform-accessibility-and-independence/">自动驾驶汽车改变无障碍出行与独立生活</a></h2>
+    <p class="summary">特斯拉 Cybercab 代表着面向视障人士的出行解决方案发生了变革性转变，有望帮助他们重获独立，并重塑无障碍技术市场。</p>
+    <a class="read-more" href="/zh/business/autonomous-vehicles-transform-accessibility-and-independence/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/business/autonomous-vehicles-transforming-accessibility-independence/">改变无障碍独立性的自动驾驶汽车</a></h2>
+    <p class="summary">特斯拉 Cybercab 象征着视力障碍人士出行解决方案的一次范式转变，展示了自动驾驶汽车技术如何恢复个人独立性，并重塑残障人士的便利设施。</p>
+    <a class="read-more" href="/zh/business/autonomous-vehicles-transforming-accessibility-independence/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/business/boring-company-seeks-investor-support-amid-growth/">无聊公司在增长之际寻求投资者支持</a></h2>
+    <p class="summary">马斯克旗下的无聊公司正积极寻求投资者在招聘和业务拓展方面的协助，释放出加速扩张计划的信号。</p>
+    <a class="read-more" href="/zh/business/boring-company-seeks-investor-support-amid-growth/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/business/boring-company-seeks-strategic-investor-support/">Boring Company 寻求战略投资者支持</a></h2>
+    <p class="summary">埃隆·马斯克旗下的 Boring Company 正积极招募投资者，以扩大员工队伍并加快业务拓展工作。</p>
+    <a class="read-more" href="/zh/business/boring-company-seeks-strategic-investor-support/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/business/boring-company-seeks-investor-help-recruiting/">Boring Company 寻求投资者协助招聘</a></h2>
+    <p class="summary">埃隆·马斯克的 Boring Company 正利用其投资者网络加快招聘和业务开发，随着基础设施机遇不断增加，这表明公司正积极推进扩张计划。</p>
+    <a class="read-more" href="/zh/business/boring-company-seeks-investor-help-recruiting/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/business/fox-business-host-sues-whole-foods-over/">福克斯商业频道主持人因狗袭事件起诉全食超市</a></h2>
+    <p class="summary">一位知名福克斯商业频道人士在其一处门店发生严重狗袭事件后，向全食超市提起法律诉讼，引发了对门店责任和安全协议的质疑。</p>
+    <a class="read-more" href="/zh/business/fox-business-host-sues-whole-foods-over/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/business/fox-business-host-files-lawsuit-against-whole/">福克斯商业频道主持人起诉全食超市</a></h2>
+    <p class="summary">一位知名福克斯商业频道人士在某门店发生严重狗袭事件后，正对全食超市提起法律诉讼。</p>
+    <a class="read-more" href="/zh/business/fox-business-host-files-lawsuit-against-whole/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/business/us-seeks-35-venezuela-oil-stake/">美国寻求持有委内瑞拉石油35%的股份</a></h2>
+    <p class="summary">《华尔街日报》周六报道称，华盛顿计划持有委内瑞拉商人Alejandro Betancourt旗下North American Blue Energy Partners 35%的被动股权，并享有按成本优先购买20%产量的权利。据称，五角大楼战略资本办公室将通过面值极低的认股权证来构建这笔交易，从而无需大量现金支出即可获得 …</p>
+    <a class="read-more" href="/zh/business/us-seeks-35-venezuela-oil-stake/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/business/glencore-writes-off-entire-radiant-hit/">嘉能可将 Radiant 事件全部冲销</a></h2>
+    <p class="summary">知情人士告诉彭博，嘉能可计提了约4.8亿美元准备金，覆盖其对铁矿石交易商 Radiant World 的全部净敞口。据《金融时报》周六援引 Radiant 一封信件报道，Radiant 欠嘉能可9.51亿美元，而嘉能可欠 Radiant 4.71亿美元；消息人士证实了这些数字，其中包括 Sapphire …</p>
+    <a class="read-more" href="/zh/business/glencore-writes-off-entire-radiant-hit/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/business/chipotle-prank-influencer-pleads-guilty/">Chipotle 恶作剧网红认罪</a></h2>
+    <p class="summary">据美联社报道，以“Heston James”为名发布内容的网红 Heston James Cobb 周五在亚利桑那州承认犯有刑事冒充罪；他曾在坦佩（凤凰城郊区）的企业进行混乱的“接管”恶作剧时冒充员工。坦佩警方于 2025 年 7 月逮捕了他，此前他与他人进入员工专属区域并拒绝离开。在一段视频中，Cobb 穿着 …</p>
+    <a class="read-more" href="/zh/business/chipotle-prank-influencer-pleads-guilty/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/business/memory-chips-now-rival-gold-prices/">内存芯片如今堪比黄金价格</a></h2>
+    <p class="summary">韩国贸易统计促进院表示，8月1日至20日，DRAM芯片（而非内存模块）出口均价达到每公斤92,183美元，同比上涨401%，是ChatGPT发布后2023年1月低点的12.5倍；一公斤韩国DRAM的价值约相当于620克24K黄金、1.53公斤铂金和41.7公斤白银。同一时期出口额跃升505%，达到98.1亿美元。AI数 …</p>
+    <a class="read-more" href="/zh/business/memory-chips-now-rival-gold-prices/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/business/openai-cuts-cursor-after-musk-deal/">马斯克交易后，OpenAI切断Cursor供应</a></h2>
+    <p class="summary">OpenAI周五表示，在SpaceX于8月14日完成对这家AI编程初创公司的600亿美元收购后，将停止向Cursor提供模型。拟定的终止日期为2026年11月12日，OpenAI表示不会向Cursor提供未来的模型。该实验室写道，&#34;根据我们对埃隆·马斯克旗下公司违反合同的经历，我们无法确信SpaceX会在我们的服务条款 …</p>
+    <a class="read-more" href="/zh/business/openai-cuts-cursor-after-musk-deal/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/business/tim-cooks-apple-era-ends-tuesday/">蒂姆·库克的苹果时代于周二落幕</a></h2>
+    <p class="summary">蒂姆·库克将于周二（9月1日）卸任苹果首席执行官，结束始于史蒂夫·乔布斯于2011年8月辞职的15年任期。自2001年加入苹果、2021年起担任高级副总裁的硬件工程负责人约翰·特努斯接任。库克将留任执行董事长，负责处理政策事务，包括与白宫的关系。苹果在 Caffe Macs 举办了告别活动，OneRepublic 登台 …</p>
+    <a class="read-more" href="/zh/business/tim-cooks-apple-era-ends-tuesday/">阅读全文</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="语言">
+        
+          <a no-follow href="/en/business/">English</a>
+        
+          <a no-follow href="/es/business/">Español</a>
+        
+          <a no-follow href="/it/business/">Italiano</a>
+        
+          <a no-follow href="/fr/business/">Français</a>
+        
+          <a no-follow href="/ar/business/">العربية</a>
+        
+          <a no-follow href="/la/business/">Latina</a>
+        
+          <a no-follow href="/hi/business/">हिन्दी</a>
+        
+          <a no-follow href="/bn/business/">বাংলা</a>
+        
+          <a no-follow href="/pt/business/">Português</a>
+        
+          <a no-follow href="/ru/business/">Русский</a>
+        
+          <a no-follow href="/ur/business/">اردو</a>
+        
+          <a no-follow href="/zh/business/" aria-current="page">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Mental Health on RNews1.com</title>
+    <link>http://localhost:3003/zh/tags/mental-health/</link>
+    <description>Recent content in Mental Health on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+        <atom:link href="http://localhost:3003/zh/tags/mental-health/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FDA 批准首个个性化非药物 PTSD 疗法</title>
+      <link>http://localhost:3003/zh/health/fda-ptsd-nonmedication-treatment/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3003/zh/health/fda-ptsd-nonmedication-treatment/</guid>
+      <description>&lt;h1 id=&#34;fda-批准首个个性化非药物-ptsd-疗法&#34;&gt;FDA 批准首个个性化非药物 PTSD 疗法&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;FDA&lt;/strong&gt; 批准了一款神经调控与生物反馈设备，可按每位 PTSD 患者的生理状态调整治疗，而不以药物为一线。&lt;/p&gt;
+&lt;h2 id=&#34;how-the-personalized-system-works&#34;&gt;个性化系统如何工作&lt;/h2&gt;
+&lt;p&gt;传感器记录心率、皮肤电导和注意模式。模型调节视觉、听觉或轻度神经刺激，以降低高警觉并帮助安全地处理记忆。&lt;/p&gt;
+&lt;h2 id=&#34;clinical-evidence-supporting-clearance&#34;&gt;支持批准的临床证据&lt;/h2&gt;
+&lt;p&gt;对照试验显示，相对常规护理，PTSD 量表出现具有临床意义的下降，不良事件多为轻度、短暂。&lt;/p&gt;
+&lt;h2 id=&#34;why-nonmedication-options-matter&#34;&gt;为何非药物选择重要&lt;/h2&gt;
+&lt;p&gt;许多患者因副作用或疗效不全停用 SSRI。非药物路径可与心理治疗并行，扩大工具箱。&lt;/p&gt;
+&lt;h2 id=&#34;implementation-and-access-considerations&#34;&gt;实施与可及性&lt;/h2&gt;
+&lt;p&gt;落地需要临床培训、保险覆盖，以及门诊乃至居家监督使用的规范。&lt;/p&gt;
+&lt;h2 id=&#34;broader-context-in-mental-health-innovation&#34;&gt;心理健康创新的更广背景&lt;/h2&gt;
+&lt;p&gt;它属于寻求药物级证据的数字疗法与监管器械浪潮。&lt;/p&gt;
+&lt;h2 id=&#34;looking-ahead&#34;&gt;展望&lt;/h2&gt;
+&lt;p&gt;人们期待 12 个月持久性数据及退伍军人、人际暴力和共病亚组分析。&lt;/p&gt;
+&lt;h2 id=&#34;integration-with-existing-care-pathways&#34;&gt;与现有诊疗路径整合&lt;/h2&gt;
+&lt;p&gt;最有希望的不是取代暴露疗法或药物，而是在患者停滞处&lt;em&gt;嵌入&lt;/em&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;equity-and-access-challenges&#34;&gt;公平与可及挑战&lt;/h2&gt;
+&lt;p&gt;若无报销政策，创新可能拉大资金充足系统与社区医疗的差距。&lt;/p&gt;
+&lt;h2 id=&#34;a-milestone-in-a-longer-journey&#34;&gt;漫长路上的一座里程碑&lt;/h2&gt;
+&lt;p&gt;批准只是开始；真正的检验是能否送到最需要的人手中。&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

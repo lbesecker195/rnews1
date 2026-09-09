@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>CSAIL on RNews1.com</title>
+    <link>http://localhost:3003/es/tags/csail/</link>
+    <description>Recent content in CSAIL on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+        <atom:link href="http://localhost:3003/es/tags/csail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MIT: Los humanos siguen siendo más baratos que la IA</title>
+      <link>http://localhost:3003/es/ai/mit-humans-still-beat-ai-costs/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/es/ai/mit-humans-still-beat-ai-costs/</guid>
+      <description>&lt;h1 id=&#34;mit-los-humanos-siguen-siendo-más-baratos-que-la-ia&#34;&gt;MIT: Los humanos siguen siendo más baratos que la IA&lt;/h1&gt;
+&lt;p&gt;Un estudio del &lt;strong&gt;MIT CSAIL&lt;/strong&gt; y &lt;strong&gt;Sloan&lt;/strong&gt; sobre la &lt;em&gt;automatización mediante visión artificial&lt;/em&gt;, ampliamente recirculado, vuelve a aparecer en los &lt;em&gt;feeds de IA de última hora&lt;/em&gt; y promueve una &lt;strong&gt;narrativa contraria sobre el empleo&lt;/strong&gt;: &lt;em&gt;la exposición técnica no equivale a sustitución económica&lt;/em&gt;. La afirmación no es que las cámaras no puedan ver. Es que ver no equivale a amortizarse. Los investigadores que modelaron los &lt;strong&gt;costos de instalación y operación&lt;/strong&gt; descubrieron que solo &lt;strong&gt;alrededor del 23 % de los salarios estadounidenses&lt;/strong&gt; vinculados a &lt;em&gt;tareas de visión&lt;/em&gt; parecen &lt;em&gt;rentables de automatizar hoy&lt;/em&gt;. &lt;strong&gt;La mayoría de las empresas seguiría prefiriendo a las personas&lt;/strong&gt; una vez contabilizadas las &lt;strong&gt;cámaras&lt;/strong&gt;, los &lt;strong&gt;modelos&lt;/strong&gt; y el &lt;strong&gt;mantenimiento&lt;/strong&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

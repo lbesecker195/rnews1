@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Nociception on RNews1.com</title>
+    <link>http://localhost:3003/ru/tags/nociception/</link>
+    <description>Recent content in Nociception on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    
+        <atom:link href="http://localhost:3003/ru/tags/nociception/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Сенсор в гильзе предупреждает о повреждении тканей</title>
+      <link>http://localhost:3003/ru/technology/socket-sensor-warns-before-tissue-injury/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/ru/technology/socket-sensor-warns-before-tissue-injury/</guid>
+      <description>&lt;h1 id=&#34;сенсор-в-гильзе-предупреждает-о-повреждении-тканей&#34;&gt;Сенсор в гильзе предупреждает о повреждении тканей&lt;/h1&gt;
+&lt;p&gt;Протезная гильза — это плотно прилегающая чашеобразная конструкция, несущая нагрузку. Для человека, который ходит на культе конечности, она одновременно представляет собой источник риска. Давление, сохраняющееся слишком долго или сосредоточенное на неподходящем участке кожи, может повредить ткани, уже пережившие ампутацию, заживление и ежедневное трение лайнера. Исследователи из &lt;strong&gt;Чжэцзянского технологического университета&lt;/strong&gt; создали &lt;em&gt;биоинспирированный&lt;/em&gt; сенсорный слой, предназначенный для установки внутри протезной гильзы и выявления давления, способного повредить кожу культи, сообщил &lt;strong&gt;ScienceAlert&lt;/strong&gt; со ссылкой на исследование в журнале &lt;strong&gt;Cyborg and Bionic Systems&lt;/strong&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

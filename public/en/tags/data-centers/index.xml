@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Data Centers on RNews1.com</title>
+    <link>http://localhost:3003/en/tags/data-centers/</link>
+    <description>Recent content in Data Centers on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+        <atom:link href="http://localhost:3003/en/tags/data-centers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Musk Says Grid Gear Strands GPUs</title>
+      <link>http://localhost:3003/en/ai/musk-says-grid-gear-strands-gpus/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/en/ai/musk-says-grid-gear-strands-gpus/</guid>
+      <description>&lt;h1 id=&#34;musk-says-grid-gear-strands-gpus&#34;&gt;Musk Says Grid Gear Strands GPUs&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Elon Musk&lt;/strong&gt; posted on &lt;strong&gt;X&lt;/strong&gt; on &lt;strong&gt;August 29, 2026&lt;/strong&gt; that &lt;em&gt;roughly&lt;/em&gt; &lt;strong&gt;15 gigawatts&lt;/strong&gt; of &lt;strong&gt;AI computing capacity&lt;/strong&gt; due online in &lt;strong&gt;2027&lt;/strong&gt; will likely &lt;em&gt;sit dark&lt;/em&gt; because &lt;strong&gt;power infrastructure&lt;/strong&gt; will not be ready. &lt;strong&gt;Crypto Briefing&lt;/strong&gt; reports the warning. The claim is not that the chips will fail to ship. It is that the gear around the chips—the grid iron, the copper, the cooling, the fabric—will not be in place when the servers are.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

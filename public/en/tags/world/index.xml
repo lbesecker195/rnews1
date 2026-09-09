@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>World on RNews1.com</title>
+    <link>http://localhost:3003/en/tags/world/</link>
+    <description>Recent content in World on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+        <atom:link href="http://localhost:3003/en/tags/world/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UN Adopts Revolutionary Map Projection System</title>
+      <link>http://localhost:3003/en/world/un-adopts-revolutionary-map-projection-system/</link>
+      <pubDate>Sat, 05 Sep 2026 20:42:27 +0000</pubDate>
+      <guid>http://localhost:3003/en/world/un-adopts-revolutionary-map-projection-system/</guid>
+      <description>&lt;h1 id=&#34;un-adopts-revolutionary-new-world-map-to-correct-geographic-proportions&#34;&gt;UN Adopts Revolutionary New World Map to Correct Geographic Proportions&lt;/h1&gt;
+&lt;h2 id=&#34;a-historic-step-toward-accurate-global-representation&#34;&gt;A Historic Step Toward Accurate Global Representation&lt;/h2&gt;
+&lt;p&gt;In a landmark decision that challenges over four centuries of cartographic convention, the United Nations has officially adopted a new map projection system designed to accurately represent the true proportions of countries and continents across the globe. This significant shift moves away from the widely-used Mercator projection, which has dominated world maps since its introduction in 1569 and has long been criticized for distorting the relative sizes of nations, particularly affecting how we perceive countries in the Global South.&lt;/p&gt;</description>
+      
+      
+      
+      <tweet>🌍 UN officially adopts new world map projection! Africa, Asia &amp; South America finally shown in true proportions. A 400-year-old distortion corrected. Geography matters. Equity matters. #Cartography #GlobalEquity www.rnews1.com/en/world/un-adopts-revolutionary-map-projection-system/
+@Reuters @AP #WorldNews #International #GlobalNews</tweet>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

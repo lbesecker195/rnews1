@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Magmatism on Meridian</title>
+		<link>http://localhost:8080/en/tags/magmatism/</link>
+		<description>Recent content in Magmatism on Meridian</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 14:40:00 -0700</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/en/tags/magmatism/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Hidden Magmatic System Deep Beneath Mars Reveals How the Red Planet Built Its Crust</title>
+				<link>http://localhost:8080/en/cosmos/mars-magmatic-system/</link>
+				<pubDate>Sat, 29 Aug 2026 14:40:00 -0700</pubDate>
+				<guid>http://localhost:8080/en/cosmos/mars-magmatic-system/</guid>
+				<description>&lt;h1 id=&#34;hidden-magmatic-system-deep-beneath-mars-reveals-how-the-red-planet-built-its-crust&#34;&gt;Hidden Magmatic System Deep Beneath Mars Reveals How the Red Planet Built Its Crust&lt;/h1&gt;&#xA;&lt;p&gt;Mars has long been viewed as a geologically simpler world than Earth. Lacking plate tectonics, the Red Planet was thought to have built its crust primarily through early magma-ocean solidification and later volcanic activity concentrated at a few giant provinces. A study published in late August 2026 challenges that picture. Using a combination of seismic data, gravity measurements, and geochemical modeling, researchers have identified evidence of a &lt;strong&gt;vast magmatic system&lt;/strong&gt; operating deep beneath the Martian surface—one capable of producing a far more complex crustal architecture than previously recognized.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Origins of Life on Meridian</title>
+		<link>http://localhost:8080/es/tags/origins-of-life/</link>
+		<description>Recent content in Origins of Life on Meridian</description>
+		<generator>Hugo</generator>
+		<language>es</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/es/tags/origins-of-life/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Una mínima diferencia química del ARN podría revelar el origen de la vida en la Tierra</title>
+				<link>http://localhost:8080/es/science/rna-chemical-difference-origins-of-life/</link>
+				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:8080/es/science/rna-chemical-difference-origins-of-life/</guid>
+				<description>&lt;h1 id=&#34;una-mínima-diferencia-química-del-arn-podría-revelar-el-origen-de-la-vida-en-la-tierra&#34;&gt;Una mínima diferencia química del ARN podría revelar el origen de la vida en la Tierra&lt;/h1&gt;&#xA;&lt;p&gt;Una &lt;strong&gt;distinción química mínima&lt;/strong&gt; entre el ARN y el ADN —un oxígeno de más en el azúcar del ARN— puede ser la clave de por qué las primeras replicadoras fueron de ARN. Nuevos experimentos de 2026 muestran que esa diferencia altera la estabilidad, la catálisis y la copia de cadenas en soportes prebióticos plausibles.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Automation on RNews1.com</title>
+    <link>http://localhost:3003/ru/tags/automation/</link>
+    <description>Recent content in Automation on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    
+        <atom:link href="http://localhost:3003/ru/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MIT: Люди по-прежнему обходятся дешевле ИИ</title>
+      <link>http://localhost:3003/ru/ai/mit-humans-still-beat-ai-costs/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/ru/ai/mit-humans-still-beat-ai-costs/</guid>
+      <description>&lt;h1 id=&#34;mit-люди-по-прежнему-обходятся-дешевле-ии&#34;&gt;MIT: Люди по-прежнему обходятся дешевле ИИ&lt;/h1&gt;
+&lt;p&gt;Широко распространяемое исследование &lt;strong&gt;MIT CSAIL&lt;/strong&gt; и &lt;strong&gt;Sloan&lt;/strong&gt; об &lt;em&gt;автоматизации компьютерного зрения&lt;/em&gt; вновь появилось в &lt;em&gt;последних лентах об ИИ&lt;/em&gt;, продвигая &lt;strong&gt;контрарный взгляд на занятость&lt;/strong&gt;: &lt;em&gt;техническая применимость не равна экономическому вытеснению&lt;/em&gt;. Речь не о том, что камеры не умеют видеть. Речь о том, что способность видеть не означает самоокупаемость. Исследователи, смоделировавшие &lt;strong&gt;затраты на установку и эксплуатацию&lt;/strong&gt;, обнаружили, что лишь &lt;strong&gt;примерно 23% заработной платы в США&lt;/strong&gt;, связанной с &lt;em&gt;задачами компьютерного зрения&lt;/em&gt;, сегодня выглядит &lt;em&gt;рентабельной для автоматизации&lt;/em&gt;. После учета &lt;strong&gt;камер&lt;/strong&gt;, &lt;strong&gt;моделей&lt;/strong&gt; и &lt;strong&gt;обслуживания&lt;/strong&gt; &lt;strong&gt;большинство компаний по-прежнему предпочло бы людей&lt;/strong&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Гейтс предупреждает: турбулентная эра ИИ уже наступила</title>
+      <link>http://localhost:3003/ru/technology/gates-warns-turbulent-ai-era-arrives/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/ru/technology/gates-warns-turbulent-ai-era-arrives/</guid>
+      <description>&lt;h1 id=&#34;гейтс-предупреждает-турбулентная-эра-ии-уже-наступила&#34;&gt;Гейтс предупреждает: турбулентная эра ИИ уже наступила&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Билл Гейтс&lt;/strong&gt; опубликовал новое эссе в &lt;strong&gt;Gates Notes&lt;/strong&gt;, утверждая, что &lt;em&gt;турбулентная эра ИИ&lt;/em&gt; уже наступила и что &lt;em&gt;решения ближайшего времени&lt;/em&gt; определят, перевесят ли преимущества вред. Публикация, представленная как «эпохальный сдвиг», не рассматривает искусственный интеллект как далёкий прогноз или научную фантастику, ожидающую какого-то будущего прорыва. Она исходит из того, что именно настоящий момент имеет значение. Именно такая постановка вопроса и призыв к &lt;em&gt;конкретному плану&lt;/em&gt;, чтобы ИИ работал на благо всех, а не концентрировал выгоды или ускорял риски негативных последствий, вывели эссе на первое место в часовых лентах &lt;strong&gt;Google News&lt;/strong&gt; по технологиям и ИИ в субботу вечером.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

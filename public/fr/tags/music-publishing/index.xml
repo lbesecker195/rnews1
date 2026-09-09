@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Music Publishing on RNews1.com</title>
+    <link>http://localhost:3003/fr/tags/music-publishing/</link>
+    <description>Recent content in Music Publishing on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+        <atom:link href="http://localhost:3003/fr/tags/music-publishing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sony poursuit Anthropic pour des chansons volées</title>
+      <link>http://localhost:3003/fr/ai/sony-sues-anthropic-over-stolen-songs/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/fr/ai/sony-sues-anthropic-over-stolen-songs/</guid>
+      <description>&lt;h1 id=&#34;sony-poursuit-anthropic-pour-des-chansons-volées&#34;&gt;Sony poursuit Anthropic pour des chansons volées&lt;/h1&gt;
+&lt;p&gt;Le dernier front dans la bataille sur la façon dont les grands modèles de langage sont construits n’est pas un roman, une archive de presse ou un tas de code source. C’est le répertoire américain. Le &lt;strong&gt;28 août&lt;/strong&gt;, &lt;strong&gt;Sony Music Publishing&lt;/strong&gt; et &lt;strong&gt;Warner Chappell&lt;/strong&gt; sont entrés dans un tribunal fédéral de &lt;em&gt;Californie du Nord&lt;/em&gt; et ont poursuivi &lt;strong&gt;Anthropic&lt;/strong&gt;, le laboratoire derrière la famille de modèles &lt;strong&gt;Claude&lt;/strong&gt;, ainsi que le &lt;strong&gt;PDG Dario Amodei&lt;/strong&gt; et le &lt;strong&gt;cofondateur Benjamin Mann&lt;/strong&gt;. La plainte des éditeurs ne mâche pas ses mots. Elle qualifie l’entraînement de Claude de &lt;em&gt;« l’un des vols de propriété intellectuelle en cours les plus vastes et les plus flagrants de l’histoire »&lt;/em&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

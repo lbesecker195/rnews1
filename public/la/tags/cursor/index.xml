@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Cursor on RNews1.com</title>
+    <link>http://localhost:3003/la/tags/cursor/</link>
+    <description>Recent content in Cursor on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>la</language>
+    
+        <atom:link href="http://localhost:3003/la/tags/cursor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OpenAI Cursor post pactum cum Musk rescindit</title>
+      <link>http://localhost:3003/la/business/openai-cuts-cursor-after-musk-deal/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/la/business/openai-cuts-cursor-after-musk-deal/</guid>
+      <description>&lt;h1 id=&#34;openai-cursor-post-pactum-cum-musk-rescindit&#34;&gt;OpenAI Cursor post pactum cum Musk rescindit&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;OpenAI&lt;/strong&gt; die Veneris dixit se exemplaria sua &lt;strong&gt;Cursor&lt;/strong&gt; non amplius suppeditaturum, postquam &lt;strong&gt;SpaceX&lt;/strong&gt; die &lt;strong&gt;14 Augusti&lt;/strong&gt; acquisitionem &lt;strong&gt;60 miliardorum dollariorum&lt;/strong&gt; societatis novae AI ad codicem scribendum conclusisset. Interdictum propositum est die &lt;strong&gt;12 Novembris 2026&lt;/strong&gt;, et OpenAI dixit se Cursor nulla futura exemplaria daturum. Relatio inter venditorem et emptorem, quae clientibus Cursor quasi ordinaria fistula videbatur, nunc in periculum reclassificatur quod laboratorium subire recusat.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

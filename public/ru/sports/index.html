@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports | RNews1.com</title>
+  <meta name="description" content="Наука, здоровье и космос.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/ru/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="Разделы">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/ai/"
+              
+            >ИИ</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/business/"
+              
+            >Бизнес</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/ru/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/crypto/"
+              
+            >Крипто</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/entertainment/"
+              
+            >Развлечения</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/sports/"
+              aria-current="page"
+            >Спорт</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/technology/"
+              
+            >Технологии</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/usa/"
+              
+            >США</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/world/"
+              
+            >Мир</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/health/"
+              
+            >Здоровье</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/cosmos/"
+              
+            >Космос</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/science/"
+              
+            >Наука</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="Меню">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="Разделы">
+          
+            
+              
+              
+              
+              <a
+                href="/ru/ai/"
+                
+              >ИИ</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/business/"
+                
+              >Бизнес</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/ru/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/crypto/"
+                
+              >Крипто</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/entertainment/"
+                
+              >Развлечения</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/sports/"
+                aria-current="page"
+              >Спорт</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/technology/"
+                
+              >Технологии</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/usa/"
+                
+              >США</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/world/"
+                
+              >Мир</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/health/"
+                
+              >Здоровье</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/cosmos/"
+                
+              >Космос</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/science/"
+                
+              >Наука</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+          Спорт</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/ru/sports/pwhl-scripps-sports-tv-partnership-expansion/">Расширение телевизионного партнёрства PWHL со Scripps Sports</a></h2>
+    <p class="summary">Профессиональная женская хоккейная лига заключила знаковое соглашение с Scripps Sports о национальной телевизионной трансляции сезона 2026–27, что стало важной …</p>
+    <a class="read-more" href="/ru/sports/pwhl-scripps-sports-tv-partnership-expansion/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/sports/fall-sports-college-recruitment-reality-check/">Проверка реальности набора в колледжи по осенним видам спорта</a></h2>
+    <p class="summary">Узнайте, какие осенние виды спорта предлагают лучшие возможности для получения студентами-спортсменами спортивных стипендий и поступления в колледж.</p>
+    <a class="read-more" href="/ru/sports/fall-sports-college-recruitment-reality-check/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/sports/youth-sports-exodus-parents-reconsidering-annual-commitments/">Отток из детского спорта: родители пересматривают ежегодные обязательства</a></h2>
+    <p class="summary">Все больше родителей отказываются от участия детей в спортивных секциях, называя основными причинами финансовую нагрузку, нехватку времени и эмоциональное …</p>
+    <a class="read-more" href="/ru/sports/youth-sports-exodus-parents-reconsidering-annual-commitments/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/sports/mitchell-s-2026-27-vision-reshapes-cavaliers-future/">Видение Митчелла на сезон-2026/27 меняет будущее «Кавальерс»</a></h2>
+    <p class="summary">Донован Митчелл рассказывает о стратегических изменениях, которые ждут чемпионский состав «Кливленда», готовящегося к следующему этапу развития.</p>
+    <a class="read-more" href="/ru/sports/mitchell-s-2026-27-vision-reshapes-cavaliers-future/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/sports/mitchell-eyes-cavaliers-dynasty-beyond-2026-27/">Митчелл видит династию «Кавальерс» после сезона-2026/27</a></h2>
+    <p class="summary">Донован Митчелл объясняет, как стратегическое планирование «Кавальерс» создает для команды условия для постоянной борьбы за чемпионство в ближайшие сезоны.</p>
+    <a class="read-more" href="/ru/sports/mitchell-eyes-cavaliers-dynasty-beyond-2026-27/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/sports/apple-cup-anticipation-builds-for-sunday-showdown/">Предвкушение Кубка Эппл нарастает перед воскресным противостоянием</a></h2>
+    <p class="summary">Ожидание Кубка Эппл между командами Вашингтона и Вашингтон-Стейт в этом году обещает быть таким же непростым, как и сама игра, учитывая беспрецедентные …</p>
+    <a class="read-more" href="/ru/sports/apple-cup-anticipation-builds-for-sunday-showdown/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/sports/greatest-sports-television-shows-ranked/">Величайшие спортивные телешоу: рейтинг</a></h2>
+    <p class="summary">The Hollywood Reporter представляет рейтинг 10 величайших спортивных телешоу всех времён, отмечая программы, которые определили спортивное вещание и завоевали …</p>
+    <a class="read-more" href="/ru/sports/greatest-sports-television-shows-ranked/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/sports/messi-nets-four-in-miami-rout/">Месси забивает четыре гола в разгроме в Майами</a></h2>
+    <p class="summary">Лионель Месси забил четыре гола и отдал голевую передачу, когда «Интер Майами» разгромил CF Montréal со счётом 7:1 в субботу вечером; это был его первый матч …</p>
+    <a class="read-more" href="/ru/sports/messi-nets-four-in-miami-rout/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/sports/messis-poker-ends-miami-drought/">Покер Месси положил конец засухе «Майами»</a></h2>
+    <p class="summary">Лионель Месси забил четыре гола, а «Интер Майами» в субботу разгромил «КФ Монреаль» со счётом 7:1, сообщает Yahoo Sports, что вывело его на первое место в гонке …</p>
+    <a class="read-more" href="/ru/sports/messis-poker-ends-miami-drought/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/sports/hrgovic-stuns-itauma-for-ibf-belt/">Хргович ошеломил Итауму и завоевал пояс IBF</a></h2>
+    <p class="summary">Филип Хргович остановил 21-летнего Мозеса Итауму на отметке 2:27 девятого раунда в субботу на переполненной лондонской арене O2, завоевав вакантный титул IBF в …</p>
+    <a class="read-more" href="/ru/sports/hrgovic-stuns-itauma-for-ibf-belt/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/sports/belichick-silences-critics-with-dublin-upset/">Беличик заставляет критиков замолчать сенсационной победой в Дублине</a></h2>
+    <p class="summary">Билл Беличик начал второй сезон в Северной Каролине с победы над TCU со счетом 15:10 под дождем на стадионе Aviva в Дублине — это была месть за прошлогодний …</p>
+    <a class="read-more" href="/ru/sports/belichick-silences-critics-with-dublin-upset/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/sports/angels-blow-ninth-after-robbing-homer/">«Энджелс» провалили девятый после ограбления хоум-рана</a></h2>
+    <p class="summary">В пятницу на стадионе «Энджел» «Энджелс» вышли в девятый иннинг, ведя 3:1, с вероятностью победы 96,5% после того, как Луис Арраэс начал иннинг граунд-аутом, — …</p>
+    <a class="read-more" href="/ru/sports/angels-blow-ninth-after-robbing-homer/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/sports/steelers-dump-first-rounder-on-cowboys/">«Стилерс» отдают игрока первого раунда «Ковбойз»</a></h2>
+    <p class="summary">«Стилерс» обменяли выбранного в первом раунде 2023 года офensive-тэкла Бродерика Джонса и право выбора в четвертом раунде 2027 года «Ковбойз» на пики третьего и …</p>
+    <a class="read-more" href="/ru/sports/steelers-dump-first-rounder-on-cowboys/">Читать статью</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="Языки">
+        
+          <a no-follow href="/en/sports/">English</a>
+        
+          <a no-follow href="/es/sports/">Español</a>
+        
+          <a no-follow href="/it/sports/">Italiano</a>
+        
+          <a no-follow href="/fr/sports/">Français</a>
+        
+          <a no-follow href="/ar/sports/">العربية</a>
+        
+          <a no-follow href="/la/sports/">Latina</a>
+        
+          <a no-follow href="/hi/sports/">हिन्दी</a>
+        
+          <a no-follow href="/bn/sports/">বাংলা</a>
+        
+          <a no-follow href="/pt/sports/">Português</a>
+        
+          <a no-follow href="/ru/sports/" aria-current="page">Русский</a>
+        
+          <a no-follow href="/ur/sports/">اردو</a>
+        
+          <a no-follow href="/zh/sports/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

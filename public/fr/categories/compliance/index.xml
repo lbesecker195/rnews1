@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Compliance on RNews1.com</title>
+    <link>http://localhost:3003/fr/categories/compliance/</link>
+    <description>Recent content in Compliance on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+        <atom:link href="http://localhost:3003/fr/categories/compliance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Amende de la CNIL contre un hôpital : analyse de la sanction de 500 000 €</title>
+      <link>http://localhost:3003/fr/compliance/cnil-hospital-fine-eur500k-penalty-analysis/</link>
+      <pubDate>Sat, 05 Sep 2026 20:38:37 +0000</pubDate>
+      <guid>http://localhost:3003/fr/compliance/cnil-hospital-fine-eur500k-penalty-analysis/</guid>
+      <description>&lt;h1 id=&#34;la-cnil-inflige-une-amende-de-500-000--à-un-hôpital-français--principaux-enseignements-pour-la-conformité-en-matière-de-protection-des-données-de-santé&#34;&gt;La CNIL inflige une amende de 500 000 € à un hôpital français : principaux enseignements pour la conformité en matière de protection des données de santé&lt;/h1&gt;
+&lt;h2 id=&#34;résumé-exécutif&#34;&gt;Résumé exécutif&lt;/h2&gt;
+&lt;p&gt;La Commission nationale de l&amp;rsquo;informatique et des libertés (CNIL), l&amp;rsquo;autorité française indépendante chargée de la protection des données, a infligé une amende substantielle de 500 000 € à un hôpital français pour des violations du Règlement général sur la protection des données (RGPD). L&amp;rsquo;incident a compromis environ 727 000 dossiers de patients, ce qui en fait l&amp;rsquo;une des violations de données de santé les plus importantes de l&amp;rsquo;histoire récente de la réglementation française. Cette mesure répressive souligne la sévérité croissante des sanctions imposées par les autorités européennes de protection des données et constitue un rappel essentiel pour les établissements de santé quant à leurs obligations au titre du RGPD et du droit français de la protection des données.&lt;/p&gt;</description>
+      
+      
+      
+      <tweet>🚨 CNIL fines French hospital €500K for breaching 727K patient records. Healthcare orgs: GDPR violations carry serious penalties. Strengthen your data security NOW. #GDPR #Healthcare #Compliance #DataProtection www.rnews1.com/en/compliance/cnil-hospital-fine-eur500k-penalty-analysis/  @CISAgov @SecurityJoe #Cybersecurity #Security #DataBreach</tweet>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

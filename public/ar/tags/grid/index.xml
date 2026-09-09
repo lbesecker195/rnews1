@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Grid on RNews1.com</title>
+    <link>http://localhost:3003/ar/tags/grid/</link>
+    <description>Recent content in Grid on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language>
+    
+        <atom:link href="http://localhost:3003/ar/tags/grid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ماسك يقول إن معدات الشبكة تعطل وحدات معالجة الرسوميات</title>
+      <link>http://localhost:3003/ar/ai/musk-says-grid-gear-strands-gpus/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/ar/ai/musk-says-grid-gear-strands-gpus/</guid>
+      <description>&lt;h1 id=&#34;ماكس-يقول-إن-معدات-الشبكة-تعطل-وحدات-معالجة-الرسوميات&#34;&gt;ماكس يقول إن معدات الشبكة تعطل وحدات معالجة الرسوميات&lt;/h1&gt;
+&lt;p&gt;نشر &lt;strong&gt;إيلون ماسك&lt;/strong&gt; على &lt;strong&gt;X&lt;/strong&gt; في &lt;strong&gt;29 أغسطس 2026&lt;/strong&gt; أن &lt;em&gt;نحو&lt;/em&gt; &lt;strong&gt;15 غيغاواط&lt;/strong&gt; من &lt;strong&gt;قدرة حوسبة الذكاء الاصطناعي&lt;/strong&gt; المقرر تشغيلها في &lt;strong&gt;2027&lt;/strong&gt; ستظل على الأرجح &lt;em&gt;متوقفة&lt;/em&gt; لأن &lt;strong&gt;بنية الطاقة التحتية&lt;/strong&gt; لن تكون جاهزة. وتفيد &lt;strong&gt;Crypto Briefing&lt;/strong&gt; بالتحذير. ولا يعني الادعاء أن الشرائح لن تُشحن. بل يعني أن المعدات المحيطة بالشرائح—معدات الشبكة، والنحاس، والتبريد، ونسيج الربط—لن تكون موجودة عندما تكون الخوادم جاهزة.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

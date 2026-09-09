@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Public Health | RNews1.com</title>
+  <meta name="description" content="科学、健康与宇宙。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/zh/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="栏目">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/ai/"
+              
+            >人工智能</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/business/"
+              
+            >商业</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/zh/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/crypto/"
+              
+            >加密货币</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/entertainment/"
+              
+            >文娱</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/sports/"
+              
+            >体育</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/technology/"
+              
+            >科技</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/usa/"
+              
+            >美国</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/world/"
+              
+            >国际</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/health/"
+              
+            >健康</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/science/"
+              
+            >科学</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/cosmos/"
+              
+            >宇宙</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="菜单">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="栏目">
+          
+            
+              
+              
+              
+              <a
+                href="/zh/ai/"
+                
+              >人工智能</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/business/"
+                
+              >商业</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/zh/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/crypto/"
+                
+              >加密货币</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/entertainment/"
+                
+              >文娱</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/sports/"
+                
+              >体育</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/technology/"
+                
+              >科技</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/usa/"
+                
+              >美国</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/world/"
+                
+              >国际</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/health/"
+                
+              >健康</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/science/"
+                
+              >科学</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/cosmos/"
+                
+              >宇宙</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+              
+            
+          Public Health</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/zh/world/deadly-trump-shaped-pills-spark-dutch-alert/">致命的特朗普头像药片引发荷兰警报</a></h2>
+    <p class="summary">荷兰特林博斯研究所发布全国红色警报，此前检测人员发现两色摇头丸药片被压制成唐纳德·特朗普总统的头像，背面断痕两侧分别印有“NL”和“Trump”。8月，荷兰多个检测中心收到几枚此类药片；荷兰法医研究所也分析了其中一枚。实验室发现药片含有极高剂量的PMMA，这是一种起效较慢的MDMA类似物，通常缺乏预期的兴奋感，因此使用 …</p>
+    <a class="read-more" href="/zh/world/deadly-trump-shaped-pills-spark-dutch-alert/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/health/warming-lakes-push-brain-eating-amoeba-north/">变暖的湖泊将“食脑”变形虫推向北方</a></h2>
+    <p class="summary">北卡罗来纳州中部一名青少年因罕见的“食脑”变形虫福氏耐格里阿米巴感染而病危，科学家正追踪人们暴露地点向北移动的趋势。美国病例数并未激增，但地理范围扩大了。美国疾病控制与预防中心对1978年至2018年间85起休闲水域病例的2021年分析发现，最北端的暴露地点每年约向北移动8.3英里。74起病例来自南部，6起来自中西部， …</p>
+    <a class="read-more" href="/zh/health/warming-lakes-push-brain-eating-amoeba-north/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/gut-microbiome-contagious/">肠道微生物会传染吗？新研究揭示人际传播</a></h2>
+    <p class="summary">2026年8月发表的研究显示，肠道中数万亿微生物可通过日常接触在人际间传播，而不只取决于饮食或抗生素。社交与共享空间会塑造体内生态系统，对个性化医疗、免疫以及医院、学校和公共场所的设计都有影响。</p>
+    <a class="read-more" href="/zh/science/gut-microbiome-contagious/">阅读全文</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="语言">
+        
+          <a no-follow href="/en/tags/public-health/">English</a>
+        
+          <a no-follow href="/es/tags/public-health/">Español</a>
+        
+          <a no-follow href="/it/tags/public-health/">Italiano</a>
+        
+          <a no-follow href="/fr/tags/public-health/">Français</a>
+        
+          <a no-follow href="/ar/tags/public-health/">العربية</a>
+        
+          <a no-follow href="/la/tags/public-health/">Latina</a>
+        
+          <a no-follow href="/hi/tags/public-health/">हिन्दी</a>
+        
+          <a no-follow href="/bn/tags/public-health/">বাংলা</a>
+        
+          <a no-follow href="/pt/tags/public-health/">Português</a>
+        
+          <a no-follow href="/ru/tags/public-health/">Русский</a>
+        
+          <a no-follow href="/ur/tags/public-health/">اردو</a>
+        
+          <a no-follow href="/zh/tags/public-health/" aria-current="page">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

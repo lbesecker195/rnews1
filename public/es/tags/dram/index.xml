@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>DRAM on RNews1.com</title>
+    <link>http://localhost:3003/es/tags/dram/</link>
+    <description>Recent content in DRAM on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+        <atom:link href="http://localhost:3003/es/tags/dram/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Los chips de memoria ya rivalizan con el precio del oro</title>
+      <link>http://localhost:3003/es/business/memory-chips-now-rival-gold-prices/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/es/business/memory-chips-now-rival-gold-prices/</guid>
+      <description>&lt;h1 id=&#34;los-chips-de-memoria-ya-rivalizan-con-el-precio-del-oro&#34;&gt;Los chips de memoria ya rivalizan con el precio del oro&lt;/h1&gt;
+&lt;p&gt;El &lt;strong&gt;Instituto de Promoción de Estadísticas Comerciales&lt;/strong&gt; de Corea del Sur dice que los precios de exportación de DRAM para chips, no módulos, promediaron &lt;strong&gt;92.183 dólares&lt;/strong&gt; por kilogramo del &lt;strong&gt;1 al 20 de agosto&lt;/strong&gt;, un &lt;strong&gt;401%&lt;/strong&gt; interanual y &lt;strong&gt;12,5 veces&lt;/strong&gt; el mínimo de &lt;strong&gt;enero de 2023&lt;/strong&gt; tras el lanzamiento de &lt;strong&gt;ChatGPT&lt;/strong&gt;. Ese kilogramo de DRAM coreana vale tanto como unos &lt;strong&gt;620 gramos&lt;/strong&gt; de oro de 24 quilates, &lt;strong&gt;1,53 veces&lt;/strong&gt; el platino y &lt;strong&gt;41,7 veces&lt;/strong&gt; la plata. La comparación no es una metáfora cocinada en las redes sociales. Es un precio por peso aduanero, apilado contra el lingote, de los chips que hacen que los ordenadores recuerden.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

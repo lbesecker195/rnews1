@@ -1,0 +1,42 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Texas on RNews1.com</title>
+    <link>http://localhost:3003/zh/tags/texas/</link>
+    <description>Recent content in Texas on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+        <atom:link href="http://localhost:3003/zh/tags/texas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>阿博特冻结得州 Flock 摄像头资金</title>
+      <link>http://localhost:3003/zh/technology/abbott-freezes-texas-flock-camera-funding/</link>
+      <pubDate>Sat, 29 Aug 2026 18:11:00 -0700</pubDate>
+      <guid>http://localhost:3003/zh/technology/abbott-freezes-texas-flock-camera-funding/</guid>
+      <description>&lt;h1 id=&#34;阿博特冻结得州-flock-摄像头资金&#34;&gt;阿博特冻结得州 Flock 摄像头资金&lt;/h1&gt;
+&lt;p&gt;得州州长 &lt;strong&gt;格雷格·阿博特&lt;/strong&gt; 下令州政府机构暂停为 &lt;strong&gt;Flock Safety&lt;/strong&gt; 的人工智能车牌摄像头提供资金，此前隐私反弹和警方滥用指控不断扩散。&lt;strong&gt;《德州论坛报》&lt;/strong&gt; 称，该命令发布之际正准备展开调查，调查显示一家州机构通过地方警方拨款，至少向 Flock 网络投入了 &lt;strong&gt;3000 万美元&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;暂停不是禁令。这是州长对一个已经能够看见大量得州道路的网络按下冻结键。发言人 &lt;strong&gt;安德鲁·马哈勒里斯&lt;/strong&gt; 表示，大多数城市摄像头资金来自&lt;em&gt;联邦&lt;/em&gt;，得州机构正在明确，&lt;em&gt;州&lt;/em&gt;资金不得用于 Flock。这种分歧正是整场争论的核心：谁付了钱，谁可以查看，以及在奥斯汀假装关掉水龙头的时候，谁还能继续查看。&lt;/p&gt;
+&lt;h2 id=&#34;一美元费用买来的一张监控网&#34;&gt;一美元费用买来的一张监控网&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;机动车犯罪预防局&lt;/strong&gt;的董事会成员大多由阿博特任命，自 &lt;strong&gt;2023 年&lt;/strong&gt;以来已协助安装至少 &lt;strong&gt;3200&lt;/strong&gt; 个 Flock 摄像头，其中包括根据一份为期三年、价值 &lt;strong&gt;1590 万美元&lt;/strong&gt;的合同为 &lt;strong&gt;DPS&lt;/strong&gt; 安装的近 &lt;strong&gt;1200&lt;/strong&gt; 个摄像头。这笔钱来自 2023 年征收的 &lt;strong&gt;1 美元&lt;/strong&gt;汽车保险费，原本旨在打击三元催化器盗窃。&lt;/p&gt;
+&lt;p&gt;这个起源故事承载了太多东西。在保险账单上加收一美元，很容易被包装成打击汽车零件盗窃的警察工具。能记录车辆品牌、型号、颜色和保险杠贴纸、并可在全国范围内共享的三千多个摄像头，则是另一种产品。三元催化器盗窃是真实存在的犯罪。一个全州范围、可互联的车牌读取网络，也是真实存在的监控系统。两者可以同时为真。只有其中一个需要暂停。&lt;/p&gt;
+&lt;h2 id=&#34;摄像头究竟记录什么&#34;&gt;摄像头究竟记录什么&lt;/h2&gt;
+&lt;p&gt;Flock 推销的并不是一张模糊的车牌静态图像。这些摄像头会记录&lt;strong&gt;品牌、型号、颜色和保险杠贴纸&lt;/strong&gt;，并可在全国范围内共享。保险杠贴纸最能说明问题。它记录的不是谁超速通过了这个路口，而是哪辆贴着国家公园贴纸的斯巴鲁在凌晨两点向北行驶。&lt;/p&gt;
+&lt;p&gt;一旦这些记录进入其他部门也可以查询的网络，本地化的理由（拉夫金的三元催化器、休斯敦被盗的卡车）就不再是搜索的边界。边界变成了谁拥有登录权限，以及他们会在搜索框里输入什么理由。&lt;/p&gt;
+&lt;h2 id=&#34;拉夫金是有案号的滥用案例&#34;&gt;拉夫金是有案号的滥用案例&lt;/h2&gt;
+&lt;p&gt;一名&lt;strong&gt;拉夫金&lt;/strong&gt;警员面临 &lt;strong&gt;100 项指控&lt;/strong&gt;，涉嫌使用 Flock 监视 &lt;strong&gt;11 人&lt;/strong&gt;，持续时间超过一年。这不是关于使命扩张的假设，而是一份指控文件：一名警察把反盗窃摄像头网当成了个人跟踪服务。&lt;/p&gt;
+&lt;p&gt;一百项指控说明这种涉嫌使用绝不是 911 报警后的一次性查询。11 个人，持续一年多：这就是一种模式。得州的隐私反弹不需要研讨会来推动，它需要的是拉夫金。&lt;/p&gt;
+&lt;p&gt;如果一个工具可以被那样查询，就会有人那样查询。阿博特正在对一种可预见的系统用途作出反应，而这个系统正是由他任命的人协助购买的。&lt;/p&gt;
+&lt;h2 id=&#34;三千万美元然后冻结&#34;&gt;三千万美元，然后冻结&lt;/h2&gt;
+&lt;p&gt;据描述，《论坛报》即将发表的调查称，一家州机构通过地方警方拨款，至少向 Flock 网络投入了 3000 万美元。阿博特的命令是在这份报道之上发布的，并非凭空出现。先冻结、后争辩，这是让自己看起来像刚刚发现账单的做法。&lt;/p&gt;
+&lt;p&gt;马哈勒里斯把矛头指向联邦资金，是一种带着脚注的搪塞。如果大多数&lt;em&gt;城市&lt;/em&gt;摄像头资金来自联邦，那么州政府暂停资金并不会拔掉城市摄像头的电源。它只是阻止下一笔州政府支票。已经安装的 3200 个摄像头，包括为 DPS 安装的近 1200 个，并不会因为机构正在作出澄清就消失。它们会继续待在那里，记录贴纸，直到有人关掉它们或改变共享规则。&lt;/p&gt;
+&lt;h2 id=&#34;三元催化器与偷梁换柱&#34;&gt;三元催化器与偷梁换柱&lt;/h2&gt;
+&lt;p&gt;三元催化器盗窃激增。立法机构寻找收费项目、专项工作组和设备。Flock 就是那台设备。人工智能车牌读取器非常擅长发现一辆不该出现在废车场车道上的汽车。它们同样非常擅长发现一辆不该出现在诊所、教堂或前任住所街道上的汽车。&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

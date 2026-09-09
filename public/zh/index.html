@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head>
+	<meta name="generator" content="Hugo 0.164.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RNews1.com</title>
+  <meta name="description" content="科学、健康与宇宙。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/zh/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="栏目">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/ai/"
+              
+            >人工智能</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/business/"
+              
+            >商业</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/zh/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/crypto/"
+              
+            >加密货币</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/entertainment/"
+              
+            >文娱</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/sports/"
+              
+            >体育</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/technology/"
+              
+            >科技</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/usa/"
+              
+            >美国</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/world/"
+              
+            >国际</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/health/"
+              
+            >健康</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/science/"
+              
+            >科学</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/cosmos/"
+              
+            >宇宙</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="菜单">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="栏目">
+          
+            
+              
+              
+              
+              <a
+                href="/zh/ai/"
+                
+              >人工智能</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/business/"
+                
+              >商业</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/zh/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/crypto/"
+                
+              >加密货币</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/entertainment/"
+                
+              >文娱</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/sports/"
+                
+              >体育</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/technology/"
+                
+              >科技</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/usa/"
+                
+              >美国</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/world/"
+                
+              >国际</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/health/"
+                
+              >健康</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/science/"
+                
+              >科学</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/cosmos/"
+                
+              >宇宙</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<section class="hero">
+  <h1>RNews1 -- 重要议题</h1>
+  <p>审慎报道。</p>
+</section>
+
+<section class="sections">
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/zh/ai/">人工智能</a></h2>
+        <ul>
+          
+            <li><a href="/zh/ai/anthropic-researcher-departure-signals-ai-safety-concerns/">Anthropic 研究员离职，释放对 AI 安全的担忧信号</a></li>
+          
+            <li><a href="/zh/ai/parental-guide-to-ai-impact-on-children/">家长必读：人工智能对儿童的影响</a></li>
+          
+            <li><a href="/zh/ai/parents-guide-understanding-ai-impact-today/">家长指南：了解人工智能当下的影响</a></li>
+          
+            <li><a href="/zh/ai/are-we-approaching-uncontrollable-ai-systems/">我们是否正在接近不可控的人工智能系统？</a></li>
+          
+            <li><a href="/zh/ai/ai-control-crisis-are-we-crossing-the/">AI 控制危机：我们是否正在越过界线？</a></li>
+          
+            <li><a href="/zh/ai/ai-safety-crisis-uncontrollable-systems-approaching/">AI 安全危机：不可控系统正在逼近</a></li>
+          
+            <li><a href="/zh/ai/critical-choices-define-ai-s-turbulent-future/">关键选择定义 AI 动荡的未来</a></li>
+          
+            <li><a href="/zh/ai/mit-humans-still-beat-ai-costs/">MIT：人类的成本仍低于 AI</a></li>
+          
+            <li><a href="/zh/ai/musk-says-grid-gear-strands-gpus/">马斯克称电网设备让 GPU 闲置</a></li>
+          
+            <li><a href="/zh/ai/ai-turns-bin-moans-into-briefs/">AI 将垃圾投诉变成法律简报</a></li>
+          
+            <li><a href="/zh/ai/openai-agents-form-a-hive-mind/">OpenAI 智能体形成蜂群意识</a></li>
+          
+            <li><a href="/zh/ai/judge-voids-pentagon-ban-on-anthropic/">法官撤销五角大楼对 Anthropic 的禁令</a></li>
+          
+            <li><a href="/zh/ai/sony-sues-anthropic-over-stolen-songs/">索尼起诉 Anthropic，指控其窃取歌曲</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/zh/business/">商业</a></h2>
+        <ul>
+          
+            <li><a href="/zh/business/from-iphone-repair-to-cybersecurity-leadership/">从 iPhone 维修到网络安全领导者</a></li>
+          
+            <li><a href="/zh/business/autonomous-vehicles-transform-accessibility-and-independence/">自动驾驶汽车改变无障碍出行与独立生活</a></li>
+          
+            <li><a href="/zh/business/autonomous-vehicles-transforming-accessibility-independence/">改变无障碍独立性的自动驾驶汽车</a></li>
+          
+            <li><a href="/zh/business/boring-company-seeks-investor-support-amid-growth/">无聊公司在增长之际寻求投资者支持</a></li>
+          
+            <li><a href="/zh/business/boring-company-seeks-strategic-investor-support/">Boring Company 寻求战略投资者支持</a></li>
+          
+            <li><a href="/zh/business/boring-company-seeks-investor-help-recruiting/">Boring Company 寻求投资者协助招聘</a></li>
+          
+            <li><a href="/zh/business/fox-business-host-sues-whole-foods-over/">福克斯商业频道主持人因狗袭事件起诉全食超市</a></li>
+          
+            <li><a href="/zh/business/fox-business-host-files-lawsuit-against-whole/">福克斯商业频道主持人起诉全食超市</a></li>
+          
+            <li><a href="/zh/business/us-seeks-35-venezuela-oil-stake/">美国寻求持有委内瑞拉石油35%的股份</a></li>
+          
+            <li><a href="/zh/business/glencore-writes-off-entire-radiant-hit/">嘉能可将 Radiant 事件全部冲销</a></li>
+          
+            <li><a href="/zh/business/chipotle-prank-influencer-pleads-guilty/">Chipotle 恶作剧网红认罪</a></li>
+          
+            <li><a href="/zh/business/tim-cooks-apple-era-ends-tuesday/">蒂姆·库克的苹果时代于周二落幕</a></li>
+          
+            <li><a href="/zh/business/openai-cuts-cursor-after-musk-deal/">马斯克交易后，OpenAI切断Cursor供应</a></li>
+          
+            <li><a href="/zh/business/memory-chips-now-rival-gold-prices/">内存芯片如今堪比黄金价格</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+        
+      
+      <div class="section-card">
+        <h2><a href="/zh/compliance/">Compliance</a></h2>
+        <ul>
+          
+            <li><a href="/zh/compliance/critical-cybersecurity-threats-reshape-compliance-strategy/">重塑合规战略的重大网络安全威胁</a></li>
+          
+            <li><a href="/zh/compliance/emerging-cyber-threats-shape-next-crisis/">新兴网络威胁正在塑造下一场危机</a></li>
+          
+            <li><a href="/zh/compliance/cnil-s-eur500k-hospital-fine-sets-precedent/">CNIL 对医院处以 50 万欧元罚款，树立执法先例</a></li>
+          
+            <li><a href="/zh/compliance/flock-security-overhaul-addresses-law-enforcement-abuse/">Flock 安全改革应对执法滥用问题</a></li>
+          
+            <li><a href="/zh/compliance/flock-security-platform-implements-law-enforcement-safeguard/">Flock Security 平台落实执法部门安全保障措施</a></li>
+          
+            <li><a href="/zh/compliance/flock-security-platform-implements-abuse-prevention-measures/">Flock 安全平台实施滥用防范措施</a></li>
+          
+            <li><a href="/zh/compliance/cnil-hospital-fine-eur500k-penalty-analysis/">CNIL 医院罚款：50 万欧元处罚分析</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/zh/crypto/">加密货币</a></h2>
+        <ul>
+          
+            <li><a href="/zh/crypto/iran-s-tether-use-exposes-crypto-sanction-vulnerabilities/">伊朗使用泰达币暴露加密货币制裁漏洞</a></li>
+          
+            <li><a href="/zh/crypto/crypto-asset-surges-7300-amid-bitcoin-parallels/">加密资产暴涨7300%，引发与比特币的相似性比较</a></li>
+          
+            <li><a href="/zh/crypto/crypto-asset-skyrockets-7300-amid-market-surge/">加密资产在市场飙升之际暴涨7300%</a></li>
+          
+            <li><a href="/zh/crypto/cathie-wood-s-controversial-crypto-investment-strategy/">Cathie Wood 备受争议的加密货币投资策略</a></li>
+          
+            <li><a href="/zh/crypto/cathie-wood-s-bold-crypto-investment-strategy/">Cathie Wood 激进的加密货币投资策略</a></li>
+          
+            <li><a href="/zh/crypto/polygon-ceo-vacation-controversy-sparks-debate/">Polygon CEO 的度假争议引发热议</a></li>
+          
+            <li><a href="/zh/crypto/polygon-ceo-defends-crypto-industry-work-life-balance/">Polygon CEO 为加密行业的工作与生活平衡辩护</a></li>
+          
+            <li><a href="/zh/crypto/eth-etfs-surge-amid-heavy-selling/">ETH ETF在沉重抛售中激增</a></li>
+          
+            <li><a href="/zh/crypto/spot-cash-not-leverage-fuels-btc/">现货现金而非杠杆推动 BTC 上涨</a></li>
+          
+            <li><a href="/zh/crypto/bitwise-solana-etf-crosses-1-billion/">Bitwise Solana ETF 突破 10 亿美元</a></li>
+          
+            <li><a href="/zh/crypto/gta-leaker-cashes-out-memecoin-grift/">GTA 泄密者套现迷因币骗局</a></li>
+          
+            <li><a href="/zh/crypto/uae-sheikh-backs-trump-crypto-bank/">阿联酋谢赫支持特朗普加密银行</a></li>
+          
+            <li><a href="/zh/crypto/bitcoin-etfs-snap-three-billion-streak/">比特币 ETF 三十亿美元连涨告终</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/zh/entertainment/">文娱</a></h2>
+        <ul>
+          
+            <li><a href="/zh/entertainment/jimmy-kimmel-show-ending-2027-after-24/">《吉米·坎摩尔秀》将于2027年结束，历时24年</a></li>
+          
+            <li><a href="/zh/entertainment/dolly-parton-s-literary-legacy-in-indian-country/">多莉·帕顿在印第安地区的文学遗产</a></li>
+          
+            <li><a href="/zh/entertainment/dolly-parton-s-literary-legacy-celebrated-across-indian/">印第安地区共同缅怀多莉·帕顿的文学遗产</a></li>
+          
+            <li><a href="/zh/entertainment/las-vegas-strip-shows-close-amid-job/">拉斯维加斯大道演出关闭，行业危机导致失业</a></li>
+          
+            <li><a href="/zh/entertainment/las-vegas-strip-shows-face-closure-crisis/">拉斯维加斯大道演出面临停业危机</a></li>
+          
+            <li><a href="/zh/entertainment/cnn-films-remembers-windows-on-the-world/">CNN Films 铭记世贸中心之窗</a></li>
+          
+            <li><a href="/zh/entertainment/summer-box-office-reaches-4-6-billion-recovery/">暑期票房恢复至46亿美元</a></li>
+          
+            <li><a href="/zh/entertainment/cruise-confirms-days-of-thunder-sequel/">克鲁斯确认《雷霆壮志》续集</a></li>
+          
+            <li><a href="/zh/entertainment/dollys-wish-mended-cyrus-rift/">多莉的遗愿修复了赛勒斯家族的裂痕</a></li>
+          
+            <li><a href="/zh/entertainment/cruise-green-flags-thunder-sequel-2028/">《霹雳男儿》续集定档2028年，克鲁斯挥下绿旗</a></li>
+          
+            <li><a href="/zh/entertainment/written-off-coyote-humiliates-warner-at-box/">被注销的郊狼让华纳在票房上颜面尽失</a></li>
+          
+            <li><a href="/zh/entertainment/cruise-recruits-hathaway-for-thunder-sequel/">克鲁斯招募海瑟薇出演《雷霆壮志》续集</a></li>
+          
+            <li><a href="/zh/entertainment/tom-hardy-raps-shakespeare-as-bane/">汤姆·哈迪以贝恩之声朗诵莎士比亚</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/zh/sports/">体育</a></h2>
+        <ul>
+          
+            <li><a href="/zh/sports/pwhl-scripps-sports-tv-partnership-expansion/">PWHL 与 Scripps Sports 扩大电视合作伙伴关系</a></li>
+          
+            <li><a href="/zh/sports/fall-sports-college-recruitment-reality-check/">秋季运动项目大学招募现实检视</a></li>
+          
+            <li><a href="/zh/sports/youth-sports-exodus-parents-reconsidering-annual-commitments/">青少年体育运动参与者流失：家长重新考虑年度投入</a></li>
+          
+            <li><a href="/zh/sports/mitchell-s-2026-27-vision-reshapes-cavaliers-future/">米切尔的 2026-27 愿景重塑骑士队未来</a></li>
+          
+            <li><a href="/zh/sports/mitchell-eyes-cavaliers-dynasty-beyond-2026-27/">米切尔着眼于超越 2026-27 赛季的骑士王朝</a></li>
+          
+            <li><a href="/zh/sports/apple-cup-anticipation-builds-for-sunday-showdown/">周日对决临近，苹果杯期待值不断攀升</a></li>
+          
+            <li><a href="/zh/sports/greatest-sports-television-shows-ranked/">史上最伟大的体育电视节目排名</a></li>
+          
+            <li><a href="/zh/sports/messi-nets-four-in-miami-rout/">梅西在迈阿密大胜中独中四元</a></li>
+          
+            <li><a href="/zh/sports/messis-poker-ends-miami-drought/">梅西大四喜终结迈阿密进球荒</a></li>
+          
+            <li><a href="/zh/sports/hrgovic-stuns-itauma-for-ibf-belt/">赫尔戈维奇爆冷击败伊陶马夺得 IBF 金腰带</a></li>
+          
+            <li><a href="/zh/sports/belichick-silences-critics-with-dublin-upset/">贝利奇克用都柏林爆冷让批评者噤声</a></li>
+          
+            <li><a href="/zh/sports/steelers-dump-first-rounder-on-cowboys/">钢人队将首轮秀送往牛仔队</a></li>
+          
+            <li><a href="/zh/sports/angels-blow-ninth-after-robbing-homer/">天使队抢下本垒打后仍在第九局崩盘</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/zh/technology/">科技</a></h2>
+        <ul>
+          
+            <li><a href="/zh/technology/ai-safety-crisis-researcher-warns-of-existential/">人工智能安全危机：研究人员警告存在生存风险</a></li>
+          
+            <li><a href="/zh/technology/tiny-e-reader-revolutionizes-digital-reading/">微型电子阅读器掀起数字阅读革命</a></li>
+          
+            <li><a href="/zh/technology/understanding-ai-s-impact-on-children-today/">了解人工智能如今对儿童的影响</a></li>
+          
+            <li><a href="/zh/technology/critical-choices-shape-ai-s-future-now/">关键选择正在塑造 AI 的未来</a></li>
+          
+            <li><a href="/zh/technology/flock-cameras-emerge-as-midterm-campaign-issue/">Flock 摄像头成为中期选举议题</a></li>
+          
+            <li><a href="/zh/technology/navigating-critical-decisions-in-ai-s-turbulent-era/">在动荡的人工智能时代应对关键决策</a></li>
+          
+            <li><a href="/zh/technology/critical-decisions-shape-ai-s-future/">关键决策塑造人工智能的未来</a></li>
+          
+            <li><a href="/zh/technology/gates-warns-turbulent-ai-era-arrives/">盖茨警告：动荡的人工智能时代已经到来</a></li>
+          
+            <li><a href="/zh/technology/socket-sensor-warns-before-tissue-injury/">插座传感器在组织受伤前发出警告</a></li>
+          
+            <li><a href="/zh/technology/abbott-freezes-texas-flock-camera-funding/">阿博特冻结得州 Flock 摄像头资金</a></li>
+          
+            <li><a href="/zh/technology/gta-6-crashes-twitch-and-netflix/">《GTA 6》让 Twitch 和 Netflix 崩溃</a></li>
+          
+            <li><a href="/zh/technology/activision-serves-cheat-seller-on-camera/">动视当镜头面向作弊卖家送达文件</a></li>
+          
+            <li><a href="/zh/technology/apple-jacks-up-streaming-prices-again/">苹果再次提高流媒体价格</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/zh/usa/">美国</a></h2>
+        <ul>
+          
+            <li><a href="/zh/usa/caitlin-clark-starting-status-world-cup-final/">凯特琳·克拉克世界杯决赛阶段首发情况</a></li>
+          
+            <li><a href="/zh/usa/spencer-korwin-usa-triathlete-dies-tragically/">斯宾塞·科温：美国铁人三项运动员不幸离世</a></li>
+          
+            <li><a href="/zh/usa/caitlin-clark-fiba-world-cup-usa-vs/">凯特琳·克拉克国际篮联世界杯美国队对阵意大利队</a></li>
+          
+            <li><a href="/zh/usa/team-usa-battles-stomach-illness-at-walker/">美国队在沃克杯期间遭遇胃部疾病</a></li>
+          
+            <li><a href="/zh/usa/stomach-illness-disrupts-team-usa-walker-cup/">胃部疾病扰乱美国队沃克杯征程</a></li>
+          
+            <li><a href="/zh/usa/stomach-illness-strikes-team-usa-walker-cup/">胃部疾病侵袭美国队沃克杯阵容</a></li>
+          
+            <li><a href="/zh/usa/paige-bueckers-team-usa-representation-controversy/">佩奇·布克斯代表美国队引发的争议</a></li>
+          
+            <li><a href="/zh/usa/us-deports-afghan-ally-relative-abroad/">美国将阿富汗盟友亲属驱逐至海外</a></li>
+          
+            <li><a href="/zh/usa/us-eyes-35-betancourt-oil-cut/">美国觊觎贝当古特石油35%的份额</a></li>
+          
+            <li><a href="/zh/usa/us-deports-afghan-to-central-africa/">美国将阿富汗人驱逐至中非</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/zh/world/">国际</a></h2>
+        <ul>
+          
+            <li><a href="/zh/world/oil-surges-past-100-barrel-amid-geopolitical/">地缘政治紧张局势下油价飙升至每桶100美元以上</a></li>
+          
+            <li><a href="/zh/world/stone-skimming-returns-after-cheating-scandal/">石漂比赛在作弊丑闻后回归</a></li>
+          
+            <li><a href="/zh/world/un-endorses-accurate-africa-map-projection/">联合国认可准确的非洲地图投影</a></li>
+          
+            <li><a href="/zh/world/un-adopts-revolutionary-map-correcting-global-proportions/">联合国通过纠正全球比例的革命性地图</a></li>
+          
+            <li><a href="/zh/world/un-adopts-accurate-world-map-projection/">联合国采用准确的世界地图投影</a></li>
+          
+            <li><a href="/zh/world/un-adopts-revolutionary-map-projection-system/">联合国通过革命性地图投影系统</a></li>
+          
+            <li><a href="/zh/world/ford-plants-giant-lake-ontario-sign/">福特竖起巨型安大略湖标牌</a></li>
+          
+            <li><a href="/zh/world/ford-unveils-two-story-name-rebuke/">福特揭幕两层楼高的更名反击牌</a></li>
+          
+            <li><a href="/zh/world/lee-know-funds-nepal-flood-relief/">李旻浩资助尼泊尔洪灾救援</a></li>
+          
+            <li><a href="/zh/world/white-house-aide-bets-on-speeches/">白宫助手押注演讲内容</a></li>
+          
+            <li><a href="/zh/world/icelands-knife-edge-eu-vote-closes/">冰岛势均力敌的欧盟公投落幕</a></li>
+          
+            <li><a href="/zh/world/deadly-trump-shaped-pills-spark-dutch-alert/">致命的特朗普头像药片引发荷兰警报</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/zh/health/">健康</a></h2>
+        <ul>
+          
+            <li><a href="/zh/health/financial-assistance-programs-transform-healthcare-access/">经济援助项目改变医疗服务可及性</a></li>
+          
+            <li><a href="/zh/health/vietnam-refugee-leads-mental-health-through-optimism/">越南难民以乐观引领心理健康事业</a></li>
+          
+            <li><a href="/zh/health/from-refugee-to-mental-health-leader/">从难民到心理健康领袖</a></li>
+          
+            <li><a href="/zh/health/ucla-health-contract-disruption-affects-low-income-care/">UCLA Health 合同中断影响低收入人群的医疗服务</a></li>
+          
+            <li><a href="/zh/health/ucla-health-contract-ends-low-income-crisis/">UCLA Health 合同终止：低收入人群面临危机</a></li>
+          
+            <li><a href="/zh/health/baby-sugar-linked-to-later-cancer/">婴儿期糖摄入与成年后癌症相关</a></li>
+          
+            <li><a href="/zh/health/statins-cut-over-70-heart-risk-30/">他汀类药物将70岁以上人群心脏风险降低30%</a></li>
+          
+            <li><a href="/zh/health/ozempic-tied-to-rare-vision-loss/">Ozempic 与罕见视力丧失有关</a></li>
+          
+            <li><a href="/zh/health/warming-lakes-push-brain-eating-amoeba-north/">变暖的湖泊将“食脑”变形虫推向北方</a></li>
+          
+            <li><a href="/zh/health/gum-sweetener-linked-to-heart-attacks/">口香糖甜味剂与心脏病发作有关</a></li>
+          
+            <li><a href="/zh/health/keto-beats-mediterranean-for-liver-fat/">生酮饮食在减少肝脏脂肪方面胜过地中海饮食</a></li>
+          
+            <li><a href="/zh/health/fda-ptsd-nonmedication-treatment/">FDA 批准首个个性化非药物 PTSD 疗法</a></li>
+          
+            <li><a href="/zh/health/keto-diet-liver-fat/">生酮饮食使肝脂肪下降 67%，关键试验中优于地中海饮食</a></li>
+          
+            <li><a href="/zh/health/melatonin-heart-failure-risk/">长期使用褪黑素与心力衰竭风险升高 90% 相关</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/zh/science/">科学</a></h2>
+        <ul>
+          
+            <li><a href="/zh/science/scientists-debate-potential-alien-life-discovery/">科学家就发现潜在外星生命展开辩论</a></li>
+          
+            <li><a href="/zh/science/science-and-the-afterlife-evidence-or-mystery/">科学与来世：证据还是谜团</a></li>
+          
+            <li><a href="/zh/science/science-explains-death-and-afterlife/">科学解释死亡与死后世界</a></li>
+          
+            <li><a href="/zh/science/quirky-science-wins-ig-nobel-recognition/">古怪科学赢得搞笑诺贝尔奖认可</a></li>
+          
+            <li><a href="/zh/science/quirky-science-wins-recognition-at-ig-nobel/">古怪科学在搞笑诺贝尔奖中获得认可</a></li>
+          
+            <li><a href="/zh/science/quirky-science-earns-ig-nobel-recognition/">古怪科学荣获搞笑诺贝尔奖认可</a></li>
+          
+            <li><a href="/zh/science/daily-steps-science-debunks-10000-step-myth/">每日步数：科学揭穿“1万步”神话</a></li>
+          
+            <li><a href="/zh/science/earth-microbes-survive-moon-shadows/">地球微生物在月影中存活</a></li>
+          
+            <li><a href="/zh/science/cancer-car-t-puts-arthritis-in-remission/">癌症 CAR-T 让关节炎进入缓解期</a></li>
+          
+            <li><a href="/zh/science/roman-telescope-launches-sunday-morning/">罗曼望远镜将于周日早晨发射</a></li>
+          
+            <li><a href="/zh/science/ai-maps-six-hidden-earth-structures/">AI 绘制出地球六处隐藏结构</a></li>
+          
+            <li><a href="/zh/science/shark-graveyard-found-in-egyptian-desert/">埃及沙漠发现鲨鱼墓地</a></li>
+          
+            <li><a href="/zh/science/frozen-frogs-restart-after-hearts-stop/">心脏停止后，冰冻青蛙重新启动</a></li>
+          
+            <li><a href="/zh/science/rna-chemical-difference-origins-of-life/">RNA 的微小化学差异或可揭示地球生命起源</a></li>
+          
+            <li><a href="/zh/science/gut-microbiome-contagious/">肠道微生物会传染吗？新研究揭示人际传播</a></li>
+          
+            <li><a href="/zh/science/pvc-plastic-to-lubricant/">科学家将难回收的 PVC 塑料转化为高性能发动机润滑剂</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/zh/cosmos/">宇宙</a></h2>
+        <ul>
+          
+            <li><a href="/zh/cosmos/roman-telescope-revolutionizes-exoplanet-discovery/">罗曼望远镜革新系外行星发现</a></li>
+          
+            <li><a href="/zh/cosmos/trinidad-s-hidden-legacy-in-space-exploration/">特立尼达在太空探索中的隐秘遗产</a></li>
+          
+            <li><a href="/zh/cosmos/trinidad-s-forgotten-legacy-in-space-exploration/">特立尼达在太空探索中的被遗忘遗产</a></li>
+          
+            <li><a href="/zh/cosmos/imminent-exoplanet-collision-discovery-revolutionizes-unders/">即将发生的系外行星碰撞发现彻底改变认知</a></li>
+          
+            <li><a href="/zh/cosmos/colliding-exoplanets-universe-s-greatest-cosmic-collision/">碰撞中的系外行星：宇宙最伟大的天体碰撞</a></li>
+          
+            <li><a href="/zh/cosmos/imminent-planetary-collision-will-revolutionize-astronomy/">迫在眉睫的行星碰撞将彻底改变天文学</a></li>
+          
+            <li><a href="/zh/cosmos/planetary-collisions-will-revolutionize-cosmic-understanding/">行星碰撞将彻底改变我们对宇宙的理解</a></li>
+          
+            <li><a href="/zh/cosmos/planetary-collisions-transform-cosmological-understanding/">行星碰撞将改变我们对宇宙的理解</a></li>
+          
+            <li><a href="/zh/cosmos/roman-telescope-launch-set-sunday/">罗曼望远镜定于周日发射</a></li>
+          
+            <li><a href="/zh/cosmos/dragon-oxidizer-leak-delays-crew-13/">龙飞船氧化剂泄漏导致 Crew-13 延期</a></li>
+          
+            <li><a href="/zh/cosmos/nasas-hubble-rival-launches-sunday/">NASA 的哈勃竞争者将于周日发射</a></li>
+          
+            <li><a href="/zh/cosmos/dead-star-proves-empty-space-isnt-empty/">死星证明空旷空间并非空无一物</a></li>
+          
+            <li><a href="/zh/cosmos/astronomers-find-a-galaxy-without-stars/">天文学家发现一个没有恒星的星系</a></li>
+          
+            <li><a href="/zh/cosmos/roman-space-telescope-launch/">NASA 罗马太空望远镜本周末发射：它为何可能改写天文学</a></li>
+          
+            <li><a href="/zh/cosmos/mars-magmatic-system/">火星深处隐藏岩浆系统揭示红色星球如何造就地壳</a></li>
+          
+            <li><a href="/zh/cosmos/universe-still-accelerating/">宇宙仍在加速——重大分析再次确认暗能量主导</a></li>
+          
+        </ul>
+      </div>
+    
+  
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="语言">
+        
+          <a no-follow href="/en/">English</a>
+        
+          <a no-follow href="/es/">Español</a>
+        
+          <a no-follow href="/it/">Italiano</a>
+        
+          <a no-follow href="/fr/">Français</a>
+        
+          <a no-follow href="/ar/">العربية</a>
+        
+          <a no-follow href="/la/">Latina</a>
+        
+          <a no-follow href="/hi/">हिन्दी</a>
+        
+          <a no-follow href="/bn/">বাংলা</a>
+        
+          <a no-follow href="/pt/">Português</a>
+        
+          <a no-follow href="/ru/">Русский</a>
+        
+          <a no-follow href="/ur/">اردو</a>
+        
+          <a no-follow href="/zh/" aria-current="page">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

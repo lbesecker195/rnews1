@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Compliance on RNews1.com</title>
+    <link>http://localhost:3003/ur/categories/compliance/</link>
+    <description>Recent content in Compliance on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ur</language>
+    
+        <atom:link href="http://localhost:3003/ur/categories/compliance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CNIL کا ہسپتال پر جرمانہ: €500K جرمانے کا تجزیہ</title>
+      <link>http://localhost:3003/ur/compliance/cnil-hospital-fine-eur500k-penalty-analysis/</link>
+      <pubDate>Sat, 05 Sep 2026 20:38:37 +0000</pubDate>
+      <guid>http://localhost:3003/ur/compliance/cnil-hospital-fine-eur500k-penalty-analysis/</guid>
+      <description>&lt;h1 id=&#34;cnil-کی-جانب-سے-فرانسیسی-ہسپتال-پر-500000-جرمانہ-صحت-کی-دیکھ-بھال-کے-ڈیٹا-کے-تحفظ-کی-تعمیل-کے-لیے-اہم-اسباق&#34;&gt;CNIL کی جانب سے فرانسیسی ہسپتال پر €500,000 جرمانہ: صحت کی دیکھ بھال کے ڈیٹا کے تحفظ کی تعمیل کے لیے اہم اسباق&lt;/h1&gt;
+&lt;h2 id=&#34;انتظامی-خلاصہ&#34;&gt;انتظامی خلاصہ&lt;/h2&gt;
+&lt;p&gt;Commission Nationale de l&amp;rsquo;Informatique et des Libertés (CNIL)، جو فرانس کا آزاد ڈیٹا تحفظ ادارہ ہے، نے جنرل ڈیٹا پروٹیکشن ریگولیشن (GDPR) کی خلاف ورزیوں پر ایک فرانسیسی ہسپتال کے خلاف €500,000 کا بھاری جرمانہ عائد کیا ہے۔ اس واقعے میں تقریباً 727,000 مریضوں کے ریکارڈز متاثر ہوئے، جو فرانس کی حالیہ ضابطہ جاتی تاریخ میں صحت کی دیکھ بھال کے شعبے سے متعلق سب سے بڑی ڈیٹا خلاف ورزیوں میں سے ایک ہے۔ یہ نفاذی کارروائی یورپی ڈیٹا تحفظ اداروں کی جانب سے عائد کیے جانے والے جرمانوں کی بڑھتی ہوئی شدت کو اجاگر کرتی ہے اور صحت کی دیکھ بھال کرنے والی تنظیموں کو GDPR اور فرانسیسی ڈیٹا تحفظ قانون کے تحت اپنی ذمہ داریوں کی ایک اہم یاد دہانی فراہم کرتی ہے۔&lt;/p&gt;</description>
+      
+      
+      
+      <tweet>🚨 CNIL fines French hospital €500K for breaching 727K patient records. Healthcare orgs: GDPR violations carry serious penalties. Strengthen your data security NOW. #GDPR #Healthcare #Compliance #DataProtection www.rnews1.com/en/compliance/cnil-hospital-fine-eur500k-penalty-analysis/  @CISAgov @SecurityJoe #Cybersecurity #Security #DataBreach</tweet>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>AI Coding on RNews1.com</title>
+    <link>http://localhost:3003/it/tags/ai-coding/</link>
+    <description>Recent content in AI Coding on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    
+        <atom:link href="http://localhost:3003/it/tags/ai-coding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OpenAI taglia Cursor dopo l&#39;accordo di Musk</title>
+      <link>http://localhost:3003/it/business/openai-cuts-cursor-after-musk-deal/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/it/business/openai-cuts-cursor-after-musk-deal/</guid>
+      <description>&lt;h1 id=&#34;openai-taglia-cursor-dopo-laccordo-di-musk&#34;&gt;OpenAI taglia Cursor dopo l&amp;rsquo;accordo di Musk&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;OpenAI&lt;/strong&gt; ha detto venerdì che smetterà di fornire i suoi modelli a &lt;strong&gt;Cursor&lt;/strong&gt; dopo che &lt;strong&gt;SpaceX&lt;/strong&gt; ha chiuso un&amp;rsquo;acquisizione da &lt;strong&gt;60 miliardi di dollari&lt;/strong&gt; della startup di coding con IA il &lt;strong&gt;14 agosto&lt;/strong&gt;. Il taglio proposto è il &lt;strong&gt;12 novembre 2026&lt;/strong&gt;, e OpenAI ha detto che non darà a Cursor modelli futuri. Un rapporto da fornitore che, per i clienti di Cursor, era sembrato ordinaria idraulica sta venendo riclassificato come un rischio che il laboratorio non si assumerà.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

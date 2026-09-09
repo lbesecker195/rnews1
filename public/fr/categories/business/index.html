@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business | RNews1.com</title>
+  <meta name="description" content="Science, santé et cosmos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/fr/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="Rubriques">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/business/"
+              
+            >Économie</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/fr/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/cosmos/"
+              
+            >Cosmos</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/crypto/"
+              
+            >Crypto</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/entertainment/"
+              
+            >Divertissement</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/health/"
+              
+            >Santé</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/ai/"
+              
+            >IA</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/science/"
+              
+            >Science</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/sports/"
+              
+            >Sports</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/technology/"
+              
+            >Technologie</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/usa/"
+              
+            >États-Unis</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/world/"
+              
+            >Monde</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="Menu">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="Rubriques">
+          
+            
+              
+              
+              
+              <a
+                href="/fr/business/"
+                
+              >Économie</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/fr/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/cosmos/"
+                
+              >Cosmos</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/crypto/"
+                
+              >Crypto</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/entertainment/"
+                
+              >Divertissement</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/health/"
+                
+              >Santé</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/ai/"
+                
+              >IA</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/science/"
+                
+              >Science</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/sports/"
+                
+              >Sports</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/technology/"
+                
+              >Technologie</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/usa/"
+                
+              >États-Unis</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/world/"
+                
+              >Monde</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+              
+            
+          Business</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/fr/business/from-iphone-repair-to-cybersecurity-leadership/">De la réparation d’iPhone au leadership en cybersécurité</a></h2>
+    <p class="summary">Comment Justin Fargo, étudiant à UConn, a transformé une activité familiale secondaire en une entreprise florissante de cybersécurité pour les petites …</p>
+    <a class="read-more" href="/fr/business/from-iphone-repair-to-cybersecurity-leadership/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/business/autonomous-vehicles-transform-accessibility-and-independence/">Les véhicules autonomes transforment l’accessibilité et l’indépendance</a></h2>
+    <p class="summary">Le Cybercab de Tesla représente un changement transformateur dans les solutions de mobilité pour les personnes malvoyantes, promettant de restaurer leur …</p>
+    <a class="read-more" href="/fr/business/autonomous-vehicles-transform-accessibility-and-independence/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/business/autonomous-vehicles-transforming-accessibility-independence/">Les véhicules autonomes transforment l’accessibilité et l’autonomie</a></h2>
+    <p class="summary">Le Cybercab de Tesla représente un changement de paradigme dans les solutions de mobilité pour les personnes malvoyantes, démontrant comment la technologie des …</p>
+    <a class="read-more" href="/fr/business/autonomous-vehicles-transforming-accessibility-independence/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/business/boring-company-seeks-investor-support-amid-growth/">The Boring Company recherche le soutien d’investisseurs face à sa croissance</a></h2>
+    <p class="summary">The Boring Company, fondée par Musk, sollicite activement l’aide d’investisseurs pour le recrutement et le développement commercial, signe d’une accélération de …</p>
+    <a class="read-more" href="/fr/business/boring-company-seeks-investor-support-amid-growth/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/business/boring-company-seeks-strategic-investor-support/">The Boring Company cherche le soutien d’investisseurs stratégiques</a></h2>
+    <p class="summary">The Boring Company d’Elon Musk recrute activement des investisseurs afin de renforcer ses effectifs et d’accélérer ses efforts de développement commercial.</p>
+    <a class="read-more" href="/fr/business/boring-company-seeks-strategic-investor-support/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/business/boring-company-seeks-investor-help-recruiting/">La Boring Company cherche l’aide des investisseurs pour recruter</a></h2>
+    <p class="summary">La Boring Company d’Elon Musk s’appuie sur son réseau d’investisseurs pour accélérer le recrutement et le développement commercial, signe de projets d’expansion …</p>
+    <a class="read-more" href="/fr/business/boring-company-seeks-investor-help-recruiting/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/business/fox-business-host-sues-whole-foods-over/">Un animateur de Fox Business poursuit Whole Foods après une attaque de chien</a></h2>
+    <p class="summary">Une personnalité éminente de Fox Business engage des poursuites judiciaires contre Whole Foods après une grave attaque de chien dans l’un de ses magasins, …</p>
+    <a class="read-more" href="/fr/business/fox-business-host-sues-whole-foods-over/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/business/fox-business-host-files-lawsuit-against-whole/">L&#39;animateur de Fox Business porte plainte contre Whole Foods</a></h2>
+    <p class="summary">Une personnalité connue de Fox Business engage des poursuites contre Whole Foods Market à la suite d&#39;une grave attaque de chien survenue dans l&#39;un de ses …</p>
+    <a class="read-more" href="/fr/business/fox-business-host-files-lawsuit-against-whole/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/business/us-seeks-35-venezuela-oil-stake/">Les États-Unis cherchent à prendre une participation de 35 % dans le pétrole vénézuélien</a></h2>
+    <p class="summary">Le Wall Street Journal a rapporté samedi que Washington prévoit une participation passive de 35 % dans North American Blue Energy Partners, l’entreprise de …</p>
+    <a class="read-more" href="/fr/business/us-seeks-35-venezuela-oil-stake/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/business/glencore-writes-off-entire-radiant-hit/">Glencore passe entièrement par pertes et profits sa perte liée à Radiant</a></h2>
+    <p class="summary">Glencore a comptabilisé une provision d&#39;environ 480 millions de dollars couvrant l&#39;intégralité de son exposition nette au négociant de minerai de fer Radiant …</p>
+    <a class="read-more" href="/fr/business/glencore-writes-off-entire-radiant-hit/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/business/chipotle-prank-influencer-pleads-guilty/">L’influenceur des canulars de Chipotle plaide coupable</a></h2>
+    <p class="summary">Heston James Cobb, l’influenceur qui publie sous le nom de « Heston James », a plaidé coupable vendredi en Arizona de personnification criminelle pour s’être …</p>
+    <a class="read-more" href="/fr/business/chipotle-prank-influencer-pleads-guilty/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/business/openai-cuts-cursor-after-musk-deal/">OpenAI coupe Cursor après l&#39;accord de Musk</a></h2>
+    <p class="summary">OpenAI a déclaré vendredi qu&#39;elle cesserait de fournir ses modèles à Cursor après que SpaceX a clos une acquisition de 60 milliards de dollars de la start-up de …</p>
+    <a class="read-more" href="/fr/business/openai-cuts-cursor-after-musk-deal/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/business/memory-chips-now-rival-gold-prices/">Les puces mémoire rivalisent désormais avec les prix de l&#39;or</a></h2>
+    <p class="summary">L&#39;Institut de promotion des statistiques commerciales de Corée du Sud dit que les prix d&#39;exportation de la DRAM pour les puces, et non les modules, ont atteint …</p>
+    <a class="read-more" href="/fr/business/memory-chips-now-rival-gold-prices/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/business/tim-cooks-apple-era-ends-tuesday/">L&#39;ère Tim Cook chez Apple s&#39;achève mardi</a></h2>
+    <p class="summary">Tim Cook quitte le poste de PDG d&#39;Apple mardi 1er septembre, clôturant une course de 15 ans qui a commencé lorsque Steve Jobs a démissionné en août 2011. Le …</p>
+    <a class="read-more" href="/fr/business/tim-cooks-apple-era-ends-tuesday/">Lire l’article</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="Langues">
+        
+          <a no-follow href="/en/categories/business/">English</a>
+        
+          <a no-follow href="/es/categories/business/">Español</a>
+        
+          <a no-follow href="/it/categories/business/">Italiano</a>
+        
+          <a no-follow href="/fr/categories/business/" aria-current="page">Français</a>
+        
+          <a no-follow href="/ar/categories/business/">العربية</a>
+        
+          <a no-follow href="/la/categories/business/">Latina</a>
+        
+          <a no-follow href="/hi/categories/business/">हिन्दी</a>
+        
+          <a no-follow href="/bn/categories/business/">বাংলা</a>
+        
+          <a no-follow href="/pt/categories/business/">Português</a>
+        
+          <a no-follow href="/ru/categories/business/">Русский</a>
+        
+          <a no-follow href="/ur/categories/business/">اردو</a>
+        
+          <a no-follow href="/zh/categories/business/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

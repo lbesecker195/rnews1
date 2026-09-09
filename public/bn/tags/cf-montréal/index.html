@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="bn" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CF Montréal | RNews1.com</title>
+  <meta name="description" content="বিজ্ঞান, স্বাস্থ্য ও মহাবিশ্ব।">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/bn/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="বিভাগ">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/ai/"
+              
+            >এআই</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/business/"
+              
+            >ব্যবসা</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/bn/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/crypto/"
+              
+            >ক্রিপ্টো</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/entertainment/"
+              
+            >বিনোদন</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/sports/"
+              
+            >খেলা</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/technology/"
+              
+            >প্রযুক্তি</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/usa/"
+              
+            >যুক্তরাষ্ট্র</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/world/"
+              
+            >বিশ্ব</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/science/"
+              
+            >বিজ্ঞান</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/cosmos/"
+              
+            >মহাকাশ</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/health/"
+              
+            >স্বাস্থ্য</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="মেনু">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="বিভাগ">
+          
+            
+              
+              
+              
+              <a
+                href="/bn/ai/"
+                
+              >এআই</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/business/"
+                
+              >ব্যবসা</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/bn/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/crypto/"
+                
+              >ক্রিপ্টো</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/entertainment/"
+                
+              >বিনোদন</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/sports/"
+                
+              >খেলা</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/technology/"
+                
+              >প্রযুক্তি</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/usa/"
+                
+              >যুক্তরাষ্ট্র</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/world/"
+                
+              >বিশ্ব</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/science/"
+                
+              >বিজ্ঞান</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/cosmos/"
+                
+              >মহাকাশ</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/health/"
+                
+              >স্বাস্থ্য</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+              
+            
+          CF Montréal</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/bn/sports/messi-nets-four-in-miami-rout/">মিয়ামির বড় জয়ে মেসির চার গোল</a></h2>
+    <p class="summary">শনিবার রাতে লিওনেল মেসি চার গোল ও একটি অ্যাসিস্ট করেন, যখন ইন্টার মিয়ামি CF Montréal-কে ৭-১ গোলে উড়িয়ে দেয়—এটি MLS-এ তাঁর প্রথম চার গোলের ম্যাচ। ৪০তম মিনিটে …</p>
+    <a class="read-more" href="/bn/sports/messi-nets-four-in-miami-rout/">নিবন্ধ পড়ুন</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/bn/sports/messis-poker-ends-miami-drought/">মেসির চার গোলের জাদুতে মিয়ামির খরা কাটল</a></h2>
+    <p class="summary">শনিবার লিওনেল মেসি চার গোল করেন, আর ইন্টার মিয়ামি CF Montréal-কে ৭-১ গোলে উড়িয়ে দেয়, জানিয়েছে Yahoo Sports। এতে মেসির গোলসংখ্যা বেড়ে ১৭ হয়েছে এবং FC …</p>
+    <a class="read-more" href="/bn/sports/messis-poker-ends-miami-drought/">নিবন্ধ পড়ুন</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="ভাষা">
+        
+          <a no-follow href="/en/tags/cf-montr%C3%A9al/">English</a>
+        
+          <a no-follow href="/es/tags/cf-montr%C3%A9al/">Español</a>
+        
+          <a no-follow href="/it/tags/cf-montr%C3%A9al/">Italiano</a>
+        
+          <a no-follow href="/fr/tags/cf-montr%C3%A9al/">Français</a>
+        
+          <a no-follow href="/ar/tags/cf-montr%C3%A9al/">العربية</a>
+        
+          <a no-follow href="/la/tags/cf-montr%C3%A9al/">Latina</a>
+        
+          <a no-follow href="/hi/tags/cf-montr%C3%A9al/">हिन्दी</a>
+        
+          <a no-follow href="/bn/tags/cf-montr%C3%A9al/" aria-current="page">বাংলা</a>
+        
+          <a no-follow href="/pt/tags/cf-montr%C3%A9al/">Português</a>
+        
+          <a no-follow href="/ru/tags/cf-montr%C3%A9al/">Русский</a>
+        
+          <a no-follow href="/ur/tags/cf-montr%C3%A9al/">اردو</a>
+        
+          <a no-follow href="/zh/tags/cf-montr%C3%A9al/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

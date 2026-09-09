@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Nvidia on RNews1.com</title>
+    <link>http://localhost:3003/it/tags/nvidia/</link>
+    <description>Recent content in Nvidia on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    
+        <atom:link href="http://localhost:3003/it/tags/nvidia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Musk afferma che le infrastrutture della rete lasceranno le GPU inutilizzate</title>
+      <link>http://localhost:3003/it/ai/musk-says-grid-gear-strands-gpus/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/it/ai/musk-says-grid-gear-strands-gpus/</guid>
+      <description>&lt;h1 id=&#34;musk-afferma-che-le-infrastrutture-della-rete-lasceranno-le-gpu-inutilizzate&#34;&gt;Musk afferma che le infrastrutture della rete lasceranno le GPU inutilizzate&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Elon Musk&lt;/strong&gt; ha scritto su &lt;strong&gt;X&lt;/strong&gt; il &lt;strong&gt;29 agosto 2026&lt;/strong&gt; che &lt;em&gt;circa&lt;/em&gt; &lt;strong&gt;15 gigawatt&lt;/strong&gt; di &lt;strong&gt;capacità di calcolo per l&amp;rsquo;IA&lt;/strong&gt; previsti online nel &lt;strong&gt;2027&lt;/strong&gt; probabilmente &lt;em&gt;resteranno inutilizzati&lt;/em&gt; perché le &lt;strong&gt;infrastrutture elettriche&lt;/strong&gt; non saranno pronte. &lt;strong&gt;Crypto Briefing&lt;/strong&gt; riferisce dell&amp;rsquo;avvertimento. L&amp;rsquo;affermazione non è che i chip non verranno consegnati. È che le apparecchiature intorno ai chip — la rete elettrica, il rame, il raffreddamento, l&amp;rsquo;interconnessione — non saranno installate quando lo saranno i server.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

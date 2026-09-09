@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Climate on RNews1.com</title>
+    <link>http://localhost:3003/en/tags/climate/</link>
+    <description>Recent content in Climate on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+        <atom:link href="http://localhost:3003/en/tags/climate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Warming Lakes Push Brain-Eating Amoeba North</title>
+      <link>http://localhost:3003/en/health/warming-lakes-push-brain-eating-amoeba-north/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/en/health/warming-lakes-push-brain-eating-amoeba-north/</guid>
+      <description>&lt;h1 id=&#34;warming-lakes-push-brain-eating-amoeba-north&#34;&gt;Warming Lakes Push Brain-Eating Amoeba North&lt;/h1&gt;
+&lt;h2 id=&#34;a-rare-infection-on-a-moving-map&#34;&gt;A rare infection on a moving map&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;central North Carolina teenager is critically ill&lt;/strong&gt; with &lt;em&gt;Naegleria fowleri&lt;/em&gt;, the rare &lt;strong&gt;&amp;lsquo;brain-eating&amp;rsquo; amoeba&lt;/strong&gt;, as scientists track a &lt;strong&gt;northward shift&lt;/strong&gt; in where people get exposed. The sentence has two halves, and they are not the same story. The first is a single patient, unnamed, in a Southern state that has always been inside the organism&amp;rsquo;s known range. The second is a geographic trend that does not require any one teenager to prove it.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

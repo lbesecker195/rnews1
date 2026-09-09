@@ -1,0 +1,32 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Biology on RNews1.com</title>
+    <link>http://localhost:3003/ru/tags/biology/</link>
+    <description>Recent content in Biology on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    
+        <atom:link href="http://localhost:3003/ru/tags/biology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Заразен ли микробиом кишечника? Новая наука о передаче от человека к человеку</title>
+      <link>http://localhost:3003/ru/science/gut-microbiome-contagious/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3003/ru/science/gut-microbiome-contagious/</guid>
+      <description>&lt;h1 id=&#34;заразен-ли-микробиом-кишечника-новая-наука-о-передаче-от-человека-к-человеку&#34;&gt;Заразен ли микробиом кишечника? Новая наука о передаче от человека к человеку&lt;/h1&gt;
+&lt;p&gt;Годами &lt;strong&gt;кишечный микробиом&lt;/strong&gt; считали личной экосистемой. Работа конца августа 2026 года переворачивает картину: микробы могут &lt;em&gt;переходить от человека к человеку&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;why-this-finding-matters-right-now&#34;&gt;Почему это важно сейчас&lt;/h2&gt;
+&lt;p&gt;В кишечнике около &lt;strong&gt;40 триллионов микробных клеток&lt;/strong&gt;; они влияют на пищеварение, иммунитет и метаболический риск.&lt;/p&gt;
+&lt;h2 id=&#34;how-microbes-jump-between-people&#34;&gt;Как микробы перескакивают между людьми&lt;/h2&gt;
+&lt;p&gt;Общие поверхности, близкий контакт, аэрозоли, питомцы. &lt;em&gt;Bacteroides&lt;/em&gt; и &lt;em&gt;Faecalibacterium&lt;/em&gt; среди самых передаваемых.&lt;/p&gt;
+&lt;h2 id=&#34;implications-for-public-health-and-medicine&#34;&gt;Следствия для здравоохранения и медицины&lt;/h2&gt;
+&lt;p&gt;Похожие профили здоровья в семьях с разным рационом; больницам, возможно, придётся расширить протоколы.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

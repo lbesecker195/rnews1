@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Dark Matter on RNews1.com</title>
+    <link>http://localhost:3003/en/tags/dark-matter/</link>
+    <description>Recent content in Dark Matter on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+        <atom:link href="http://localhost:3003/en/tags/dark-matter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Astronomers Find a Galaxy Without Stars</title>
+      <link>http://localhost:3003/en/cosmos/astronomers-find-a-galaxy-without-stars/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/en/cosmos/astronomers-find-a-galaxy-without-stars/</guid>
+      <description>&lt;h1 id=&#34;astronomers-find-a-galaxy-without-stars&#34;&gt;Astronomers Find a Galaxy Without Stars&lt;/h1&gt;
+&lt;h2 id=&#34;a-cloud-that-should-have-become-a-galaxy&#34;&gt;A cloud that should have become a galaxy&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Cloud-9&lt;/strong&gt;, &lt;strong&gt;14 million&lt;/strong&gt; light-years away near &lt;strong&gt;Messier 94&lt;/strong&gt;, looks like a galaxy that never switched on. That is a more unsettling sentence than it first appears. Galaxies are supposed to be the places where gas, gravity, and time agree to make stars. The night sky is a catalog of that agreement. Cloud-9 is interesting because the agreement seems to have failed, and because the failure, if it is real, is not a gap in the data. It is an object.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

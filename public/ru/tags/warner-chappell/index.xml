@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Warner Chappell on RNews1.com</title>
+    <link>http://localhost:3003/ru/tags/warner-chappell/</link>
+    <description>Recent content in Warner Chappell on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    
+        <atom:link href="http://localhost:3003/ru/tags/warner-chappell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sony подаёт в суд на Anthropic из-за украденных песен</title>
+      <link>http://localhost:3003/ru/ai/sony-sues-anthropic-over-stolen-songs/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/ru/ai/sony-sues-anthropic-over-stolen-songs/</guid>
+      <description>&lt;h1 id=&#34;sony-подаёт-в-суд-на-anthropic-из-за-украденных-песен&#34;&gt;Sony подаёт в суд на Anthropic из-за украденных песен&lt;/h1&gt;
+&lt;p&gt;Последний фронт борьбы вокруг того, как создаются большие языковые модели, — это не роман, не новостной архив и не груда исходного кода. Это американский песенный канон. &lt;strong&gt;28 августа&lt;/strong&gt; &lt;strong&gt;Sony Music Publishing&lt;/strong&gt; и &lt;strong&gt;Warner Chappell&lt;/strong&gt; обратились в федеральный суд в &lt;em&gt;Северной Калифорнии&lt;/em&gt; и подали иск против &lt;strong&gt;Anthropic&lt;/strong&gt;, лаборатории, стоящей за семейством моделей &lt;strong&gt;Claude&lt;/strong&gt;, а также против &lt;strong&gt;генерального директора Дарио Амодеи&lt;/strong&gt; и &lt;strong&gt;сооснователя Бенджамина Манна&lt;/strong&gt;. В жалобе издателей нет недомолвок. В ней обучение Claude названо &lt;em&gt;«одним из крупнейших и наиболее вопиющих продолжающихся хищений интеллектуальной собственности в истории»&lt;/em&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

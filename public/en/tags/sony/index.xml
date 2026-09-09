@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Sony on RNews1.com</title>
+    <link>http://localhost:3003/en/tags/sony/</link>
+    <description>Recent content in Sony on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+        <atom:link href="http://localhost:3003/en/tags/sony/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sony Sues Anthropic Over Stolen Songs</title>
+      <link>http://localhost:3003/en/ai/sony-sues-anthropic-over-stolen-songs/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/en/ai/sony-sues-anthropic-over-stolen-songs/</guid>
+      <description>&lt;h1 id=&#34;sony-sues-anthropic-over-stolen-songs&#34;&gt;Sony Sues Anthropic Over Stolen Songs&lt;/h1&gt;
+&lt;p&gt;The latest front in the fight over how large language models get built is not a novel, a news archive, or a pile of source code. It is the American songbook. On &lt;strong&gt;August 28&lt;/strong&gt;, &lt;strong&gt;Sony Music Publishing&lt;/strong&gt; and &lt;strong&gt;Warner Chappell&lt;/strong&gt; walked into federal court in &lt;em&gt;Northern California&lt;/em&gt; and sued &lt;strong&gt;Anthropic&lt;/strong&gt;, the lab behind the &lt;strong&gt;Claude&lt;/strong&gt; family of models, along with &lt;strong&gt;CEO Dario Amodei&lt;/strong&gt; and &lt;strong&gt;co-founder Benjamin Mann&lt;/strong&gt;. The publishers’ complaint does not mince words. It calls Claude’s training &lt;em&gt;“one of the largest and most blatant ongoing thefts of intellectual property in history.”&lt;/em&gt;&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

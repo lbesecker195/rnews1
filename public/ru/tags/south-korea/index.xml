@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>South Korea on RNews1.com</title>
+    <link>http://localhost:3003/ru/tags/south-korea/</link>
+    <description>Recent content in South Korea on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    
+        <atom:link href="http://localhost:3003/ru/tags/south-korea/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Чипы памяти теперь соперничают с золотом по цене</title>
+      <link>http://localhost:3003/ru/business/memory-chips-now-rival-gold-prices/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/ru/business/memory-chips-now-rival-gold-prices/</guid>
+      <description>&lt;h1 id=&#34;чипы-памяти-теперь-соперничают-с-золотом-по-цене&#34;&gt;Чипы памяти теперь соперничают с золотом по цене&lt;/h1&gt;
+&lt;p&gt;Институт содействия торговой статистике Южной Кореи сообщает, что экспортные цены на микросхемы DRAM, а не модули, в среднем составили &lt;strong&gt;$92 183&lt;/strong&gt; за килограмм с &lt;strong&gt;1 по 20 августа&lt;/strong&gt;, увеличившись на &lt;strong&gt;401%&lt;/strong&gt; год к году и достигнув &lt;strong&gt;12,5-кратного&lt;/strong&gt; значения минимума &lt;strong&gt;января 2023 года&lt;/strong&gt; после запуска &lt;strong&gt;ChatGPT&lt;/strong&gt;. Этот килограмм корейской DRAM стоит примерно столько же, сколько &lt;strong&gt;620 граммов&lt;/strong&gt; золота 24 карат, в &lt;strong&gt;1,53 раза&lt;/strong&gt; больше платины и в &lt;strong&gt;41,7 раза&lt;/strong&gt; больше серебра. Это сравнение — не метафора, придуманная в социальных сетях. Это таможенная цена за вес, сопоставленная со слитками, для чипов, благодаря которым компьютеры помнят.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

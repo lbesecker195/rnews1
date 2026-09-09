@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIT: Gli esseri umani battono ancora l&#39;IA sui costi | RNews1.com</title>
+  <meta name="description" content="Uno studio ampiamente rilanciato del MIT CSAIL e della Sloan sull&#39;automazione basata sulla computer vision torna nei feed sull&#39;IA dell&#39;ultima ora, alimentando una tesi controcorrente sull&#39;occupazione: l&#39;esposizione tecnica non equivale alla sostituzione economica. Modellando i costi di installazione e gestione, i ricercatori hanno scoperto che oggi solo circa il 23% dei salari statunitensi legati a mansioni visive sembra conveniente da automatizzare; la maggior parte delle aziende continuerebbe a preferire le persone una volta conteggiati telecamere, modelli e manutenzione. Un caso di studio su una panetteria mostra che il controllo qualità tramite computer vision rappresenta una quota minima del lavoro, quindi l&#39;IA raramente si ripaga. Gli autori sostengono che la sostituzione sarà graduale e che serviranno la scalabilità dell&#39;IA come servizio o forti riduzioni dei costi per cambiare i calcoli, lasciando tempo per le politiche pubbliche e la riqualificazione. Per x.com la battuta è già pronta: i robot stanno arrivando, ma prima arriva la fattura.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/it/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="Sezioni">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/it/business/"
+              
+            >Economia</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/it/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/it/cosmos/"
+              
+            >Cosmo</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/it/crypto/"
+              
+            >Cripto</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/it/health/"
+              
+            >Salute</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/it/ai/"
+              aria-current="page"
+            >IA</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/it/entertainment/"
+              
+            >Intrattenimento</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/it/science/"
+              
+            >Scienza</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/it/sports/"
+              
+            >Sport</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/it/technology/"
+              
+            >Tecnologia</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/it/usa/"
+              
+            >USA</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/it/world/"
+              
+            >Mondo</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="Menu">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="Sezioni">
+          
+            
+              
+              
+              
+              <a
+                href="/it/business/"
+                
+              >Economia</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/it/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/it/cosmos/"
+                
+              >Cosmo</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/it/crypto/"
+                
+              >Cripto</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/it/health/"
+                
+              >Salute</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/it/ai/"
+                aria-current="page"
+              >IA</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/it/entertainment/"
+                
+              >Intrattenimento</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/it/science/"
+                
+              >Scienza</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/it/sports/"
+                
+              >Sport</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/it/technology/"
+                
+              >Tecnologia</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/it/usa/"
+                
+              >USA</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/it/world/"
+                
+              >Mondo</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="post container">
+  <header class="post-header">
+    <h1><a href="">MIT: Gli esseri umani battono ancora l&#39;IA sui costi</a></h1>
+    <div class="post-meta">
+      
+        <span>
+          <a href="/it/ai/">Ia</a>
+        </span>
+      <span>·</span>
+    
+      <time datetime="2026-08-29">29 agosto 2026</time>
+      <span>·</span>
+      <span>13 min di lettura</span>
+    </div>
+  </header>
+  <div class="post-content">
+    
+<p>Uno studio ampiamente rilanciato del <strong>MIT CSAIL</strong> e della <strong>Sloan</strong> sull&rsquo;<em>automazione basata sulla computer vision</em> torna nei <em>feed sull&rsquo;IA dell&rsquo;ultima ora</em>, alimentando una <strong>tesi controcorrente sull&rsquo;occupazione</strong>: <em>l&rsquo;esposizione tecnica non equivale alla sostituzione economica</em>. La tesi non è che le telecamere non sappiano vedere. È che vedere non equivale a ripagarsi. I ricercatori che hanno modellato i <strong>costi di installazione e gestione</strong> hanno scoperto che solo <strong>circa il 23% dei salari statunitensi</strong> legati a <em>mansioni visive</em> sembra <em>conveniente da automatizzare oggi</em>. <strong>La maggior parte delle aziende continuerebbe a preferire le persone</strong> una volta conteggiati <strong>telecamere</strong>, <strong>modelli</strong> e <strong>manutenzione</strong>.</p>
+<p>Questo è l&rsquo;intero argomento, ed è sufficiente a spiegare perché il documento stia tornando a circolare. I <em>feed sull&rsquo;IA dell&rsquo;ultima ora</em> di solito non si soffermano sui modelli di costo. Si soffermano sulle dimostrazioni. Questo studio è l&rsquo;opposto di una dimostrazione. Chiede cosa succede quando un&rsquo;azienda deve acquistare l&rsquo;intera infrastruttura, mantenerla operativa e continuare comunque a pagare il lavoro che la computer vision non ha toccato. La risposta, nei calcoli del <strong>MIT CSAIL</strong> e della <strong>Sloan</strong>, è che la <em>maggior parte</em> del monte salari legato al lavoro visivo non sembra un affare per le macchine <em>oggi</em>.</p>
+<h2 id="lesposizione-tecnica-non-è-sostituzione-economica">L&rsquo;esposizione tecnica non è sostituzione economica</h2>
+<h3 id="una-storia-sulloccupazione-che-rifiuta-la-scorciatoia-abituale">Una storia sull&rsquo;occupazione che rifiuta la scorciatoia abituale</h3>
+<p>La <strong>tesi controcorrente sull&rsquo;occupazione</strong> è espressa senza ornamenti: <em>l&rsquo;esposizione tecnica non equivale alla sostituzione economica</em>. L&rsquo;<em>esposizione tecnica</em> è la mappa familiare. Chiede quali compiti un sistema sia in grado di svolgere, quali professioni li comprendano e quali lavoratori sembrino quindi esposti. La <em>sostituzione economica</em> è una mappa diversa. Chiede quali di quei compiti un&rsquo;azienda sottrarrebbe effettivamente a una persona dopo aver contabilizzato i <strong>costi di installazione e gestione</strong>.</p>
+<p>Lo studio del <strong>MIT CSAIL</strong> e della <strong>Sloan</strong> sull&rsquo;<em>automazione basata sulla computer vision</em> si colloca sulla seconda mappa. La computer vision è uno degli ambiti più maturi dell&rsquo;<strong>IA</strong> applicata. Le telecamere costano poco rispetto a una fabbrica. I modelli possono classificare, rilevare e ispezionare. Proprio questa maturità fa apparire il risultato dello studio <em>controcorrente</em>. Se una categoria di attività dovesse aver già superato la soglia della <em>sostituzione economica</em>, le <em>mansioni visive</em> sarebbero in cima alla lista. Lo studio dice di no: non alla scala suggerita dalle mappe dell&rsquo;esposizione e non <em>oggi</em>.</p>
+<p><em>Ampia circolazione</em> svolge un ruolo importante nell&rsquo;attacco del testo. La ricerca non viene trattata come una fuga di notizie completamente nuova. Viene trattata come una scoperta che torna ogni volta che il dibattito sull&rsquo;<em>occupazione</em> si accende. I <em>feed sull&rsquo;IA dell&rsquo;ultima ora</em> di un sabato sera rappresentano una forma particolare di circolazione: riassunti brevi, contrasti netti e una frase capace di viaggiare. La frase che viaggia qui è quella che rifiuta la scorciatoia. L&rsquo;esposizione non è sostituzione. La capacità non è un ordine d&rsquo;acquisto.</p>
+<p>Questo rifiuto conta per il modo in cui vanno letti tutti gli altri numeri. Lo studio non sostiene che l&rsquo;<em>automazione basata sulla computer vision</em> sia impossibile. Non sostiene che l&rsquo;<strong>IA</strong> non sostituisca mai il lavoro umano. Sostiene che, quando vengono modellati i <strong>costi di installazione e gestione</strong>, solo una minoranza del monte salari interessato sembra <em>conveniente da automatizzare oggi</em>. Il resto rimane alle persone perché la fattura è più alta della voce salariale che l&rsquo;azienda eliminerebbe.</p>
+<h2 id="solo-circa-il-23-sembra-conveniente-da-automatizzare-oggi">Solo circa il 23% sembra conveniente da automatizzare oggi</h2>
+<h3 id="la-quota-di-salari-che-sopravvive-al-modello-dei-costi">La quota di salari che sopravvive al modello dei costi</h3>
+<p>I ricercatori hanno scoperto che solo <strong>circa il 23% dei salari statunitensi</strong> legati a <em>mansioni visive</em> sembra <em>conveniente da automatizzare oggi</em>. La percentuale si riferisce ai <em>salari</em>, non alla quota di aziende e neppure alla quota di professioni. È la parte del monte salari statunitense associata al lavoro visivo che continua a tornare dopo che il modello ha fissato il prezzo del sistema. <strong>Circa il 23%</strong> non è la metà. Non è la maggior parte. È una fetta minoritaria del monte salari legato alla visione.</p>
+<p>È il complemento a fare il grosso del lavoro nel dibattito sull&rsquo;<em>occupazione</em>. Se solo <strong>circa il 23%</strong> sembra <em>conveniente</em> <em>oggi</em>, allora la grande maggioranza non lo è. Ed è per questo che <strong>la maggior parte delle aziende continuerebbe a preferire le persone</strong>. In questo quadro, la preferenza non è sentimento. È il risultato di un confronto tra costi. Un&rsquo;azienda che preferisce le persone è un&rsquo;azienda che ha guardato a <strong>telecamere</strong>, <strong>modelli</strong> e <strong>manutenzione</strong>, ha sommato i <strong>costi di installazione e gestione</strong> e ha deciso che il salario umano è ancora il modo più economico per svolgere il lavoro.</p>
+<p><em>Oggi</em> è importante tanto quanto <strong>circa il 23%</strong>. Lo studio non prevede che la quota resterà immutata. È una fotografia di ciò che sembra <em>conveniente</em> ai prezzi attuali. Gli autori sostengono in seguito che sarebbero necessarie la <strong>scalabilità dell&rsquo;IA come servizio</strong> o <strong>forti riduzioni dei costi</strong> per <em>cambiare i calcoli</em>. Il dato del <strong>circa 23%</strong> rappresenta i calcoli prima di quel cambiamento. È il numero che dice che l&rsquo;<em>automazione basata sulla computer vision</em> è tecnicamente disponibile ed economicamente ristretta allo stesso tempo.</p>
+<p>I salari statunitensi legati alle <em>mansioni visive</em> sono inoltre un oggetto delimitato. Lo studio non valuta ogni lavoro del Paese. Valuta il valore salariale del lavoro che i sistemi di visione potrebbero, in linea di principio, assumere. Anche all&rsquo;interno di questa fetta già esposta, solo <strong>circa il 23%</strong> sembra un acquisto che un&rsquo;azienda dovrebbe fare <em>oggi</em>. La <em>tesi controcorrente sull&rsquo;occupazione</em> nasce da questo divario: una mappa tecnica ampia, una mappa economica ristretta e un modello dei costi nel mezzo.</p>
+<h2 id="telecamere-modelli-e-manutenzione-inclusi-nei-calcoli">Telecamere, modelli e manutenzione inclusi nei calcoli</h2>
+<h3 id="perché-la-maggior-parte-delle-aziende-continuerebbe-a-preferire-le-persone">Perché la maggior parte delle aziende continuerebbe a preferire le persone</h3>
+<p><strong>La maggior parte delle aziende continuerebbe a preferire le persone</strong> una volta conteggiati <strong>telecamere</strong>, <strong>modelli</strong> e <strong>manutenzione</strong>. Queste tre voci sono il modo in cui lo studio rifiuta la fantasia di un software senza costi materiali. Un sistema di visione non è un modello. È una <strong>telecamera</strong> che deve essere installata e orientata, un <strong>modello</strong> che deve essere addestrato, calibrato e aggiornato, e un onere di <strong>manutenzione</strong> che non termina quando la prima ispezione va a buon fine.</p>
+<p>I <strong>costi di installazione e gestione</strong> sono i due orologi di questa infrastruttura. L&rsquo;installazione è la spesa iniziale: hardware, integrazione, il primo adattamento di <strong>telecamere</strong> e <strong>modelli</strong> a una linea o a un negozio. I costi di gestione sono la spesa continuativa: <strong>manutenzione</strong>, aggiornamenti, guasti e il personale che mantiene affidabile il sistema. I ricercatori hanno modellato entrambi. Il risultato del <em>preferire le persone</em> si ottiene quando entrambi sono inclusi nel prezzo e il confronto avviene con i salari, non con un video dimostrativo.</p>
+<p>L&rsquo;espressione «inclusi nei calcoli» mantiene onesto l&rsquo;argomento. Un sistema che sembra economico quando si conta solo il modello può sembrare costoso quando nel registro entrano <strong>telecamere</strong> e <strong>manutenzione</strong>. <strong>La maggior parte delle aziende</strong> nel quadro dello studio non rifiuta l&rsquo;<em>automazione basata sulla computer vision</em> perché dubita della tecnologia. La rifiuta, o la rimanda, perché il prezzo completo non è inferiore a quello delle persone che svolgono già il lavoro. È la <em>sostituzione economica</em> che fallisce anche dove l&rsquo;<em>esposizione tecnica</em> è reale.</p>
+<p>Le stesse tre voci spiegano anche come una quota nazionale dei salari pari ad appena <strong>circa il 23%</strong> possa coesistere con un&rsquo;ondata di prodotti basati sulla visione. I prodotti possono esistere. I fornitori possono vendere. I progetti pilota possono essere avviati. La domanda del <strong>MIT CSAIL</strong> e della <strong>Sloan</strong> è se la fattura di <em>gestione</em> e <em>installazione</em>, comprese <strong>telecamere</strong>, <strong>modelli</strong> e <strong>manutenzione</strong>, renda la sostituzione <em>conveniente oggi</em> per i <em>salari statunitensi</em> associati alle <em>mansioni visive</em>. Per la maggior parte di quel monte salari, la risposta è no, e <strong>la maggior parte delle aziende continuerebbe a preferire le persone</strong>.</p>
+<h2 id="un-caso-di-studio-in-una-panetteria-e-una-quota-minima-del-lavoro">Un caso di studio in una panetteria e una quota minima del lavoro</h2>
+<h3 id="la-visione-per-il-controllo-qualità-raramente-si-ripaga">La visione per il controllo qualità raramente si ripaga</h3>
+<p>Un <strong>caso di studio in una panetteria</strong> mostra che la <em>visione per il controllo qualità</em> rappresenta una <em>quota minima del lavoro</em>, quindi l&rsquo;<strong>IA</strong> <em>raramente si ripaga</em>. La panetteria non è una metafora. È l&rsquo;esempio concreto sul luogo di lavoro dello stesso modello dei costi. I controlli di qualità sono una classica <em>mansione visiva</em>. Ma nel caso di studio rappresentano anche una <em>quota minima del lavoro</em>. Se il compito che l&rsquo;<strong>IA</strong> è in grado di vedere costituisce solo una frazione del monte salari, automatizzare quella frazione non consente di risparmiare abbastanza da coprire <strong>telecamere</strong>, <strong>modelli</strong> e <strong>manutenzione</strong>.</p>
+<p>Ecco perché l&rsquo;<strong>IA</strong> <em>raramente si ripaga</em> nel contesto della panetteria. Il sistema può essere preciso. Il sistema può essere installato. Il sistema deve comunque superare una <em>quota minima del lavoro</em> dopo aver considerato i <strong>costi di installazione e gestione</strong>. Una <em>quota minima</em> è un denominatore severo. I risparmi disponibili sostituendo il lavoro di controllo qualità sono modesti perché il controllo qualità non ha mai rappresentato la maggior parte di ciò per cui la panetteria paga i propri dipendenti. Restano la preparazione degli impasti, il trasporto, il confezionamento, la vendita e il resto del lavoro. La quota visiva è quella che sembra automatizzabile, ma non è abbastanza grande da sostenere la fattura.</p>
+<p>La panetteria rappresenta quindi un modello di un fenomeno più ampio nello studio del <strong>MIT CSAIL</strong> e della <strong>Sloan</strong>. Si parla spesso dell&rsquo;<em>automazione basata sulla computer vision</em> come se il compito visibile fosse il lavoro. Il controllo qualità tramite visione è visibile. In questo caso di studio è anche limitato. Quando i ricercatori mettono a confronto i <strong>costi di installazione e gestione</strong> con quel piccolo obiettivo salariale, la sostituzione non supera il test della convenienza. L&rsquo;<strong>IA</strong> <em>raramente si ripaga</em> non perché le panetterie non possano usare telecamere, ma perché le telecamere applicate a una <em>quota minima del lavoro</em> non eliminano abbastanza salari.</p>
+<p>Il caso di studio impedisce inoltre che il dato del <strong>circa 23%</strong> resti privo di un contesto lavorativo. I <em>salari statunitensi</em> legati alle <em>mansioni visive</em> sono un aggregato. Una panetteria è un luogo concreto. In quel luogo, il lavoro visivo consiste nel controllo qualità, la quota di lavoro è <em>minima</em> e il risultato economico è che l&rsquo;<strong>IA</strong> <em>raramente si ripaga</em>. Estendendo la stessa struttura alle aziende in cui la visione rappresenta solo una parte del lavoro, diventa più chiaro perché <strong>la maggior parte delle aziende continuerebbe a preferire le persone</strong> anche quando la tecnologia funziona.</p>
+<h2 id="sostituzione-graduale-e-ciò-che-cambierebbe-i-calcoli">Sostituzione graduale e ciò che cambierebbe i calcoli</h2>
+<h3 id="scalabilità-dellia-come-servizio-o-forti-riduzioni-dei-costi">Scalabilità dell&rsquo;IA come servizio o forti riduzioni dei costi</h3>
+<p>Gli autori sostengono che <strong>la sostituzione sarà graduale</strong> e che serviranno la <strong>scalabilità dell&rsquo;IA come servizio</strong> o <strong>forti riduzioni dei costi</strong> per <em>cambiare i calcoli</em>. Graduale è la conclusione sull&rsquo;occupazione che deriva da una quota del <em>23%</em> <em>oggi</em> e da una panetteria in cui la visione rappresenta una <em>quota minima del lavoro</em>. Se solo una minoranza dei salari legati alla visione sembra <em>conveniente da automatizzare oggi</em>, allora l&rsquo;ondata di sostituzioni non è un interruttore. È un processo che aspetta i prezzi.</p>
+<p>La <strong>scalabilità dell&rsquo;IA come servizio</strong> è un modo per cambiare quei prezzi. Invece di acquistare <strong>telecamere</strong>, addestrare <strong>modelli</strong> e farsi carico della <strong>manutenzione</strong>, ogni azienda potrebbe usufruire di un servizio che distribuisce quei <strong>costi di installazione e gestione</strong> su molti clienti. In questa prospettiva, la scalabilità non è un modello più grande. È un modo più economico di fornire la stessa <em>automazione basata sulla computer vision</em>, così che una quota maggiore del monte salari inizi a sembrare <em>conveniente</em>. Finché quella scalabilità non arriva, i calcoli dello studio per <em>oggi</em> restano validi.</p>
+<p><strong>Forti riduzioni dei costi</strong> sono l&rsquo;altra strada. Se <strong>telecamere</strong>, <strong>modelli</strong> e <strong>manutenzione</strong> diventassero molto più economici, una quota maggiore dei <em>salari statunitensi</em> legati alle <em>mansioni visive</em> supererebbe la soglia che separa il <em>preferire le persone</em> dall&rsquo;<em>automatizzare</em>. Gli autori non considerano queste riduzioni già acquisite. Le considerano la condizione necessaria per <em>cambiare i calcoli</em>. Senza la <strong>scalabilità dell&rsquo;IA come servizio</strong> o <strong>forti riduzioni dei costi</strong>, la quota del <strong>circa 23%</strong> resta quella che sembra un acquisto, e <strong>la sostituzione sarà graduale</strong>.</p>
+<p>La sostituzione graduale è anche un discorso sul tempo. L&rsquo;<em>esposizione tecnica</em> può aumentare improvvisamente quando viene lanciato un nuovo modello. La <em>sostituzione economica</em> avanza quando i <strong>costi di installazione e gestione</strong> scendono abbastanza, oppure quando la scalabilità del servizio cambia chi li sostiene. Gli autori del <strong>MIT CSAIL</strong> e della <strong>Sloan</strong> sostengono che sia il secondo orologio a governare l&rsquo;<em>occupazione</em>. Il primo spiega perché i <em>feed sull&rsquo;IA dell&rsquo;ultima ora</em> continuino ad aspettarsi una rottura improvvisa. Il secondo spiega perché la <em>tesi controcorrente sull&rsquo;occupazione</em> dello studio dica che quella rottura non è ancora arrivata <em>oggi</em>.</p>
+<h2 id="tempo-per-le-politiche-pubbliche-e-la-riqualificazione">Tempo per le politiche pubbliche e la riqualificazione</h2>
+<h3 id="cosa-lascia-sul-calendario-una-fattura-lenta">Cosa lascia sul calendario una fattura lenta</h3>
+<p>Gli stessi autori affermano che il percorso graduale <em>lascia tempo per le politiche pubbliche e la riqualificazione</em>. Questa clausola è la conseguenza pubblica del modello dei costi. Se <strong>la sostituzione sarà graduale</strong> perché solo <strong>circa il 23% dei salari statunitensi</strong> legati alle <em>mansioni visive</em> sembra <em>conveniente da automatizzare oggi</em>, allora governi e aziende non si trovano di fronte alla cancellazione dall&rsquo;oggi al domani del lavoro legato alla visione. Si trovano di fronte a una finestra temporale.</p>
+<p>Il <em>tempo per le politiche pubbliche e la riqualificazione</em> non significa che le politiche siano già state utilizzate bene. Significa che l&rsquo;economia dell&rsquo;<em>automazione basata sulla computer vision</em>, modellata attraverso i <strong>costi di installazione e gestione</strong>, non impone la sostituzione immediata della maggior parte del monte salari esposto. <strong>La maggior parte delle aziende continuerebbe a preferire le persone</strong> una volta conteggiati <strong>telecamere</strong>, <strong>modelli</strong> e <strong>manutenzione</strong>. Il <em>controllo qualità tramite visione</em> in una panetteria rappresenta una <em>quota minima del lavoro</em>, quindi l&rsquo;<strong>IA</strong> <em>raramente si ripaga</em>. Presi insieme, questi risultati <em>lasciano</em> tempo.</p>
+<p>Tempo per le <em>politiche pubbliche</em> significa tempo per decidere come trattare una tecnologia tecnicamente pronta ma economicamente parziale. Tempo per la <em>riqualificazione</em> significa tempo per spostare le persone prima che i calcoli cambino. Il cambiamento, ancora una volta, non è dato per scontato. Dipende dalla <strong>scalabilità dell&rsquo;IA come servizio</strong> o da <strong>forti riduzioni dei costi</strong>. Fino a quando una di queste condizioni non si verificherà, lo studio del <strong>MIT CSAIL</strong> e della <strong>Sloan</strong> afferma che l&rsquo;effetto sull&rsquo;<em>occupazione</em> dell&rsquo;<em>automazione basata sulla computer vision</em> resterà più circoscritto delle mappe dell&rsquo;esposizione e che il calendario per le <em>politiche pubbliche e la riqualificazione</em> resterà aperto.</p>
+<p>Ecco perché un documento <em>ampiamente rilanciato</em> può tornare a essere una notizia nei <em>feed sull&rsquo;IA dell&rsquo;ultima ora</em> senza un nuovo dato sul numero di posti di lavoro. Il rilancio riguarda la forma della minaccia. Una storia di sostituzione improvvisa non lascia tempo. Una storia di <strong>sostituzione</strong> <em>graduale</em>, fondata su un dato del <strong>23%</strong> <em>oggi</em> e su costi che continuano a favorire le persone, lascia <em>tempo per le politiche pubbliche e la riqualificazione</em>. La <em>tesi controcorrente sull&rsquo;occupazione</em> è, in definitiva, una storia su quel tempo residuo.</p>
+<h2 id="per-xcom-prima-arriva-la-fattura">Per x.com, prima arriva la fattura</h2>
+<h3 id="la-battuta-già-pronta">La battuta già pronta</h3>
+<p>Per <strong>x.com</strong> la battuta è già pronta: <em>i robot stanno arrivando, ma prima arriva la fattura</em>. La frase non è un risultato della ricerca. È la sintesi pronta per il feed dei risultati. <em>I robot stanno arrivando</em> è la metà dell&rsquo;<em>esposizione tecnica</em>. La computer vision è in grado di occuparsi di una parte sempre maggiore del lavoro visivo. <em>Prima arriva la fattura</em> è la metà della <em>sostituzione economica</em>. <strong>Costi di installazione e gestione</strong>, <strong>telecamere</strong>, <strong>modelli</strong> e <strong>manutenzione</strong> compaiono prima dei risparmi salariali che, per la maggior parte del monte salari legato alla visione, li renderebbero giustificabili.</p>
+<p>Ecco perché lo studio può essere <em>ampiamente rilanciato</em> e continuare a sembrare un contenuto da <em>ultima ora</em>. A <strong>x.com</strong> non serve un nuovo dataset per costruire la battuta. Serve il contrasto: una struttura matura di <em>automazione basata sulla computer vision</em>, un modello dei costi del <strong>MIT CSAIL</strong> e della <strong>Sloan</strong>, <strong>circa il 23% dei salari statunitensi</strong> che sembra <em>conveniente da automatizzare oggi</em> e <strong>la maggior parte delle aziende</strong> che <em>continuerebbe a preferire le persone</em>. Aggiungete il <strong>caso di studio in una panetteria</strong>, in cui la <em>visione per il controllo qualità</em> rappresenta una <em>quota minima del lavoro</em> e l&rsquo;<strong>IA</strong> <em>raramente si ripaga</em>, e la battuta sulla fattura avrà anche un luogo concreto a cui essere collegata.</p>
+<p>La battuta si accorda inoltre con la tesi più ampia degli autori. Se <strong>la sostituzione sarà graduale</strong> a meno che la <strong>scalabilità dell&rsquo;IA come servizio</strong> o le <strong>forti riduzioni dei costi</strong> non <em>cambino i calcoli</em>, allora i robot possono continuare ad arrivare in senso tecnico mentre la fattura continua ad arrivare prima in senso economico. Il <em>tempo per le politiche pubbliche e la riqualificazione</em> esiste nello spazio tra quei due arrivi. La <em>tesi controcorrente sull&rsquo;occupazione</em> consiste nel trattare quello spazio come la storia, invece di considerare l&rsquo;esposizione come un destino.</p>
+<p>Nulla di tutto questo richiede di inventare un collasso più ampio o un boom più ampio. Lo studio del <strong>MIT CSAIL</strong> e della <strong>Sloan</strong> sull&rsquo;<em>automazione basata sulla computer vision</em> dice ciò che dice. <em>L&rsquo;esposizione tecnica non equivale alla sostituzione economica.</em> Solo <strong>circa il 23%</strong> dei <em>salari statunitensi</em> pertinenti sembra <em>conveniente da automatizzare oggi</em>. <strong>La maggior parte delle aziende continuerebbe a preferire le persone</strong> una volta conteggiati <strong>telecamere</strong>, <strong>modelli</strong> e <strong>manutenzione</strong>. Una <strong>panetteria</strong> mostra perché una <em>quota minima del lavoro</em> non può sostenere il sistema. Gli autori sostengono che il resto sarà <em>graduale</em>, in attesa della scalabilità o di <strong>forti riduzioni dei costi</strong>, e che il ritardo <em>lascia tempo per le politiche pubbliche e la riqualificazione</em>. Per <strong>x.com</strong>, è già un post completo: <em>i robot stanno arrivando, ma prima arriva la fattura</em>.</p>
+
+  </div>
+
+  
+  <div class="article-tags">
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+  </div>
+
+
+  
+  
+  <aside class="related-posts">
+    <h2>Continua a leggere</h2>
+    <p class="related-note">Collegato tramite frammenti di titolo condivisi</p>
+    <ul>
+      
+      <li>
+        <a href="/it/ai/anthropic-researcher-departure-signals-ai-safety-concerns/">Le dimissioni di un ricercatore di Anthropic segnalano preoccupazioni sulla sicurezza dell’IA</a>
+        
+      </li>
+      
+      <li>
+        <a href="/it/ai/parental-guide-to-ai-impact-on-children/">Guida dei genitori all’impatto dell’IA sui bambini</a>
+        
+      </li>
+      
+      <li>
+        <a href="/it/ai/parents-guide-understanding-ai-impact-today/">Guida per genitori: comprendere oggi l&#39;impatto dell&#39;IA</a>
+        
+      </li>
+      
+      <li>
+        <a href="/it/ai/are-we-approaching-uncontrollable-ai-systems/">Ci stiamo avvicinando a sistemi di IA incontrollabili?</a>
+        
+      </li>
+      
+      <li>
+        <a href="/it/ai/ai-control-crisis-are-we-crossing-the/">Crisi del controllo dell&#39;IA: stiamo oltrepassando il limite?</a>
+        
+      </li>
+      
+    </ul>
+  </aside>
+  
+</article>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="Lingue">
+        
+          <a no-follow href="/en/ai/mit-humans-still-beat-ai-costs/">English</a>
+        
+          <a no-follow href="/es/ai/mit-humans-still-beat-ai-costs/">Español</a>
+        
+          <a no-follow href="/it/ai/mit-humans-still-beat-ai-costs/" aria-current="page">Italiano</a>
+        
+          <a no-follow href="/fr/ai/mit-humans-still-beat-ai-costs/">Français</a>
+        
+          <a no-follow href="/ar/ai/mit-humans-still-beat-ai-costs/">العربية</a>
+        
+          <a no-follow href="/la/ai/mit-humans-still-beat-ai-costs/">Latina</a>
+        
+          <a no-follow href="/hi/ai/mit-humans-still-beat-ai-costs/">हिन्दी</a>
+        
+          <a no-follow href="/bn/ai/mit-humans-still-beat-ai-costs/">বাংলা</a>
+        
+          <a no-follow href="/pt/ai/mit-humans-still-beat-ai-costs/">Português</a>
+        
+          <a no-follow href="/ru/ai/mit-humans-still-beat-ai-costs/">Русский</a>
+        
+          <a no-follow href="/ur/ai/mit-humans-still-beat-ai-costs/">اردو</a>
+        
+          <a no-follow href="/zh/ai/mit-humans-still-beat-ai-costs/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

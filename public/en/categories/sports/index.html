@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports | RNews1.com</title>
+  <meta name="description" content="Science, health, and cosmos reporting.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/en/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="Sections">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/en/ai/"
+              
+            >AI</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/en/business/"
+              
+            >Business</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/en/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/en/cosmos/"
+              
+            >Cosmos</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/en/crypto/"
+              
+            >Crypto</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/en/entertainment/"
+              
+            >Entertainment</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/en/health/"
+              
+            >Health</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/en/science/"
+              
+            >Science</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/en/sports/"
+              
+            >Sports</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/en/technology/"
+              
+            >Technology</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/en/usa/"
+              
+            >USA</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/en/world/"
+              
+            >World</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="Menu">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="Sections">
+          
+            
+              
+              
+              
+              <a
+                href="/en/ai/"
+                
+              >AI</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/en/business/"
+                
+              >Business</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/en/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/en/cosmos/"
+                
+              >Cosmos</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/en/crypto/"
+                
+              >Crypto</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/en/entertainment/"
+                
+              >Entertainment</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/en/health/"
+                
+              >Health</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/en/science/"
+                
+              >Science</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/en/sports/"
+                
+              >Sports</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/en/technology/"
+                
+              >Technology</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/en/usa/"
+                
+              >USA</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/en/world/"
+                
+              >World</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+              
+            
+          Sport</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/en/sports/pwhl-scripps-sports-tv-partnership-expansion/">PWHL Scripps Sports TV Partnership Expansion</a></h2>
+    <p class="summary">The Professional Women&#39;s Hockey League secures a landmark national television agreement with Scripps Sports for the 2026-27 season, marking a significant …</p>
+    <a class="read-more" href="/en/sports/pwhl-scripps-sports-tv-partnership-expansion/">Read article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/en/sports/fall-sports-college-recruitment-reality-check/">Fall Sports College Recruitment Reality Check</a></h2>
+    <p class="summary">Discover which fall sports offer the best opportunities for student-athletes to earn college scholarships and athletic recruitment.</p>
+    <a class="read-more" href="/en/sports/fall-sports-college-recruitment-reality-check/">Read article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/en/sports/youth-sports-exodus-parents-reconsidering-annual-commitments/">Youth Sports Exodus: Parents Reconsidering Annual Commitments</a></h2>
+    <p class="summary">A growing number of parents are stepping back from youth sports, citing financial strain, time constraints, and burnout as primary reasons for the significant …</p>
+    <a class="read-more" href="/en/sports/youth-sports-exodus-parents-reconsidering-annual-commitments/">Read article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/en/sports/mitchell-s-2026-27-vision-reshapes-cavaliers-future/">Mitchell&#39;s 2026-27 Vision Reshapes Cavaliers Future</a></h2>
+    <p class="summary">Donovan Mitchell outlines strategic changes coming to Cleveland&#39;s championship roster as the Cavaliers prepare for their next evolution.</p>
+    <a class="read-more" href="/en/sports/mitchell-s-2026-27-vision-reshapes-cavaliers-future/">Read article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/en/sports/mitchell-eyes-cavaliers-dynasty-beyond-2026-27/">Mitchell Eyes Cavaliers Dynasty Beyond 2026-27</a></h2>
+    <p class="summary">Donovan Mitchell explains how the Cavaliers&#39; strategic planning positions them for sustained championship contention in the coming seasons.</p>
+    <a class="read-more" href="/en/sports/mitchell-eyes-cavaliers-dynasty-beyond-2026-27/">Read article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/en/sports/apple-cup-anticipation-builds-for-sunday-showdown/">Apple Cup Anticipation Builds for Sunday Showdown</a></h2>
+    <p class="summary">The wait for this year&#39;s Apple Cup between Washington and Washington State promises to be as challenging as the game itself, with unprecedented circumstances …</p>
+    <a class="read-more" href="/en/sports/apple-cup-anticipation-builds-for-sunday-showdown/">Read article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/en/sports/greatest-sports-television-shows-ranked/">Greatest Sports Television Shows Ranked</a></h2>
+    <p class="summary">The Hollywood Reporter ranks the 10 greatest sports TV shows of all time, celebrating the programs that have defined sports broadcasting and captured audiences …</p>
+    <a class="read-more" href="/en/sports/greatest-sports-television-shows-ranked/">Read article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/en/sports/messi-nets-four-in-miami-rout/">Messi Nets Four in Miami Rout</a></h2>
+    <p class="summary">Lionel Messi scored four goals and added an assist as Inter Miami crushed CF Montréal 7-1 on Saturday night, his first four-goal MLS game. Free kicks at the …</p>
+    <a class="read-more" href="/en/sports/messi-nets-four-in-miami-rout/">Read article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/en/sports/messis-poker-ends-miami-drought/">Messi’s Poker Ends Miami Drought</a></h2>
+    <p class="summary">Lionel Messi scored four goals as Inter Miami thrashed CF Montréal 7-1 on Saturday, Yahoo Sports reports, lifting him to 17 goals and the MLS Golden Boot lead …</p>
+    <a class="read-more" href="/en/sports/messis-poker-ends-miami-drought/">Read article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/en/sports/hrgovic-stuns-itauma-for-ibf-belt/">Hrgovic Stuns Itauma For IBF Belt</a></h2>
+    <p class="summary">Filip Hrgovic stopped 21-year-old Moses Itauma at 2:27 of round nine Saturday at London&#39;s sold-out O2 Arena, taking the vacant IBF heavyweight title and …</p>
+    <a class="read-more" href="/en/sports/hrgovic-stuns-itauma-for-ibf-belt/">Read article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/en/sports/steelers-dump-first-rounder-on-cowboys/">Steelers Dump First-Rounder On Cowboys</a></h2>
+    <p class="summary">The Steelers traded 2023 first-round offensive tackle Broderick Jones and a 2027 fourth-round pick to the Cowboys for 2027 third- and sixth-round picks, first …</p>
+    <a class="read-more" href="/en/sports/steelers-dump-first-rounder-on-cowboys/">Read article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/en/sports/belichick-silences-critics-with-dublin-upset/">Belichick Silences Critics With Dublin Upset</a></h2>
+    <p class="summary">Bill Belichick opened Year 2 at North Carolina with a 15-10 win over TCU in the rain at Aviva Stadium in Dublin, revenge after last year&#39;s 48-14 Labor Day …</p>
+    <a class="read-more" href="/en/sports/belichick-silences-critics-with-dublin-upset/">Read article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/en/sports/angels-blow-ninth-after-robbing-homer/">Angels Blow Ninth After Robbing Homer</a></h2>
+    <p class="summary">The Angels took a 3-1 lead into the ninth Friday at Angel Stadium with a 96.5% win probability after Luis Arraez&#39;s leadoff groundout — then tied a record that …</p>
+    <a class="read-more" href="/en/sports/angels-blow-ninth-after-robbing-homer/">Read article</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="Languages">
+        
+          <a no-follow href="/en/categories/sports/" aria-current="page">English</a>
+        
+          <a no-follow href="/es/categories/sports/">Español</a>
+        
+          <a no-follow href="/it/categories/sports/">Italiano</a>
+        
+          <a no-follow href="/fr/categories/sports/">Français</a>
+        
+          <a no-follow href="/ar/categories/sports/">العربية</a>
+        
+          <a no-follow href="/la/categories/sports/">Latina</a>
+        
+          <a no-follow href="/hi/categories/sports/">हिन्दी</a>
+        
+          <a no-follow href="/bn/categories/sports/">বাংলা</a>
+        
+          <a no-follow href="/pt/categories/sports/">Português</a>
+        
+          <a no-follow href="/ru/categories/sports/">Русский</a>
+        
+          <a no-follow href="/ur/categories/sports/">اردو</a>
+        
+          <a no-follow href="/zh/categories/sports/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

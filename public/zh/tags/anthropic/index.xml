@@ -1,0 +1,115 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Anthropic on RNews1.com</title>
+    <link>http://localhost:3003/zh/tags/anthropic/</link>
+    <description>Recent content in Anthropic on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+        <atom:link href="http://localhost:3003/zh/tags/anthropic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>法官撤销五角大楼对 Anthropic 的禁令</title>
+      <link>http://localhost:3003/zh/ai/judge-voids-pentagon-ban-on-anthropic/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/zh/ai/judge-voids-pentagon-ban-on-anthropic/</guid>
+      <description>&lt;h1 id=&#34;法官撤销五角大楼对-anthropic-的禁令&#34;&gt;法官撤销五角大楼对 Anthropic 的禁令&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;美国联邦地区法官丽塔·林&lt;/strong&gt;直到&lt;strong&gt;周四晚间&lt;/strong&gt;才公布意见，而她这次没有含糊其辞。&lt;strong&gt;五角大楼&lt;/strong&gt;试图将 &lt;strong&gt;Anthropic&lt;/strong&gt; 定性为*“供应链风险”*，这是&lt;strong&gt;违法的&lt;/strong&gt;。在她的叙述中，这并不是一项碰巧针对棘手承包商的安全判断，而是&lt;strong&gt;惩罚——惩罚这家实验室批评国防部关于军事人工智能的观点&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这份裁定长达&lt;strong&gt;59 页&lt;/strong&gt;。她写道，官员想要因为该公司的*“傲慢”&lt;em&gt;而&lt;/em&gt;“杀鸡儆猴”&lt;em&gt;，而这一举动&lt;/em&gt;“并没有任何可明确陈述的依据相信 Anthropic 会实际破坏其模型”*。&lt;strong&gt;首席执行官达里奥·阿莫代拒绝允许不受限制地将模型用于大规模监控和自主武装无人机。&lt;/strong&gt; &lt;strong&gt;2 月&lt;/strong&gt;，&lt;strong&gt;特朗普&lt;/strong&gt;和&lt;strong&gt;国防部长皮特·赫格塞思将该实验室标记为风险&lt;/strong&gt;；&lt;strong&gt;数小时后，OpenAI 与五角大楼签署协议&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;林法官的法律结论和她的叙述一样直截了当。她表示，&lt;strong&gt;无论是宪法还是所援引的法律&lt;/strong&gt;，都不允许*“主要基于 Anthropic 的批评”施加‘全面性惩罚’*。**她此前已阻止这一认定，以及一项要求各机构弃用 Claude 的白宫命令。****预计政府将提起上诉。****华盛顿特区巡回上诉法院针对另一项采购法的较窄案件仍在审理中。****Anthropic 对裁决表示欢迎。**&lt;strong&gt;白宫尚未立即置评。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;一个格外刺耳的认定&#34;&gt;一个格外刺耳的认定&lt;/h2&gt;
+&lt;p&gt;在联邦采购中，&lt;em&gt;供应链风险&lt;/em&gt;并不是新闻稿里的侮辱性称呼。它是一个具有专门含义的术语，可以将供应商排除在政府最敏感的网络之外。这个词用于描述这样的公司：其设备可能被植入后门，其所有权可能听命于敌对国家，其存在于武器系统内部可能成为送给对手的礼物。把这个标签挂在一家旧金山人工智能实验室身上，就是用政府自己的语言说，该模型本身可能成为一件反过来伤害自身的武器。&lt;/p&gt;
+&lt;p&gt;林法官的&lt;strong&gt;59 页裁定&lt;/strong&gt;根据五角大楼提交的事实，驳斥了这一含义。她写道，官员想要因为 Anthropic 的*“傲慢”&lt;em&gt;而&lt;/em&gt;“杀鸡儆猴”&lt;em&gt;。按照她的解读，他们并没有&lt;/em&gt;“任何可明确陈述的依据相信 Anthropic 会实际破坏其模型”*。这两句话之间的差别，就是安全案件与报复案件之间的差别。前者关乎供应商可能对作战人员做什么，后者关乎供应商对内阁说了什么。&lt;/p&gt;
+&lt;p&gt;杀鸡儆猴是一种政治工具。它的目的就是让人看见，也是为了管束下一个正考虑说“不”的公司。林法官将这种动机视为问题，而不是决心的体现。&lt;/p&gt;
+&lt;h2 id=&#34;引发争斗的那个不&#34;&gt;引发争斗的那个“不”&lt;/h2&gt;
+&lt;h3 id=&#34;大规模监控与自主武装无人机&#34;&gt;大规模监控与自主武装无人机&lt;/h3&gt;
+&lt;p&gt;争议的根源并不神秘。**达里奥·阿莫代拒绝允许不受限制地将模型用于大规模监控和自主武装无人机。**这并不是抽象的伦理口号。它们是国家安全机构最希望从前沿模型获得的两类应用，也是一个以安全为品牌的实验室最不愿在没有限制的情况下为之背书的两类应用。&lt;/p&gt;
+&lt;p&gt;大规模监控既是数据问题，也是公民自由问题。一个能够以军事速度读取、分类和总结一个人口群体数字痕迹的模型，是政府不会礼貌拒绝的能力。自主武装无人机则是控制问题。一个能够在没有人在回路中的情况下发现、跟踪并开火的系统，是每一份人工智能安全白皮书最终都会触及的场景，也是每一份空军力量简报都希望使之常态化的场景。&lt;/p&gt;
+&lt;p&gt;阿莫代的拒绝可以说是披着原则外衣的商业决定，也可以说是带来商业后果的原则决定。无论如何，这让国防部面对一家只愿出售 Claude 的&lt;em&gt;一部分&lt;/em&gt;、而不是 Claude 的&lt;em&gt;全部&lt;/em&gt;能力的供应商。五角大楼从来不喜欢承包商提供按需选择的良知。反过来，承包商也很少拥有像大型语言模型这样用途广泛的产品——它早上可以充当服务台，晚上却可以成为目标锁定辅助工具。&lt;/p&gt;
+&lt;p&gt;Anthropic 一直宣称，谨慎正是公司的存在意义——它的创始人离开竞争对手实验室，是因为希望对强大系统可以做什么施加更严格的限制。与五角大楼围绕&lt;strong&gt;不受限制的使用&lt;/strong&gt;展开争斗，就是这一品牌与世界上最大的客户发生碰撞。&lt;/p&gt;
+&lt;h2 id=&#34;2-月标签随后是竞争对手&#34;&gt;2 月：标签，随后是竞争对手&lt;/h2&gt;
+&lt;h3 id=&#34;风险认定与协议相隔数小时&#34;&gt;风险认定与协议，相隔数小时&lt;/h3&gt;
+&lt;p&gt;根据裁定所回顾的情况，政治进程十分紧凑。**特朗普和国防部长皮特·赫格塞思于 2 月将该实验室标记为风险。**&lt;strong&gt;数小时后，OpenAI 与五角大楼签署协议。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;是数小时，不是一个季度，也不是一个采购周期。这个并置并不能证明存在利益交换，而且据描述，林法官的意见也不需要这一点。这个时间安排所揭示的是：这起事件很难再声称是一场缓慢、技术性的审查。一项&lt;em&gt;供应链风险&lt;/em&gt;认定与竞争对手合同出现在同一新闻周期，看起来更像是披着安全徽章的产业政策。&lt;/p&gt;
+&lt;p&gt;自 Anthropic 由曾在 OpenAI 工作的人创立以来，&lt;strong&gt;OpenAI&lt;/strong&gt; 和 Anthropic 一直是美国模型竞赛中的一对主角。如今，政府成了这场竞赛的一个计分场。五角大楼协议意味着收入、合法性，以及进入机密网络的通道；它也表明华盛顿选择了一套技术栈。当标签贴到 Anthropic 身上、签名落在 OpenAI 的协议上，而且发生在同一天的同一小段时间里，市场听到的是一种选择。&lt;/p&gt;
+&lt;p&gt;林法官的任务不是裁判这场竞争，而是决定美国是否可以把供应商对&lt;strong&gt;国防部关于军事人工智能的观点&lt;/strong&gt;的&lt;strong&gt;批评&lt;/strong&gt;转化为流放。她周四晚间给出的答案是否定的。&lt;/p&gt;
+&lt;h2 id=&#34;宪法在采购争端中发挥什么作用&#34;&gt;宪法在采购争端中发挥什么作用&lt;/h2&gt;
+&lt;h3 id=&#34;以批评作为主要依据&#34;&gt;以批评作为主要依据&lt;/h3&gt;
+&lt;p&gt;政府合同通常是一片法定丛林。供应商会依据《行政程序法》、具体采购法规提起诉讼，或主张竞争被人为操纵。林法官越过了这片丛林。她表示，&lt;strong&gt;无论是宪法还是所援引的法律&lt;/strong&gt;，都不允许*“主要基于 Anthropic 的批评”施加‘全面性惩罚’*。&lt;/p&gt;
+&lt;p&gt;这句话中宪法的部分，指的是第一修正案：它适用于一家发言之后失去销售能力的公司。美国法律有一项悠久、尽管并不始终如一的传统，即将政府因言论而进行报复视为独立的错误。政府可以选择不购买，也可以制定要求；在真正的安全案件中，它可以排除产品危险的供应商。但如果林法官的判断正确，政府不能因为供应商与其争论，就动用法律上最严厉的采购污名。&lt;/p&gt;
+&lt;p&gt;引文结论中的&lt;em&gt;主要&lt;/em&gt;一词发挥着谨慎而关键的作用。林法官并没有写道五角大楼不得考虑安全问题。她写道，当主要理由是&lt;strong&gt;批评&lt;/strong&gt;时，政府不得施加&lt;strong&gt;全面性惩罚&lt;/strong&gt;。在报复案件中，动机就是整个案件的核心。这也是*“杀鸡儆猴”&lt;em&gt;和&lt;/em&gt;“傲慢”*这些措辞重要的原因。它们不是修辞色彩，而是该标签为何被施加的证据。&lt;/p&gt;
+&lt;p&gt;法律依据的另一半将在上诉中发挥作用，因为上诉法院比起缩小宪法的适用范围，更容易缩小法规的适用范围。**华盛顿特区巡回上诉法院针对另一项采购法的较窄案件仍在审理中。**政府如今有两条路径：在其所在巡回区攻击林法官的宪法推理，同时让华盛顿一场基于不同法律文本的规模较小的争斗继续进行。&lt;/p&gt;
+&lt;h2 id=&#34;已经生效的禁令&#34;&gt;已经生效的禁令&lt;/h2&gt;
+&lt;p&gt;周四的意见并不是林法官第一次伸手阻拦。&lt;strong&gt;她此前已阻止这一认定，以及一项要求各机构弃用 Claude 的白宫命令。&lt;strong&gt;新的裁决走得更远。它不仅暂停了这套机制，还&lt;/strong&gt;撤销&lt;/strong&gt;了这套机制所依据的法律理论。&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>马斯克交易后，OpenAI切断Cursor供应</title>
+      <link>http://localhost:3003/zh/business/openai-cuts-cursor-after-musk-deal/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/zh/business/openai-cuts-cursor-after-musk-deal/</guid>
+      <description>&lt;h1 id=&#34;马斯克交易后openai切断cursor供应&#34;&gt;马斯克交易后，OpenAI切断Cursor供应&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;OpenAI&lt;/strong&gt;周五表示，在&lt;strong&gt;SpaceX&lt;/strong&gt;于&lt;strong&gt;8月14日&lt;/strong&gt;完成对这家AI编程初创公司的&lt;strong&gt;600亿美元&lt;/strong&gt;收购后，将停止向&lt;strong&gt;Cursor&lt;/strong&gt;提供其模型。拟定的终止日期为&lt;strong&gt;2026年11月12日&lt;/strong&gt;，OpenAI表示不会向Cursor提供未来的模型。一段在Cursor客户看来原本只是普通管道的供应商关系，如今正被重新归类为该实验室不愿承担的风险。&lt;/p&gt;
+&lt;p&gt;这不是一次价格争议，至少从表面上看，也不是在声称Cursor的编辑器违反了某项规则。该实验室写道，&lt;em&gt;&amp;ldquo;根据我们对埃隆·马斯克旗下公司违反合同的经历，我们无法确信SpaceX会在我们的服务条款范围内使用我们的技术。&amp;rdquo;&lt;/em&gt; 新所有者才是OpenAI愿意点名的问题。日期、拒绝提供未来模型，以及援引以往的合同纠纷，共同构成了这项决定的其余部分。&lt;/p&gt;
+&lt;h2 id=&#34;一家600亿美元的编程初创公司&#34;&gt;一家600亿美元的编程初创公司&lt;/h2&gt;
+&lt;p&gt;Cursor是一家AI编程初创公司：它的软件存在于开发者的工作流中，会建议下一个函数、重写文件；而在这个随着大型语言模型变得足以用于软件开发而成长起来的市场版本中，它通常会把这些请求发送给别人的模型。多年来，这个“别人”包括OpenAI。该产品既是路由器，也是目的地。用户不必知道某个提示由哪家实验室回答。他们只需要觉得答案又快又好。&lt;/p&gt;
+&lt;p&gt;这就是SpaceX买下的业务。8月14日，这笔收购以600亿美元完成。对于一家开发者工具而言，这个数字非同寻常；但在当前周期中又很常见——在这一周期里，帮助工程师编写软件的公司，已经成为那些想要构建下一代模型、机器和基础设施的公司的战略资产。SpaceX并不是一家传统的软件收购方。它是埃隆·马斯克的发射公司。截至8月中旬，它还拥有了一个曾是马斯克共同创办的实验室客户、后来又被马斯克告上法庭的编程助手。&lt;/p&gt;
+&lt;p&gt;控制权才是整场争论的核心。8月14日之前，Cursor可以被描述为一家独立的应用公司，按照商业条款购买模型访问权限。8月14日之后，它成了SpaceX的子公司。模型仍会是相同的权重，通过相同的API提供服务，由同一批人，在同一个编辑器里输入文字并使用。OpenAI的立场是，API另一端的法人已经不再是它愿意服务的对象。&lt;/p&gt;
+&lt;p&gt;拟定的终止日期是2026年11月12日，距离现在还有数月。OpenAI并不是要在一夜之间拔掉密钥。它公布了一个日期，拒绝提供未来模型，并留下一个窗口，让Cursor可以迁移流量、完成其所说已经开始的谈判，或者两者兼做。威胁中更重要的部分在于未来。编程工具存在于技术前沿。一个只能使用上一季模型、而竞争对手可以获得下一代模型的产品，用的就不是公用事业，而是一条正在衰退的线路。&lt;/p&gt;
+&lt;h2 id=&#34;中立基础设施与5的份额&#34;&gt;“中立基础设施”与5%的份额&lt;/h2&gt;
+&lt;p&gt;Cursor首席执行官&lt;strong&gt;Michael Truell&lt;/strong&gt;表示，OpenAI模型约占Cursor流量的&lt;strong&gt;5%&lt;/strong&gt;，双方仍在沟通，并称OpenAI是Cursor多年来使用的*“中立基础设施”&lt;em&gt;。每个分句都在发挥作用。流量占比告诉客户和员工，不要把周五的消息当成灭顶之灾。谈判则告诉OpenAI，门仍然开着。&lt;/em&gt;“中立基础设施”*这个说法，代表了Cursor成长其中的市场理论。&lt;/p&gt;
+&lt;p&gt;这一理论认为，前沿实验室就是公用事业。编程助手应该能够像云应用从多个供应商调用对象存储一样，调用任何有用的模型。“中立”意味着，模型制造商不会因为应用制造商同时也是竞争对手的客户、因为它被收购，或因为它属于一个实验室高管早已与之交恶的人，就惩罚应用制造商。Truell是在说，Cursor多年来一直这样对待OpenAI。周五的信则表示，当SpaceX成为相关方时，这家公用事业决定自己并不是公用事业。&lt;/p&gt;
+&lt;p&gt;5%是否是衡量依赖程度的正确数字，是另一个问题；但这是首席执行官公开给出的数字。编程流量并不均质。有些调用是廉价的自动补全，有些是会消耗昂贵上下文的长时间代理循环，还有一些演示能够赢得企业合同。如果最好的OpenAI模型是用户处理困难任务时会选择的那个模型，那么即使请求只占很小份额，也可能占据用户感知质量的很大部分。Truell没有以这种方式拆分5%。他给出了总体数字，同时表示双方仍在沟通。&lt;/p&gt;
+&lt;p&gt;谈判之所以重要，是因为终止仍是拟议中的、有明确日期、尚未执行的事项。2026年11月12日是一个带有日历的截止日期。它距离现在足够远，意味着双方仍可能协商出反转决定、缩小范围的例外，或过渡方案。OpenAI补充表示不会向Cursor提供未来模型，这一点更难收回。即使当前模型持续运行到11月中旬，下一代模型也会被扣下。在一个每隔几个月就重新定义“好”的市场里，这一条款把供应争议变成了产品问题。&lt;/p&gt;
+&lt;h2 id=&#34;服务条款以及openai称其已经拥有的历史&#34;&gt;服务条款，以及OpenAI称其已经拥有的历史&lt;/h2&gt;
+&lt;p&gt;服务条款是AI行业最乏味的文件，但在这场争斗中却是最锋利的武器。OpenAI公开给出的解释并不是Cursor的产品构成了竞争性挑衅，而是该实验室无法确信SpaceX会在这些条款范围内使用技术，而这种不确定性源自其对埃隆·马斯克旗下公司违反合同的经历。&lt;/p&gt;
+&lt;p&gt;据周五报道的措辞，该实验室没有公布一份新的法证式叙述，说明究竟是哪份合同、何时、被哪家马斯克旗下公司违反。它把这种模式当作已知事实。任何关注过去两年马斯克与OpenAI之间诉讼、反诉和社交媒体隔空交锋的人，都会认出这种姿态。OpenAI是在说，它以前经历过这种事，不会让同一个交易对手换个标志后再来一次。&lt;/p&gt;
+&lt;p&gt;这与单纯的竞争性切断是不同的主张。过去两年，AI实验室一直在划定模型可以被谁、用于什么目的——竞争实验室、军事客户、国家，以及越来越多受那些已经与实验室发生冲突的人控制的公司。以服务条款为依据，会把决定归入合规档案，而不是战略档案。它也会让SpaceX，进而让马斯克，处于需要回应合同行为指控的位置，而不是产品重叠指控的位置。&lt;/p&gt;
+&lt;p&gt;实验室重视下游使用是有原因的。前沿模型可能被蒸馏、微调、探测，或被用作竞争系统的隐形教师。它们可能被接入代理，由代理采取原始供应商从未审查过的行动。它们可能运行在供应商无法检查的环境中。服务条款是实验室试图防止商业API变成训练管道或漏洞的方式。OpenAI是在声称，一旦客户变成SpaceX，它就无法确信这些条款仍会得到遵守。在这种说法中，信心就是整个产品。&lt;/p&gt;
+&lt;h2 id=&#34;马斯克我根本不在乎&#34;&gt;马斯克：“我根本不在乎”&lt;/h2&gt;
+&lt;p&gt;马斯克周六发帖称，&lt;em&gt;“我根本不在乎”&lt;/em&gt;，随后称&lt;strong&gt;Sam Altman&lt;/strong&gt;和&lt;strong&gt;Greg Brockman&lt;/strong&gt;不值得信任，并再次声称他们*“窃取”*了一个非营利组织。这一连串动作是这场争斗的缩影。首先是漠不关心：Cursor不需要OpenAI，或者马斯克不需要OpenAI的许可，或者两者皆是。然后是更早的控诉：OpenAI的首席执行官和总裁不可信，而他们领导的实验室被马斯克认为是从他当初加入的非营利结构中夺走的。&lt;/p&gt;
+&lt;p&gt;Altman和Brockman并不是这段故事的旁观者。他们正是马斯克一直起诉、发帖攻击并与之竞争的人。点名他们，而不是以法人身份称呼“OpenAI”，让这场争斗保持个人化。&lt;em&gt;“窃取”非营利组织&lt;/em&gt;这句话，是马斯克针对公司转为营利模式的政治和法律论点核心：一个慈善使命被转变成了他声称自己不会同意的资本结构。他在2024年的诉讼中败诉。法庭仍是这一论点接受检验的地方。&lt;/p&gt;
+&lt;p&gt;从表面上看，马斯克周六的帖子并没有回应OpenAI关于服务条款的主张。他没有逐点解释SpaceX将如何使用Cursor的模型。他驳斥了终止决定，并重申了关于对方品格的指控。*“我根本不在乎”*同时也是发给Cursor用户和那些必须重新分流那5%流量的工程师的信息。新所有者并没有请求继续获得访问权限。&lt;/p&gt;
+&lt;p&gt;公开表现出的漠不关心，并不等同于运营计划上的漠不关心。以600亿美元收购一家AI编程初创公司，是在押注软件编写工具对SpaceX计划下一步构建的任何东西都很重要。在OpenAI一方，扣留未来模型则是在押注这些工具不应建立在其权重之上。马斯克的回应拒绝把第二个赌注当成危机，但并没有让第一个赌注变小。&lt;/p&gt;
+&lt;h2 id=&#34;anthropicclaude与windsurf留下的伤痕&#34;&gt;Anthropic、Claude与Windsurf留下的伤痕&lt;/h2&gt;
+&lt;p&gt;向SpaceX租用算力的&lt;strong&gt;Anthropic&lt;/strong&gt;表示，将增加&lt;strong&gt;Claude&lt;/strong&gt;对Cursor的支持，引发外界对Anthropic早先切断&lt;strong&gt;Windsurf&lt;/strong&gt;供应一事的讥讽。这句话充满了行业不必费心创造的讽刺意味。&lt;/p&gt;
+&lt;p&gt;Anthropic是OpenAI在谨慎、昂贵、面向开发者的模型市场中最直接的竞争对手。Claude已经是Cursor可以提供的答案之一，当用户要求编程代理开展工作时，它可以被调用。增加Claude支持是显而易见的商业举措：如果OpenAI离开，就把插槽填上。但这也很尴尬，因为Anthropic的算力至少有一部分来自SpaceX。OpenAI不愿供应的那个企业集团，同时也是向声称会增加供应的实验室提供基础设施的房东。&lt;/p&gt;
+&lt;p&gt;Windsurf就是那道伤痕。Anthropic早先切断了这家编程初创公司的供应。周五公告没有包含那次切断的细节，但讥讽已经出现。批评Anthropic对Cursor承诺的人不需要发明一套新的虚伪理论。他们有一个近期案例：同一类别的公司——AI编程助手——失去了Claude的访问权限。在切断Windsurf供应后增加对Cursor的支持，在这些批评者看来，提醒人们实验室对编程助手的热情是一项会随着客户改变而改变的政策。&lt;/p&gt;
+&lt;p&gt;这并不意味着Anthropic对Cursor的承诺是虚构的。该公司表示会增加Claude支持。在OpenAI不会向Cursor提供未来模型的世界里，这项承诺是桌面上最具体的替代方案。它无法恢复OpenAI模型，也无法解决OpenAI的合同投诉，但它确实告诉Cursor用户：一家前沿实验室正在靠近这款产品，而另一家正在离开。&lt;/p&gt;
+&lt;p&gt;算力关系又增加了第二层复杂性。如果Anthropic向SpaceX租用算力，那么SpaceX既是Cursor的所有者，也是Anthropic的供应商。OpenAI的切断行动，是试图让自己的模型远离这个集群。Anthropic的扩张，则是决定将更多自己的模型放进去。行业的基础设施地图与产品地图不再重合。一家火箭公司拥有一个编程编辑器，向一家模型实验室出租算力，又被另一家实验室拒绝API访问；而后者的领导者中包括马斯克称为不值得信任的人。&lt;/p&gt;
+&lt;h2 id=&#34;一场持续超过诉讼的争斗&#34;&gt;一场持续超过诉讼的争斗&lt;/h2&gt;
+&lt;p&gt;这场争斗延续自马斯克因OpenAI转为营利模式而提起、但在&lt;strong&gt;2024年&lt;/strong&gt;败诉的诉讼。这就是后来每一次侮辱背后的法律基础。马斯克提起诉讼。他的核心论点是，OpenAI放弃了非营利协议。他败诉了。转型、融资，以及让该实验室得以筹集巨额资金的公司结构，都挺过了这起案件。私人冲突却没有结束。&lt;/p&gt;
+&lt;p&gt;2024年的败诉并没有终结马斯克关于Altman和Brockman*“窃取”*非营利组织的说法。他周六再次重复了这一说法。它也没有让OpenAI愿意把他的公司当作普通API客户对待。周五的信件援引了这些公司违反合同的经历。它没有阻止SpaceX在8月14日以600亿美元收购Cursor，也没有阻止Anthropic向SpaceX租用算力，或承诺让SpaceX如今拥有的编辑器获得更多Claude支持。&lt;/p&gt;
+&lt;p&gt;败诉真正带来的结果，是消除了由法院解决双方关系的希望。2024年之后，各方只能使用自己仍然掌控的工具：模型访问权、收购资本、社交媒体声明，以及那些只想让下一个函数出现在编辑器里的开发者的忠诚。OpenAI周五使用了其中第一个工具。SpaceX此前已经使用了第二个。马斯克周六使用了第三个。Truell正在使用第四个：统计流量份额，并称离开的供应商是基础设施。&lt;/p&gt;
+&lt;p&gt;2026年11月12日这个日期，如今已经出现在OpenAI、SpaceX以及每一家建立在他人模型之上的编程代理公司的日历上。教训并不隐晦。中立基础设施是客户希望被对待的方式，而不是一项权利。一个无法确信的实验室会停止供应、扣留未来模型，并公开写明新所有者的名字就是原因。Cursor表示，这只涉及约5%的流量，谈判仍在继续，而且这个缺口可以被填补——Anthropic也表示会提供更多Claude。整个市场将观察，当那些尚未训练的模型永远不会到来时，5%是否仍会保持为5%。&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>索尼起诉 Anthropic，指控其窃取歌曲</title>
+      <link>http://localhost:3003/zh/ai/sony-sues-anthropic-over-stolen-songs/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/zh/ai/sony-sues-anthropic-over-stolen-songs/</guid>
+      <description>&lt;h1 id=&#34;索尼起诉-anthropic指控其窃取歌曲&#34;&gt;索尼起诉 Anthropic，指控其窃取歌曲&lt;/h1&gt;
+&lt;p&gt;围绕大型语言模型如何构建的斗争，最新战线既不是小说、新闻档案，也不是一堆源代码，而是美国歌曲宝库。&lt;strong&gt;8 月 28 日&lt;/strong&gt;，&lt;strong&gt;Sony Music Publishing&lt;/strong&gt; 与 &lt;strong&gt;Warner Chappell&lt;/strong&gt; 走进&lt;em&gt;北加州&lt;/em&gt;联邦法院，起诉了开发 &lt;strong&gt;Claude&lt;/strong&gt; 系列模型的实验室 &lt;strong&gt;Anthropic&lt;/strong&gt;，以及其&lt;strong&gt;首席执行官 Dario Amodei&lt;/strong&gt; 和&lt;strong&gt;联合创始人 Benjamin Mann&lt;/strong&gt;。出版商的诉状措辞毫不含糊，称 Claude 的训练是*“历史上规模最大、最明目张胆且仍在持续的知识产权盗窃案之一。”*&lt;/p&gt;
+&lt;p&gt;这句话就是为了传播。它也意在构建一种损害赔偿理论：如果陪审团最终接受法律规定的最高额度，其金额将足以重新安排一家前沿实验室的经济格局。诉状要求每部作品&lt;strong&gt;最高 15 万美元&lt;/strong&gt;，并针对*“数万”&lt;em&gt;首作品中&lt;strong&gt;每个被删除的版权管理标签&lt;/strong&gt;额外索赔&lt;strong&gt;2.5 万美元&lt;/strong&gt;——金额&lt;/em&gt;可能达到数十亿美元*。Anthropic &lt;strong&gt;未立即发表评论&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这起案件处于整个行业盘旋了两年多的一个交汇点：以工业化规模摄入受版权保护的文本，然后回应用户索要副歌或诗节的请求，究竟属于研究、产品开发，还是盗窃。音乐出版商已经决定，他们知道答案。他们正请求这个国家最重要的科技诉讼地点之一的法院予以认同。&lt;/p&gt;
+&lt;h2 id=&#34;诉状中的曲库&#34;&gt;诉状中的曲库&lt;/h2&gt;
+&lt;h3 id=&#34;五首歌曲以及一种损害理论&#34;&gt;五首歌曲，以及一种损害理论&lt;/h3&gt;
+&lt;p&gt;文件中点名的作品并非鲜为人知的冷门曲目。几十年来，它们一直出现在收音机、婚礼、体育场和流媒体播放列表中。诉状列出了**“Ain’t No Mountain High Enough”&lt;strong&gt;——由 Holland-Dozier-Holland / Ashford &amp;amp; Simpson 创作、后经 Marvin Gaye 和 Tammi Terrell 演绎成为摩城丰碑的经典歌曲；列出了&lt;/strong&gt;Bon Jovi 的 “Livin’ on a Prayer”&lt;strong&gt;，一首工薪阶层的力量民谣，酒吧乐队弹到转调时仍能让全场沸腾；列出了&lt;/strong&gt;Earth, Wind &amp;amp; Fire 的 “September”&lt;strong&gt;，一首超越其诞生年代、人人都会跟唱的日历主题歌曲；列出了&lt;/strong&gt;“Hallelujah”&lt;strong&gt;，Leonard Cohen 创作的、关于怀疑与欲望的圣歌，翻唱次数之多，以至于许多听众已经记不清自己最初爱上的是哪个版本；还列出了&lt;/strong&gt;Taylor Swift 的 “Paper Rings”**，这首较晚时期的曲库作品提醒法院，这不仅是关于 20 世纪 60 年代和 80 年代的争斗。&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

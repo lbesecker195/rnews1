@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Take-Two on RNews1.com</title>
+    <link>http://localhost:3003/ru/tags/take-two/</link>
+    <description>Recent content in Take-Two on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    
+        <atom:link href="http://localhost:3003/ru/tags/take-two/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ликер GTA обналичил мемкоин-аферу</title>
+      <link>http://localhost:3003/ru/crypto/gta-leaker-cashes-out-memecoin-grift/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/ru/crypto/gta-leaker-cashes-out-memecoin-grift/</guid>
+      <description>&lt;h1 id=&#34;ликер-gta-обналичил-мемкоин-аферу&#34;&gt;Ликер GTA обналичил мемкоин-аферу&lt;/h1&gt;
+&lt;p&gt;Утечка была рекламой. Токен — кассой. &lt;em&gt;За несколько часов до&lt;/em&gt; официального анонса &lt;strong&gt;Grand Theft Auto 6&lt;/strong&gt; от &lt;strong&gt;Rockstar&lt;/strong&gt; и &lt;strong&gt;Netflix&lt;/strong&gt; аккаунт, известный как &lt;strong&gt;Cyberleek&lt;/strong&gt;, вывел около &lt;strong&gt;250 000 долларов&lt;/strong&gt; из &lt;strong&gt;$CYBERLEEK&lt;/strong&gt; — мемкоина &lt;strong&gt;Solana&lt;/strong&gt;, размеченного водяными знаками и QR-кодами на &lt;strong&gt;15 слитых игровых клипах&lt;/strong&gt;. Клипы сделали культурную работу. Блокчейн — финансовую. К моменту запуска официального трейлерного механизма монета ликера уже была выжата досуха.&lt;/p&gt;
+&lt;p&gt;Так выглядит прозаичное прочтение истории, которую интернет хотел воспринимать как партизанскую кинокритику. Несколько недель &lt;strong&gt;Cyberleek&lt;/strong&gt; выдавал себя за человека со &lt;em&gt;свежей полной сборкой&lt;/em&gt;, подпольного куратора, который покажет то, что Rockstar не покажет. Но в углах кадров и на загрузочных карточках клипы также демонстрировали тикеры и считываемые коды. Продавался не доступ к преемнику Вайс-Сити. Продавалось внимание, пропущенное через минт в Solana и превращённое в обналичку на сумму в несколько сотен тысяч долларов.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

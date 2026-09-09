@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Dark Matter on RNews1.com</title>
+    <link>http://localhost:3003/it/tags/dark-matter/</link>
+    <description>Recent content in Dark Matter on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    
+        <atom:link href="http://localhost:3003/it/tags/dark-matter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gli astronomi trovano una galassia senza stelle</title>
+      <link>http://localhost:3003/it/cosmos/astronomers-find-a-galaxy-without-stars/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/it/cosmos/astronomers-find-a-galaxy-without-stars/</guid>
+      <description>&lt;h1 id=&#34;gli-astronomi-trovano-una-galassia-senza-stelle&#34;&gt;Gli astronomi trovano una galassia senza stelle&lt;/h1&gt;
+&lt;h2 id=&#34;a-cloud-that-should-have-become-a-galaxy&#34;&gt;Una nube che avrebbe dovuto diventare una galassia&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Cloud-9&lt;/strong&gt;, a &lt;strong&gt;14 milioni&lt;/strong&gt; di anni luce da noi vicino a &lt;strong&gt;Messier 94&lt;/strong&gt;, sembra una galassia che non si è mai accesa. È una frase più inquietante di quanto non appaia a prima vista. Le galassie dovrebbero essere i luoghi in cui gas, gravità e tempo si mettono d&amp;rsquo;accordo per fare stelle. Il cielo notturno è un catalogo di quell&amp;rsquo;accordo. Cloud-9 è interessante perché l&amp;rsquo;accordo sembra essere fallito, e perché il fallimento, se è reale, non è un buco nei dati. È un oggetto.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

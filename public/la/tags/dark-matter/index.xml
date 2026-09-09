@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Dark Matter on RNews1.com</title>
+    <link>http://localhost:3003/la/tags/dark-matter/</link>
+    <description>Recent content in Dark Matter on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>la</language>
+    
+        <atom:link href="http://localhost:3003/la/tags/dark-matter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Astronomi Galaxiam Sine Stellis Inveniunt</title>
+      <link>http://localhost:3003/la/cosmos/astronomers-find-a-galaxy-without-stars/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/la/cosmos/astronomers-find-a-galaxy-without-stars/</guid>
+      <description>&lt;h1 id=&#34;astronomi-galaxiam-sine-stellis-inveniunt&#34;&gt;Astronomi Galaxiam Sine Stellis Inveniunt&lt;/h1&gt;
+&lt;h2 id=&#34;nubes-quae-galaxia-fieri-debuerat&#34;&gt;Nubes quae galaxia fieri debuerat&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Cloud-9&lt;/strong&gt;, &lt;strong&gt;quattuordecim miliones&lt;/strong&gt; annorum lucis procul prope &lt;strong&gt;Messier 94&lt;/strong&gt;, galaxiam numquam accensam simulat. Haec sententia inquietantior est quam primo aspectu videtur. Galaxiae loca esse debent ubi gas, gravitas et tempus consentiunt ad stellas efficiendas. Caelum nocturnum catalogus huius consensus est. Cloud-9 interest quia consensus defecisse videtur, et quia defectus, si verus est, non est lacuna in rebus observatis. Est obiectum.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

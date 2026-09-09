@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Sustainability on RNews1.com</title>
+    <link>http://localhost:3003/fr/tags/sustainability/</link>
+    <description>Recent content in Sustainability on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+        <atom:link href="http://localhost:3003/fr/tags/sustainability/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Des scientifiques transforment le PVC, plastique difficile à recycler, en lubrifiant haute performance</title>
+      <link>http://localhost:3003/fr/science/pvc-plastic-to-lubricant/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3003/fr/science/pvc-plastic-to-lubricant/</guid>
+      <description>&lt;h1 id=&#34;des-scientifiques-transforment-le-pvc-plastique-difficile-à-recycler-en-lubrifiant-haute-performance&#34;&gt;Des scientifiques transforment le PVC, plastique difficile à recycler, en lubrifiant haute performance&lt;/h1&gt;
+&lt;p&gt;Le &lt;strong&gt;PVC&lt;/strong&gt; est partout, mais son chlore bloque le recyclage mécanique. Une équipe annonce une voie qui le &lt;em&gt;valorise&lt;/em&gt; en base de lubrifiant.&lt;/p&gt;
+&lt;h2 id=&#34;the-pvc-recycling-problem&#34;&gt;Le problème du recyclage du PVC&lt;/h2&gt;
+&lt;p&gt;Chauffé, le PVC libère de l’acide chlorhydrique corrosif et peut contaminer d’autres flux.&lt;/p&gt;
+&lt;h2 id=&#34;how-the-new-process-works&#34;&gt;Comment fonctionne le nouveau procédé&lt;/h2&gt;
+&lt;p&gt;Des catalyseurs arrachent le chlore et réorganisent les chaînes carbonées en molécules proches des huiles synthétiques.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

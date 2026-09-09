@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Science on RNews1.com</title>
+    <link>http://localhost:3003/fr/tags/science/</link>
+    <description>Recent content in Science on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+        <atom:link href="http://localhost:3003/fr/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Les pas quotidiens : la science réfute le mythe des 10 000 pas</title>
+      <link>http://localhost:3003/fr/science/daily-steps-science-debunks-10000-step-myth/</link>
+      <pubDate>Sat, 05 Sep 2026 20:40:32 +0000</pubDate>
+      <guid>http://localhost:3003/fr/science/daily-steps-science-debunks-10000-step-myth/</guid>
+      <description>&lt;h1 id=&#34;lobjectif-des-10-000-pas-na-jamais-reposé-sur-la-science--voici-ce-que-montrent-réellement-les-recherches&#34;&gt;L’objectif des 10 000 pas n’a jamais reposé sur la science : voici ce que montrent réellement les recherches&lt;/h1&gt;
+&lt;h2 id=&#34;déconstruire-un-phénomène-mondial-du-fitness&#34;&gt;Déconstruire un phénomène mondial du fitness&lt;/h2&gt;
+&lt;p&gt;Depuis des décennies, l’objectif quotidien de 10 000 pas est omniprésent dans la culture du fitness, mis en avant sur les montres connectées, les trackers d’activité et les applications de santé du monde entier. Il est promu par les organisations de santé, adopté par les programmes de bien-être en entreprise et devenu la cible par défaut de millions de personnes cherchant à améliorer leur santé grâce à une activité physique accrue. Pourtant, une nouvelle étude scientifique majeure a révélé une vérité étonnante : cette référence largement acceptée ne repose pratiquement sur aucune base scientifique. Le chiffre de 10 000 pas, semble-t-il, n’est pas né de recherches médicales rigoureuses, mais d’une campagne marketing japonaise des années 1960 pour un podomètre appelé « Manpo-keri », ce qui se traduit par « compteur de 10 000 pas ».&lt;/p&gt;</description>
+      
+      
+      
+      <tweet>🚨 The 10,000-step goal was born from 1960s marketing, not science. New research shows 7,000-8,500 steps daily delivers major health benefits. Your fitness goal just became achievable. #Science #Health #ResearchMatters www.rnews1.com/en/science/daily-steps-science-debunks-10000-step-myth/  @ScienceMagazine @NatGeo #Science #Research #Innovation</tweet>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

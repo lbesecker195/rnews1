@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>PTSD on Meridian</title>
+		<link>http://localhost:8080/es/tags/ptsd/</link>
+		<description>Recent content in PTSD on Meridian</description>
+		<generator>Hugo</generator>
+		<language>es</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/es/tags/ptsd/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>La FDA autoriza el primer tratamiento no farmacológico personalizado para el TEPT</title>
+				<link>http://localhost:8080/es/health/fda-ptsd-nonmedication-treatment/</link>
+				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:8080/es/health/fda-ptsd-nonmedication-treatment/</guid>
+				<description>&lt;h1 id=&#34;la-fda-autoriza-el-primer-tratamiento-no-farmacológico-personalizado-para-el-tept&#34;&gt;La FDA autoriza el primer tratamiento no farmacológico personalizado para el TEPT&lt;/h1&gt;&#xA;&lt;p&gt;La &lt;strong&gt;FDA&lt;/strong&gt; autorizó un dispositivo de neuromodulación y biorretroalimentación que ajusta la terapia a la fisiología de cada paciente con TEPT, sin fármacos como primera línea.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-the-personalized-system-works&#34;&gt;Cómo funciona el sistema personalizado&lt;/h2&gt;&#xA;&lt;p&gt;Sensores registran ritmo cardíaco, conductancia de la piel y patrones de atención. Un modelo ajusta estímulos —visuales, auditivos o de neuroestimulación suave— para reducir la hiperactivación y reforzar el procesamiento seguro de recuerdos.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

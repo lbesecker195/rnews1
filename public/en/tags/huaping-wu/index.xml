@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Huaping Wu on RNews1.com</title>
+    <link>http://localhost:3003/en/tags/huaping-wu/</link>
+    <description>Recent content in Huaping Wu on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+        <atom:link href="http://localhost:3003/en/tags/huaping-wu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Socket Sensor Warns Before Tissue Injury</title>
+      <link>http://localhost:3003/en/technology/socket-sensor-warns-before-tissue-injury/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/en/technology/socket-sensor-warns-before-tissue-injury/</guid>
+      <description>&lt;h1 id=&#34;socket-sensor-warns-before-tissue-injury&#34;&gt;Socket Sensor Warns Before Tissue Injury&lt;/h1&gt;
+&lt;p&gt;A prosthetic socket is a tight, load-bearing cup. For someone who walks on a residual limb, that cup is also a risk. Pressure that lasts too long, or that concentrates on the wrong patch of skin, can injure tissue that has already been through amputation, healing, and the daily friction of a liner. Researchers at &lt;strong&gt;Zhejiang University of Technology&lt;/strong&gt; built a &lt;em&gt;bioinspired&lt;/em&gt; sensor layer meant to sit inside a prosthetic socket and flag pressure that can injure residual-limb skin, &lt;strong&gt;ScienceAlert&lt;/strong&gt; reported from a &lt;strong&gt;Cyborg and Bionic Systems&lt;/strong&gt; study.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

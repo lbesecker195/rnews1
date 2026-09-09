@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Bitcoin on RNews1.com</title>
+    <link>http://localhost:3003/fr/tags/bitcoin/</link>
+    <description>Recent content in Bitcoin on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+        <atom:link href="http://localhost:3003/fr/tags/bitcoin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Les achats au comptant, et non l’effet de levier, alimentent le BTC</title>
+      <link>http://localhost:3003/fr/crypto/spot-cash-not-leverage-fuels-btc/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/fr/crypto/spot-cash-not-leverage-fuels-btc/</guid>
+      <description>&lt;h1 id=&#34;les-achats-au-comptant-et-non-leffet-de-levier-alimentent-le-btc&#34;&gt;Les achats au comptant, et non l’effet de levier, alimentent le BTC&lt;/h1&gt;
+&lt;p&gt;La dernière progression du Bitcoin ne ressemblait pas, à la lecture du marché des dérivés, à une liquidation forcée provoquée par des positions trop nombreuses. &lt;strong&gt;Blockonomi&lt;/strong&gt; cite &lt;strong&gt;QCP Capital&lt;/strong&gt;, qui estime que la progression du &lt;strong&gt;Bitcoin&lt;/strong&gt;, d’environ &lt;strong&gt;63 500 $&lt;/strong&gt; vers &lt;strong&gt;80 000 $&lt;/strong&gt; — brièvement au-dessus de &lt;strong&gt;81 000 $&lt;/strong&gt; — reposait sur le &lt;em&gt;soutien du marché au comptant&lt;/em&gt;, et non sur un &lt;em&gt;effet de levier excessif&lt;/em&gt;. Il s’agit d’une analyse de la structure du marché, pas d’un objectif de cours. Elle indique que la demande ayant porté la cryptomonnaie du milieu des 60 000 $ vers 80 000 $ est venue d’achats au comptant et de produits réglementés, tandis que les indicateurs habituels de l’effet de levier — intérêt ouvert, financement et concentration sur les options — n’affichaient pas la signature d’une envolée finale.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Les ETF Bitcoin mettent fin à une série de trois milliards</title>
+      <link>http://localhost:3003/fr/crypto/bitcoin-etfs-snap-three-billion-streak/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/fr/crypto/bitcoin-etfs-snap-three-billion-streak/</guid>
+      <description>&lt;h1 id=&#34;les-etf-bitcoin-mettent-fin-à-une-série-de-trois-milliards&#34;&gt;Les ETF Bitcoin mettent fin à une série de trois milliards&lt;/h1&gt;
+&lt;p&gt;La demande s’est interrompue vendredi. Les &lt;strong&gt;ETF Bitcoin spot américains&lt;/strong&gt; ont enregistré &lt;strong&gt;201,9 millions de dollars de sorties nettes&lt;/strong&gt;, mettant fin à une série d’achats de &lt;strong&gt;neuf jours&lt;/strong&gt; qui avait absorbé &lt;strong&gt;3,04 milliards de dollars&lt;/strong&gt; — la &lt;em&gt;plus forte demande ininterrompue pour des ETF de ce marché baissier&lt;/em&gt;, selon &lt;strong&gt;Ecoinometrics&lt;/strong&gt; et &lt;strong&gt;Farside Investors&lt;/strong&gt;. Le &lt;strong&gt;Bitcoin&lt;/strong&gt; a reculé d’environ &lt;strong&gt;3,2 %&lt;/strong&gt;, à &lt;strong&gt;77 696 dollars&lt;/strong&gt;. Ce qui avait donné un plancher à cette baisse, c’était la création quotidienne de parts d’ETF. Pendant neuf séances, ce plancher a tenu. Puis ce ne fut plus le cas.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

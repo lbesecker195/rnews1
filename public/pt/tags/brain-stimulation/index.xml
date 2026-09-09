@@ -1,0 +1,32 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Brain Stimulation on RNews1.com</title>
+    <link>http://localhost:3003/pt/tags/brain-stimulation/</link>
+    <description>Recent content in Brain Stimulation on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+        <atom:link href="http://localhost:3003/pt/tags/brain-stimulation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A FDA autoriza o primeiro tratamento não farmacológico personalizado para o TEPT</title>
+      <link>http://localhost:3003/pt/health/fda-ptsd-nonmedication-treatment/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3003/pt/health/fda-ptsd-nonmedication-treatment/</guid>
+      <description>&lt;h1 id=&#34;a-fda-autoriza-o-primeiro-tratamento-não-farmacológico-personalizado-para-o-tept&#34;&gt;A FDA autoriza o primeiro tratamento não farmacológico personalizado para o TEPT&lt;/h1&gt;
+&lt;p&gt;A &lt;strong&gt;FDA&lt;/strong&gt; autorizou um dispositivo de neuromodulação e biofeedback ajustado à fisiologia de cada doente, sem fármacos em primeira linha.&lt;/p&gt;
+&lt;h2 id=&#34;how-the-personalized-system-works&#34;&gt;Como funciona o sistema personalizado&lt;/h2&gt;
+&lt;p&gt;Sensores de ritmo cardíaco, condutância da pele e atenção; um modelo regula estímulos visuais, auditivos ou neuroestimulação suave.&lt;/p&gt;
+&lt;h2 id=&#34;clinical-evidence-supporting-clearance&#34;&gt;Provas clínicas da autorização&lt;/h2&gt;
+&lt;p&gt;Ensaios controlados mostraram quedas clinicamente significativas nas escalas de TEPT.&lt;/p&gt;
+&lt;h2 id=&#34;why-nonmedication-options-matter&#34;&gt;Porque importam as opções não farmacológicas&lt;/h2&gt;
+&lt;p&gt;Muitos abandonam os ISRS. Uma via não farmacológica alarga a caixa de ferramentas.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

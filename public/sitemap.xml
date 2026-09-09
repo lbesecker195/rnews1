@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+		<sitemap>
+			<loc>http://localhost:3002/en/sitemap.xml</loc>
+			
+				<lastmod>2026-09-09T17:18:43+00:00</lastmod>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>http://localhost:3002/es/sitemap.xml</loc>
+			
+				<lastmod>2026-09-09T17:18:43+00:00</lastmod>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>http://localhost:3002/it/sitemap.xml</loc>
+			
+				<lastmod>2026-09-09T17:18:43+00:00</lastmod>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>http://localhost:3002/fr/sitemap.xml</loc>
+			
+				<lastmod>2026-09-09T17:18:43+00:00</lastmod>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>http://localhost:3002/ar/sitemap.xml</loc>
+			
+				<lastmod>2026-09-09T17:18:43+00:00</lastmod>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>http://localhost:3002/la/sitemap.xml</loc>
+			
+				<lastmod>2026-09-09T17:18:43+00:00</lastmod>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>http://localhost:3002/hi/sitemap.xml</loc>
+			
+				<lastmod>2026-09-09T17:18:43+00:00</lastmod>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>http://localhost:3002/bn/sitemap.xml</loc>
+			
+				<lastmod>2026-09-09T17:18:43+00:00</lastmod>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>http://localhost:3002/pt/sitemap.xml</loc>
+			
+				<lastmod>2026-09-09T17:18:43+00:00</lastmod>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>http://localhost:3002/ru/sitemap.xml</loc>
+			
+				<lastmod>2026-09-09T17:18:43+00:00</lastmod>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>http://localhost:3002/ur/sitemap.xml</loc>
+			
+				<lastmod>2026-09-09T17:18:43+00:00</lastmod>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>http://localhost:3002/zh/sitemap.xml</loc>
+			
+				<lastmod>2026-09-09T17:18:43+00:00</lastmod>
+			
+		</sitemap>
+	
+</sitemapindex>

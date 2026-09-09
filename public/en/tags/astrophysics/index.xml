@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Astrophysics on Meridian</title>
+		<link>http://localhost:8080/en/tags/astrophysics/</link>
+		<description>Recent content in Astrophysics on Meridian</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 14:35:00 -0700</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/en/tags/astrophysics/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Universe Is Still Speeding Up—Major Analysis Reaffirms Dark Energy’s Dominance</title>
+				<link>http://localhost:8080/en/cosmos/universe-still-accelerating/</link>
+				<pubDate>Sat, 29 Aug 2026 14:35:00 -0700</pubDate>
+				<guid>http://localhost:8080/en/cosmos/universe-still-accelerating/</guid>
+				<description>&lt;h1 id=&#34;the-universe-is-still-speeding-upmajor-analysis-reaffirms-dark-energys-dominance&#34;&gt;The Universe Is Still Speeding Up—Major Analysis Reaffirms Dark Energy’s Dominance&lt;/h1&gt;&#xA;&lt;p&gt;For more than two decades, cosmologists have accepted that the expansion of the universe is accelerating, driven by a mysterious component called &lt;strong&gt;dark energy&lt;/strong&gt;. In recent years, a handful of studies raised the possibility that this acceleration might be slowing or that the data could be reinterpreted without dark energy. A major new analysis published in late August 2026 has now pushed back firmly against those suggestions.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

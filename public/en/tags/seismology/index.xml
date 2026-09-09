@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Seismology on RNews1.com</title>
+    <link>http://localhost:3003/en/tags/seismology/</link>
+    <description>Recent content in Seismology on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+        <atom:link href="http://localhost:3003/en/tags/seismology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AI Maps Six Hidden Earth Structures</title>
+      <link>http://localhost:3003/en/science/ai-maps-six-hidden-earth-structures/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/en/science/ai-maps-six-hidden-earth-structures/</guid>
+      <description>&lt;h1 id=&#34;ai-maps-six-hidden-earth-structures&#34;&gt;AI Maps Six Hidden Earth Structures&lt;/h1&gt;
+&lt;p&gt;About &lt;strong&gt;1,800 miles&lt;/strong&gt; beneath your feet, Earth&amp;rsquo;s &lt;strong&gt;mantle&lt;/strong&gt; meets the &lt;em&gt;liquid outer core&lt;/em&gt;. That contact is not a smooth seam. It is a landscape. For decades seismologists have known that the base of the mantle is lumpy, with patches of odd material that scatter passing earthquake waves. Mapping those patches has always been a fight against faint signals and uneven coverage. A new effort from &lt;strong&gt;Chinese Academy of Sciences&lt;/strong&gt; researchers uses a &lt;strong&gt;deep-learning&lt;/strong&gt; system, a mountain of old seismograms, and a lot of human cleanup to argue that the lumps are more connected, and more numerous, than earlier catalogs showed.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

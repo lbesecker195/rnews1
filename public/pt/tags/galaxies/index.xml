@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Galaxies on RNews1.com</title>
+    <link>http://localhost:3003/pt/tags/galaxies/</link>
+    <description>Recent content in Galaxies on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+        <atom:link href="http://localhost:3003/pt/tags/galaxies/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Astrónomos encontram uma galáxia sem estrelas</title>
+      <link>http://localhost:3003/pt/cosmos/astronomers-find-a-galaxy-without-stars/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/pt/cosmos/astronomers-find-a-galaxy-without-stars/</guid>
+      <description>&lt;h1 id=&#34;astrónomos-encontram-uma-galáxia-sem-estrelas&#34;&gt;Astrónomos encontram uma galáxia sem estrelas&lt;/h1&gt;
+&lt;h2 id=&#34;uma-nuvem-que-deveria-ter-se-tornado-uma-galáxia&#34;&gt;Uma nuvem que deveria ter se tornado uma galáxia&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Cloud-9&lt;/strong&gt;, a &lt;strong&gt;14 milhões&lt;/strong&gt; de anos-luz, perto de &lt;strong&gt;Messier 94&lt;/strong&gt;, parece uma galáxia que nunca foi ativada. Essa é uma frase mais perturbadora do que parece à primeira vista. As galáxias deveriam ser os lugares onde gás, gravidade e tempo concordam em formar estrelas. O céu noturno é um catálogo desse acordo. Cloud-9 é interessante porque o acordo parece ter falhado e porque o fracasso, se for real, não é uma lacuna nos dados. É um objeto.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

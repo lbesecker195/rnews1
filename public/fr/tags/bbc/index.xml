@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>BBC on RNews1.com</title>
+    <link>http://localhost:3003/fr/tags/bbc/</link>
+    <description>Recent content in BBC on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+        <atom:link href="http://localhost:3003/fr/tags/bbc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>L’IA transforme les réclamations pour poubelles en mémoires</title>
+      <link>http://localhost:3003/fr/ai/ai-turns-bin-moans-into-briefs/</link>
+      <pubDate>Sat, 29 Aug 2026 18:11:00 -0700</pubDate>
+      <guid>http://localhost:3003/fr/ai/ai-turns-bin-moans-into-briefs/</guid>
+      <description>&lt;h1 id=&#34;lia-transforme-les-réclamations-pour-poubelles-en-mémoires&#34;&gt;L’IA transforme les réclamations pour poubelles en mémoires&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Les collectivités, les écoles et les organismes de régulation britanniques&lt;/strong&gt; affirment que les &lt;strong&gt;réclamations rédigées par l’IA&lt;/strong&gt; explosent en &lt;strong&gt;longueur et en complexité&lt;/strong&gt;, rapporte la &lt;strong&gt;BBC&lt;/strong&gt;, tandis que le &lt;strong&gt;Seoul Economic Daily&lt;/strong&gt; a amplifié l’histoire le &lt;strong&gt;30 août&lt;/strong&gt;. L’image prête presque à rire, jusqu’à ce que le nombre de pages tombe. Une &lt;em&gt;réclamation pour poubelle non vidée&lt;/em&gt; qui &lt;strong&gt;tenait autrefois sur une face de feuille A4&lt;/strong&gt;, selon &lt;strong&gt;Deborah Evans&lt;/strong&gt;, de &lt;strong&gt;Lawyers in Local Government&lt;/strong&gt;, s’étend désormais sur &lt;strong&gt;19 à 27 pages&lt;/strong&gt;, remplies de &lt;strong&gt;jurisprudence&lt;/strong&gt; et de &lt;strong&gt;lois du Parlement&lt;/strong&gt; — &lt;strong&gt;souvent mal citées&lt;/strong&gt; — et cette masse &lt;strong&gt;oblige les agents à faire intervenir des juristes&lt;/strong&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

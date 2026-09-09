@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Compliance on RNews1.com</title>
+    <link>http://localhost:3003/pt/categories/compliance/</link>
+    <description>Recent content in Compliance on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+        <atom:link href="http://localhost:3003/pt/categories/compliance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Multa da CNIL a um hospital: análise da penalidade de €500 mil</title>
+      <link>http://localhost:3003/pt/compliance/cnil-hospital-fine-eur500k-penalty-analysis/</link>
+      <pubDate>Sat, 05 Sep 2026 20:38:37 +0000</pubDate>
+      <guid>http://localhost:3003/pt/compliance/cnil-hospital-fine-eur500k-penalty-analysis/</guid>
+      <description>&lt;h1 id=&#34;cnil-aplica-multa-de-500000-a-um-hospital-francês-principais-lições-para-a-conformidade-com-a-proteção-de-dados-na-área-da-saúde&#34;&gt;CNIL aplica multa de €500.000 a um hospital francês: principais lições para a conformidade com a proteção de dados na área da saúde&lt;/h1&gt;
+&lt;h2 id=&#34;resumo-executivo&#34;&gt;Resumo executivo&lt;/h2&gt;
+&lt;p&gt;A Commission Nationale de l&amp;rsquo;Informatique et des Libertés (CNIL), autoridade independente de proteção de dados da França, impôs uma multa substancial de €500.000 a um hospital francês por violações do Regulamento Geral sobre a Proteção de Dados (GDPR). O incidente comprometeu aproximadamente 727.000 registros de pacientes, representando uma das violações de dados na área da saúde mais significativas da história regulatória francesa recente. Essa ação de fiscalização ressalta a gravidade crescente das penalidades impostas pelas autoridades europeias de proteção de dados e serve como um lembrete fundamental para as organizações de saúde sobre suas obrigações previstas no GDPR e na legislação francesa de proteção de dados.&lt;/p&gt;</description>
+      
+      
+      
+      <tweet>🚨 CNIL fines French hospital €500K for breaching 727K patient records. Healthcare orgs: GDPR violations carry serious penalties. Strengthen your data security NOW. #GDPR #Healthcare #Compliance #DataProtection www.rnews1.com/en/compliance/cnil-hospital-fine-eur500k-penalty-analysis/  @CISAgov @SecurityJoe #Cybersecurity #Security #DataBreach</tweet>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

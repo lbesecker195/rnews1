@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 绘制出地球六处隐藏结构 | RNews1.com</title>
+  <meta name="description" content="在你脚下约 1,800 英里处，地幔与液态外核相接。中国科学院研究人员用 1990 年至 2024 年间超过两百万条地震记录训练深度学习系统，随后人工纠正模型错误。系统提取出 174,929 个微弱的 PKP 前驱波信号——超过此前所有目录总数的十倍——这些波会在核幔边界附近的团块上发生散射，并在更强的波之前抵达。新地图显示，曾被认为彼此孤立的斑块实际上连接成了更大的带状结构。六个采样不足的区域（标记为 B1 至 B6），包括欧亚大陆高纬度地区、中亚和南大西洋，如今看起来像是重要的隐藏不均匀体。研究团队认为，它们可能是热化学堆积体：俯冲板块的残留物、部分熔融体、矿物相变产物，或形成月球的天体留下的残余物，并与巨大的低剪切波速异常体相互作用。这些深部结构能够引导地幔流动、岩浆、火山活动，甚至磁场。该研究发表于《地球物理研究杂志：固体地球》。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/zh/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="栏目">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/ai/"
+              
+            >人工智能</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/business/"
+              
+            >商业</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/zh/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/crypto/"
+              
+            >加密货币</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/entertainment/"
+              
+            >文娱</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/sports/"
+              
+            >体育</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/technology/"
+              
+            >科技</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/usa/"
+              
+            >美国</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/world/"
+              
+            >国际</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/health/"
+              
+            >健康</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/science/"
+              aria-current="page"
+            >科学</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/cosmos/"
+              
+            >宇宙</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="菜单">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="栏目">
+          
+            
+              
+              
+              
+              <a
+                href="/zh/ai/"
+                
+              >人工智能</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/business/"
+                
+              >商业</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/zh/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/crypto/"
+                
+              >加密货币</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/entertainment/"
+                
+              >文娱</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/sports/"
+                
+              >体育</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/technology/"
+                
+              >科技</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/usa/"
+                
+              >美国</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/world/"
+                
+              >国际</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/health/"
+                
+              >健康</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/science/"
+                aria-current="page"
+              >科学</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/cosmos/"
+                
+              >宇宙</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="post container">
+  <header class="post-header">
+    <h1><a href="">AI 绘制出地球六处隐藏结构</a></h1>
+    <div class="post-meta">
+      
+        <span>
+          <a href="/zh/science/">科学</a>
+        </span>
+      <span>·</span>
+    
+      <time datetime="2026-08-29">2026年8月29日</time>
+      <span>·</span>
+      <span>0 分钟阅读</span>
+    </div>
+  </header>
+  <div class="post-content">
+    
+<p>在你脚下约 <strong>1,800 英里</strong>处，地球的<strong>地幔</strong>与<em>液态外核</em>相接。这一接触面并不是平滑的接缝，而是一片地形。数十年来，地震学家一直知道地幔底部凹凸不平，其中夹杂着一些奇异物质，会使经过的地震波发生散射。绘制这些斑块的地图，一直是在微弱信号和不均匀覆盖的双重困难中摸索。中国科学院研究人员开展的一项新工作，利用<strong>深度学习</strong>系统、大量旧地震图以及许多人工清理工作，认为这些团块比早期目录显示的更加相互连通，也更加普遍。</p>
+<p>该研究发表于*《地球物理研究杂志：固体地球》<em>。它的主张并不是说地球突然长出了新的内脏，而是说这些内脏一直存在，只不过一个经过训练、能够从地震记录中听见耳语的机器，终于可以把它们画成带状结构，而不是散落的岛屿。其中六个特征位于旧有网络几乎没有采样的区域，如今看起来像是<strong>重要的隐藏不均匀体</strong>。如果这一解释成立，它们就不是无关紧要的细节。深部结构能够</em>引导地幔流动、岩浆、火山活动，甚至磁场*。</p>
+<h2 id="岩石世界的底部">岩石世界的底部</h2>
+<p>在人类的时间尺度上，地幔是固体；在地质时间尺度上，它仍会流动。位于其下方的外核是液态金属。二者之间的边界是地球上最极端的界面之一：岩石对金属、固体对液体，密度和化学成分骤变，温度则足以媲美熔炉。向下约 1,800 英里处，俯冲板块可能在那里停滞，来自地核的热量可能在那里聚集，远古物质也可能在那里长久滞留。</p>
+<h3 id="微弱波如何变成地图">微弱波如何变成地图</h3>
+<p>地震学就是观察那个世界的方式。地震撼动地球，波穿过岩石和金属疾驰，地表台站记录下波形。这些波形的传播时间和振幅编码了地球内部的信息。有些波会穿过地核，有些会掠过边界，还有一些——本文关注的正是它们——会在<strong>核幔边界</strong>附近的团块上发生散射，并在更强的波<em>之前不久</em>抵达。这些提前抵达的波就是<strong>PKP 前驱波</strong>信号。它们很微弱，容易被漏掉；但如果能够收集到足够多，它们也能绘制出一张地图。</p>
+<p>问题一直在于目录规模。少数区域中少量的前驱波，可能看起来只是彼此孤立的斑块，因为房间里只有这些光。打开更多灯光，斑块也许就会连接起来。这正是研究人员用<strong>1990 年至 2024 年间超过两百万条地震记录</strong>训练模型的依据。</p>
+<h2 id="先用模型再由人拿红笔修正">先用模型，再由人拿红笔修正</h2>
+<p>中国科学院团队用这一档案训练了一个<strong>深度学习</strong>系统，随后<strong>人工纠正了模型的错误</strong>。第二步并不是脚注。地震学中的机器学习论文往往把网络描述成自主的聆听者，而这项研究将网络视为第一轮筛选：模型提出候选，人类仍然作出判断。</p>
+<h3 id="为什么目录必须人工核查">为什么目录必须人工核查</h3>
+<p>这种工作流程符合信号本身的性质。PKP 前驱波不是响亮、干净的尖峰，而是一些提前出现的微小能量：它们从核幔边界附近的不均匀体散射出来，赶在主要 PKP 波到达之前传播。看过完整档案的分类器，可以标记出疲惫的分析人员可能跳过的候选信号；但它也可能标记噪声、处理伪影和相似信号。人工修正，才能让目录不只是模型一时兴致的清单。</p>
+<p>这次收获的数字改变了问题的规模。系统提取出 <strong>174,929</strong> 个微弱的 PKP 前驱波信号——<em>超过此前所有目录总数的十倍</em>。完整度提升一个数量级，绝非小幅改进，而是从草图走向普查的差别。有了这么多散布各处的抵达信号，地图不再被迫把每个团块都当成孤零零的岛屿，仅仅因为下一个台站距离太远。</p>
+<h2 id="从孤立斑块到带状结构">从孤立斑块到带状结构</h2>
+<p>新地图显示，<em>曾被认为彼此孤立的斑块</em>实际上连接成了<strong>更大的带状结构</strong>。这句话就是地质学上的核心成果。多年来，地幔底部的不均匀性一直被描述为离散的堆积体、超低速区和散射体。那些描述中，有些本来就可能是分辨率造成的假象。如果目录太小，一切看起来都会彼此孤立。</p>
+<p>带状结构意味着某种组织性。核幔边界处的物质并非随机散布，至少在一些地方，它们排列成延伸的结构。伸长形态需要某种过程来解释：拉伸堆积体的流动、沿某个前缘铺展的板块，或被地幔循环剪切过的化学区域。要说明观测结果，论文不必指定唯一的“艺术家”。关键在于连通性。目录扩大一个数量级后，原本看似点状的东西就可能显现为线状。</p>
+<h3 id="为什么带状结构比点状斑块更重要">为什么带状结构比点状斑块更重要</h3>
+<p>连通性还会改变我们对这些特征如何与地球深部其他部分相互作用的理解。孤立斑块只是局部异常；带状结构则是流动的边界条件。沿长距离延伸、与流体相邻且具有高对比度的结构，能够像海底山脊改变海水流向那样，使地幔中的流动发生偏转。它们还可能聚集热量。</p>
+<h2 id="六个曾经隐没在阴影中的区域">六个曾经隐没在阴影中的区域</h2>
+<p>最引人注目的新增内容，并不只是已知堆积体的放大版。六个采样不足的区域，<strong>标记为 B1 至 B6</strong>，包括<strong>欧亚大陆高纬度地区</strong>、<strong>中亚</strong>和<strong>南大西洋</strong>，如今看起来像是<em>重要的隐藏不均匀体</em>。采样不足是全球地震学中的罪魁祸首。地震分布不均匀，台站分布也不均匀；海洋以一种不合时宜的方式保持沉寂；极地路径则难以利用。核幔边界的大片区域过去只能由涓涓细流般的有效射线照亮。</p>
+<p>B1 至 B6 是团队为其中六个昏暗房间取的名字——如今灯已经亮起。欧亚大陆高纬度地区、中亚和南大西洋被明确列为其中成员。它们并不是地球深部唯一有趣的地方，但正是这份目录首次将它们从“我们没有足够射线”提升为“那里存在某种大型结构”。称其为重要的隐藏不均匀体，是对其振幅和范围的判断，而不是说任何人已经触碰到了它们。</p>
+<h3 id="给曾经黑暗的房间命名">给曾经黑暗的房间命名</h3>
+<p>这种标记——B1 至 B6——本身说明该领域仍处于命名和制图阶段。它们还不是像某条著名山脉那样家喻户晓的结构，而是目录中的对象。如果后续研究利用其他波型、其他频率和其他反演方法证实它们，这些标签要么会保留下来，要么会被纳入更广泛的核幔边界地理体系。眼下，它们是论文表达“请看这里、这里以及这里”的方式——这些地方在早期地图上几乎一片寂静。</p>
+<h2 id="这些堆积体可能是什么">这些堆积体可能是什么</h2>
+<p>研究团队认为，它们可能是<strong>热化学堆积体</strong>。这是一个简洁的短语，背后却对应着复杂的起源选项。论文列出的可能性值得记住：<em>俯冲板块的残留物</em>、<em>部分熔融体</em>、<em>矿物相变</em>，或是<em>形成月球的天体留下的残余物</em>，并与<strong>巨大的低剪切波速异常体</strong>相互作用。</p>
+<p>俯冲板块残留物是最熟悉的解释。海洋板块在海沟处俯冲进入地幔，其中一部分寒冷且化学成分不同的岩石，可能抵达地幔底部并停滞下来，逐渐堆积成与周围岩石在温度和成分上仍有差异的堆积体。这些堆积体会使波发生散射。至于它们比周围环境更致密还是更轻，则取决于它们已经升温了多少以及如今包含哪些矿物。</p>
+<p>部分熔融则是另一种不均匀性。在地幔最热、最低部位滞留的少量液体，能够大幅降低地震波速并使能量发生散射。矿物相变——在核幔压力下晶体结构发生变化——也能产生类似效果，即使完全没有液体存在，只要新矿物的排列比旧矿物传播得更慢或更快即可。这些选项各自都是一种热化学故事。温度与化学成分彼此纠缠。一个既更热、化学成分又不同的堆积体，不必被迫拥有单一身份。</p>
+<h3 id="板块熔体矿物或一个残存的世界">板块、熔体、矿物，或一个残存的世界</h3>
+<p>列表中最古老的选项，是<em>形成月球的天体留下的残余物</em>。标准的巨碰撞故事认为，一个大型天体撞击了早期地球，并将后来形成月球的物质抛入太空。一些模型允许撞击体的残余物，或撞击形成的岩浆海残余物，沉降并存留在地幔底部。如果这些残余物至今仍在那里，它们将是地球上最古老的化学区域之一，像一块永远洗不掉的污渍，停留在核幔边界处。</p>
+<p>无论这些堆积体由什么组成，它们都不是孤立存在的。它们会与<strong>巨大的低剪切波速异常体</strong>相互作用。这些异常体是地幔深部的大型低速区域，已经通过地震层析成像为人所知，是深部地球地球物理学的核心事实之一。堆积体与异常体共同构成了一片地震波速有高有低的底部地形。新发现的带状结构和 B1 至 B6 区域，则是这片地形上的新增起伏。</p>
+<h2 id="为什么地下-1800-英里的团块会影响地表">为什么地下 1,800 英里的团块会影响地表</h2>
+<p>人们有理由问：不做地震图反演的人，为什么要关心这些？研究团队给出的答案是因果性的，而不是审美性的。这些深部结构能够<strong>引导地幔流动、岩浆、火山活动，甚至磁场</strong>。</p>
+<p>地幔流动是缓慢的对流过程，它推动板块、抬升地幔柱，并混合地球内部物质。位于底部的热化学堆积体既是障碍，也是热引擎。流动必须绕过它或越过它，来自地核的热量也必须穿过它或从其周围泄出。在地质时间尺度上，这种引导作用能够决定上涌流在哪里形成。抵达上地幔的上涌流会提供岩浆，岩浆则促成火山活动。从这个意义上说，隐藏的地幔底部带状结构图，可能也是一张解释火山活动为何并非随机散布于地球各处的地图。</p>
+<h3 id="热量地幔柱与发电机">热量、地幔柱与发电机</h3>
+<p>磁场的故事发生在地核，但地幔仍然拥有发言权。液态外核发电机对热量如何离开地核十分敏感。如果核幔边界是由绝热堆积体和泄热窗口拼成的斑驳地毯，那么热流模式就可能组织地核对流。组织化的地核对流能够组织磁场，包括磁场如何游移和反转。论文并不是说 B1 至 B6 会让磁极翻转，而是认为，重要的隐藏不均匀体应当被列入可能塑造发电机热边界条件的因素之中。</p>
+<p>所有这些推论都源于一项测量。测量结果是 174,929 个 PKP 前驱波信号，它们来自覆盖 1990 年至 2024 年的两百多万条地震记录；深度学习系统先提出检测结果，再由人类纠正错误。真正重要的波，是那些在核幔边界附近团块上发生散射、并在更强波之前不久抵达的波。这些波支持的地图显示，孤立斑块连接成更大的带状结构，而六个采样不足的区域——包括欧亚大陆高纬度地区、中亚和南大西洋——则作为重要的隐藏特征跃入视野。</p>
+<h2 id="目录不是最终答案">目录不是最终答案</h2>
+<p>地震地图是一种论证。它取决于选择哪些震相、如何定义一次检测、如何定位散射体，以及如何在覆盖不均匀的情况下绘制等值线。目录规模扩大十倍是有力的论据，但不是一张照片。其他团队会尝试用不同工具观察 B1 至 B6。某些带状结构在更高频率下可能再次碎裂；某些热化学解释可能会输给更简单的热解释，或者反过来。</p>
+<p>但不会改变的是谜团所在的位置。向下约 1,800 英里处，地幔与液态外核相接。界面凹凸不平，团块会使波发生散射。很长时间以来，这些散落耳语的目录太小，无法分辨群岛和群岛链。如今，一次对一代地震记录的深度学习筛选，加上人工核查，使目录足够庞大，能够更倾向于带状结构，并为地球光照不足的地下基底命名六处隐藏结构。无论它们是板块、熔体、矿物变化，还是月球形成过程留下的残余物，它们都与巨大的低剪切波速异常体相互作用，并处于能够引导一套缓慢机械系统的位置——这套系统将地核与火山活动和磁场联系起来。这正是*《地球物理研究杂志：固体地球》*这篇论文摆到桌面上的内容：不是一个新的地球，而是一个更加清晰的地球。</p>
+
+  </div>
+
+  
+  <div class="article-tags">
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+  </div>
+
+
+  
+  
+  <aside class="related-posts">
+    <h2>继续阅读</h2>
+    <p class="related-note">通过共同的标题片段匹配</p>
+    <ul>
+      
+      <li>
+        <a href="/zh/science/scientists-debate-potential-alien-life-discovery/">科学家就发现潜在外星生命展开辩论</a>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/science/science-and-the-afterlife-evidence-or-mystery/">科学与来世：证据还是谜团</a>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/science/science-explains-death-and-afterlife/">科学解释死亡与死后世界</a>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/science/quirky-science-wins-ig-nobel-recognition/">古怪科学赢得搞笑诺贝尔奖认可</a>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/science/quirky-science-wins-recognition-at-ig-nobel/">古怪科学在搞笑诺贝尔奖中获得认可</a>
+        
+      </li>
+      
+    </ul>
+  </aside>
+  
+</article>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="语言">
+        
+          <a no-follow href="/en/science/ai-maps-six-hidden-earth-structures/">English</a>
+        
+          <a no-follow href="/es/science/ai-maps-six-hidden-earth-structures/">Español</a>
+        
+          <a no-follow href="/it/science/ai-maps-six-hidden-earth-structures/">Italiano</a>
+        
+          <a no-follow href="/fr/science/ai-maps-six-hidden-earth-structures/">Français</a>
+        
+          <a no-follow href="/ar/science/ai-maps-six-hidden-earth-structures/">العربية</a>
+        
+          <a no-follow href="/la/science/ai-maps-six-hidden-earth-structures/">Latina</a>
+        
+          <a no-follow href="/hi/science/ai-maps-six-hidden-earth-structures/">हिन्दी</a>
+        
+          <a no-follow href="/bn/science/ai-maps-six-hidden-earth-structures/">বাংলা</a>
+        
+          <a no-follow href="/pt/science/ai-maps-six-hidden-earth-structures/">Português</a>
+        
+          <a no-follow href="/ru/science/ai-maps-six-hidden-earth-structures/">Русский</a>
+        
+          <a no-follow href="/ur/science/ai-maps-six-hidden-earth-structures/">اردو</a>
+        
+          <a no-follow href="/zh/science/ai-maps-six-hidden-earth-structures/" aria-current="page">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

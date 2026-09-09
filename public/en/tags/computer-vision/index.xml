@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Computer Vision on RNews1.com</title>
+    <link>http://localhost:3003/en/tags/computer-vision/</link>
+    <description>Recent content in Computer Vision on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+        <atom:link href="http://localhost:3003/en/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MIT: Humans Still Beat AI Costs</title>
+      <link>http://localhost:3003/en/ai/mit-humans-still-beat-ai-costs/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/en/ai/mit-humans-still-beat-ai-costs/</guid>
+      <description>&lt;h1 id=&#34;mit-humans-still-beat-ai-costs&#34;&gt;MIT: Humans Still Beat AI Costs&lt;/h1&gt;
+&lt;p&gt;A widely recirculated &lt;strong&gt;MIT CSAIL&lt;/strong&gt; and &lt;strong&gt;Sloan&lt;/strong&gt; study on &lt;em&gt;computer-vision automation&lt;/em&gt; is back in &lt;em&gt;last-hour AI feeds&lt;/em&gt;, pushing a &lt;strong&gt;contrarian jobs narrative&lt;/strong&gt;: &lt;em&gt;technical exposure does not equal economic replacement&lt;/em&gt;. The claim is not that cameras cannot see. It is that seeing is not the same as paying for itself. Researchers who modeled &lt;strong&gt;installation and operating costs&lt;/strong&gt; found that only &lt;strong&gt;about 23% of U.S. wages&lt;/strong&gt; tied to &lt;em&gt;vision tasks&lt;/em&gt; look &lt;em&gt;cost-effective to automate today&lt;/em&gt;. &lt;strong&gt;Most firms would still prefer people&lt;/strong&gt; once &lt;strong&gt;cameras&lt;/strong&gt;, &lt;strong&gt;models&lt;/strong&gt;, and &lt;strong&gt;maintenance&lt;/strong&gt; are priced in.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

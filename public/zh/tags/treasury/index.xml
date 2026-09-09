@@ -1,0 +1,33 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Treasury on RNews1.com</title>
+    <link>http://localhost:3003/zh/tags/treasury/</link>
+    <description>Recent content in Treasury on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+        <atom:link href="http://localhost:3003/zh/tags/treasury/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>现货现金而非杠杆推动 BTC 上涨</title>
+      <link>http://localhost:3003/zh/crypto/spot-cash-not-leverage-fuels-btc/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/zh/crypto/spot-cash-not-leverage-fuels-btc/</guid>
+      <description>&lt;h1 id=&#34;现货现金而非杠杆推动-btc-上涨&#34;&gt;现货现金而非杠杆推动 BTC 上涨&lt;/h1&gt;
+&lt;p&gt;比特币最新一轮上涨，从衍生品盘面来看，并不像一场拥挤的逼空行情。&lt;strong&gt;Blockonomi&lt;/strong&gt; 援引 &lt;strong&gt;QCP Capital&lt;/strong&gt; 的观点称，&lt;strong&gt;Bitcoin&lt;/strong&gt; 从约 &lt;strong&gt;$63,500&lt;/strong&gt; 向 &lt;strong&gt;$80,000&lt;/strong&gt; 攀升、期间一度超过 &lt;strong&gt;$81,000&lt;/strong&gt;，依靠的是&lt;em&gt;现货支撑&lt;/em&gt;而非&lt;em&gt;拥挤杠杆&lt;/em&gt;。这是对市场结构的判断，而不是价格目标。它表明，推动这枚代币从六万多美元中段升向八万美元的买盘来自现金和受监管的投资载体，而通常的杠杆指标——未平仓合约、资金费率和期权拥挤度——并未呈现爆发式行情的典型信号。&lt;/p&gt;
+&lt;p&gt;这一差别很重要，因为加密货币上涨有一套人们熟悉的信号。当永续期货规模膨胀、资金费率变得昂贵、以 &lt;strong&gt;BTC&lt;/strong&gt; 计价的合约未平仓量不断堆积时，行情往往是杠杆人群彼此叠加的结果。当这些指标收缩或保持安静，而代币仍然猛烈上涨时，盘面传达的是另一种故事：有人在买入资产，而不是期货。正如 &lt;strong&gt;Blockonomi&lt;/strong&gt; 报道的那样，&lt;strong&gt;QCP Capital&lt;/strong&gt; 属于后一种判断。&lt;/p&gt;
+&lt;h2 id=&#34;八个交易日与-28-billion-etf-现金流入&#34;&gt;八个交易日与 $2.8 billion ETF 现金流入&lt;/h2&gt;
+&lt;p&gt;账本中的现金一侧来自&lt;strong&gt;美国现货比特币 ETF&lt;/strong&gt;体系。这些产品连续&lt;strong&gt;八个交易日&lt;/strong&gt;获得了&lt;em&gt;约&lt;/em&gt; &lt;strong&gt;$2.8 billion&lt;/strong&gt; 的&lt;em&gt;净流入&lt;/em&gt;。净流入不是成交量，而是申购，即因为买家希望获得敞口、而卖家不愿退出，基金发行了新份额。&lt;em&gt;连续八个交易日&lt;/em&gt;是一个持续周期，并非单日数据。以当时的价格计算，&lt;em&gt;约&lt;/em&gt; &lt;strong&gt;$2.8 billion&lt;/strong&gt; 足以对一枚从约 &lt;strong&gt;$63,500&lt;/strong&gt; 向 &lt;strong&gt;$80,000&lt;/strong&gt; 攀升的代币产生影响。&lt;/p&gt;
+&lt;p&gt;现货 ETF 本质上是&lt;em&gt;现货&lt;/em&gt;买盘。它们不运行永续合约资金费率，也不会增加以 &lt;strong&gt;BTC&lt;/strong&gt; 计价的期货未平仓量。它们将代币纳入基金并发行份额。当 &lt;strong&gt;Blockonomi&lt;/strong&gt; 和 &lt;strong&gt;QCP Capital&lt;/strong&gt; 将&lt;em&gt;现货支撑&lt;/em&gt;与&lt;em&gt;拥挤杠杆&lt;/em&gt;进行对比时，证据就在这里：连续八个交易日通过美国投资载体实现 &lt;strong&gt;$2.8 billion&lt;/strong&gt; 的净买入，同时价格一度突破 &lt;strong&gt;$81,000&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这并不意味着 &lt;strong&gt;$2.8 billion&lt;/strong&gt; 中的每一美元都是新的长期配置。净流入是扣除赎回后的剩余量。但这确实意味着，在连续八个交易日里，这一剩余量持续为正且规模可观。在一个多年来一直将期货未平仓量视为信心代理指标的市场中，&lt;strong&gt;$2.8 billion&lt;/strong&gt; 的现金流入连续周期是更直接的代理指标。这也是行情能够上涨、却不像使用杠杆的机械原因。人们正在买入代币，而价格上涨并不需要期货账本扩张。&lt;/p&gt;
+&lt;h2 id=&#34;期货未平仓量却朝相反方向变化&#34;&gt;期货未平仓量却朝相反方向变化&lt;/h2&gt;
+&lt;p&gt;ETF 在吸收代币的同时，期货账本却在收缩。&lt;strong&gt;以 BTC 计价的期货未平仓量从 8 月中旬约 646,000 BTC 降至约 588,000 BTC&lt;/strong&gt;。这代表仓位收缩，而不是扩张。8 月中旬约 &lt;strong&gt;646,000 BTC&lt;/strong&gt; 的未平仓量，代表以代币本身计价的杠杆和对冲押注存量。约 &lt;strong&gt;588,000 BTC&lt;/strong&gt; 则是更小的存量。代币从约 &lt;strong&gt;$63,500&lt;/strong&gt; 向 &lt;strong&gt;$80,000&lt;/strong&gt; 上涨时，这一存量反而缩小了。&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

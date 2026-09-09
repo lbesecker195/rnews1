@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="hi" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>लीवरेज नहीं, स्पॉट कैश ने BTC को गति दी | RNews1.com</title>
+  <meta name="description" content="Blockonomi ने QCP Capital का हवाला देते हुए कहा कि Bitcoin की लगभग $63,500 से बढ़कर $80,000 तक की चढ़ाई—जो कुछ समय के लिए $81,000 से ऊपर भी गई—भीड़भाड़ वाले लीवरेज पर नहीं, बल्कि स्पॉट समर्थन पर आधारित थी। अमेरिकी स्पॉट Bitcoin ETFs में लगातार आठ सत्रों के दौरान लगभग $2.8 बिलियन का शुद्ध निवेश आया, जबकि BTC-मूल्यवर्गित फ्यूचर्स का ओपन इंटरेस्ट अगस्त के मध्य के लगभग 646,000 BTC से घटकर करीब 588,000 BTC रह गया और फंडिंग भी सीमित रही। यह शॉर्ट कवरिंग और नकद खरीदारी की ओर संकेत करता है। ऑप्शंस का कॉल स्क्यू मजबूत हुआ और पुट-कॉल अनुपात एक से नीचे रहा, फिर भी QCP के अनुसार पोजिशनिंग अत्यधिक लीवरेज वाली नहीं थी। फेड चेयर केविन वार्श के जैक्सन होल भाषण के बाद मैक्रो जोखिम बढ़ा; जुलाई का हेडलाइन PCE 3.7% और कोर 3.3% रहा, जबकि सितंबर में दर बढ़ोतरी की संभावना लगभग 35% से बढ़कर करीब 56%–60% हो गई और BTC $78,000 से नीचे फिसल गया। ट्रेजरी ने 9 सितंबर से लॉन्ग-एंड लिक्विडिटी बायबैक को कम-से-कम $4 बिलियन तक बढ़ाने की योजना बनाई है। इस पृष्ठभूमि में, QCP ने $81,000–$86,000 को अगला प्रमुख क्षेत्र बताया है जिस पर ट्रेडर्स को नजर रखनी चाहिए।">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/hi/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="अनुभाग">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/ai/"
+              
+            >एआई</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/business/"
+              
+            >व्यापार</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/hi/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/crypto/"
+              aria-current="page"
+            >क्रिप्टो</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/entertainment/"
+              
+            >मनोरंजन</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/sports/"
+              
+            >खेल</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/technology/"
+              
+            >तकनीक</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/usa/"
+              
+            >अमेरिका</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/world/"
+              
+            >विश्व</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/cosmos/"
+              
+            >ब्रह्मांड</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/science/"
+              
+            >विज्ञान</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/health/"
+              
+            >स्वास्थ्य</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="मेनू">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="अनुभाग">
+          
+            
+              
+              
+              
+              <a
+                href="/hi/ai/"
+                
+              >एआई</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/business/"
+                
+              >व्यापार</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/hi/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/crypto/"
+                aria-current="page"
+              >क्रिप्टो</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/entertainment/"
+                
+              >मनोरंजन</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/sports/"
+                
+              >खेल</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/technology/"
+                
+              >तकनीक</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/usa/"
+                
+              >अमेरिका</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/world/"
+                
+              >विश्व</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/cosmos/"
+                
+              >ब्रह्मांड</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/science/"
+                
+              >विज्ञान</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/health/"
+                
+              >स्वास्थ्य</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="post container">
+  <header class="post-header">
+    <h1><a href="">लीवरेज नहीं, स्पॉट कैश ने BTC को गति दी</a></h1>
+    <div class="post-meta">
+      
+        <span>
+          <a href="/hi/crypto/">Crypto</a>
+        </span>
+      <span>·</span>
+    
+      <time datetime="2026-08-29">29 अगस्त 2026</time>
+      <span>·</span>
+      <span>10 मिनट का पाठ</span>
+    </div>
+  </header>
+  <div class="post-content">
+    
+<p>Bitcoin की हालिया तेजी डेरिवेटिव्स के आंकड़ों पर किसी भीड़भाड़ वाले शॉर्ट स्क्वीज जैसी नहीं दिखी। <strong>Blockonomi</strong> ने <strong>QCP Capital</strong> का हवाला देते हुए कहा कि <strong>Bitcoin</strong> की लगभग <strong>$63,500</strong> से बढ़कर <strong>$80,000</strong> तक की चढ़ाई—जो कुछ समय के लिए <strong>$81,000</strong> से ऊपर भी गई—<em>स्पॉट समर्थन</em> पर आधारित थी, न कि <em>भीड़भाड़ वाले लीवरेज</em> पर। यह बाजार-संरचना से जुड़ा दावा है, मूल्य-लक्ष्य नहीं। इसका अर्थ है कि कॉइन को मध्य-$60,000 क्षेत्र से $80,000 की ओर ले जाने वाली मांग नकद और विनियमित माध्यमों से आई, जबकि सामान्य लीवरेज संकेतक—ओपन इंटरेस्ट, फंडिंग और ऑप्शंस में भीड़—ने तेजी के चरम का संकेत नहीं दिया।</p>
+<p>यह अंतर महत्वपूर्ण है, क्योंकि क्रिप्टो रैलियों में एक जाना-पहचाना संकेत होता है। जब परपेचुअल फ्यूचर्स बढ़ते हैं, फंडिंग महंगी हो जाती है और <strong>BTC</strong>-मूल्यवर्गित कॉन्ट्रैक्ट्स में ओपन इंटरेस्ट जमा होता है, तो तेजी अक्सर एक-दूसरे पर चढ़ती लीवरेज्ड भीड़ का परिणाम होती है। जब कॉइन में तेजी जारी रहते हुए ये संकेतक घटते या शांत रहते हैं, तो बाजार कुछ अलग कहानी बता रहा होता है: कोई व्यक्ति एसेट खरीद रहा है, फ्यूचर्स नहीं। <strong>Blockonomi</strong> की रिपोर्ट के अनुसार <strong>QCP Capital</strong> दूसरे शिविर में है।</p>
+<h2 id="आठ-सतर-और-etf-म-28-बलयन-नकद">आठ सत्र और ETF में $2.8 बिलियन नकद</h2>
+<p>लेजर का नकद पक्ष <strong>अमेरिकी स्पॉट Bitcoin ETF</strong> कॉम्प्लेक्स है। इन उत्पादों में लगातार <em>आठ सत्रों</em> के दौरान <em>लगभग</em> <strong>$2.8 बिलियन</strong> का <em>शुद्ध निवेश</em> आया। शुद्ध निवेश वॉल्यूम नहीं होता। यह नई यूनिट्स का निर्माण होता है: खरीदारों को एक्सपोजर चाहिए था, इसलिए नई शेयर जारी की गईं, जबकि विक्रेता बाहर निकलना नहीं चाहते थे। <em>लगातार आठ सत्र</em> एक सिलसिला है, एक दिन का आंकड़ा नहीं। इन कीमतों पर <em>लगभग</em> <strong>$2.8 बिलियन</strong> इतना धन है कि लगभग <strong>$63,500</strong> से <strong>$80,000</strong> की ओर बढ़ते कॉइन के लिए इसका महत्व हो।</p>
+<p>स्पॉट ETFs अपने डिजाइन के अनुसार <em>स्पॉट</em> मांग हैं। वे परपेचुअल फंडिंग नहीं चलाते। वे <strong>BTC</strong>-मूल्यवर्गित फ्यूचर्स का ओपन इंटरेस्ट नहीं बढ़ाते। वे कॉइन को फंड्स में लेते हैं और शेयर जारी करते हैं। जब <strong>Blockonomi</strong> और <strong>QCP Capital</strong> <em>स्पॉट समर्थन</em> को <em>भीड़भाड़ वाले लीवरेज</em> के सामने रखते हैं, तो यही इसका प्रमाण है: आठ सत्रों में अमेरिकी माध्यमों से <strong>$2.8 बिलियन</strong> की शुद्ध खरीदारी, उसी दौरान कीमत कुछ समय के लिए <strong>$81,000</strong> से ऊपर निकल गई।</p>
+<p>इसका अर्थ यह नहीं कि <strong>$2.8 बिलियन</strong> का हर डॉलर नया दीर्घकालिक आवंटन था। शुद्ध निवेश रिडेम्प्शन के बाद बचा हुआ अंतर होता है। इसका अर्थ यह जरूर है कि लगातार आठ सत्रों तक यह अंतर सकारात्मक और बड़ा रहा। ऐसे बाजार में, जहां वर्षों से फ्यूचर्स ओपन इंटरेस्ट को भरोसे का प्रॉक्सी माना जाता रहा है, <strong>$2.8 बिलियन</strong> की नकद लकीर अधिक साफ संकेतक है। यही यांत्रिक कारण भी है कि कोई रैली बिना लीवरेज्ड दिखे आगे बढ़ सकती है। कॉइन खरीदा जा रहा है। कीमत बढ़ने के लिए फ्यूचर्स बुक का बढ़ना जरूरी नहीं है।</p>
+<h2 id="फयचरस-ओपन-इटरसट-वपरत-दश-म-गय">फ्यूचर्स ओपन इंटरेस्ट विपरीत दिशा में गया</h2>
+<p>जब ETFs में कॉइन आ रहा था, फ्यूचर्स बुक में कॉइन निकल रहा था। <strong>BTC-मूल्यवर्गित फ्यूचर्स का ओपन इंटरेस्ट अगस्त के मध्य के लगभग 646,000 BTC से घटकर करीब 588,000 BTC रह गया</strong>। यह पोजिशनिंग का विस्तार नहीं, संकुचन है। अगस्त के मध्य के लगभग <strong>646,000 BTC</strong> ओपन इंटरेस्ट का अर्थ था कि कॉइन में अंकित लीवरेज्ड और हेज किए गए दांवों का कुल स्टॉक इतना था। करीब <strong>588,000 BTC</strong> छोटा स्टॉक है। उस स्टॉक के घटने के दौरान कॉइन लगभग <strong>$63,500</strong> से बढ़कर <strong>$80,000</strong> की ओर गया।</p>
+<p>तेजी के दौरान ओपन इंटरेस्ट का गिरना क्लासिक स्क्वीज और भीड़ के जमा होने वाले पैटर्न का उलटा है। उस पैटर्न में शॉर्ट्स को बाहर किया जाता है, नए लॉन्ग उनकी जगह लेते हैं और कीमत के साथ ओपन इंटरेस्ट बढ़ता है। यहां, स्पॉट कीमत बढ़ने के साथ <strong>BTC</strong>-मूल्यवर्गित फ्यूचर्स ओपन इंटरेस्ट लगभग <strong>646,000 BTC</strong> से घटकर करीब <strong>588,000 BTC</strong> हो गया। अगस्त के मध्य में बुक पर मौजूद कॉन्ट्रैक्ट बंद किए जा रहे थे, बढ़ाए नहीं जा रहे थे।</p>
+<p><strong>फंडिंग सीमित रही।</strong> फंडिंग परपेचुअल फ्यूचर्स में लॉन्ग और शॉर्ट के बीच होने वाला आवधिक भुगतान है। जब फंडिंग महंगी होती है, तो भीड़भाड़ वाले लॉन्ग में बने रहने के लिए लॉन्ग, शॉर्ट्स को भुगतान कर रहे होते हैं। जब फंडिंग सीमित रहती है, तो परपेचुअल बुक यह संकेत नहीं देती कि कोई एक पक्ष अत्यधिक एक्सपोज्ड है। सीमित फंडिंग और घटता ओपन इंटरेस्ट उस बाजार का संकेत नहीं है जिसने खुद को ऊंचे-<strong>$70,000</strong> स्तरों और <strong>$80,000</strong> के पार तक लीवरेज कर लिया हो। यह ऐसी बुक का संकेत है जो <em>डीलीवरेजिंग</em> कर रही है, जबकि नकद खरीदार अंतर्निहित एसेट को ऊपर उठा रहे हैं।</p>
+<p><strong>Blockonomi</strong> के विवरण के अनुसार <strong>QCP Capital</strong> इन दोनों फ्यूचर्स तथ्यों को ETF की लगातार चली लकीर के साथ पढ़ता है और इसे <em>शॉर्ट कवरिंग और नकद खरीदारी</em> मानता है। शॉर्ट कवरिंग ओपन इंटरेस्ट में गिरावट के एक हिस्से को समझाती है: कीमत लगभग <strong>$63,500</strong> से बढ़ने पर शॉर्ट्स द्वारा कॉन्ट्रैक्ट वापस खरीदे गए। नकद खरीदारी कीमत की बाकी यात्रा समझाती है: लगातार <strong>आठ सत्रों</strong> में <strong>अमेरिकी स्पॉट Bitcoin ETFs</strong> में <strong>$2.8 बिलियन</strong> का <em>शुद्ध निवेश</em>, ऐसी मांग जो फ्यूचर्स ओपन इंटरेस्ट में बिल्कुल दिखाई नहीं देती।</p>
+<p>दोनों चीजें एक साथ हो सकती हैं। नकद मांग के बीच शॉर्ट कवरिंग से कॉइन मध्य-$60,000 क्षेत्र से <strong>$80,000</strong> तक जा सकता है, कुछ समय के लिए <strong>$81,000</strong> से ऊपर टिक सकता है और फिर भी <strong>BTC</strong>-मूल्यवर्गित फ्यूचर्स ओपन इंटरेस्ट—करीब <strong>588,000 BTC</strong>—अगस्त के मध्य के लगभग <strong>646,000 BTC</strong> से कम रह सकता है। <em>भीड़भाड़ वाला लीवरेज</em> इसका उलटा दिखाता: ओपन इंटरेस्ट बढ़ता, फंडिंग गर्म होती और ETFs शायद केवल साथ चलते। <strong>QCP</strong> का तर्क है कि बाजार की दिशा इसके उलट थी।</p>
+<h2 id="ऑपशस-म-झकव-लकन-तज-क-चरम-नह">ऑप्शंस में झुकाव, लेकिन तेजी का चरम नहीं</h2>
+<p>ऑप्शंस बाजार ने एक दिशा जरूर चुनी। <strong>ऑप्शंस का कॉल स्क्यू मजबूत हुआ</strong> और <strong>पुट-कॉल अनुपात एक से नीचे</strong> रहा। कॉल स्क्यू के मजबूत होने का अर्थ है कि पुट्स की तुलना में कॉल्स महंगी हो गईं—बाजार तेजी के लिए अधिक भुगतान कर रहा था। <em>एक से नीचे</em> <strong>पुट-कॉल</strong> अनुपात का अर्थ है कि मिश्रण क्रैश से बचाव की तुलना में कॉल्स की ओर अधिक झुका हुआ था। किसी भी तरह, ऑप्शंस टेप नीचे की ओर सुरक्षा लेने के लिए सिमटा हुआ नहीं था। वह उस चढ़ाई की ओर झुका था जिसने <strong>Bitcoin</strong> को लगभग <strong>$63,500</strong> से <strong>$80,000</strong> और कुछ समय के लिए <strong>$81,000</strong> से ऊपर पहुंचाया।</p>
+<p>फिर भी <strong>QCP</strong> का कहना है कि पोजिशनिंग <em>तेजी के चरम वाला लीवरेज</em> नहीं थी। यही इस नोट का मुख्य बिंदु है। मजबूत कॉल स्क्यू और <em>एक से नीचे</em> <strong>पुट-कॉल</strong> अनुपात को अलग से देखें तो ऐसा लग सकता है कि बाजार अपनी पूरी तेजी पहले ही खर्च कर चुका है। <strong>QCP Capital</strong> इस व्याख्या को स्वीकार नहीं करता। फर्म ऑप्शंस के इस झुकाव को सीमित फंडिंग, लगभग <strong>646,000 BTC</strong> से घटकर करीब <strong>588,000 BTC</strong> हुए ओपन इंटरेस्ट और <em>स्पॉट</em> ETF नकदी के साथ रखती है, और निष्कर्ष निकालती है कि पोजिशनिंग उस तरह के लीवरेज्ड चरम जैसी नहीं थी जो आम तौर पर स्थानीय शीर्ष का संकेत देती है।</p>
+<p>इस शब्दावली में तेजी का चरम वाला लीवरेज रैली का भीड़भाड़ वाले फ्यूचर्स वाला रूप है: बहुत अधिक लॉन्ग, बहुत अधिक फंडिंग और कमजोर मांग पर जमा बहुत अधिक ओपन इंटरेस्ट। ऑप्शंस बाजार नकद-आधारित तेजी में भाग ले सकता है, बिना उसे चरम तेजी में बदले। मजबूत <em>कॉल स्क्यू</em> और <em>एक से नीचे</em> <strong>पुट-कॉल</strong> अनुपात बताते हैं कि ट्रेडर्स तेजी चाहते थे। <strong>QCP</strong> के अनुसार वे यह नहीं बताते कि बुक लीवरेज्ड बारूद का ढेर थी। <em>स्पॉट समर्थन</em> अब भी सबसे महत्वपूर्ण वाक्यांश है।</p>
+<h2 id="जकसन-हल-pce-और-78000-स-नच-फसलन">जैक्सन होल, PCE और $78,000 से नीचे फिसलना</h2>
+<p>जब कॉइन बढ़ रहा था, मैक्रो बाजार शांत नहीं रहा। <strong>फेड चेयर केविन वार्श के जैक्सन होल भाषण के बाद मैक्रो जोखिम बढ़ गया।</strong> जैक्सन होल का सम्मेलन वह जगह है जहां फेडरल रिजर्व चेयर की एक उपस्थिति दरों की संभावनाओं को फिर से तय कर सकती है। <strong>वार्श</strong> के बोलने के बाद <strong>Bitcoin</strong> जैसे जोखिमपूर्ण एसेट के लिए महत्वपूर्ण जोखिम घटा नहीं, बढ़ गया।</p>
+<p>इस पुनर्मूल्यांकन के पीछे मुद्रास्फीति के आंकड़े स्पष्ट हैं। <strong>जुलाई का हेडलाइन PCE 3.7%</strong> और <strong>कोर 3.3%</strong> रहा। <strong>3.7%</strong> का हेडलाइन व्यक्तिगत उपभोग व्यय मुद्रास्फीति का व्यापक माप है। <strong>3.3%</strong> का कोर आंकड़ा खाद्य और ऊर्जा को अलग कर देता है। इनमें से कोई भी आंकड़ा ऐसा नहीं है जिससे बाजार अगली नीति बैठक को औपचारिकता मान सके।</p>
+<p><strong>सितंबर में दर बढ़ोतरी की संभावना लगभग 35% से बढ़कर करीब 56%–60% हो गई।</strong> यह सितंबर में दर वृद्धि की निहित संभावना में तेज बदलाव है: <em>लगभग</em> <strong>35%</strong> से बढ़कर करीब <strong>56%</strong> से <strong>60%</strong> की सीमा तक। जो बाजार पहले दर वृद्धि को अल्पसंख्यक परिणाम मान रहा था, वह इसे अधिक संभावित रास्ता, या उसके करीब, मानने लगा। <strong>Bitcoin</strong> ने अपनी एकमात्र भाषा में प्रतिक्रिया दी: कीमत। <strong>BTC</strong> <em>$78,000 से नीचे</em> फिसल गया।</p>
+<p>यही क्रम पूरी कहानी है। लगभग <strong>$63,500</strong> से <strong>$80,000</strong> की ओर चढ़ाई, कुछ समय के लिए <strong>$81,000</strong> से ऊपर का स्तर, फिर <strong>फेड चेयर केविन वार्श</strong> के <strong>जैक्सन होल</strong> भाषण के बाद <strong>सितंबर में दर बढ़ोतरी की संभावना</strong> के पुनर्मूल्यांकन और <strong>जुलाई</strong> के <strong>3.7%</strong> हेडलाइन PCE तथा <strong>3.3%</strong> कोर आंकड़े पर ट्रेडर्स की प्रतिक्रिया के बीच <strong>$78,000</strong> से नीचे गिरावट। <strong>QCP Capital</strong> जिस <em>स्पॉट समर्थन</em> को तेजी के चरण का आधार मानता है, उसने मैक्रो को रद्द नहीं किया। उसने केवल यह बताया कि तेजी का चरण किस तरह बना। जब दर बढ़ोतरी की संभावना <em>लगभग</em> <strong>35%</strong> से बढ़कर करीब <strong>56%–60%</strong> हो गई, तो उसी बाजार ने <strong>$78,000</strong> से नीचे फिसलकर प्रतिक्रिया दी।</p>
+<p>नकद से संचालित रैली फिर भी फेड के सामने एक दौर हार सकती है। <em>लगातार आठ सत्रों</em> में ETFs में <em>लगभग</em> <strong>$2.8 बिलियन</strong> का <em>शुद्ध निवेश</em> और लगभग <strong>646,000 BTC</strong> से घटकर करीब <strong>588,000 BTC</strong> हुई फ्यूचर्स बुक ऊपर की यात्रा समझाती है। वे कॉइन को दर बढ़ोतरी की संभावना से जुड़े झटके से सुरक्षित नहीं बनाते। <strong>QCP</strong> का तर्क कभी यह नहीं था कि <em>स्पॉट समर्थन</em> <strong>Bitcoin</strong> को मैक्रो जोखिमों से मुक्त कर देता है। उसका तर्क था कि ईंधन नकद था, भीड़भाड़ वाला लीवरेज नहीं—और <strong>Warsh</strong> के बाद मैक्रो जोखिम बस बढ़ गया।</p>
+<h2 id="टरजर-बयबक-और-आग-आन-वल-कषतर">ट्रेजरी बायबैक और आगे आने वाला क्षेत्र</h2>
+<p>नीति केवल फेड तक सीमित नहीं है। <strong>ट्रेजरी ने 9 सितंबर से लॉन्ग-एंड लिक्विडिटी बायबैक को कम-से-कम $4 बिलियन तक बढ़ाने की योजना बनाई है।</strong> कर्व के लंबे छोर पर लिक्विडिटी बायबैक ट्रेजरी का वह उपकरण है जिससे वह बाजार से अवधि-संबंधी जोखिम हटाकर डीलर्स में नकद वापस डालता है। <strong>9 सितंबर</strong> से इन ऑपरेशंस को <em>कम-से-कम</em> <strong>$4 बिलियन</strong> तक बढ़ाना डॉलर फंडिंग की व्यवस्था में एक निर्धारित बदलाव है—अपने आप में <strong>Bitcoin</strong> की खबर नहीं, लेकिन ऐसे हर एसेट के लिए पृष्ठभूमि है जो लिक्विडिटी और दरों की दिशा के आधार पर कारोबार करता है।</p>
+<p><strong>इस पृष्ठभूमि में, QCP ने $81,000–$86,000 को अगला प्रमुख क्षेत्र बताया है जिस पर ट्रेडर्स को नजर रखनी चाहिए।</strong> यह क्षेत्र कुछ समय के लिए <em>$81,000 से ऊपर</em> रहे स्तर पर और <em>$78,000 से नीचे</em> हुई गिरावट से काफी ऊपर स्थित है। यह कोई पूर्वानुमान नहीं है कि कॉइन वहां लीवरेज के सहारे पहुंचेगा। <strong>Blockonomi</strong> द्वारा प्रस्तुत <strong>QCP Capital</strong> की रूपरेखा में यह उस बाजार का नक्शा है जिसने पहले ही दिखाया है कि वह <em>स्पॉट समर्थन</em> पर लगभग <strong>$63,500</strong> से <strong>$80,000</strong> तक जा सकता है—लगातार <strong>आठ सत्रों</strong> में <strong>अमेरिकी स्पॉट Bitcoin ETF</strong> में <strong>$2.8 बिलियन</strong> का <em>शुद्ध निवेश</em>, <em>शॉर्ट कवरिंग और नकद खरीदारी</em>, सीमित फंडिंग तथा अगस्त के मध्य के लगभग <strong>646,000 BTC</strong> से घटकर करीब <strong>588,000 BTC</strong> हुआ फ्यूचर्स ओपन इंटरेस्ट।</p>
+<p>जो ट्रेडर्स <strong>$81,000–$86,000</strong> क्षेत्र पर नजर रख रहे हैं, वे अंतिम टिक से अधिक व्यापक तथ्यों के संदर्भ में इसे देख रहे हैं। <strong>ऑप्शंस का कॉल स्क्यू</strong> मजबूत हुआ है और <strong>पुट-कॉल</strong> अनुपात <em>एक से नीचे</em> रहा है, फिर भी <strong>QCP</strong> के आकलन में पोजिशनिंग <em>तेजी के चरम वाला लीवरेज</em> नहीं है। <strong>केविन वार्श</strong> के <strong>जैक्सन होल</strong> भाषण के बाद <strong>मैक्रो जोखिम</strong> अधिक है। <strong>3.7%</strong> का <strong>जुलाई हेडलाइन PCE</strong> और <strong>3.3%</strong> का <strong>कोर</strong> आंकड़ा <strong>सितंबर में दर बढ़ोतरी की संभावना</strong> को <em>लगभग</em> <strong>35%</strong> से बढ़ाकर करीब <strong>56%–60%</strong> तक ले जाने में सहायक रहा। <strong>ट्रेजरी</strong> <strong>9 सितंबर</strong> से <em>लॉन्ग-एंड लिक्विडिटी बायबैक</em> को <em>कम-से-कम</em> <strong>$4 बिलियन</strong> तक बढ़ाएगा। कॉइन ने इस मिश्रण के दोनों चेहरे पहले ही दिखा दिए हैं: नकद से संचालित चढ़ाई, जो कुछ समय के लिए <strong>$81,000</strong> से ऊपर गई, और मैक्रो-प्रेरित गिरावट, जिसने <strong>BTC</strong> को <em>$78,000 से नीचे</em> ला दिया।</p>
+<p><strong>Blockonomi</strong> द्वारा <strong>QCP Capital</strong> को दिए गए इस तर्क के लिए यह जरूरी नहीं कि अगला क्षेत्र आसानी से पार हो जाए। जरूरत केवल इतनी है कि यदि <strong>Bitcoin</strong> <strong>$81,000–$86,000</strong> को चुनौती देता है, तो प्रमाण का भार उसी सबूत पर बना रहे जिसने पिछला चरण परिभाषित किया था: <em>स्पॉट</em> मांग, न कि <em>भीड़भाड़ वाला लीवरेज</em>। ETF की लगातार लकीर, घटती <strong>BTC</strong>-मूल्यवर्गित बुक, शांत फंडिंग और वह ऑप्शंस झुकाव जो अब भी तेजी का चरम नहीं है—ये वे प्रमाण हैं जिन्हें वे सामने रखते हैं। <strong>$81,000–$86,000</strong> का क्षेत्र वह जगह है जहां वे कहते हैं कि अगली नजर होनी चाहिए।</p>
+<p>यह <strong>$81,000</strong> के साधारण ब्रेक से कहीं अधिक कठिन परीक्षा है। लीवरेज्ड तेजी पहले ही खुद को ओपन इंटरेस्ट के लगभग <strong>646,000 BTC</strong> से ऊपर बढ़ने, गर्म फंडिंग और चरम पर पहुंचे ऑप्शंस बुक में दिखा देती। इस टेप में ऐसे संकेत नहीं दिखे। संकेत थे लगातार <strong>आठ सत्रों</strong> में <em>लगभग</em> <strong>$2.8 बिलियन</strong> का <em>स्पॉट</em> ETF नकद, ओपन इंटरेस्ट का घटकर करीब <strong>588,000 BTC</strong> रह जाना, <em>सीमित बनी रही</em> फंडिंग और <em>एक से नीचे</em> <strong>पुट-कॉल</strong> अनुपात, जिसे <strong>QCP</strong> अब भी तेजी का चरम कहने से इनकार करता है। क्षेत्र पर नजर रखें। यह भी देखें कि वहां आने वाली मांग अब भी नकद है या नहीं।</p>
+
+  </div>
+
+  
+  <div class="article-tags">
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+  </div>
+
+
+  
+  
+  <aside class="related-posts">
+    <h2>आगे पढ़ें</h2>
+    <p class="related-note">साझा शीर्षक अंशों से मिलाया गया</p>
+    <ul>
+      
+      <li>
+        <a href="/hi/crypto/bitcoin-etfs-snap-three-billion-streak/">बिटकॉइन ETF की तीन अरब डॉलर की लकीर टूटी</a>
+        
+      </li>
+      
+      <li>
+        <a href="/hi/crypto/eth-etfs-surge-amid-heavy-selling/">भारी बिकवाली के बीच ETH ETFs में तेज़ उछाल</a>
+        
+      </li>
+      
+      <li>
+        <a href="/hi/crypto/bitwise-solana-etf-crosses-1-billion/">Bitwise Solana ETF ने $1 बिलियन का आंकड़ा पार किया</a>
+        
+      </li>
+      
+      <li>
+        <a href="/hi/crypto/iran-s-tether-use-exposes-crypto-sanction-vulnerabilities/">ईरान द्वारा टेदर का इस्तेमाल क्रिप्टो प्रतिबंधों की कमजोरियों को उजागर करता है</a>
+        
+      </li>
+      
+      <li>
+        <a href="/hi/crypto/crypto-asset-surges-7300-amid-bitcoin-parallels/">Bitcoin से समानता के बीच क्रिप्टो एसेट में 7300% की उछाल</a>
+        
+      </li>
+      
+    </ul>
+  </aside>
+  
+</article>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="भाषाएँ">
+        
+          <a no-follow href="/en/crypto/spot-cash-not-leverage-fuels-btc/">English</a>
+        
+          <a no-follow href="/es/crypto/spot-cash-not-leverage-fuels-btc/">Español</a>
+        
+          <a no-follow href="/it/crypto/spot-cash-not-leverage-fuels-btc/">Italiano</a>
+        
+          <a no-follow href="/fr/crypto/spot-cash-not-leverage-fuels-btc/">Français</a>
+        
+          <a no-follow href="/ar/crypto/spot-cash-not-leverage-fuels-btc/">العربية</a>
+        
+          <a no-follow href="/la/crypto/spot-cash-not-leverage-fuels-btc/">Latina</a>
+        
+          <a no-follow href="/hi/crypto/spot-cash-not-leverage-fuels-btc/" aria-current="page">हिन्दी</a>
+        
+          <a no-follow href="/bn/crypto/spot-cash-not-leverage-fuels-btc/">বাংলা</a>
+        
+          <a no-follow href="/pt/crypto/spot-cash-not-leverage-fuels-btc/">Português</a>
+        
+          <a no-follow href="/ru/crypto/spot-cash-not-leverage-fuels-btc/">Русский</a>
+        
+          <a no-follow href="/ur/crypto/spot-cash-not-leverage-fuels-btc/">اردو</a>
+        
+          <a no-follow href="/zh/crypto/spot-cash-not-leverage-fuels-btc/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

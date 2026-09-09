@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+	<meta name="generator" content="Hugo 0.164.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RNews1.com</title>
+  <meta name="description" content="Наука, здоровье и космос.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/ru/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="Разделы">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/ai/"
+              
+            >ИИ</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/business/"
+              
+            >Бизнес</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/ru/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/crypto/"
+              
+            >Крипто</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/entertainment/"
+              
+            >Развлечения</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/sports/"
+              
+            >Спорт</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/technology/"
+              
+            >Технологии</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/usa/"
+              
+            >США</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/world/"
+              
+            >Мир</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/health/"
+              
+            >Здоровье</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/cosmos/"
+              
+            >Космос</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/science/"
+              
+            >Наука</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="Меню">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="Разделы">
+          
+            
+              
+              
+              
+              <a
+                href="/ru/ai/"
+                
+              >ИИ</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/business/"
+                
+              >Бизнес</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/ru/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/crypto/"
+                
+              >Крипто</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/entertainment/"
+                
+              >Развлечения</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/sports/"
+                
+              >Спорт</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/technology/"
+                
+              >Технологии</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/usa/"
+                
+              >США</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/world/"
+                
+              >Мир</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/health/"
+                
+              >Здоровье</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/cosmos/"
+                
+              >Космос</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/science/"
+                
+              >Наука</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<section class="hero">
+  <h1>RNews1 -- Важные темы</h1>
+  <p>Сообщаем внимательно.</p>
+</section>
+
+<section class="sections">
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/ru/ai/">ИИ</a></h2>
+        <ul>
+          
+            <li><a href="/ru/ai/anthropic-researcher-departure-signals-ai-safety-concerns/">Уход исследователя Anthropic сигнализирует о проблемах с безопасностью ИИ</a></li>
+          
+            <li><a href="/ru/ai/parental-guide-to-ai-impact-on-children/">Руководство для родителей по влиянию ИИ на детей</a></li>
+          
+            <li><a href="/ru/ai/parents-guide-understanding-ai-impact-today/">Руководство для родителей: понимание влияния ИИ сегодня</a></li>
+          
+            <li><a href="/ru/ai/are-we-approaching-uncontrollable-ai-systems/">Приближаемся ли мы к неуправляемым системам ИИ?</a></li>
+          
+            <li><a href="/ru/ai/ai-control-crisis-are-we-crossing-the/">Кризис контроля над ИИ: не переходим ли мы черту?</a></li>
+          
+            <li><a href="/ru/ai/ai-safety-crisis-uncontrollable-systems-approaching/">Кризис безопасности ИИ: приближение неуправляемых систем</a></li>
+          
+            <li><a href="/ru/ai/critical-choices-define-ai-s-turbulent-future/">Критически важные решения определяют turbulentное будущее ИИ</a></li>
+          
+            <li><a href="/ru/ai/mit-humans-still-beat-ai-costs/">MIT: Люди по-прежнему обходятся дешевле ИИ</a></li>
+          
+            <li><a href="/ru/ai/musk-says-grid-gear-strands-gpus/">Маск говорит, что оборудование энергосети оставляет GPU без работы</a></li>
+          
+            <li><a href="/ru/ai/ai-turns-bin-moans-into-briefs/">ИИ превращает жалобы на мусорные баки в юридические заключения</a></li>
+          
+            <li><a href="/ru/ai/sony-sues-anthropic-over-stolen-songs/">Sony подаёт в суд на Anthropic из-за украденных песен</a></li>
+          
+            <li><a href="/ru/ai/openai-agents-form-a-hive-mind/">Агенты OpenAI образуют коллективный разум</a></li>
+          
+            <li><a href="/ru/ai/judge-voids-pentagon-ban-on-anthropic/">Судья отменил запрет Пентагона на Anthropic</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/ru/business/">Бизнес</a></h2>
+        <ul>
+          
+            <li><a href="/ru/business/from-iphone-repair-to-cybersecurity-leadership/">От ремонта iPhone до лидерства в сфере кибербезопасности</a></li>
+          
+            <li><a href="/ru/business/autonomous-vehicles-transform-accessibility-and-independence/">Автономные транспортные средства преобразуют доступность и независимость</a></li>
+          
+            <li><a href="/ru/business/autonomous-vehicles-transforming-accessibility-independence/">Автономные автомобили, преобразующие доступность и независимость</a></li>
+          
+            <li><a href="/ru/business/boring-company-seeks-investor-support-amid-growth/">The Boring Company ищет поддержку инвесторов на фоне роста</a></li>
+          
+            <li><a href="/ru/business/boring-company-seeks-strategic-investor-support/">The Boring Company ищет стратегическую поддержку инвесторов</a></li>
+          
+            <li><a href="/ru/business/boring-company-seeks-investor-help-recruiting/">The Boring Company ищет помощи инвесторов в найме сотрудников</a></li>
+          
+            <li><a href="/ru/business/fox-business-host-sues-whole-foods-over/">Ведущий Fox Business подаёт в суд на Whole Foods из-за нападения собаки</a></li>
+          
+            <li><a href="/ru/business/fox-business-host-files-lawsuit-against-whole/">Ведущий Fox Business подаёт иск против Whole Foods</a></li>
+          
+            <li><a href="/ru/business/us-seeks-35-venezuela-oil-stake/">США добиваются 35%-ной доли в нефтяной отрасли Венесуэлы</a></li>
+          
+            <li><a href="/ru/business/glencore-writes-off-entire-radiant-hit/">Glencore списала весь убыток по Radiant</a></li>
+          
+            <li><a href="/ru/business/chipotle-prank-influencer-pleads-guilty/">Инфлюенсер, разыгрывавший пранки в Chipotle, признал вину</a></li>
+          
+            <li><a href="/ru/business/openai-cuts-cursor-after-musk-deal/">OpenAI отключает Cursor после сделки с Маском</a></li>
+          
+            <li><a href="/ru/business/memory-chips-now-rival-gold-prices/">Чипы памяти теперь соперничают с золотом по цене</a></li>
+          
+            <li><a href="/ru/business/tim-cooks-apple-era-ends-tuesday/">Эра Тима Кука в Apple заканчивается во вторник</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+        
+      
+      <div class="section-card">
+        <h2><a href="/ru/compliance/">Compliance</a></h2>
+        <ul>
+          
+            <li><a href="/ru/compliance/critical-cybersecurity-threats-reshape-compliance-strategy/">Критические угрозы кибербезопасности меняют стратегию обеспечения соответствия требованиям</a></li>
+          
+            <li><a href="/ru/compliance/emerging-cyber-threats-shape-next-crisis/">Новые киберугрозы формируют следующий кризис</a></li>
+          
+            <li><a href="/ru/compliance/cnil-s-eur500k-hospital-fine-sets-precedent/">Штраф CNIL в размере €500 тыс. для больницы создаёт прецедент</a></li>
+          
+            <li><a href="/ru/compliance/flock-security-overhaul-addresses-law-enforcement-abuse/">Пересмотр мер безопасности Flock в ответ на злоупотребления со стороны правоохранительных органов</a></li>
+          
+            <li><a href="/ru/compliance/flock-security-platform-implements-law-enforcement-safeguard/">Платформа Flock Security внедряет меры защиты от злоупотреблений со стороны правоохранительных органов</a></li>
+          
+            <li><a href="/ru/compliance/flock-security-platform-implements-abuse-prevention-measures/">Платформа Flock Security внедряет меры по предотвращению злоупотреблений</a></li>
+          
+            <li><a href="/ru/compliance/cnil-hospital-fine-eur500k-penalty-analysis/">Штраф CNIL для больницы: анализ взыскания €500 тыс.</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/ru/crypto/">Крипто</a></h2>
+        <ul>
+          
+            <li><a href="/ru/crypto/iran-s-tether-use-exposes-crypto-sanction-vulnerabilities/">Использование Ираном Tether выявляет уязвимости криптовалютных санкций</a></li>
+          
+            <li><a href="/ru/crypto/crypto-asset-surges-7300-amid-bitcoin-parallels/">Криптоактив вырос на 7300% на фоне параллелей с биткоином</a></li>
+          
+            <li><a href="/ru/crypto/crypto-asset-skyrockets-7300-amid-market-surge/">Криптоактив взлетел на 7300% на фоне рыночного подъёма</a></li>
+          
+            <li><a href="/ru/crypto/cathie-wood-s-controversial-crypto-investment-strategy/">Противоречивая стратегия инвестирования Cathie Wood в криптовалюты</a></li>
+          
+            <li><a href="/ru/crypto/cathie-wood-s-bold-crypto-investment-strategy/">Смелая криптоинвестиционная стратегия Кэти Вуд</a></li>
+          
+            <li><a href="/ru/crypto/polygon-ceo-vacation-controversy-sparks-debate/">Спор об отпуске CEO Polygon вызывает дискуссию</a></li>
+          
+            <li><a href="/ru/crypto/polygon-ceo-defends-crypto-industry-work-life-balance/">Генеральный директор Polygon защищает баланс между работой и личной жизнью в криптоиндустрии</a></li>
+          
+            <li><a href="/ru/crypto/eth-etfs-surge-amid-heavy-selling/">ETF Ethereum растут на фоне масштабных продаж</a></li>
+          
+            <li><a href="/ru/crypto/spot-cash-not-leverage-fuels-btc/">BTC поддерживают спотовые покупки, а не кредитное плечо</a></li>
+          
+            <li><a href="/ru/crypto/bitwise-solana-etf-crosses-1-billion/">Solana-ETF Bitwise пересёк отметку в $1 млрд</a></li>
+          
+            <li><a href="/ru/crypto/bitcoin-etfs-snap-three-billion-streak/">Биткоин-ETF прерывают трехмиллиардную серию</a></li>
+          
+            <li><a href="/ru/crypto/gta-leaker-cashes-out-memecoin-grift/">Ликер GTA обналичил мемкоин-аферу</a></li>
+          
+            <li><a href="/ru/crypto/uae-sheikh-backs-trump-crypto-bank/">Шейх из ОАЭ поддерживает криптобанк Трампа</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/ru/entertainment/">Развлечения</a></h2>
+        <ul>
+          
+            <li><a href="/ru/entertainment/jimmy-kimmel-show-ending-2027-after-24/">Шоу Джимми Киммела завершится в 2027 году после 24 лет в эфире</a></li>
+          
+            <li><a href="/ru/entertainment/dolly-parton-s-literary-legacy-in-indian-country/">Литературное наследие Долли Партон в Индейской стране</a></li>
+          
+            <li><a href="/ru/entertainment/dolly-parton-s-literary-legacy-celebrated-across-indian/">Литературное наследие Долли Партон отмечают по всей Индейской стране</a></li>
+          
+            <li><a href="/ru/entertainment/las-vegas-strip-shows-close-amid-job/">Шоу на Лас-Вегас-Стрип закрываются на фоне кризиса занятости</a></li>
+          
+            <li><a href="/ru/entertainment/las-vegas-strip-shows-face-closure-crisis/">Шоу на Лас-Вегас-Стрип сталкиваются с кризисом закрытий</a></li>
+          
+            <li><a href="/ru/entertainment/cnn-films-remembers-windows-on-the-world/">CNN Films вспоминает Windows on the World</a></li>
+          
+            <li><a href="/ru/entertainment/summer-box-office-reaches-4-6-billion-recovery/">Летние кассовые сборы достигают $4,6 млрд, свидетельствуя о восстановлении</a></li>
+          
+            <li><a href="/ru/entertainment/cruise-confirms-days-of-thunder-sequel/">Круз подтверждает сиквел «Дней грома»</a></li>
+          
+            <li><a href="/ru/entertainment/dollys-wish-mended-cyrus-rift/">Пожелание Долли помогло примирить Сайрусов</a></li>
+          
+            <li><a href="/ru/entertainment/cruise-green-flags-thunder-sequel-2028/">Круз поднимает зелёный флаг сиквелу «Дней грома» на 2028 год</a></li>
+          
+            <li><a href="/ru/entertainment/cruise-recruits-hathaway-for-thunder-sequel/">Круз привлекает Хэтэуэй к сиквелу «Дней грома»</a></li>
+          
+            <li><a href="/ru/entertainment/written-off-coyote-humiliates-warner-at-box/">Списанный койот унижает Warner в прокате</a></li>
+          
+            <li><a href="/ru/entertainment/tom-hardy-raps-shakespeare-as-bane/">Том Харди читает Шекспира голосом Бэйна</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/ru/sports/">Спорт</a></h2>
+        <ul>
+          
+            <li><a href="/ru/sports/pwhl-scripps-sports-tv-partnership-expansion/">Расширение телевизионного партнёрства PWHL со Scripps Sports</a></li>
+          
+            <li><a href="/ru/sports/fall-sports-college-recruitment-reality-check/">Проверка реальности набора в колледжи по осенним видам спорта</a></li>
+          
+            <li><a href="/ru/sports/youth-sports-exodus-parents-reconsidering-annual-commitments/">Отток из детского спорта: родители пересматривают ежегодные обязательства</a></li>
+          
+            <li><a href="/ru/sports/mitchell-s-2026-27-vision-reshapes-cavaliers-future/">Видение Митчелла на сезон-2026/27 меняет будущее «Кавальерс»</a></li>
+          
+            <li><a href="/ru/sports/mitchell-eyes-cavaliers-dynasty-beyond-2026-27/">Митчелл видит династию «Кавальерс» после сезона-2026/27</a></li>
+          
+            <li><a href="/ru/sports/apple-cup-anticipation-builds-for-sunday-showdown/">Предвкушение Кубка Эппл нарастает перед воскресным противостоянием</a></li>
+          
+            <li><a href="/ru/sports/greatest-sports-television-shows-ranked/">Величайшие спортивные телешоу: рейтинг</a></li>
+          
+            <li><a href="/ru/sports/messi-nets-four-in-miami-rout/">Месси забивает четыре гола в разгроме в Майами</a></li>
+          
+            <li><a href="/ru/sports/messis-poker-ends-miami-drought/">Покер Месси положил конец засухе «Майами»</a></li>
+          
+            <li><a href="/ru/sports/hrgovic-stuns-itauma-for-ibf-belt/">Хргович ошеломил Итауму и завоевал пояс IBF</a></li>
+          
+            <li><a href="/ru/sports/steelers-dump-first-rounder-on-cowboys/">«Стилерс» отдают игрока первого раунда «Ковбойз»</a></li>
+          
+            <li><a href="/ru/sports/angels-blow-ninth-after-robbing-homer/">«Энджелс» провалили девятый после ограбления хоум-рана</a></li>
+          
+            <li><a href="/ru/sports/belichick-silences-critics-with-dublin-upset/">Беличик заставляет критиков замолчать сенсационной победой в Дублине</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/ru/technology/">Технологии</a></h2>
+        <ul>
+          
+            <li><a href="/ru/technology/ai-safety-crisis-researcher-warns-of-existential/">Кризис безопасности ИИ: исследователь предупреждает об экзистенциальной угрозе</a></li>
+          
+            <li><a href="/ru/technology/tiny-e-reader-revolutionizes-digital-reading/">Маленькая электронная книга произвела революцию в цифровом чтении</a></li>
+          
+            <li><a href="/ru/technology/understanding-ai-s-impact-on-children-today/">Как искусственный интеллект влияет на детей сегодня</a></li>
+          
+            <li><a href="/ru/technology/critical-choices-shape-ai-s-future-now/">Критически важные решения определяют будущее ИИ уже сегодня</a></li>
+          
+            <li><a href="/ru/technology/flock-cameras-emerge-as-midterm-campaign-issue/">Камеры Flock становятся темой предвыборной кампании на промежуточных выборах</a></li>
+          
+            <li><a href="/ru/technology/navigating-critical-decisions-in-ai-s-turbulent-era/">Принятие важнейших решений в turbulentную эпоху ИИ</a></li>
+          
+            <li><a href="/ru/technology/critical-decisions-shape-ai-s-future/">Критически важные решения определяют будущее ИИ</a></li>
+          
+            <li><a href="/ru/technology/gates-warns-turbulent-ai-era-arrives/">Гейтс предупреждает: турбулентная эра ИИ уже наступила</a></li>
+          
+            <li><a href="/ru/technology/socket-sensor-warns-before-tissue-injury/">Сенсор в гильзе предупреждает о повреждении тканей</a></li>
+          
+            <li><a href="/ru/technology/abbott-freezes-texas-flock-camera-funding/">Эбботт замораживает финансирование камер Flock в Техасе</a></li>
+          
+            <li><a href="/ru/technology/activision-serves-cheat-seller-on-camera/">Activision вручает продавцу читов повестку на камеру</a></li>
+          
+            <li><a href="/ru/technology/apple-jacks-up-streaming-prices-again/">Apple снова повышает цены на стриминг</a></li>
+          
+            <li><a href="/ru/technology/gta-6-crashes-twitch-and-netflix/">GTA 6 обрушила Twitch и Netflix</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/ru/usa/">США</a></h2>
+        <ul>
+          
+            <li><a href="/ru/usa/caitlin-clark-starting-status-world-cup-final/">Статус Кейтлин Кларк в стартовом составе в финальной стадии чемпионата мира</a></li>
+          
+            <li><a href="/ru/usa/spencer-korwin-usa-triathlete-dies-tragically/">Спенсер Корвин: трагическая гибель триатлета сборной США</a></li>
+          
+            <li><a href="/ru/usa/caitlin-clark-fiba-world-cup-usa-vs/">Кейтлин Кларк: США против Италии на чемпионате мира FIBA</a></li>
+          
+            <li><a href="/ru/usa/team-usa-battles-stomach-illness-at-walker/">Сборная США столкнулась с желудочным заболеванием на Кубке Уокера</a></li>
+          
+            <li><a href="/ru/usa/stomach-illness-disrupts-team-usa-walker-cup/">Болезнь желудка нарушает подготовку сборной США к Кубку Уокера</a></li>
+          
+            <li><a href="/ru/usa/stomach-illness-strikes-team-usa-walker-cup/">Болезнь желудка поразила игрока сборной США на Кубке Уокера</a></li>
+          
+            <li><a href="/ru/usa/paige-bueckers-team-usa-representation-controversy/">Спор вокруг представления сборной США Пейдж Бюкерс</a></li>
+          
+            <li><a href="/ru/usa/us-deports-afghan-ally-relative-abroad/">США депортировали за границу родственника афганского союзника</a></li>
+          
+            <li><a href="/ru/usa/us-eyes-35-betancourt-oil-cut/">США рассчитывают на 35%-ную долю в нефтяном бизнесе Бетанкура</a></li>
+          
+            <li><a href="/ru/usa/us-deports-afghan-to-central-africa/">США депортировали афганца в Центральную Африку</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/ru/world/">Мир</a></h2>
+        <ul>
+          
+            <li><a href="/ru/world/oil-surges-past-100-barrel-amid-geopolitical/">Нефть превысила $100 за баррель на фоне геополитической напряжённости</a></li>
+          
+            <li><a href="/ru/world/stone-skimming-returns-after-cheating-scandal/">Скимминг камней возвращается после скандала с жульничеством</a></li>
+          
+            <li><a href="/ru/world/un-endorses-accurate-africa-map-projection/">ООН поддержала точную проекцию карты Африки</a></li>
+          
+            <li><a href="/ru/world/un-adopts-revolutionary-map-correcting-global-proportions/">ООН принимает революционную карту, исправляющую глобальные пропорции</a></li>
+          
+            <li><a href="/ru/world/un-adopts-accurate-world-map-projection/">ООН принимает точную проекцию карты мира</a></li>
+          
+            <li><a href="/ru/world/un-adopts-revolutionary-map-projection-system/">ООН принимает революционную систему картографических проекций</a></li>
+          
+            <li><a href="/ru/world/ford-plants-giant-lake-ontario-sign/">Форд устанавливает гигантский знак «Озеро Онтарио»</a></li>
+          
+            <li><a href="/ru/world/ford-unveils-two-story-name-rebuke/">Форд представляет двухэтажный ответ на переименование</a></li>
+          
+            <li><a href="/ru/world/lee-know-funds-nepal-flood-relief/">Ли Ноу финансирует помощь пострадавшим от наводнения в Непале</a></li>
+          
+            <li><a href="/ru/world/icelands-knife-edge-eu-vote-closes/">Завершилось голосование в Исландии по вопросу о ЕС с перевесом на грани</a></li>
+          
+            <li><a href="/ru/world/deadly-trump-shaped-pills-spark-dutch-alert/">Опасные таблетки в форме Трампа вызвали тревогу в Нидерландах</a></li>
+          
+            <li><a href="/ru/world/white-house-aide-bets-on-speeches/">Помощник Белого дома делает ставки на речи</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/ru/health/">Здоровье</a></h2>
+        <ul>
+          
+            <li><a href="/ru/health/financial-assistance-programs-transform-healthcare-access/">Программы финансовой помощи преображают доступ к медицинской помощи</a></li>
+          
+            <li><a href="/ru/health/vietnam-refugee-leads-mental-health-through-optimism/">Беженец из Вьетнама возглавляет сферу психического здоровья благодаря оптимизму</a></li>
+          
+            <li><a href="/ru/health/from-refugee-to-mental-health-leader/">От беженца до лидера в сфере психического здоровья</a></li>
+          
+            <li><a href="/ru/health/ucla-health-contract-disruption-affects-low-income-care/">Сбой контракта UCLA Health нарушает доступ к помощи для малообеспеченных пациентов</a></li>
+          
+            <li><a href="/ru/health/ucla-health-contract-ends-low-income-crisis/">Контракт UCLA Health завершён: кризис для малообеспеченных пациентов</a></li>
+          
+            <li><a href="/ru/health/baby-sugar-linked-to-later-cancer/">Детский сахар связан с более поздним раком</a></li>
+          
+            <li><a href="/ru/health/statins-cut-over-70-heart-risk-30/">Статины снижают риск сердечных заболеваний после 70 лет на 30%</a></li>
+          
+            <li><a href="/ru/health/ozempic-tied-to-rare-vision-loss/">Оземпик связан с редкой потерей зрения</a></li>
+          
+            <li><a href="/ru/health/keto-beats-mediterranean-for-liver-fat/">Кето превосходит средиземноморскую диету по снижению жира в печени</a></li>
+          
+            <li><a href="/ru/health/gum-sweetener-linked-to-heart-attacks/">Подсластитель в жевательной резинке связан с сердечными приступами</a></li>
+          
+            <li><a href="/ru/health/warming-lakes-push-brain-eating-amoeba-north/">Потепление озёр гонит «поедающую мозг» амёбу на север</a></li>
+          
+            <li><a href="/ru/health/fda-ptsd-nonmedication-treatment/">FDA разрешает первое персонализированное немедикаментозное лечение ПТСР</a></li>
+          
+            <li><a href="/ru/health/melatonin-heart-failure-risk/">Длительный приём мелатонина связан с риском сердечной недостаточности на 90% выше</a></li>
+          
+            <li><a href="/ru/health/keto-diet-liver-fat/">Кетогенная диета снижает жир печени на 67% и превосходит средиземноморскую</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/ru/cosmos/">Космос</a></h2>
+        <ul>
+          
+            <li><a href="/ru/cosmos/roman-telescope-revolutionizes-exoplanet-discovery/">Римский телескоп революционизирует поиск экзопланет</a></li>
+          
+            <li><a href="/ru/cosmos/trinidad-s-hidden-legacy-in-space-exploration/">Скрытое наследие Тринидада в освоении космоса</a></li>
+          
+            <li><a href="/ru/cosmos/trinidad-s-forgotten-legacy-in-space-exploration/">Забытое наследие Тринидада в освоении космоса</a></li>
+          
+            <li><a href="/ru/cosmos/imminent-exoplanet-collision-discovery-revolutionizes-unders/">Открытие неминуемого столкновения экзопланет меняет наше представление о Вселенной</a></li>
+          
+            <li><a href="/ru/cosmos/colliding-exoplanets-universe-s-greatest-cosmic-collision/">Столкновение экзопланет: величайшая космическая катастрофа во Вселенной</a></li>
+          
+            <li><a href="/ru/cosmos/imminent-planetary-collision-will-revolutionize-astronomy/">Неизбежное столкновение планет перевернёт астрономию</a></li>
+          
+            <li><a href="/ru/cosmos/planetary-collisions-will-revolutionize-cosmic-understanding/">Столкновения планет изменят наше понимание космоса</a></li>
+          
+            <li><a href="/ru/cosmos/planetary-collisions-transform-cosmological-understanding/">Столкновения планет меняют космологическое понимание</a></li>
+          
+            <li><a href="/ru/cosmos/roman-telescope-launch-set-sunday/">Запуск телескопа Roman намечен на воскресенье</a></li>
+          
+            <li><a href="/ru/cosmos/dragon-oxidizer-leak-delays-crew-13/">Утечка окислителя на Dragon откладывает Crew-13</a></li>
+          
+            <li><a href="/ru/cosmos/astronomers-find-a-galaxy-without-stars/">Астрономы обнаружили галактику без звёзд</a></li>
+          
+            <li><a href="/ru/cosmos/dead-star-proves-empty-space-isnt-empty/">Мёртвая звезда доказывает, что пустое пространство не пусто</a></li>
+          
+            <li><a href="/ru/cosmos/nasas-hubble-rival-launches-sunday/">Соперник Хаббла от NASA стартует в воскресенье</a></li>
+          
+            <li><a href="/ru/cosmos/universe-still-accelerating/">Вселенная всё ещё ускоряется: крупный анализ вновь утверждает господство тёмной энергии</a></li>
+          
+            <li><a href="/ru/cosmos/roman-space-telescope-launch/">Космический телескоп Roman NASA стартует: почему он может изменить астрономию</a></li>
+          
+            <li><a href="/ru/cosmos/mars-magmatic-system/">Скрытая магматическая система под Марсом показывает, как красная планета строила кору</a></li>
+          
+        </ul>
+      </div>
+    
+  
+    
+      
+      
+      
+      <div class="section-card">
+        <h2><a href="/ru/science/">Наука</a></h2>
+        <ul>
+          
+            <li><a href="/ru/science/scientists-debate-potential-alien-life-discovery/">Учёные обсуждают возможное открытие внеземной жизни</a></li>
+          
+            <li><a href="/ru/science/science-and-the-afterlife-evidence-or-mystery/">Наука и загробная жизнь: доказательства или тайна</a></li>
+          
+            <li><a href="/ru/science/science-explains-death-and-afterlife/">Наука объясняет смерть и загробную жизнь</a></li>
+          
+            <li><a href="/ru/science/quirky-science-wins-ig-nobel-recognition/">Необычная наука получает признание премии Ig Nobel</a></li>
+          
+            <li><a href="/ru/science/quirky-science-wins-recognition-at-ig-nobel/">Необычная наука получает признание на премии Шнобеля</a></li>
+          
+            <li><a href="/ru/science/quirky-science-earns-ig-nobel-recognition/">Причудливая наука получает признание премии Игнобеля</a></li>
+          
+            <li><a href="/ru/science/daily-steps-science-debunks-10000-step-myth/">Ежедневные шаги: наука развенчивает миф о 10 000 шагах</a></li>
+          
+            <li><a href="/ru/science/earth-microbes-survive-moon-shadows/">Земные микробы выживают в лунной тени</a></li>
+          
+            <li><a href="/ru/science/cancer-car-t-puts-arthritis-in-remission/">CAR-T-терапия против рака ввела артрит в ремиссию</a></li>
+          
+            <li><a href="/ru/science/roman-telescope-launches-sunday-morning/">Телескоп Roman запускается в воскресенье утром</a></li>
+          
+            <li><a href="/ru/science/frozen-frogs-restart-after-hearts-stop/">Замёрзшие лягушки снова оживают после остановки сердца</a></li>
+          
+            <li><a href="/ru/science/ai-maps-six-hidden-earth-structures/">ИИ картирует шесть скрытых структур Земли</a></li>
+          
+            <li><a href="/ru/science/shark-graveyard-found-in-egyptian-desert/">Кладбище акул найдено в египетской пустыне</a></li>
+          
+            <li><a href="/ru/science/gut-microbiome-contagious/">Заразен ли микробиом кишечника? Новая наука о передаче от человека к человеку</a></li>
+          
+            <li><a href="/ru/science/rna-chemical-difference-origins-of-life/">Крошечное химическое различие РНК может раскрыть происхождение жизни на Земле</a></li>
+          
+            <li><a href="/ru/science/pvc-plastic-to-lubricant/">Учёные превращают трудноперерабатываемый ПВХ в высокопроизводительную смазку</a></li>
+          
+        </ul>
+      </div>
+    
+  
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="Языки">
+        
+          <a no-follow href="/en/">English</a>
+        
+          <a no-follow href="/es/">Español</a>
+        
+          <a no-follow href="/it/">Italiano</a>
+        
+          <a no-follow href="/fr/">Français</a>
+        
+          <a no-follow href="/ar/">العربية</a>
+        
+          <a no-follow href="/la/">Latina</a>
+        
+          <a no-follow href="/hi/">हिन्दी</a>
+        
+          <a no-follow href="/bn/">বাংলা</a>
+        
+          <a no-follow href="/pt/">Português</a>
+        
+          <a no-follow href="/ru/" aria-current="page">Русский</a>
+        
+          <a no-follow href="/ur/">اردو</a>
+        
+          <a no-follow href="/zh/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

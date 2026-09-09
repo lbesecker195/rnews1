@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Jobs on RNews1.com</title>
+    <link>http://localhost:3003/la/tags/jobs/</link>
+    <description>Recent content in Jobs on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>la</language>
+    
+        <atom:link href="http://localhost:3003/la/tags/jobs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MIT: Homines Sumptus AI Adhuc Vincunt</title>
+      <link>http://localhost:3003/la/ai/mit-humans-still-beat-ai-costs/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/la/ai/mit-humans-still-beat-ai-costs/</guid>
+      <description>&lt;h1 id=&#34;mit-homines-sumptus-ai-adhuc-vincunt&#34;&gt;MIT: Homines Sumptus AI Adhuc Vincunt&lt;/h1&gt;
+&lt;p&gt;Studium &lt;strong&gt;MIT CSAIL&lt;/strong&gt; et &lt;strong&gt;Sloan&lt;/strong&gt; de &lt;em&gt;automatione visionis computatralis&lt;/em&gt; late circumlatum iterum in &lt;em&gt;recentissimis nuntiis AI&lt;/em&gt; apparet, narrationem &lt;strong&gt;contrariam de operibus&lt;/strong&gt; promovens: &lt;em&gt;expositio technica substitutionem oeconomicam non aequat&lt;/em&gt;. Non dicitur cameras videre non posse. Dicitur videre non idem esse ac sibi ipsi pretium reddere. Investigatores, qui &lt;strong&gt;sumptus institutionis et operationis&lt;/strong&gt; computaverunt, invenerunt tantum &lt;strong&gt;circiter 23% mercedum Americanarum&lt;/strong&gt; operibus &lt;em&gt;visivis&lt;/em&gt; conexarum hodie &lt;em&gt;ad automationem sumptibus aequam&lt;/em&gt; videri. &lt;strong&gt;Pleraeque societates homines adhuc praeferent&lt;/strong&gt;, cum &lt;strong&gt;camerae&lt;/strong&gt;, &lt;strong&gt;exemplaria&lt;/strong&gt; et &lt;strong&gt;sustentatio&lt;/strong&gt; in pretio ponantur.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="bn" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports | RNews1.com</title>
+  <meta name="description" content="বিজ্ঞান, স্বাস্থ্য ও মহাবিশ্ব।">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/bn/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="বিভাগ">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/ai/"
+              
+            >এআই</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/business/"
+              
+            >ব্যবসা</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/bn/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/crypto/"
+              
+            >ক্রিপ্টো</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/entertainment/"
+              
+            >বিনোদন</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/sports/"
+              aria-current="page"
+            >খেলা</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/technology/"
+              
+            >প্রযুক্তি</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/usa/"
+              
+            >যুক্তরাষ্ট্র</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/world/"
+              
+            >বিশ্ব</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/science/"
+              
+            >বিজ্ঞান</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/cosmos/"
+              
+            >মহাকাশ</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/bn/health/"
+              
+            >স্বাস্থ্য</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="মেনু">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="বিভাগ">
+          
+            
+              
+              
+              
+              <a
+                href="/bn/ai/"
+                
+              >এআই</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/business/"
+                
+              >ব্যবসা</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/bn/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/crypto/"
+                
+              >ক্রিপ্টো</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/entertainment/"
+                
+              >বিনোদন</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/sports/"
+                aria-current="page"
+              >খেলা</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/technology/"
+                
+              >প্রযুক্তি</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/usa/"
+                
+              >যুক্তরাষ্ট্র</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/world/"
+                
+              >বিশ্ব</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/science/"
+                
+              >বিজ্ঞান</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/cosmos/"
+                
+              >মহাকাশ</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/bn/health/"
+                
+              >স্বাস্থ্য</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+          খেলা</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/bn/sports/pwhl-scripps-sports-tv-partnership-expansion/">PWHL ও Scripps Sports-এর টেলিভিশন অংশীদারত্ব সম্প্রসারণ</a></h2>
+    <p class="summary">প্রফেশনাল উইমেনস হকি লিগ ২০২৬-২৭ মৌসুমের জন্য Scripps Sports-এর সঙ্গে একটি ঐতিহাসিক জাতীয় টেলিভিশন চুক্তি করেছে, যা নারী পেশাদার হকি সম্প্রচারে একটি …</p>
+    <a class="read-more" href="/bn/sports/pwhl-scripps-sports-tv-partnership-expansion/">নিবন্ধ পড়ুন</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/bn/sports/fall-sports-college-recruitment-reality-check/">ফল স্পোর্টসে কলেজ রিক্রুটমেন্টের বাস্তবতা যাচাই</a></h2>
+    <p class="summary">ছাত্র-অ্যাথলেটদের কলেজ স্কলারশিপ ও অ্যাথলেটিক রিক্রুটমেন্ট পাওয়ার জন্য কোন ফল স্পোর্টসগুলো সবচেয়ে ভালো সুযোগ দেয় তা জানুন।</p>
+    <a class="read-more" href="/bn/sports/fall-sports-college-recruitment-reality-check/">নিবন্ধ পড়ুন</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/bn/sports/youth-sports-exodus-parents-reconsidering-annual-commitments/">যুব ক্রীড়া থেকে সরে আসা: বাবা-মায়েরা বার্ষিক প্রতিশ্রুতি পুনর্বিবেচনা করছেন</a></h2>
+    <p class="summary">আর্থিক চাপ, সময়ের সংকট এবং অবসাদকে প্রধান কারণ হিসেবে উল্লেখ করে ক্রমবর্ধমান সংখ্যক বাবা-মা যুব ক্রীড়া থেকে সরে আসছেন, যা পারিবারিক অগ্রাধিকারে বড় ধরনের …</p>
+    <a class="read-more" href="/bn/sports/youth-sports-exodus-parents-reconsidering-annual-commitments/">নিবন্ধ পড়ুন</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/bn/sports/mitchell-s-2026-27-vision-reshapes-cavaliers-future/">মিচেলের ২০২৬-২৭-এর ভাবনা ক্যাভালিয়ার্সের ভবিষ্যৎ নতুনভাবে গড়ছে</a></h2>
+    <p class="summary">ডোনোভান মিচেল ক্লিভল্যান্ডের চ্যাম্পিয়নশিপ-লক্ষ্যী রোস্টারে আসন্ন কৌশলগত পরিবর্তনের কথা তুলে ধরেছেন, যখন ক্যাভালিয়ার্স তাদের পরবর্তী বিবর্তনের প্রস্তুতি …</p>
+    <a class="read-more" href="/bn/sports/mitchell-s-2026-27-vision-reshapes-cavaliers-future/">নিবন্ধ পড়ুন</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/bn/sports/mitchell-eyes-cavaliers-dynasty-beyond-2026-27/">২০২৬-২৭-এর পর ক্যাভালিয়ার্সের রাজবংশের দিকে মিচেলের দৃষ্টি</a></h2>
+    <p class="summary">ডোনোভান মিচেল ব্যাখ্যা করেছেন, ক্যাভালিয়ার্সের কৌশলগত পরিকল্পনা কীভাবে আগামী মৌসুমগুলোতে তাদের ধারাবাহিকভাবে চ্যাম্পিয়নশিপের প্রতিদ্বন্দ্বিতায় থাকার অবস্থান …</p>
+    <a class="read-more" href="/bn/sports/mitchell-eyes-cavaliers-dynasty-beyond-2026-27/">নিবন্ধ পড়ুন</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/bn/sports/apple-cup-anticipation-builds-for-sunday-showdown/">রবিবারের লড়াইয়ের আগে অ্যাপল কাপের উত্তেজনা বাড়ছে</a></h2>
+    <p class="summary">ওয়াশিংটন ও ওয়াশিংটন স্টেটের মধ্যকার এবারের অ্যাপল কাপের অপেক্ষা খেলাটির মতোই কঠিন হওয়ার প্রতিশ্রুতি দিচ্ছে, কারণ এই প্রতিদ্বন্দ্বিতাকে ঘিরে রয়েছে নজিরবিহীন …</p>
+    <a class="read-more" href="/bn/sports/apple-cup-anticipation-builds-for-sunday-showdown/">নিবন্ধ পড়ুন</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/bn/sports/greatest-sports-television-shows-ranked/">র‌্যাঙ্কিং: সর্বকালের সেরা ক্রীড়া টেলিভিশন অনুষ্ঠান</a></h2>
+    <p class="summary">দ্য হলিউড রিপোর্টার সর্বকালের সেরা ১০টি ক্রীড়া টিভি অনুষ্ঠানের র‌্যাঙ্কিং প্রকাশ করেছে, যেসব অনুষ্ঠান ক্রীড়া সম্প্রচনাকে সংজ্ঞায়িত করেছে এবং বিশ্বজুড়ে …</p>
+    <a class="read-more" href="/bn/sports/greatest-sports-television-shows-ranked/">নিবন্ধ পড়ুন</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/bn/sports/messi-nets-four-in-miami-rout/">মিয়ামির বড় জয়ে মেসির চার গোল</a></h2>
+    <p class="summary">শনিবার রাতে লিওনেল মেসি চার গোল ও একটি অ্যাসিস্ট করেন, যখন ইন্টার মিয়ামি CF Montréal-কে ৭-১ গোলে উড়িয়ে দেয়—এটি MLS-এ তাঁর প্রথম চার গোলের ম্যাচ। ৪০তম মিনিটে …</p>
+    <a class="read-more" href="/bn/sports/messi-nets-four-in-miami-rout/">নিবন্ধ পড়ুন</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/bn/sports/messis-poker-ends-miami-drought/">মেসির চার গোলের জাদুতে মিয়ামির খরা কাটল</a></h2>
+    <p class="summary">শনিবার লিওনেল মেসি চার গোল করেন, আর ইন্টার মিয়ামি CF Montréal-কে ৭-১ গোলে উড়িয়ে দেয়, জানিয়েছে Yahoo Sports। এতে মেসির গোলসংখ্যা বেড়ে ১৭ হয়েছে এবং FC …</p>
+    <a class="read-more" href="/bn/sports/messis-poker-ends-miami-drought/">নিবন্ধ পড়ুন</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/bn/sports/hrgovic-stuns-itauma-for-ibf-belt/">IBF বেল্ট জিতে ইতাউমাকে চমকে দিলেন হারগোভিচ</a></h2>
+    <p class="summary">ফিলিপ হারগোভিচ শনিবার লন্ডনের দর্শকপূর্ণ O2 অ্যারেনায় নবম রাউন্ডের ২:২৭ মিনিটে ২১ বছর বয়সী মোসেস ইতাউমাকে থামিয়ে খালি IBF হেভিওয়েট শিরোপা জিতেছেন এবং …</p>
+    <a class="read-more" href="/bn/sports/hrgovic-stuns-itauma-for-ibf-belt/">নিবন্ধ পড়ুন</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/bn/sports/angels-blow-ninth-after-robbing-homer/">হোম রান ছিনিয়ে নিয়েও নবম ইনিংসে অ্যাঞ্জেলসের পতন</a></h2>
+    <p class="summary">শুক্রবার অ্যাঞ্জেল স্টেডিয়ামে লুইস আরায়েজের লিডঅফ গ্রাউন্ডআউটের পর নবম ইনিংসে ৩-১ লিড নিয়ে ৯৬.৫% জয়ের সম্ভাবনায় ছিল অ্যাঞ্জেলস—এরপর তারা অন্তত ১৯০০ সাল …</p>
+    <a class="read-more" href="/bn/sports/angels-blow-ninth-after-robbing-homer/">নিবন্ধ পড়ুন</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/bn/sports/steelers-dump-first-rounder-on-cowboys/">স্টিলাররা কাউবয়দের কাছে প্রথম-রাউন্ডার পাঠাল</a></h2>
+    <p class="summary">স্টিলাররা ২০২৩ সালের প্রথম-রাউন্ডের অফেন্সিভ ট্যাকল ব্রডেরিক জোন্স এবং ২০২৭ সালের চতুর্থ-রাউন্ডের একটি পিক কাউবয়দের কাছে পাঠিয়েছে ২০২৭ সালের তৃতীয় ও …</p>
+    <a class="read-more" href="/bn/sports/steelers-dump-first-rounder-on-cowboys/">নিবন্ধ পড়ুন</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/bn/sports/belichick-silences-critics-with-dublin-upset/">ডাবলিনে অঘটনে বেলিচিক সমালোচকদের স্তব্ধ করলেন</a></h2>
+    <p class="summary">বিল বেলিচিক নর্থ ক্যারোলিনায় দ্বিতীয় বছর শুরু করলেন ডাবলিনের অ্যাভিভা স্টেডিয়ামে বৃষ্টির মধ্যে TCU-কে ১৫-১০ হারিয়ে—গত বছরের ৪৮-১৪ লেবার ডে-র ধ্বংসাত্মক …</p>
+    <a class="read-more" href="/bn/sports/belichick-silences-critics-with-dublin-upset/">নিবন্ধ পড়ুন</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="ভাষা">
+        
+          <a no-follow href="/en/sports/">English</a>
+        
+          <a no-follow href="/es/sports/">Español</a>
+        
+          <a no-follow href="/it/sports/">Italiano</a>
+        
+          <a no-follow href="/fr/sports/">Français</a>
+        
+          <a no-follow href="/ar/sports/">العربية</a>
+        
+          <a no-follow href="/la/sports/">Latina</a>
+        
+          <a no-follow href="/hi/sports/">हिन्दी</a>
+        
+          <a no-follow href="/bn/sports/" aria-current="page">বাংলা</a>
+        
+          <a no-follow href="/pt/sports/">Português</a>
+        
+          <a no-follow href="/ru/sports/">Русский</a>
+        
+          <a no-follow href="/ur/sports/">اردو</a>
+        
+          <a no-follow href="/zh/sports/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

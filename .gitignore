@@ -1,6 +1,5 @@
 .DS_Store
 node_modules/
-public/
 .env
 .hugo_build.lock
 *.zip

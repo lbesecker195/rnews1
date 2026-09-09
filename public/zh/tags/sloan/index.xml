@@ -1,0 +1,49 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Sloan on RNews1.com</title>
+    <link>http://localhost:3003/zh/tags/sloan/</link>
+    <description>Recent content in Sloan on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+        <atom:link href="http://localhost:3003/zh/tags/sloan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MIT：人类的成本仍低于 AI</title>
+      <link>http://localhost:3003/zh/ai/mit-humans-still-beat-ai-costs/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/zh/ai/mit-humans-still-beat-ai-costs/</guid>
+      <description>&lt;h1 id=&#34;mit人类的成本仍低于-ai&#34;&gt;MIT：人类的成本仍低于 AI&lt;/h1&gt;
+&lt;p&gt;一项被广泛转发的 &lt;strong&gt;MIT CSAIL&lt;/strong&gt; 与 &lt;strong&gt;Sloan&lt;/strong&gt; 关于&lt;em&gt;计算机视觉自动化&lt;/em&gt;的研究再次出现在&lt;em&gt;深夜 AI 信息流&lt;/em&gt;中，推动一种&lt;strong&gt;反主流的就业叙事&lt;/strong&gt;：&lt;em&gt;技术暴露并不等于经济替代&lt;/em&gt;。其主张并不是摄像头看不见，而是看见并不等于能够收回自身成本。对&lt;strong&gt;安装和运营成本&lt;/strong&gt;进行建模的研究人员发现，目前看来具备&lt;em&gt;自动化成本效益&lt;/em&gt;的、与&lt;em&gt;视觉任务&lt;/em&gt;相关的&lt;strong&gt;美国工资仅约占 23%&lt;/strong&gt;。一旦将&lt;strong&gt;摄像头&lt;/strong&gt;、&lt;strong&gt;模型&lt;/strong&gt;和&lt;strong&gt;维护&lt;/strong&gt;纳入定价，&lt;strong&gt;大多数企业仍会选择人类&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这就是全部论点，但足以解释这篇论文为何再次流传。&lt;em&gt;深夜 AI 信息流&lt;/em&gt;通常不会停留在成本模型上，而会停留在演示上。这项研究恰恰相反。它追问：当企业必须购买整套系统、让系统持续运行，同时仍需支付视觉技术未触及的劳动成本时，会发生什么？在 &lt;strong&gt;MIT CSAIL&lt;/strong&gt; 和 &lt;strong&gt;Sloan&lt;/strong&gt; 的核算中，答案是，与视觉工作相关的工资总额中，&lt;em&gt;大多数&lt;/em&gt;在&lt;em&gt;今天&lt;/em&gt;看起来都不像是值得交给机器的划算交易。&lt;/p&gt;
+&lt;h2 id=&#34;技术暴露不等于经济替代&#34;&gt;技术暴露不等于经济替代&lt;/h2&gt;
+&lt;h3 id=&#34;拒绝通常捷径的就业故事&#34;&gt;拒绝通常捷径的就业故事&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;反主流的就业叙事&lt;/strong&gt;毫不修饰地表述为：&lt;em&gt;技术暴露并不等于经济替代&lt;/em&gt;。&lt;em&gt;技术暴露&lt;/em&gt;是一张熟悉的地图。它询问某个系统能够执行哪些任务、哪些职业包含这些任务，以及哪些劳动者因此看起来面临暴露。&lt;em&gt;经济替代&lt;/em&gt;则是另一张地图。它询问，在将&lt;strong&gt;安装和运营成本&lt;/strong&gt;计入账目后，企业实际上会从人类手中夺走哪些任务。&lt;/p&gt;
+&lt;p&gt;关于&lt;em&gt;计算机视觉自动化&lt;/em&gt;的 &lt;strong&gt;MIT CSAIL&lt;/strong&gt; 与 &lt;strong&gt;Sloan&lt;/strong&gt; 研究位于第二张地图上。计算机视觉是应用型 &lt;strong&gt;AI&lt;/strong&gt; 中较为成熟的领域之一。相对于工厂而言，摄像头很便宜。模型可以进行分类、检测和检查。正是这种成熟度，使论文的发现呈现为一个&lt;em&gt;反主流&lt;/em&gt;结果。如果有哪类任务理应已经跨过&lt;em&gt;经济替代&lt;/em&gt;的门槛，&lt;em&gt;视觉任务&lt;/em&gt;应该名列前茅。研究却表示并非如此——至少不是暴露地图所暗示的规模，也不是在&lt;em&gt;今天&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;导语中的&lt;em&gt;广泛转发&lt;/em&gt;并非无关紧要。这项研究并没有被当作一条全新的泄露消息，而是被当作一个在&lt;em&gt;就业&lt;/em&gt;争论升温时不断回归的发现。周六晚的&lt;em&gt;深夜 AI 信息流&lt;/em&gt;有一种特定的传播方式：简短摘要、鲜明对比，以及一句可以四处流传的话。这里流传的句子拒绝了那条捷径：暴露不是替代，能力也不是采购订单。&lt;/p&gt;
+&lt;p&gt;这种拒绝关系到我们应如何解读其余数字。该研究没有声称&lt;em&gt;计算机视觉自动化&lt;/em&gt;不可能，也没有声称 &lt;strong&gt;AI&lt;/strong&gt; 永远不会替代劳动。它的主张是：当对&lt;strong&gt;安装和运营成本&lt;/strong&gt;进行建模后，相关工资池中只有少数部分目前看起来具备&lt;em&gt;自动化成本效益&lt;/em&gt;。其余工资仍然支付给人类，因为发票金额大于企业可以削减的工资支出。&lt;/p&gt;
+&lt;h2 id=&#34;目前看来具备成本效益的仅约-23&#34;&gt;目前看来具备成本效益的仅约 23%&lt;/h2&gt;
+&lt;h3 id=&#34;成本模型下保留下来的工资份额&#34;&gt;成本模型下保留下来的工资份额&lt;/h3&gt;
+&lt;p&gt;研究人员发现，与&lt;em&gt;视觉任务&lt;/em&gt;相关的&lt;strong&gt;美国工资仅约占 23%&lt;/strong&gt;，目前看来具备&lt;em&gt;自动化成本效益&lt;/em&gt;。这个数字指的是&lt;em&gt;工资&lt;/em&gt;的份额，不是企业的份额，也不是职业的份额。它代表美国工资总额中与视觉工作相关、在模型为系统计价后仍然算得过来的那一部分。**约 23%**不是一半，也不是大多数，而是与视觉相关的工资池中的少数部分。&lt;/p&gt;
+&lt;p&gt;在&lt;em&gt;就业&lt;/em&gt;争论中，更有分量的是其余部分。如果只有&lt;strong&gt;约 23%&lt;strong&gt;在&lt;em&gt;今天&lt;/em&gt;看来具备&lt;em&gt;成本效益&lt;/em&gt;，那么大部分剩余部分就不具备。正是这一剩余部分解释了为什么&lt;/strong&gt;大多数企业仍会选择人类&lt;/strong&gt;。在这个框架中，选择并非出于情感，而是成本比较的结果。一家选择人类的企业，是在审视&lt;strong&gt;摄像头&lt;/strong&gt;、&lt;strong&gt;模型&lt;/strong&gt;和&lt;strong&gt;维护&lt;/strong&gt;，加上&lt;strong&gt;安装和运营成本&lt;/strong&gt;后，认定人类工资仍是完成这项工作的更便宜方式。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;今天&lt;/em&gt;与&lt;strong&gt;约 23%&lt;strong&gt;同样重要。该研究并不是预测这一比例会固定不变，而是对当前价格下什么看起来具备&lt;em&gt;成本效益&lt;/em&gt;的快照。作者随后指出，要&lt;em&gt;改变计算结果&lt;/em&gt;，需要&lt;/strong&gt;AI 即服务规模化&lt;/strong&gt;或&lt;strong&gt;成本大幅下降&lt;/strong&gt;。**约 23%**代表改变发生前的计算结果。它说明，&lt;em&gt;计算机视觉自动化&lt;/em&gt;可以在技术上可用、在经济上却同时受到限制。&lt;/p&gt;
+&lt;p&gt;与&lt;em&gt;视觉任务&lt;/em&gt;相关的美国工资也是一个有边界的对象。该研究并没有给全国每一份工作打分，而是在评估视觉系统理论上可以承担的工作的工资价值。即便在这个已经暴露出来的范围内，目前看来具备购买价值的也只有&lt;strong&gt;约 23%&lt;/strong&gt;。这种&lt;em&gt;反主流的就业叙事&lt;/em&gt;正是建立在这一差距之上：技术地图很宽，经济地图很窄，而成本模型位于两者之间。&lt;/p&gt;
+&lt;h2 id=&#34;将摄像头模型和维护计入成本&#34;&gt;将摄像头、模型和维护计入成本&lt;/h2&gt;
+&lt;h3 id=&#34;为什么大多数企业仍会选择人类&#34;&gt;为什么大多数企业仍会选择人类&lt;/h3&gt;
+&lt;p&gt;一旦将&lt;strong&gt;摄像头&lt;/strong&gt;、&lt;strong&gt;模型&lt;/strong&gt;和&lt;strong&gt;维护&lt;/strong&gt;计入成本，&lt;strong&gt;大多数企业仍会选择人类&lt;/strong&gt;。这三个项目是该研究拒绝纯软件幻想的方式。视觉系统不只是一个模型，而是必须安装和瞄准的&lt;strong&gt;摄像头&lt;/strong&gt;、必须训练、调优和更新的&lt;strong&gt;模型&lt;/strong&gt;，以及在首次检查成功后仍不会消失的&lt;strong&gt;维护&lt;/strong&gt;负担。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;安装和运营成本&lt;/strong&gt;是这套系统上的两只时钟。安装是前期支出：硬件、集成，以及让&lt;strong&gt;摄像头&lt;/strong&gt;和&lt;strong&gt;模型&lt;/strong&gt;首次适配生产线或商店。运营成本是持续支出：&lt;strong&gt;维护&lt;/strong&gt;、更新、故障，以及让系统保持可靠运行的人员。研究人员对两者都进行了建模。当两项成本都被纳入价格，并且比较对象是工资而非演示视频时，就得出了&lt;em&gt;选择人类&lt;/em&gt;的结果。&lt;/p&gt;
+&lt;p&gt;“计入成本”是保持论证诚实的关键表述。只计算模型时看起来便宜的系统，在&lt;strong&gt;摄像头&lt;/strong&gt;和&lt;strong&gt;维护&lt;/strong&gt;加入账本后可能显得昂贵。研究框架中的&lt;strong&gt;大多数企业&lt;/strong&gt;并不是因为怀疑技术而拒绝或推迟&lt;em&gt;计算机视觉自动化&lt;/em&gt;，而是因为完整价格无法击败已经完成这项工作的人员。这就是即便存在&lt;em&gt;技术暴露&lt;/em&gt;，&lt;em&gt;经济替代&lt;/em&gt;仍然失败。&lt;/p&gt;
+&lt;p&gt;同样的三个项目也解释了为什么低至&lt;strong&gt;约 23%&lt;strong&gt;的全国工资份额可以与视觉产品的泛滥并存。产品可以存在，供应商可以销售，试点可以运行。&lt;strong&gt;MIT CSAIL&lt;/strong&gt; 与 &lt;strong&gt;Sloan&lt;/strong&gt; 所提出的问题是：将&lt;/strong&gt;摄像头&lt;/strong&gt;、&lt;strong&gt;模型&lt;/strong&gt;和&lt;strong&gt;维护&lt;/strong&gt;在内的&lt;em&gt;运营&lt;/em&gt;与&lt;em&gt;安装&lt;/em&gt;账单，是否使与&lt;em&gt;视觉任务&lt;/em&gt;相关的&lt;em&gt;美国工资&lt;/em&gt;在大范围内实现&lt;em&gt;今天具备成本效益的替代&lt;/em&gt;。对于大部分工资池，答案是否定的，而&lt;strong&gt;大多数企业仍会选择人类&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;一个面包店案例以及微小的劳动力份额&#34;&gt;一个面包店案例，以及微小的劳动力份额&lt;/h2&gt;
+&lt;h3 id=&#34;质量检查视觉很少能收回自身成本&#34;&gt;质量检查视觉很少能收回自身成本&lt;/h3&gt;
+&lt;p&gt;一个&lt;strong&gt;面包店案例&lt;/strong&gt;显示，&lt;em&gt;质量检查视觉&lt;/em&gt;只占&lt;em&gt;劳动力的一小部分&lt;/em&gt;，因此 &lt;strong&gt;AI&lt;/strong&gt; &lt;em&gt;很少能收回自身成本&lt;/em&gt;。面包店不是一个比喻，而是同一成本模型在生产现场的具体示例。质量检查是典型的&lt;em&gt;视觉任务&lt;/em&gt;。但在该案例中，它也只占&lt;em&gt;劳动力的一小部分&lt;/em&gt;。如果 &lt;strong&gt;AI&lt;/strong&gt; 能够看见的任务只占工资总额的一小部分，那么自动化这部分工作所节省的工资就不足以支付&lt;strong&gt;摄像头&lt;/strong&gt;、&lt;strong&gt;模型&lt;/strong&gt;和&lt;strong&gt;维护&lt;/strong&gt;的成本。&lt;/p&gt;
+&lt;p&gt;这就是为什么在面包店场景中，&lt;strong&gt;AI&lt;/strong&gt; &lt;em&gt;很少能收回自身成本&lt;/em&gt;。系统可以很准确，也可以成功安装，但在计入&lt;strong&gt;安装和运营成本&lt;/strong&gt;后，它仍必须击败那&lt;em&gt;一小部分劳动力&lt;/em&gt;的成本。&lt;em&gt;微小的份额&lt;/em&gt;构成了一个严苛的分母。替代质量检查工作所能节省的金额很小，因为质量检查从来就不是面包店支付给员工的大部分工作。混合、搬运、包装、销售以及其他劳动仍然存在。视觉部分看起来可以自动化，但规模不足以承担整张账单。&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

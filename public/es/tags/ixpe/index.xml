@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>IXPE on RNews1.com</title>
+    <link>http://localhost:3003/es/tags/ixpe/</link>
+    <description>Recent content in IXPE on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+        <atom:link href="http://localhost:3003/es/tags/ixpe/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Una estrella muerta demuestra que el espacio vacío no está vacío</title>
+      <link>http://localhost:3003/es/cosmos/dead-star-proves-empty-space-isnt-empty/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/es/cosmos/dead-star-proves-empty-space-isnt-empty/</guid>
+      <description>&lt;h1 id=&#34;una-estrella-muerta-demuestra-que-el-espacio-vacío-no-está-vacío&#34;&gt;Una estrella muerta demuestra que el espacio vacío no está vacío&lt;/h1&gt;
+&lt;h2 id=&#34;a-1936-prediction-tested-on-a-dead-star&#34;&gt;Una predicción de 1936, puesta a prueba en una estrella muerta&lt;/h2&gt;
+&lt;p&gt;Un &lt;em&gt;magnetar&lt;/em&gt; del tamaño de una ciudad a &lt;strong&gt;13.000&lt;/strong&gt; años luz, que gira cada &lt;strong&gt;2,1 segundos&lt;/strong&gt;, ha aportado la evidencia más sólida hasta ahora de una predicción de &lt;strong&gt;1936&lt;/strong&gt; de &lt;strong&gt;Heisenberg&lt;/strong&gt; y &lt;strong&gt;Euler&lt;/strong&gt;: el espacio vacío no está vacío. La frase suena a contradicción porque el lenguaje ordinario trata el vacío como sinónimo de la nada. La física no lo trata así desde hace mucho tiempo. El vacío de la teoría cuántica de campos es un estado fundamental inquieto, lleno de pares fugaces de partículas y antipartículas, y en un campo electromagnético lo bastante intenso esas fluctuaciones deberían dejar de ser un telón de fondo filosófico y empezar a actuar como un material.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

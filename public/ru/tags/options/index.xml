@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Options on RNews1.com</title>
+    <link>http://localhost:3003/ru/tags/options/</link>
+    <description>Recent content in Options on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    
+        <atom:link href="http://localhost:3003/ru/tags/options/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BTC поддерживают спотовые покупки, а не кредитное плечо</title>
+      <link>http://localhost:3003/ru/crypto/spot-cash-not-leverage-fuels-btc/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/ru/crypto/spot-cash-not-leverage-fuels-btc/</guid>
+      <description>&lt;h1 id=&#34;btc-поддерживают-спотовые-покупки-а-не-кредитное-плечо&#34;&gt;BTC поддерживают спотовые покупки, а не кредитное плечо&lt;/h1&gt;
+&lt;p&gt;Последний этап роста Bitcoin по данным рынка деривативов не выглядел как массовый шорт-сквиз. &lt;strong&gt;Blockonomi&lt;/strong&gt; цитирует &lt;strong&gt;QCP Capital&lt;/strong&gt;, утверждая, что рост &lt;strong&gt;Bitcoin&lt;/strong&gt; примерно с &lt;strong&gt;$63 500&lt;/strong&gt; к &lt;strong&gt;$80 000&lt;/strong&gt; — с кратковременным превышением &lt;strong&gt;$81 000&lt;/strong&gt; — был основан на &lt;em&gt;спотовой поддержке&lt;/em&gt;, а не на &lt;em&gt;переполненном кредитном плече&lt;/em&gt;. Это утверждение о структуре рынка, а не ценовой ориентир. Оно означает, что спрос, поднявший монету от середины шестидесятых к $80 000, пришёл за наличные и через регулируемые инструменты, тогда как обычные индикаторы плеча — открытый интерес, финансирование и переполненность опционов — не демонстрировали признаков резкого финального взлёта.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

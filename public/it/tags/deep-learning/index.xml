@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Deep-Learning on RNews1.com</title>
+    <link>http://localhost:3003/it/tags/deep-learning/</link>
+    <description>Recent content in Deep-Learning on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    
+        <atom:link href="http://localhost:3003/it/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>L’IA mappa sei strutture nascoste della Terra</title>
+      <link>http://localhost:3003/it/science/ai-maps-six-hidden-earth-structures/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/it/science/ai-maps-six-hidden-earth-structures/</guid>
+      <description>&lt;h1 id=&#34;lia-mappa-sei-strutture-nascoste-della-terra&#34;&gt;L’IA mappa sei strutture nascoste della Terra&lt;/h1&gt;
+&lt;p&gt;A circa &lt;strong&gt;1.800 miglia&lt;/strong&gt; sotto i vostri piedi, il &lt;strong&gt;mantello&lt;/strong&gt; terrestre incontra il &lt;em&gt;nucleo esterno liquido&lt;/em&gt;. Quel contatto non è una giuntura liscia. È un paesaggio. Da decenni i sismologi sanno che la base del mantello è irregolare, con zone composte da materiali insoliti che disperdono le onde sismiche di passaggio. Mappare queste zone ha sempre significato lottare contro segnali deboli e una copertura disomogenea. Un nuovo lavoro dei ricercatori dell’&lt;strong&gt;Accademia cinese delle scienze&lt;/strong&gt; utilizza un sistema di &lt;strong&gt;deep learning&lt;/strong&gt;, una montagna di vecchi sismogrammi e una notevole quantità di revisione umana per sostenere che queste irregolarità siano più connesse e più numerose di quanto mostrassero i cataloghi precedenti.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

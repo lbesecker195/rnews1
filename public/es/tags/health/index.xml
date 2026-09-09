@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Health on RNews1.com</title>
+    <link>http://localhost:3003/es/tags/health/</link>
+    <description>Recent content in Health on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+        <atom:link href="http://localhost:3003/es/tags/health/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Termina el contrato de UCLA Health: crisis para pacientes de bajos ingresos</title>
+      <link>http://localhost:3003/es/health/ucla-health-contract-ends-low-income-crisis/</link>
+      <pubDate>Sat, 05 Sep 2026 20:40:01 +0000</pubDate>
+      <guid>http://localhost:3003/es/health/ucla-health-contract-ends-low-income-crisis/</guid>
+      <description>&lt;h1 id=&#34;crisis-de-acceso-a-la-atención-médica-los-pacientes-de-bajos-ingresos-de-ucla-health-enfrentan-un-futuro-incierto&#34;&gt;Crisis de acceso a la atención médica: los pacientes de bajos ingresos de UCLA Health enfrentan un futuro incierto&lt;/h1&gt;
+&lt;h2 id=&#34;comprender-la-terminación-del-contrato-y-su-impacto&#34;&gt;Comprender la terminación del contrato y su impacto&lt;/h2&gt;
+&lt;p&gt;El panorama de la atención médica en Los Ángeles atraviesa una turbulencia significativa, ya que los pacientes de bajos ingresos inscritos en la red de UCLA Health enfrentan un desafío sin precedentes: encontrar nuevos médicos de atención primaria tras la expiración de un contrato importante. Esta situación pone de relieve las vulnerabilidades persistentes del sistema de atención médica estadounidense, especialmente para las poblaciones económicamente desfavorecidas que dependen en gran medida de los centros médicos académicos y los proveedores de la red de seguridad para recibir atención esencial.&lt;/p&gt;</description>
+      
+      
+      
+      <tweet>UCLA Health contract ends, leaving low-income patients scrambling for new doctors. Healthcare access crisis deepens for vulnerable populations. Continuity of care matters. #HealthEquity #HealthcareAccess www.rnews1.com/en/health/ucla-health-contract-ends-low-income-crisis/  @WHO @DrFauci #Health #MedicalNews #Wellness</tweet>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

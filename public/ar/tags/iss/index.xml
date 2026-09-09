@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>ISS on RNews1.com</title>
+    <link>http://localhost:3003/ar/tags/iss/</link>
+    <description>Recent content in ISS on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language>
+    
+        <atom:link href="http://localhost:3003/ar/tags/iss/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>تسرّب المؤكسد يؤخر Crew-13</title>
+      <link>http://localhost:3003/ar/cosmos/dragon-oxidizer-leak-delays-crew-13/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/ar/cosmos/dragon-oxidizer-leak-delays-crew-13/</guid>
+      <description>&lt;h1 id=&#34;تسرب-المؤكسد-يؤخر-crew-13&#34;&gt;تسرّب المؤكسد يؤخر Crew-13&lt;/h1&gt;
+&lt;p&gt;تعمل &lt;strong&gt;ناسا&lt;/strong&gt; و&lt;strong&gt;سبيس إكس&lt;/strong&gt; على تعديل موعد إطلاق &lt;strong&gt;Crew-13&lt;/strong&gt; إلى &lt;strong&gt;محطة الفضاء الدولية&lt;/strong&gt; بعد اكتشاف &lt;em&gt;تسرّب مؤكسد&lt;/em&gt; في نظام دفع &lt;strong&gt;Dragon&lt;/strong&gt; أثناء &lt;em&gt;إجراءات المعالجة القياسية السابقة للإطلاق&lt;/em&gt;، حسبما قالت ناسا في &lt;strong&gt;29 أغسطس 2026&lt;/strong&gt;. ولا يعني هذا الاكتشاف إجهاضاً في اللحظة الأخيرة على منصة الإطلاق، ولا عطلاً أثناء الرحلة. إنه اكتشاف أرضي حدث بينما كانت المركبة الفضائية تخضع للفحوصات المعتادة التي تسبق السماح لطاقم بركوبها. وُجدت هذه الفحوصات لضمان اكتشاف تسرّب من هذا النوع في فلوريدا، لا في المدار.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

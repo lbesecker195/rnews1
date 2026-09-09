@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>健康 | RNews1.com</title>
+  <meta name="description" content="科学、健康与宇宙。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/zh/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="栏目">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/ai/"
+              
+            >人工智能</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/business/"
+              
+            >商业</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/zh/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/crypto/"
+              
+            >加密货币</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/entertainment/"
+              
+            >文娱</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/sports/"
+              
+            >体育</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/technology/"
+              
+            >科技</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/usa/"
+              
+            >美国</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/world/"
+              
+            >国际</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/health/"
+              aria-current="page"
+            >健康</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/science/"
+              
+            >科学</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/cosmos/"
+              
+            >宇宙</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="菜单">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="栏目">
+          
+            
+              
+              
+              
+              <a
+                href="/zh/ai/"
+                
+              >人工智能</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/business/"
+                
+              >商业</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/zh/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/crypto/"
+                
+              >加密货币</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/entertainment/"
+                
+              >文娱</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/sports/"
+                
+              >体育</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/technology/"
+                
+              >科技</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/usa/"
+                
+              >美国</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/world/"
+                
+              >国际</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/health/"
+                aria-current="page"
+              >健康</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/science/"
+                
+              >科学</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/cosmos/"
+                
+              >宇宙</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+          健康</h1>
+  <p class="list-desc">科学、健康与宇宙。</p>
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/zh/health/financial-assistance-programs-transform-healthcare-access/">经济援助项目改变医疗服务可及性</a></h2>
+    <p class="summary">了解 Kaiser Permanente 的医疗经济援助项目如何消除就医障碍，并改善弱势群体的患者治疗结果。</p>
+    <a class="read-more" href="/zh/health/financial-assistance-programs-transform-healthcare-access/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/health/vietnam-refugee-leads-mental-health-through-optimism/">越南难民以乐观引领心理健康事业</a></h2>
+    <p class="summary">一位童年时逃离越南的索诺玛县心理健康领导者，如今倡导将乐观与韧性作为心理健康护理的核心原则。</p>
+    <a class="read-more" href="/zh/health/vietnam-refugee-leads-mental-health-through-optimism/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/health/from-refugee-to-mental-health-leader/">从难民到心理健康领袖</a></h2>
+    <p class="summary">一位索诺玛县心理健康官员从逃离越南到领导心理健康倡议的经历，展现了个人韧性如何塑造富有同情心的医疗领导力。</p>
+    <a class="read-more" href="/zh/health/from-refugee-to-mental-health-leader/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/health/ucla-health-contract-disruption-affects-low-income-care/">UCLA Health 合同中断影响低收入人群的医疗服务</a></h2>
+    <p class="summary">UCLA Health 的低收入患者因合同终止而面临重大医疗服务中断，不得不应对碎片化的医疗体系并寻找新的医疗服务提供者。</p>
+    <a class="read-more" href="/zh/health/ucla-health-contract-disruption-affects-low-income-care/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/health/ucla-health-contract-ends-low-income-crisis/">UCLA Health 合同终止：低收入人群面临危机</a></h2>
+    <p class="summary">随着 UCLA Health 的医疗服务提供者合同到期，低收入患者面临医疗服务中断，弱势群体正忙于寻找新的医生。</p>
+    <a class="read-more" href="/zh/health/ucla-health-contract-ends-low-income-crisis/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/health/baby-sugar-linked-to-later-cancer/">婴儿期糖摄入与成年后癌症相关</a></h2>
+    <p class="summary">一项针对64,761名英国生物银行成年人的PNAS研究，将1953年9月英国糖配给制结束视为关于生命最初1,000天的自然实验。早年处于配给期（每天约40克糖）的人，成年后癌症发生率明显低于出生后糖摄入量大致翻倍至约80克的群体。完全暴露者患肝癌和肝内胆管癌的风险低约69%，直肠癌、肺癌、前列腺癌和乳腺癌风险也有所下降 …</p>
+    <a class="read-more" href="/zh/health/baby-sugar-linked-to-later-cancer/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/health/statins-cut-over-70-heart-risk-30/">他汀类药物将70岁以上人群心脏风险降低30%</a></h2>
+    <p class="summary">据《卫报》报道，一项由澳大利亚牵头、全球首创的试验发现，每日服用降胆固醇他汀类药物，可将其他方面健康的70岁以上人群心脏病发作或卒中风险降低30%，且严重副作用风险较低。75岁以下患糖尿病或高胆固醇者，以及任何年龄发生过重大心脏事件者，已经普遍使用他汀；但对于此前没有心脏事件的健康70岁以上人群，其获益一直不明确。莫纳 …</p>
+    <a class="read-more" href="/zh/health/statins-cut-over-70-heart-risk-30/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/health/ozempic-tied-to-rare-vision-loss/">Ozempic 与罕见视力丧失有关</a></h2>
+    <p class="summary">Rutgers 大学研究人员发现，司美格鲁肽（Ozempic、Wegovy）和替尔泊肽（Mounjaro、Zepbound）等 GLP-1 药物与缺血性视神经病变的小幅增加有关——这是一种罕见的视神经血流衰竭，可能导致突发且通常永久性的视力丧失——SciTechDaily 在报道《Annals of Internal …</p>
+    <a class="read-more" href="/zh/health/ozempic-tied-to-rare-vision-loss/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/health/keto-beats-mediterranean-for-liver-fat/">生酮饮食在减少肝脏脂肪方面胜过地中海饮食</a></h2>
+    <p class="summary">《Cell Metabolism》发表的一项随机试验让42名患有肥胖、糖尿病前期和脂肪肝的成年人食用所有餐食，并让他们在生酮、地中海或低脂植物优先饮食下实现相近的减重幅度，约为10%。依从率超过95%。三种饮食都让肌肉胰岛素敏感性提高约50%，但生酮饮食在肝脏方面领先：肝脏脂肪在生酮组下降67%，另外两组约下降45%； …</p>
+    <a class="read-more" href="/zh/health/keto-beats-mediterranean-for-liver-fat/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/health/gum-sweetener-linked-to-heart-attacks/">口香糖甜味剂与心脏病发作有关</a></h2>
+    <p class="summary">口香糖、牙膏、果酱、酸奶和冰淇淋中的糖醇木糖醇，如今正以约为自然界含量1,000倍的剂量被添加。在慕尼黑举行的欧洲心脏病学会大会上，柏林心脏病学家Marco Witkowski报告了迄今规模最大的研究：17,710人，比较血液水平最高与最低四分位组。木糖醇水平最高组在六年内死亡或发生心脏病发作、卒中的可能性高出 …</p>
+    <a class="read-more" href="/zh/health/gum-sweetener-linked-to-heart-attacks/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/health/warming-lakes-push-brain-eating-amoeba-north/">变暖的湖泊将“食脑”变形虫推向北方</a></h2>
+    <p class="summary">北卡罗来纳州中部一名青少年因罕见的“食脑”变形虫福氏耐格里阿米巴感染而病危，科学家正追踪人们暴露地点向北移动的趋势。美国病例数并未激增，但地理范围扩大了。美国疾病控制与预防中心对1978年至2018年间85起休闲水域病例的2021年分析发现，最北端的暴露地点每年约向北移动8.3英里。74起病例来自南部，6起来自中西部， …</p>
+    <a class="read-more" href="/zh/health/warming-lakes-push-brain-eating-amoeba-north/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/health/melatonin-heart-failure-risk/">长期使用褪黑素与心力衰竭风险升高 90% 相关</a></h2>
+    <p class="summary">2026年8月一项大型初步研究发现，长期服用褪黑素者心力衰竭风险显著更高。它不能证明因果关系，但对这种被当作无害的补充剂提出了审慎要求。</p>
+    <a class="read-more" href="/zh/health/melatonin-heart-failure-risk/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/health/keto-diet-liver-fat/">生酮饮食使肝脂肪下降 67%，关键试验中优于地中海饮食</a></h2>
+    <p class="summary">2026年8月一项临床试验发现，配方良好的生酮饮食数月内使肝脏脂肪下降 67%，优于同等热量限制的地中海模式，同时需关注安全与个体化。</p>
+    <a class="read-more" href="/zh/health/keto-diet-liver-fat/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/health/fda-ptsd-nonmedication-treatment/">FDA 批准首个个性化非药物 PTSD 疗法</a></h2>
+    <p class="summary">2026年8月底，美国食品药品管理局批准一套利用个性化生理信号治疗创伤后应激障碍的非药物系统，对药物无效或不耐受的患者是重要节点。</p>
+    <a class="read-more" href="/zh/health/fda-ptsd-nonmedication-treatment/">阅读全文</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="语言">
+        
+          <a no-follow href="/ar/health/">العربية</a>
+        
+          <a no-follow href="/la/health/">Latina</a>
+        
+          <a no-follow href="/hi/health/">हिन्दी</a>
+        
+          <a no-follow href="/bn/health/">বাংলা</a>
+        
+          <a no-follow href="/pt/health/">Português</a>
+        
+          <a no-follow href="/ru/health/">Русский</a>
+        
+          <a no-follow href="/ur/health/">اردو</a>
+        
+          <a no-follow href="/zh/health/" aria-current="page">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

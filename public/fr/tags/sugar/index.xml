@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Sugar on RNews1.com</title>
+    <link>http://localhost:3003/fr/tags/sugar/</link>
+    <description>Recent content in Sugar on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+        <atom:link href="http://localhost:3003/fr/tags/sugar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Le sucre chez le bébé lié à des cancers ultérieurs</title>
+      <link>http://localhost:3003/fr/health/baby-sugar-linked-to-later-cancer/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/fr/health/baby-sugar-linked-to-later-cancer/</guid>
+      <description>&lt;h1 id=&#34;le-sucre-chez-le-bébé-lié-à-des-cancers-ultérieurs&#34;&gt;Le sucre chez le bébé lié à des cancers ultérieurs&lt;/h1&gt;
+&lt;h2 id=&#34;la-fin-dun-rationnement-et-un-signal-de-cancer-des-décennies-plus-tard&#34;&gt;La fin d’un rationnement, et un signal de cancer des décennies plus tard&lt;/h2&gt;
+&lt;p&gt;Une étude publiée dans &lt;strong&gt;PNAS&lt;/strong&gt; portant sur &lt;strong&gt;64 761 adultes de la UK Biobank&lt;/strong&gt; a utilisé la &lt;strong&gt;fin du rationnement britannique du sucre en septembre 1953&lt;/strong&gt; comme une &lt;strong&gt;expérience naturelle&lt;/strong&gt; sur les &lt;strong&gt;1 000 premiers jours de la vie&lt;/strong&gt;. La question n’est pas de savoir si les aliments sucrés sont vaguement déconseillés. Il s’agit de déterminer si la quantité de sucre réellement consommée par un nourrisson ou un jeune enfant — fixée ici par un rationnement national plutôt que par les goûts d’un foyer — a laissé une trace encore lisible dans les &lt;strong&gt;taux de cancer à l’âge adulte&lt;/strong&gt;, dans les &lt;strong&gt;télomères leucocytaires&lt;/strong&gt; et même dans l’&lt;strong&gt;alimentation des décennies plus tard&lt;/strong&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

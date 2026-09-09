@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Cosmo on Meridian</title>
+		<link>http://localhost:8080/it/posts/cosmos/</link>
+		<description>Recent content in Cosmo on Meridian</description>
+		<generator>Hugo</generator>
+		<language>it</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 16:52:00 -0700</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/it/posts/cosmos/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Gli astronomi trovano una galassia senza stelle</title>
+				<link>http://localhost:8080/it/posts/cosmos/astronomers-find-a-galaxy-without-stars/</link>
+				<pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+				<guid>http://localhost:8080/it/posts/cosmos/astronomers-find-a-galaxy-without-stars/</guid>
+				<description>&lt;h1 id=&#34;gli-astronomi-trovano-una-galassia-senza-stelle&#34;&gt;Gli astronomi trovano una galassia senza stelle&lt;/h1&gt;&#xA;&lt;h2 id=&#34;a-cloud-that-should-have-become-a-galaxy&#34;&gt;Una nube che avrebbe dovuto diventare una galassia&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Cloud-9&lt;/strong&gt;, a &lt;strong&gt;14 milioni&lt;/strong&gt; di anni luce da noi vicino a &lt;strong&gt;Messier 94&lt;/strong&gt;, sembra una galassia che non si è mai accesa. È una frase più inquietante di quanto non appaia a prima vista. Le galassie dovrebbero essere i luoghi in cui gas, gravità e tempo si mettono d&amp;rsquo;accordo per fare stelle. Il cielo notturno è un catalogo di quell&amp;rsquo;accordo. Cloud-9 è interessante perché l&amp;rsquo;accordo sembra essere fallito, e perché il fallimento, se è reale, non è un buco nei dati. È un oggetto.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Il rivale di Hubble della NASA decolla domenica</title>
+				<link>http://localhost:8080/it/posts/cosmos/nasas-hubble-rival-launches-sunday/</link>
+				<pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+				<guid>http://localhost:8080/it/posts/cosmos/nasas-hubble-rival-launches-sunday/</guid>
+				<description>&lt;h1 id=&#34;il-rivale-di-hubble-della-nasa-decolla-domenica&#34;&gt;Il rivale di Hubble della NASA decolla domenica&lt;/h1&gt;&#xA;&lt;h2 id=&#34;a-sunday-slot-that-almost-never-arrived&#34;&gt;Una finestra di domenica che per poco non è mai arrivata&lt;/h2&gt;&#xA;&lt;p&gt;Il &lt;strong&gt;telescopio spaziale Nancy Grace Roman da 4,3 miliardi di dollari&lt;/strong&gt; della NASA è previsto in partenza dal pad &lt;strong&gt;39A&lt;/strong&gt; del &lt;strong&gt;Kennedy Space Center&lt;/strong&gt; alle &lt;strong&gt;7:26 ET&lt;/strong&gt; di domenica 30 agosto (&lt;strong&gt;4:26 PT&lt;/strong&gt;) a bordo di un &lt;strong&gt;Falcon Heavy di SpaceX&lt;/strong&gt;. L&amp;rsquo;orario è preciso perché lo è la finestra di lancio. Lo è anche l&amp;rsquo;ironia. L&amp;rsquo;osservatorio vola &lt;em&gt;con nove mesi di anticipo&lt;/em&gt;, e vola del tutto solo dopo essere sopravvissuto a ripetuti tentativi di cancellazione della Casa Bianca.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Una stella morta dimostra che lo spazio vuoto non è vuoto</title>
+				<link>http://localhost:8080/it/posts/cosmos/dead-star-proves-empty-space-isnt-empty/</link>
+				<pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+				<guid>http://localhost:8080/it/posts/cosmos/dead-star-proves-empty-space-isnt-empty/</guid>
+				<description>&lt;h1 id=&#34;una-stella-morta-dimostra-che-lo-spazio-vuoto-non-è-vuoto&#34;&gt;Una stella morta dimostra che lo spazio vuoto non è vuoto&lt;/h1&gt;&#xA;&lt;h2 id=&#34;a-1936-prediction-tested-on-a-dead-star&#34;&gt;Una previsione del 1936, messa alla prova su una stella morta&lt;/h2&gt;&#xA;&lt;p&gt;Un &lt;em&gt;magnetar&lt;/em&gt; grande quanto una città, a &lt;strong&gt;13.000&lt;/strong&gt; anni luce di distanza, che ruota ogni &lt;strong&gt;2,1 secondi&lt;/strong&gt;, ha fornito la prova più forte finora di una previsione del &lt;strong&gt;1936&lt;/strong&gt; di &lt;strong&gt;Heisenberg&lt;/strong&gt; ed &lt;strong&gt;Euler&lt;/strong&gt;: lo spazio vuoto non è vuoto. La frase suona come una contraddizione perché il linguaggio ordinario tratta il vuoto come sinonimo di nulla. La fisica non lo tratta così da molto tempo. Il vuoto della teoria quantistica dei campi è uno stato fondamentale irrequieto, pieno di coppie fuggitive di particelle e antiparticelle, e in un campo elettromagnetico abbastanza intenso quelle fluttuazioni dovrebbero smettere di essere uno sfondo filosofico e cominciare a comportarsi come un materiale.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

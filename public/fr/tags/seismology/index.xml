@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Seismology on RNews1.com</title>
+    <link>http://localhost:3003/fr/tags/seismology/</link>
+    <description>Recent content in Seismology on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+        <atom:link href="http://localhost:3003/fr/tags/seismology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>L’IA cartographie six structures cachées de la Terre</title>
+      <link>http://localhost:3003/fr/science/ai-maps-six-hidden-earth-structures/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/fr/science/ai-maps-six-hidden-earth-structures/</guid>
+      <description>&lt;h1 id=&#34;lia-cartographie-six-structures-cachées-de-la-terre&#34;&gt;L’IA cartographie six structures cachées de la Terre&lt;/h1&gt;
+&lt;p&gt;À environ &lt;strong&gt;1 800 miles&lt;/strong&gt; sous vos pieds, le &lt;strong&gt;manteau&lt;/strong&gt; terrestre rencontre le &lt;em&gt;noyau externe liquide&lt;/em&gt;. Cette limite n’est pas une couture régulière. C’est un paysage. Depuis des décennies, les sismologues savent que la base du manteau est bosselée, avec des zones de matériaux inhabituels qui dispersent les ondes sismiques qui les traversent. Cartographier ces zones a toujours consisté à lutter contre des signaux faibles et une couverture inégale. Une nouvelle étude menée par des chercheurs de l’&lt;strong&gt;Académie chinoise des sciences&lt;/strong&gt; utilise un système d’&lt;strong&gt;apprentissage profond&lt;/strong&gt;, une montagne d’anciens sismogrammes et beaucoup de vérifications humaines pour soutenir que ces amas sont plus nombreux et plus connectés que ne le montraient les catalogues précédents.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

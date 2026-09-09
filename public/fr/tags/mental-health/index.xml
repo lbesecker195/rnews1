@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Mental Health on Meridian</title>
+		<link>http://localhost:8080/fr/tags/mental-health/</link>
+		<description>Recent content in Mental Health on Meridian</description>
+		<generator>Hugo</generator>
+		<language>fr</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/fr/tags/mental-health/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>La FDA autorise le premier traitement non médicamenteux personnalisé du TSPT</title>
+				<link>http://localhost:8080/fr/health/fda-ptsd-nonmedication-treatment/</link>
+				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:8080/fr/health/fda-ptsd-nonmedication-treatment/</guid>
+				<description>&lt;h1 id=&#34;la-fda-autorise-le-premier-traitement-non-médicamenteux-personnalisé-du-tspt&#34;&gt;La FDA autorise le premier traitement non médicamenteux personnalisé du TSPT&lt;/h1&gt;&#xA;&lt;p&gt;La &lt;strong&gt;FDA&lt;/strong&gt; a autorisé un dispositif de neuromodulation et de biofeedback ajusté à la physiologie de chaque patient, sans médicament en première ligne.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-the-personalized-system-works&#34;&gt;Comment fonctionne le système personnalisé&lt;/h2&gt;&#xA;&lt;p&gt;Capteurs de rythme cardiaque, conductance cutanée et attention ; un modèle module stimuli visuels, auditifs ou une légère neurostimulation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;clinical-evidence-supporting-clearance&#34;&gt;Preuves cliniques de l’autorisation&lt;/h2&gt;&#xA;&lt;p&gt;Des essais contrôlés montrent des baisses cliniquement significatives des scores de TSPT, avec surtout des effets indésirables légers.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

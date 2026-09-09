@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Twitch on RNews1.com</title>
+    <link>http://localhost:3003/ar/tags/twitch/</link>
+    <description>Recent content in Twitch on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language>
+    
+        <atom:link href="http://localhost:3003/ar/tags/twitch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GTA 6 يتسبب في انهيار Twitch وNetflix</title>
+      <link>http://localhost:3003/ar/technology/gta-6-crashes-twitch-and-netflix/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/ar/technology/gta-6-crashes-twitch-and-netflix/</guid>
+      <description>&lt;h1 id=&#34;gta-6-يتسبب-في-انهيار-twitch-وnetflix&#34;&gt;GTA 6 يتسبب في انهيار Twitch وNetflix&lt;/h1&gt;
+&lt;p&gt;لأكثر من عقد، لم تكن &lt;strong&gt;Grand Theft Auto&lt;/strong&gt; مجرد لعبة فيديو بقدر ما كانت حدثًا مدنيًا يصادف أنه يُشحن على قرص. وعندما عرضت &lt;strong&gt;Rockstar&lt;/strong&gt; أخيرًا أول أسلوب لعب حقيقي لـ &lt;em&gt;GTA 6&lt;/em&gt;، تعامل الإنترنت معه على هذا الأساس. لم تضع الشركة اللقطات أولًا على قناتها الخاصة، بل وضعتها على &lt;strong&gt;Netflix&lt;/strong&gt; ضمن &lt;strong&gt;Extended Look&lt;/strong&gt; حصري على Netflix، ثم راقبت نصف غرفة المعيشة في الإنترنت وهو يحاول العبور من الباب نفسه.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

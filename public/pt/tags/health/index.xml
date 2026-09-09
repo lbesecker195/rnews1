@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Health on RNews1.com</title>
+    <link>http://localhost:3003/pt/tags/health/</link>
+    <description>Recent content in Health on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+        <atom:link href="http://localhost:3003/pt/tags/health/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contrato da UCLA Health termina: crise para pessoas de baixa renda</title>
+      <link>http://localhost:3003/pt/health/ucla-health-contract-ends-low-income-crisis/</link>
+      <pubDate>Sat, 05 Sep 2026 20:40:01 +0000</pubDate>
+      <guid>http://localhost:3003/pt/health/ucla-health-contract-ends-low-income-crisis/</guid>
+      <description>&lt;h1 id=&#34;crise-no-acesso-à-saúde-pacientes-de-baixa-renda-da-ucla-health-enfrentam-futuro-incerto&#34;&gt;Crise no acesso à saúde: pacientes de baixa renda da UCLA Health enfrentam futuro incerto&lt;/h1&gt;
+&lt;h2 id=&#34;entendendo-o-encerramento-do-contrato-e-seu-impacto&#34;&gt;Entendendo o encerramento do contrato e seu impacto&lt;/h2&gt;
+&lt;p&gt;O cenário da saúde em Los Angeles está passando por uma turbulência significativa, pois pacientes de baixa renda inscritos na rede da UCLA Health enfrentam um desafio sem precedentes: encontrar novos médicos de atenção primária após o vencimento de um contrato importante. Essa situação destaca vulnerabilidades persistentes no sistema de saúde americano, especialmente para populações economicamente desfavorecidas que dependem fortemente de centros médicos acadêmicos e prestadores da rede de segurança para receber cuidados essenciais.&lt;/p&gt;</description>
+      
+      
+      
+      <tweet>UCLA Health contract ends, leaving low-income patients scrambling for new doctors. Healthcare access crisis deepens for vulnerable populations. Continuity of care matters. #HealthEquity #HealthcareAccess www.rnews1.com/en/health/ucla-health-contract-ends-low-income-crisis/  @WHO @DrFauci #Health #MedicalNews #Wellness</tweet>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

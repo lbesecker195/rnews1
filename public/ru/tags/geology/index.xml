@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Geology on RNews1.com</title>
+    <link>http://localhost:3003/ru/tags/geology/</link>
+    <description>Recent content in Geology on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    
+        <atom:link href="http://localhost:3003/ru/tags/geology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Скрытая магматическая система под Марсом показывает, как красная планета строила кору</title>
+      <link>http://localhost:3003/ru/cosmos/mars-magmatic-system/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3003/ru/cosmos/mars-magmatic-system/</guid>
+      <description>&lt;h1 id=&#34;скрытая-магматическая-система-под-марсом-показывает-как-красная-планета-строила-кору&#34;&gt;Скрытая магматическая система под Марсом показывает, как красная планета строила кору&lt;/h1&gt;
+&lt;p&gt;Модели и сейсмические, гравитационные и метеоритные данные указывают на &lt;strong&gt;глубокую магматическую систему&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;piecing-together-the-evidence&#34;&gt;Собрать доказательства&lt;/h2&gt;
+&lt;p&gt;InSight, орбитальные аппараты и метеориты SNC сходятся на камерах на сотнях километров глубины.&lt;/p&gt;
+&lt;h2 id=&#34;a-crust-built-without-plate-tectonics&#34;&gt;Кора без тектоники плит&lt;/h2&gt;
+&lt;p&gt;Марс, похоже, рос вертикальными магматическими импульсами и долгоживущими вулканическими провинциями.&lt;/p&gt;
+&lt;h2 id=&#34;implications-for-planetary-habitability-and-exploration&#34;&gt;Обитаемость и исследование&lt;/h2&gt;
+&lt;p&gt;Длительное внутреннее тепло могло дольше поддерживать гидротермальные системы.&lt;/p&gt;
+&lt;h2 id=&#34;broader-lessons-for-rocky-worlds&#34;&gt;Уроки для каменистых миров&lt;/h2&gt;
+&lt;p&gt;Венера, Луна и каменистые экзопланеты могут делить рецепты одной плиты.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

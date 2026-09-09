@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Bioinspired on RNews1.com</title>
+    <link>http://localhost:3003/es/tags/bioinspired/</link>
+    <description>Recent content in Bioinspired on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+        <atom:link href="http://localhost:3003/es/tags/bioinspired/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El sensor del encaje advierte antes de una lesión tisular</title>
+      <link>http://localhost:3003/es/technology/socket-sensor-warns-before-tissue-injury/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/es/technology/socket-sensor-warns-before-tissue-injury/</guid>
+      <description>&lt;h1 id=&#34;el-sensor-del-encaje-advierte-antes-de-una-lesión-tisular&#34;&gt;El sensor del encaje advierte antes de una lesión tisular&lt;/h1&gt;
+&lt;p&gt;Un encaje protésico es una pieza ajustada que soporta cargas. Para quien camina con un miembro residual, esa pieza también implica un riesgo. Una presión que dura demasiado, o que se concentra en una zona inadecuada de la piel, puede lesionar un tejido que ya ha pasado por la amputación, la cicatrización y la fricción diaria de un revestimiento. Investigadores de la &lt;strong&gt;Universidad Tecnológica de Zhejiang&lt;/strong&gt; construyeron una capa sensora &lt;em&gt;bioinspirada&lt;/em&gt; diseñada para colocarse dentro de un encaje protésico y detectar presiones capaces de lesionar la piel del miembro residual, informó &lt;strong&gt;ScienceAlert&lt;/strong&gt; a partir de un estudio publicado en &lt;strong&gt;Cyborg and Bionic Systems&lt;/strong&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

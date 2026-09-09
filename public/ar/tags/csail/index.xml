@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>CSAIL on RNews1.com</title>
+    <link>http://localhost:3003/ar/tags/csail/</link>
+    <description>Recent content in CSAIL on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language>
+    
+        <atom:link href="http://localhost:3003/ar/tags/csail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MIT: البشر ما زالوا يتفوقون على الذكاء الاصطناعي من حيث التكلفة</title>
+      <link>http://localhost:3003/ar/ai/mit-humans-still-beat-ai-costs/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/ar/ai/mit-humans-still-beat-ai-costs/</guid>
+      <description>&lt;h1 id=&#34;mit-البشر-ما-زالوا-يتفوقون-على-الذكاء-الاصطناعي-من-حيث-التكلفة&#34;&gt;MIT: البشر ما زالوا يتفوقون على الذكاء الاصطناعي من حيث التكلفة&lt;/h1&gt;
+&lt;p&gt;تعود دراسة واسعة التداول من &lt;strong&gt;MIT CSAIL&lt;/strong&gt; و&lt;strong&gt;Sloan&lt;/strong&gt; حول &lt;em&gt;أتمتة الرؤية الحاسوبية&lt;/em&gt; إلى &lt;em&gt;موجزات الذكاء الاصطناعي في اللحظة الأخيرة&lt;/em&gt;، دافعةً بسردية &lt;strong&gt;مغايرة بشأن الوظائف&lt;/strong&gt;: &lt;em&gt;التعرض التقني لا يساوي الاستبدال الاقتصادي&lt;/em&gt;. لا تدعي الدراسة أن الكاميرات لا تستطيع الرؤية، بل إن الرؤية لا تعني بالضرورة أن النظام يغطي تكلفته. فقد وجد الباحثون، بعد نمذجة &lt;strong&gt;تكاليف التركيب والتشغيل&lt;/strong&gt;، أن &lt;strong&gt;نحو 23% فقط من الأجور الأمريكية&lt;/strong&gt; المرتبطة بـ&lt;em&gt;مهام الرؤية&lt;/em&gt; تبدو &lt;em&gt;مجدية من حيث التكلفة للأتمتة اليوم&lt;/em&gt;. &lt;strong&gt;وستظل معظم الشركات تفضل البشر&lt;/strong&gt; بعد احتساب تكلفة &lt;strong&gt;الكاميرات&lt;/strong&gt; و&lt;strong&gt;النماذج&lt;/strong&gt; و&lt;strong&gt;الصيانة&lt;/strong&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

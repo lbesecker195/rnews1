@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Geology on RNews1.com</title>
+    <link>http://localhost:3003/ar/tags/geology/</link>
+    <description>Recent content in Geology on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language>
+    
+        <atom:link href="http://localhost:3003/ar/tags/geology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>نظام صهاري خفي تحت المريخ يكشف كيف بنى الكوكب الأحمر قشرته</title>
+      <link>http://localhost:3003/ar/cosmos/mars-magmatic-system/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3003/ar/cosmos/mars-magmatic-system/</guid>
+      <description>&lt;h1 id=&#34;نظام-صهاري-خفي-تحت-المريخ-يكشف-كيف-بنى-الكوكب-الأحمر-قشرته&#34;&gt;نظام صهاري خفي تحت المريخ يكشف كيف بنى الكوكب الأحمر قشرته&lt;/h1&gt;
+&lt;p&gt;تشير نماذج وبيانات زلزالية وجاذبية ونيازك إلى &lt;strong&gt;نظام صهاري عميق&lt;/strong&gt; غذّى بناء قشرة المريخ دهوراً من دون إعادة تدوير الصفائح كما على الأرض.&lt;/p&gt;
+&lt;h2 id=&#34;piecing-together-the-evidence&#34;&gt;تجميع الأدلة&lt;/h2&gt;
+&lt;p&gt;تتوافق إنسايت ومدارات ونيازك SNC على غرف وقنوات انصهار على أعماق مئات الكيلومترات، أطول عمراً مما أوحت به خرائط السطح.&lt;/p&gt;
+&lt;h2 id=&#34;a-crust-built-without-plate-tectonics&#34;&gt;قشرة بلا تكتونية صفائح&lt;/h2&gt;
+&lt;p&gt;يبدو أن المريخ نما بنبضات صهارية عمودية ومقاطعات بركانية طويلة العمر لا بحواف صفائح، ما يفسر تباين السماكة ومعادن تحتاج ماءً وحرارة ممتدة.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

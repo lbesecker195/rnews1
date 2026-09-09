@@ -1,0 +1,157 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Categories on RNews1.com</title>
+    <link>http://localhost:3003/ar/categories/</link>
+    <description>Recent content in Categories on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language>
+    
+        <atom:link href="http://localhost:3003/ar/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>World</title>
+      <link>http://localhost:3003/ar/categories/world/</link>
+      <pubDate>Sat, 05 Sep 2026 20:42:27 +0000</pubDate>
+      <guid>http://localhost:3003/ar/categories/world/</guid>
+      <description></description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>USA</title>
+      <link>http://localhost:3003/ar/categories/usa/</link>
+      <pubDate>Sat, 05 Sep 2026 20:41:57 +0000</pubDate>
+      <guid>http://localhost:3003/ar/categories/usa/</guid>
+      <description></description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>http://localhost:3003/ar/categories/technology/</link>
+      <pubDate>Sat, 05 Sep 2026 20:41:29 +0000</pubDate>
+      <guid>http://localhost:3003/ar/categories/technology/</guid>
+      <description></description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Sports</title>
+      <link>http://localhost:3003/ar/categories/sports/</link>
+      <pubDate>Sat, 05 Sep 2026 20:40:58 +0000</pubDate>
+      <guid>http://localhost:3003/ar/categories/sports/</guid>
+      <description></description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Science</title>
+      <link>http://localhost:3003/ar/categories/science/</link>
+      <pubDate>Sat, 05 Sep 2026 20:40:32 +0000</pubDate>
+      <guid>http://localhost:3003/ar/categories/science/</guid>
+      <description></description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Health</title>
+      <link>http://localhost:3003/ar/categories/health/</link>
+      <pubDate>Sat, 05 Sep 2026 20:40:01 +0000</pubDate>
+      <guid>http://localhost:3003/ar/categories/health/</guid>
+      <description></description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Entertainment</title>
+      <link>http://localhost:3003/ar/categories/entertainment/</link>
+      <pubDate>Sat, 05 Sep 2026 20:39:34 +0000</pubDate>
+      <guid>http://localhost:3003/ar/categories/entertainment/</guid>
+      <description></description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Crypto</title>
+      <link>http://localhost:3003/ar/categories/crypto/</link>
+      <pubDate>Sat, 05 Sep 2026 20:39:04 +0000</pubDate>
+      <guid>http://localhost:3003/ar/categories/crypto/</guid>
+      <description></description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Compliance</title>
+      <link>http://localhost:3003/ar/categories/compliance/</link>
+      <pubDate>Sat, 05 Sep 2026 20:38:37 +0000</pubDate>
+      <guid>http://localhost:3003/ar/categories/compliance/</guid>
+      <description></description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Cosmos</title>
+      <link>http://localhost:3003/ar/categories/cosmos/</link>
+      <pubDate>Sat, 05 Sep 2026 20:38:06 +0000</pubDate>
+      <guid>http://localhost:3003/ar/categories/cosmos/</guid>
+      <description></description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Business</title>
+      <link>http://localhost:3003/ar/categories/business/</link>
+      <pubDate>Sat, 05 Sep 2026 20:37:35 +0000</pubDate>
+      <guid>http://localhost:3003/ar/categories/business/</guid>
+      <description></description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>http://localhost:3003/ar/categories/ai/</link>
+      <pubDate>Sat, 05 Sep 2026 20:37:08 +0000</pubDate>
+      <guid>http://localhost:3003/ar/categories/ai/</guid>
+      <description></description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

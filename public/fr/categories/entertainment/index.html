@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entertainment | RNews1.com</title>
+  <meta name="description" content="Science, santé et cosmos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/fr/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="Rubriques">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/business/"
+              
+            >Économie</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/fr/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/cosmos/"
+              
+            >Cosmos</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/crypto/"
+              
+            >Crypto</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/entertainment/"
+              
+            >Divertissement</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/health/"
+              
+            >Santé</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/ai/"
+              
+            >IA</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/science/"
+              
+            >Science</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/sports/"
+              
+            >Sports</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/technology/"
+              
+            >Technologie</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/usa/"
+              
+            >États-Unis</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/world/"
+              
+            >Monde</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="Menu">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="Rubriques">
+          
+            
+              
+              
+              
+              <a
+                href="/fr/business/"
+                
+              >Économie</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/fr/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/cosmos/"
+                
+              >Cosmos</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/crypto/"
+                
+              >Crypto</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/entertainment/"
+                
+              >Divertissement</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/health/"
+                
+              >Santé</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/ai/"
+                
+              >IA</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/science/"
+                
+              >Science</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/sports/"
+                
+              >Sports</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/technology/"
+                
+              >Technologie</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/usa/"
+                
+              >États-Unis</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/world/"
+                
+              >Monde</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+              
+            
+          Entertainment</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/fr/entertainment/jimmy-kimmel-show-ending-2027-after-24/">L&#39;émission de Jimmy Kimmel s&#39;arrêtera en 2027 après 24 ans</a></h2>
+    <p class="summary">La télévision de fin de soirée connaît un bouleversement majeur alors que Jimmy Kimmel annonce que son émission emblématique d&#39;ABC s&#39;achèvera en 2027, marquant …</p>
+    <a class="read-more" href="/fr/entertainment/jimmy-kimmel-show-ending-2027-after-24/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/entertainment/dolly-parton-s-literary-legacy-in-indian-country/">L&#39;héritage littéraire de Dolly Parton dans l&#39;Indian Country</a></h2>
+    <p class="summary">Célébration de la manière dont l&#39;icône de la musique country a touché les communautés amérindiennes et transformé des vies grâce au don de la lecture.</p>
+    <a class="read-more" href="/fr/entertainment/dolly-parton-s-literary-legacy-in-indian-country/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/entertainment/dolly-parton-s-literary-legacy-celebrated-across-indian/">L’héritage littéraire de Dolly Parton célébré dans l’ensemble de l’Indian Country</a></h2>
+    <p class="summary">L’impact profond de Dolly Parton sur les communautés autochtones grâce à son Imagination Library et à sa passion pour l’alphabétisation est resté dans les …</p>
+    <a class="read-more" href="/fr/entertainment/dolly-parton-s-literary-legacy-celebrated-across-indian/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/entertainment/las-vegas-strip-shows-close-amid-job/">Les spectacles du Las Vegas Strip ferment sur fond de crise de l’emploi</a></h2>
+    <p class="summary">Deux grandes productions du Las Vegas Strip vont fermer, entraînant d’importantes pertes d’emplois pour des centaines de professionnels du divertissement dans …</p>
+    <a class="read-more" href="/fr/entertainment/las-vegas-strip-shows-close-amid-job/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/entertainment/las-vegas-strip-shows-face-closure-crisis/">Les spectacles du Las Vegas Strip confrontés à une crise des fermetures</a></h2>
+    <p class="summary">Deux grandes productions du Las Vegas Strip cessent leurs activités, privant d’emploi des centaines de professionnels du spectacle et portant un coup important …</p>
+    <a class="read-more" href="/fr/entertainment/las-vegas-strip-shows-face-closure-crisis/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/entertainment/cnn-films-remembers-windows-on-the-world/">CNN Films se souvient de Windows on the World</a></h2>
+    <p class="summary">Un nouveau documentaire de CNN Films attire l’attention, avec un retard considérable, sur Windows on the World, le restaurant emblématique détruit le …</p>
+    <a class="read-more" href="/fr/entertainment/cnn-films-remembers-windows-on-the-world/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/entertainment/summer-box-office-reaches-4-6-billion-recovery/">Le box-office estival atteint 4,6 milliards de dollars, signe d&#39;une reprise</a></h2>
+    <p class="summary">La saison estivale hollywoodienne dépasse 4,6 milliards de dollars au box-office mondial, signalant une reprise post-pandémique solide pour l&#39;industrie du …</p>
+    <a class="read-more" href="/fr/entertainment/summer-box-office-reaches-4-6-billion-recovery/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/entertainment/cruise-confirms-days-of-thunder-sequel/">Cruise confirme la suite de Jours de tonnerre</a></h2>
+    <p class="summary">Tom Cruise a annoncé une suite à Jours de tonnerre avec Anne Hathaway dans une vidéo publiée samedi depuis le Daytona International Speedway, posant à côté …</p>
+    <a class="read-more" href="/fr/entertainment/cruise-confirms-days-of-thunder-sequel/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/entertainment/dollys-wish-mended-cyrus-rift/">Le souhait de Dolly a réconcilié les Cyrus</a></h2>
+    <p class="summary">Dolly Parton est morte mardi 25 août à 80 ans après un bref combat contre le cancer, et une source du National Examiner citée par Yahoo affirme que Miley Cyrus …</p>
+    <a class="read-more" href="/fr/entertainment/dollys-wish-mended-cyrus-rift/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/entertainment/cruise-green-flags-thunder-sequel-2028/">Cruise donne le feu vert à la suite de *Jours de tonnerre* pour 2028</a></h2>
+    <p class="summary">Tom Cruise, 64 ans, a enjambé une rangée de plantes en pot pour monter sur une scène de Daytona samedi et annoncer à 40 pilotes de la Cup qu’il ferait revenir …</p>
+    <a class="read-more" href="/fr/entertainment/cruise-green-flags-thunder-sequel-2028/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/entertainment/written-off-coyote-humiliates-warner-at-box/">Un coyote passé en pertes humilie Warner au box-office</a></h2>
+    <p class="summary">Coyote vs. Acme, l&#39;hybride Looney Tunes que Warner Bros. a tué en 2023 pour une déduction fiscale, est sorti vendredi via l&#39;indie Ketchup Entertainment et vise …</p>
+    <a class="read-more" href="/fr/entertainment/written-off-coyote-humiliates-warner-at-box/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/entertainment/tom-hardy-raps-shakespeare-as-bane/">Tom Hardy rappe Shakespeare dans la voix de Bane</a></h2>
+    <p class="summary">Tom Hardy a sorti vendredi un album de rap de 15 titres sous le nom de Frankie Pulitzer, une collaboration avec le trio underground Czarface (7L &amp; Esoteric plus …</p>
+    <a class="read-more" href="/fr/entertainment/tom-hardy-raps-shakespeare-as-bane/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/entertainment/cruise-recruits-hathaway-for-thunder-sequel/">Cruise recrute Hathaway pour la suite de Thunder</a></h2>
+    <p class="summary">Paramount a verrouillé samedi une suite de Days of Thunder, associant Tom Cruise à Anne Hathaway et fixant une sortie en salles au 2 juin 2028. Cruise l&#39;a …</p>
+    <a class="read-more" href="/fr/entertainment/cruise-recruits-hathaway-for-thunder-sequel/">Lire l’article</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="Langues">
+        
+          <a no-follow href="/en/categories/entertainment/">English</a>
+        
+          <a no-follow href="/es/categories/entertainment/">Español</a>
+        
+          <a no-follow href="/it/categories/entertainment/">Italiano</a>
+        
+          <a no-follow href="/fr/categories/entertainment/" aria-current="page">Français</a>
+        
+          <a no-follow href="/ar/categories/entertainment/">العربية</a>
+        
+          <a no-follow href="/la/categories/entertainment/">Latina</a>
+        
+          <a no-follow href="/hi/categories/entertainment/">हिन्दी</a>
+        
+          <a no-follow href="/bn/categories/entertainment/">বাংলা</a>
+        
+          <a no-follow href="/pt/categories/entertainment/">Português</a>
+        
+          <a no-follow href="/ru/categories/entertainment/">Русский</a>
+        
+          <a no-follow href="/ur/categories/entertainment/">اردو</a>
+        
+          <a no-follow href="/zh/categories/entertainment/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Data Centers on RNews1.com</title>
+    <link>http://localhost:3003/es/tags/data-centers/</link>
+    <description>Recent content in Data Centers on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+        <atom:link href="http://localhost:3003/es/tags/data-centers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Musk dice que el equipo de la red deja varadas a las GPU</title>
+      <link>http://localhost:3003/es/ai/musk-says-grid-gear-strands-gpus/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/es/ai/musk-says-grid-gear-strands-gpus/</guid>
+      <description>&lt;h1 id=&#34;musk-dice-que-el-equipo-de-la-red-deja-varadas-a-las-gpu&#34;&gt;Musk dice que el equipo de la red deja varadas a las GPU&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Elon Musk&lt;/strong&gt; publicó en &lt;strong&gt;X&lt;/strong&gt; el &lt;strong&gt;29 de agosto de 2026&lt;/strong&gt; que &lt;em&gt;aproximadamente&lt;/em&gt; &lt;strong&gt;15 gigavatios&lt;/strong&gt; de &lt;strong&gt;capacidad informática de IA&lt;/strong&gt; prevista para entrar en funcionamiento en &lt;strong&gt;2027&lt;/strong&gt; probablemente &lt;em&gt;permanecerán inactivos&lt;/em&gt; porque la &lt;strong&gt;infraestructura eléctrica&lt;/strong&gt; no estará lista. &lt;strong&gt;Crypto Briefing&lt;/strong&gt; informa de la advertencia. La afirmación no es que los chips no vayan a enviarse. Es que el equipo que rodea a los chips —la infraestructura de la red, el cobre, la refrigeración y la interconexión— no estará instalado cuando lo estén los servidores.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

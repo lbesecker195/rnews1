@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Options on RNews1.com</title>
+    <link>http://localhost:3003/es/tags/options/</link>
+    <description>Recent content in Options on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+        <atom:link href="http://localhost:3003/es/tags/options/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El efectivo al contado, no el apalancamiento, impulsa a BTC</title>
+      <link>http://localhost:3003/es/crypto/spot-cash-not-leverage-fuels-btc/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/es/crypto/spot-cash-not-leverage-fuels-btc/</guid>
+      <description>&lt;h1 id=&#34;el-efectivo-al-contado-no-el-apalancamiento-impulsa-a-btc&#34;&gt;El efectivo al contado, no el apalancamiento, impulsa a BTC&lt;/h1&gt;
+&lt;p&gt;El último tramo alcista de Bitcoin no pareció, según los datos de derivados, una liquidación forzada masiva. &lt;strong&gt;Blockonomi&lt;/strong&gt; cita a &lt;strong&gt;QCP Capital&lt;/strong&gt;, que sostiene que el ascenso de &lt;strong&gt;Bitcoin&lt;/strong&gt; desde unos &lt;strong&gt;$63,500&lt;/strong&gt; hacia &lt;strong&gt;$80,000&lt;/strong&gt; —brevemente por encima de &lt;strong&gt;$81,000&lt;/strong&gt;— se apoyó en la &lt;em&gt;demanda al contado&lt;/em&gt;, no en un &lt;em&gt;apalancamiento excesivo&lt;/em&gt;. Esa es una afirmación sobre la estructura del mercado, no un objetivo de precio. Indica que la demanda que llevó la moneda desde la zona media de los sesenta mil hacia los ochenta mil dólares llegó en efectivo y mediante vehículos regulados, mientras que los indicadores habituales de apalancamiento —interés abierto, financiación y concentración en opciones— no mostraron las señales de una subida final eufórica.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

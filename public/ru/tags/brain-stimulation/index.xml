@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Brain Stimulation on RNews1.com</title>
+    <link>http://localhost:3003/ru/tags/brain-stimulation/</link>
+    <description>Recent content in Brain Stimulation on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    
+        <atom:link href="http://localhost:3003/ru/tags/brain-stimulation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FDA разрешает первое персонализированное немедикаментозное лечение ПТСР</title>
+      <link>http://localhost:3003/ru/health/fda-ptsd-nonmedication-treatment/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3003/ru/health/fda-ptsd-nonmedication-treatment/</guid>
+      <description>&lt;h1 id=&#34;fda-разрешает-первое-персонализированное-немедикаментозное-лечение-птср&#34;&gt;FDA разрешает первое персонализированное немедикаментозное лечение ПТСР&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;FDA&lt;/strong&gt; разрешило устройство нейромодуляции и биообратной связи, подстраивающее терапию под физиологию каждого пациента.&lt;/p&gt;
+&lt;h2 id=&#34;how-the-personalized-system-works&#34;&gt;Как работает персонализированная система&lt;/h2&gt;
+&lt;p&gt;Датчики пульса, кожной проводимости и внимания; модель регулирует зрительные, слуховые стимулы или мягкую нейростимуляцию.&lt;/p&gt;
+&lt;h2 id=&#34;clinical-evidence-supporting-clearance&#34;&gt;Клинические доказательства разрешения&lt;/h2&gt;
+&lt;p&gt;Контролируемые испытания показали клинически значимое снижение шкал ПТСР.&lt;/p&gt;
+&lt;h2 id=&#34;why-nonmedication-options-matter&#34;&gt;Почему важны немедикаментозные варианты&lt;/h2&gt;
+&lt;p&gt;Многие бросают СИОЗС. Немедикаментозный путь расширяет набор вместе с психотерапией.&lt;/p&gt;
+&lt;h2 id=&#34;implementation-and-access-considerations&#34;&gt;Внедрение и доступ&lt;/h2&gt;
+&lt;p&gt;Нужны клиническое обучение, страхование и протоколы кабинета, затем дома.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Nvidia on RNews1.com</title>
+    <link>http://localhost:3003/ru/tags/nvidia/</link>
+    <description>Recent content in Nvidia on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    
+        <atom:link href="http://localhost:3003/ru/tags/nvidia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Маск говорит, что оборудование энергосети оставляет GPU без работы</title>
+      <link>http://localhost:3003/ru/ai/musk-says-grid-gear-strands-gpus/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/ru/ai/musk-says-grid-gear-strands-gpus/</guid>
+      <description>&lt;h1 id=&#34;маск-говорит-что-оборудование-энергосети-оставляет-gpu-без-работы&#34;&gt;Маск говорит, что оборудование энергосети оставляет GPU без работы&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Илон Маск&lt;/strong&gt; написал в &lt;strong&gt;X&lt;/strong&gt; &lt;strong&gt;29 августа 2026 года&lt;/strong&gt;, что &lt;em&gt;примерно&lt;/em&gt; &lt;strong&gt;15 ГВт&lt;/strong&gt; &lt;strong&gt;вычислительных мощностей для ИИ&lt;/strong&gt;, которые должны выйти онлайн в &lt;strong&gt;2027 году&lt;/strong&gt;, вероятно, будут &lt;em&gt;простаивать&lt;/em&gt;, поскольку &lt;strong&gt;энергетическая инфраструктура&lt;/strong&gt; не будет готова. &lt;strong&gt;Crypto Briefing&lt;/strong&gt; сообщает об этом предупреждении. Речь не о том, что чипы не будут поставлены. Речь о том, что оборудование вокруг чипов — элементы энергосети, медь, охлаждение, коммутационная сеть — не будет готово к моменту установки серверов.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

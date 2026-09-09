@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technologies | RNews1.com</title>
+  <meta name="description" content="Ciência, saúde e cosmos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/pt/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="Seções">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/pt/ai/"
+              
+            >IA</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/pt/business/"
+              
+            >Negócios</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/pt/science/"
+              
+            >Ciência</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/pt/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/pt/cosmos/"
+              
+            >Cosmos</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/pt/crypto/"
+              
+            >Cripto</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/pt/entertainment/"
+              
+            >Entretenimento</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/pt/health/"
+              
+            >Saúde</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/pt/sports/"
+              
+            >Esportes</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/pt/technology/"
+              aria-current="page"
+            >Tecnologia</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/pt/usa/"
+              
+            >EUA</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/pt/world/"
+              
+            >Mundo</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="Menu">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="Seções">
+          
+            
+              
+              
+              
+              <a
+                href="/pt/ai/"
+                
+              >IA</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/pt/business/"
+                
+              >Negócios</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/pt/science/"
+                
+              >Ciência</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/pt/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/pt/cosmos/"
+                
+              >Cosmos</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/pt/crypto/"
+                
+              >Cripto</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/pt/entertainment/"
+                
+              >Entretenimento</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/pt/health/"
+                
+              >Saúde</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/pt/sports/"
+                
+              >Esportes</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/pt/technology/"
+                aria-current="page"
+              >Tecnologia</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/pt/usa/"
+                
+              >EUA</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/pt/world/"
+                
+              >Mundo</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+          Tecnologia</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/pt/technology/ai-safety-crisis-researcher-warns-of-existential/">Crise da segurança da IA: pesquisador alerta para risco existencial</a></h2>
+    <p class="summary">Um proeminente pesquisador de IA rompe o silêncio sobre sistemas avançados de inteligência artificial, expressando preocupações urgentes com riscos existenciais …</p>
+    <a class="read-more" href="/pt/technology/ai-safety-crisis-researcher-warns-of-existential/">Ler artigo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/pt/technology/tiny-e-reader-revolutionizes-digital-reading/">Pequeno Leitor Digital Revoluciona a Leitura</a></h2>
+    <p class="summary">Descubra por que o leitor digital apresentado pelo The Atlantic está sendo considerado uma tecnologia revolucionária que equilibra perfeitamente simplicidade, …</p>
+    <a class="read-more" href="/pt/technology/tiny-e-reader-revolutionizes-digital-reading/">Ler artigo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/pt/technology/understanding-ai-s-impact-on-children-today/">Compreendendo o impacto da IA nas crianças atualmente</a></h2>
+    <p class="summary">Um renomado pesquisador de IA e pai de três filhos compartilha insights fundamentais sobre como a inteligência artificial está transformando a infância e o que …</p>
+    <a class="read-more" href="/pt/technology/understanding-ai-s-impact-on-children-today/">Ler artigo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/pt/technology/critical-choices-shape-ai-s-future-now/">Escolhas Críticas Moldam o Futuro da IA Agora</a></h2>
+    <p class="summary">À medida que a inteligência artificial transforma rapidamente a sociedade, as decisões que tomamos hoje determinarão fundamentalmente se a IA beneficiará a …</p>
+    <a class="read-more" href="/pt/technology/critical-choices-shape-ai-s-future-now/">Ler artigo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/pt/technology/flock-cameras-emerge-as-midterm-campaign-issue/">Câmaras Flock surgem como questão na campanha das eleições intercalares</a></h2>
+    <p class="summary">Os eleitores estão cada vez mais preocupados com a tecnologia de vigilância empresarial e a privacidade dos dados, tornando os leitores de matrículas um …</p>
+    <a class="read-more" href="/pt/technology/flock-cameras-emerge-as-midterm-campaign-issue/">Ler artigo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/pt/technology/navigating-critical-decisions-in-ai-s-turbulent-era/">Navegando por decisões críticas na era turbulenta da IA</a></h2>
+    <p class="summary">À medida que a inteligência artificial remodela a sociedade, as decisões que tomamos hoje determinarão se essa tecnologia transformadora beneficiará a …</p>
+    <a class="read-more" href="/pt/technology/navigating-critical-decisions-in-ai-s-turbulent-era/">Ler artigo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/pt/technology/critical-decisions-shape-ai-s-future/">Decisões críticas moldam o futuro da IA</a></h2>
+    <p class="summary">À medida que a inteligência artificial entra em uma fase de transformação, as escolhas estratégicas feitas hoje por tecnólogos, formuladores de políticas e pela …</p>
+    <a class="read-more" href="/pt/technology/critical-decisions-shape-ai-s-future/">Ler artigo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/pt/technology/gates-warns-turbulent-ai-era-arrives/">Gates alerta que chega a era turbulenta da IA</a></h2>
+    <p class="summary">Bill Gates publicou um novo ensaio no Gates Notes argumentando que a era turbulenta da IA já chegou e que as escolhas de curto prazo decidirão se os benefícios …</p>
+    <a class="read-more" href="/pt/technology/gates-warns-turbulent-ai-era-arrives/">Ler artigo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/pt/technology/socket-sensor-warns-before-tissue-injury/">Sensor no Encaixe Avisa Antes de Lesões nos Tecidos</a></h2>
+    <p class="summary">Pesquisadores da Universidade de Tecnologia de Zhejiang desenvolveram uma camada sensora bioinspirada para ser colocada dentro de um encaixe protético e …</p>
+    <a class="read-more" href="/pt/technology/socket-sensor-warns-before-tissue-injury/">Ler artigo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/pt/technology/abbott-freezes-texas-flock-camera-funding/">Abbott congela financiamento das câmeras Flock no Texas</a></h2>
+    <p class="summary">O governador do Texas, Greg Abbott, ordenou que as agências estaduais suspendessem o financiamento das câmeras de placas com inteligência artificial da Flock …</p>
+    <a class="read-more" href="/pt/technology/abbott-freezes-texas-flock-camera-funding/">Ler artigo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/pt/technology/gta-6-crashes-twitch-and-netflix/">GTA 6 derruba a Twitch e a Netflix</a></h2>
+    <p class="summary">A primeira apresentação de gameplay de GTA 6 pela Rockstar, um Extended Look exclusivo da Netflix, atingiu o pico de 3.970.738 espectadores simultâneos em …</p>
+    <a class="read-more" href="/pt/technology/gta-6-crashes-twitch-and-netflix/">Ler artigo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/pt/technology/activision-serves-cheat-seller-on-camera/">Activision entrega notificação a vendedor de cheats diante das câmeras</a></h2>
+    <p class="summary">A conta oficial de Call of Duty no X publicou um vídeo de um minuto mostrando um agente de notificações em uma casa de Ohio entregando a Elocarry, um conhecido …</p>
+    <a class="read-more" href="/pt/technology/activision-serves-cheat-seller-on-camera/">Ler artigo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/pt/technology/apple-jacks-up-streaming-prices-again/">A Apple aumenta novamente os preços do streaming</a></h2>
+    <p class="summary">A Apple aumentou o Apple TV nos EUA em US$ 2 por mês, para US$ 15, e elevou o plano anual em 20%, de US$ 99 para US$ 119, informou a Ars Technica, citando a …</p>
+    <a class="read-more" href="/pt/technology/apple-jacks-up-streaming-prices-again/">Ler artigo</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="Idiomas">
+        
+          <a no-follow href="/en/technology/">English</a>
+        
+          <a no-follow href="/es/technology/">Español</a>
+        
+          <a no-follow href="/it/technology/">Italiano</a>
+        
+          <a no-follow href="/fr/technology/">Français</a>
+        
+          <a no-follow href="/ar/technology/">العربية</a>
+        
+          <a no-follow href="/la/technology/">Latina</a>
+        
+          <a no-follow href="/hi/technology/">हिन्दी</a>
+        
+          <a no-follow href="/bn/technology/">বাংলা</a>
+        
+          <a no-follow href="/pt/technology/" aria-current="page">Português</a>
+        
+          <a no-follow href="/ru/technology/">Русский</a>
+        
+          <a no-follow href="/ur/technology/">اردو</a>
+        
+          <a no-follow href="/zh/technology/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

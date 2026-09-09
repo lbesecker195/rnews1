@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>RNA World on RNews1.com</title>
+    <link>http://localhost:3003/fr/tags/rna-world/</link>
+    <description>Recent content in RNA World on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+        <atom:link href="http://localhost:3003/fr/tags/rna-world/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Une infime différence chimique de l’ARN pourrait éclairer l’origine de la vie</title>
+      <link>http://localhost:3003/fr/science/rna-chemical-difference-origins-of-life/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3003/fr/science/rna-chemical-difference-origins-of-life/</guid>
+      <description>&lt;h1 id=&#34;une-infime-différence-chimique-de-larn-pourrait-éclairer-lorigine-de-la-vie&#34;&gt;Une infime différence chimique de l’ARN pourrait éclairer l’origine de la vie&lt;/h1&gt;
+&lt;p&gt;Une &lt;strong&gt;distinction chimique minime&lt;/strong&gt; — un oxygène de plus dans le sucre de l’ARN — peut expliquer pourquoi les premiers réplicateurs furent de l’ARN.&lt;/p&gt;
+&lt;h2 id=&#34;the-rna-world-hypothesis-gains-fresh-experimental-support&#34;&gt;L’hypothèse du monde ARN gagne un soutien expérimental&lt;/h2&gt;
+&lt;p&gt;Cet oxygène extra facilite boucles et sites actifs que l’ADN forme moins aisément.&lt;/p&gt;
+&lt;h2 id=&#34;how-the-experiments-worked&#34;&gt;Comment les expériences ont fonctionné&lt;/h2&gt;
+&lt;p&gt;Dans mares asséchées, argiles et cycles thermiques, l’ARN a formé des oligomères fonctionnels plus vite.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

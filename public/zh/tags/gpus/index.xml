@@ -1,0 +1,33 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>GPUs on RNews1.com</title>
+    <link>http://localhost:3003/zh/tags/gpus/</link>
+    <description>Recent content in GPUs on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+        <atom:link href="http://localhost:3003/zh/tags/gpus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>马斯克称电网设备让 GPU 闲置</title>
+      <link>http://localhost:3003/zh/ai/musk-says-grid-gear-strands-gpus/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/zh/ai/musk-says-grid-gear-strands-gpus/</guid>
+      <description>&lt;h1 id=&#34;马斯克称电网设备让-gpu-闲置&#34;&gt;马斯克称电网设备让 GPU 闲置&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;埃隆·马斯克&lt;/strong&gt;于 &lt;strong&gt;2026 年 8 月 29 日&lt;/strong&gt;在 &lt;strong&gt;X&lt;/strong&gt; 上发文称，原定于 &lt;strong&gt;2027 年&lt;/strong&gt;上线的&lt;em&gt;约&lt;/em&gt; &lt;strong&gt;15 吉瓦&lt;/strong&gt; &lt;strong&gt;AI 计算容量&lt;/strong&gt;，很可能因为&lt;strong&gt;电力基础设施&lt;/strong&gt;尚未准备就绪而&lt;em&gt;处于闲置状态&lt;/em&gt;。&lt;strong&gt;Crypto Briefing&lt;/strong&gt; 报道了这一警告。其说法并不是芯片无法交付，而是芯片周围的设备——电网设备、铜缆、冷却系统和网络互联——在服务器到位时还没有准备好。&lt;/p&gt;
+&lt;p&gt;所谓闲置的 1 吉瓦，是指一个集群已经出现在采购订单上，甚至可能已经安装在架高地板上，但无法获得供电。&lt;strong&gt;马斯克&lt;/strong&gt;的帖子认为，原定于 &lt;strong&gt;2027 年&lt;/strong&gt;部署的 &lt;strong&gt;AI 计算容量&lt;/strong&gt;中，&lt;em&gt;约&lt;/em&gt; &lt;strong&gt;15 吉瓦&lt;/strong&gt;可能面临这种命运。&lt;strong&gt;Crypto Briefing&lt;/strong&gt; 将这篇帖子整理成报道，说明他指责了哪些环节、变压器市场目前的状况，以及同样的瓶颈如何出现在他自己旗下公司的电力与冷却目标中。&lt;/p&gt;
+&lt;h2 id=&#34;瓶颈不在芯片&#34;&gt;瓶颈不在芯片&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Crypto Briefing&lt;/strong&gt; 报道称，他指责的是&lt;strong&gt;变压器&lt;/strong&gt;、&lt;strong&gt;布线&lt;/strong&gt;、&lt;strong&gt;液冷回路&lt;/strong&gt;和&lt;strong&gt;高容量网络&lt;/strong&gt;——&lt;em&gt;而不是芯片&lt;/em&gt;。这份清单就是现代 AI 机房的物料表。&lt;strong&gt;变压器&lt;/strong&gt;将高压电网电力降压到机房可以使用的水平。&lt;strong&gt;布线&lt;/strong&gt;把电力输送到园区各处并进入机架。&lt;strong&gt;液冷回路&lt;/strong&gt;从高密度加速器上带走空气冷却已无法处理的热量。&lt;strong&gt;高容量网络&lt;/strong&gt;则把这些加速器连接成训练网络。四者都不是 GPU，但按照这一说法，正是它们导致原定于 &lt;strong&gt;2027 年&lt;/strong&gt;上线的&lt;em&gt;约&lt;/em&gt; &lt;strong&gt;15 吉瓦&lt;/strong&gt; &lt;strong&gt;AI 计算容量&lt;/strong&gt;很可能&lt;em&gt;处于闲置状态&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;强调&lt;em&gt;不是芯片&lt;/em&gt;，正是这篇帖子的重点。多年来，行业一直把加速器供应视为真正的约束。&lt;strong&gt;马斯克&lt;/strong&gt;于 &lt;strong&gt;2026 年 8 月 29 日&lt;/strong&gt;在 &lt;strong&gt;X&lt;/strong&gt; 上发文时，却把加速器供应视为已经不再构成约束的因素。如果芯片到位，而&lt;strong&gt;变压器&lt;/strong&gt;、&lt;strong&gt;布线&lt;/strong&gt;、&lt;strong&gt;液冷回路&lt;/strong&gt;和&lt;strong&gt;高容量网络&lt;/strong&gt;没有到位，芯片就只能闲置。这就是 &lt;strong&gt;AI 计算容量&lt;/strong&gt;&lt;em&gt;处于闲置状态&lt;/em&gt;的含义：有了硅片，却没有让集群成为集群所需的供电路径、冷却路径或网络路径。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Crypto Briefing&lt;/strong&gt; 的报道没有增加其他责任方。报道没有提到发电短缺或燃料危机，而是列出了交付周期很长的电气和机械设备，以及将站点接入电网的&lt;strong&gt;北美&lt;/strong&gt;流程。&lt;strong&gt;马斯克&lt;/strong&gt;指责的四项内容属于实体设备；&lt;strong&gt;Crypto Briefing&lt;/strong&gt; 与之并列提到的排队和许可则属于程序性问题。两者共同构成了在 &lt;strong&gt;2027 年&lt;/strong&gt;浪潮到来时&lt;em&gt;尚未准备就绪&lt;/em&gt;的&lt;strong&gt;电力基础设施&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;高压变压器需要四到五年&#34;&gt;高压变压器需要四到五年&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;高压变压器&lt;/strong&gt;目前的交付周期为 &lt;strong&gt;48 至 60 个月&lt;/strong&gt;，也就是四到五年。2026 年订购、交付周期为 &lt;strong&gt;48 个月&lt;/strong&gt;的变压器，不可能成为 &lt;strong&gt;2027 年&lt;/strong&gt;可用的资产；若按 &lt;strong&gt;60 个月&lt;/strong&gt;计算，时间还会更晚。&lt;strong&gt;马斯克&lt;/strong&gt;说&lt;em&gt;约&lt;/em&gt; &lt;strong&gt;15 吉瓦&lt;/strong&gt; &lt;strong&gt;AI 计算容量&lt;/strong&gt;很可能&lt;em&gt;处于闲置状态&lt;/em&gt;的那一年，已经错过了这些交付周期。&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

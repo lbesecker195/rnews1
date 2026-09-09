@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>马斯克称电网设备让 GPU 闲置 | RNews1.com</title>
+  <meta name="description" content="埃隆·马斯克于 2026 年 8 月 29 日在 X 上发文称，原定于 2027 年上线的约 15 吉瓦 AI 计算容量，很可能因电力基础设施尚未就绪而处于闲置状态。据 Crypto Briefing 报道，他指责的是变压器、布线、液冷回路和高容量网络，而不是芯片。高压变压器目前交付周期已达 48 至 60 个月；北美电网并网排队和许可审批还会进一步拖延。分析师估计，美国数据中心电力需求到 2027 年可能达到 66 吉瓦；若 15 吉瓦无法通电，行业部署将放缓。2026 年早些时候上市的 SpaceX 在第二季度以 1.4 吉瓦计算容量收官，高于第一季度的 1 吉瓦和一年前的 400 兆瓦；公司计划在 2026 年底前超过 2 吉瓦，并以 2027 年底实现 20 吉瓦电力与冷却能力为目标，而马斯克认为约 15 吉瓦更现实。xAI 旗下的孟菲斯 Colossus 是核心项目；报道还提到 Nvidia Vera Rubin 芯片和微软可能的承购。闲置集群会让昂贵 GPU 快速折旧。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/zh/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="栏目">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/ai/"
+              aria-current="page"
+            >人工智能</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/business/"
+              
+            >商业</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/zh/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/crypto/"
+              
+            >加密货币</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/entertainment/"
+              
+            >文娱</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/sports/"
+              
+            >体育</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/technology/"
+              
+            >科技</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/usa/"
+              
+            >美国</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/world/"
+              
+            >国际</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/health/"
+              
+            >健康</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/science/"
+              
+            >科学</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/cosmos/"
+              
+            >宇宙</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="菜单">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="栏目">
+          
+            
+              
+              
+              
+              <a
+                href="/zh/ai/"
+                aria-current="page"
+              >人工智能</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/business/"
+                
+              >商业</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/zh/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/crypto/"
+                
+              >加密货币</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/entertainment/"
+                
+              >文娱</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/sports/"
+                
+              >体育</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/technology/"
+                
+              >科技</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/usa/"
+                
+              >美国</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/world/"
+                
+              >国际</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/health/"
+                
+              >健康</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/science/"
+                
+              >科学</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/cosmos/"
+                
+              >宇宙</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="post container">
+  <header class="post-header">
+    <h1><a href="">马斯克称电网设备让 GPU 闲置</a></h1>
+    <div class="post-meta">
+      
+        <span>
+          <a href="/zh/ai/">Ai</a>
+        </span>
+      <span>·</span>
+    
+      <time datetime="2026-08-29">2026年8月29日</time>
+      <span>·</span>
+      <span>2 分钟阅读</span>
+    </div>
+  </header>
+  <div class="post-content">
+    
+<p><strong>埃隆·马斯克</strong>于 <strong>2026 年 8 月 29 日</strong>在 <strong>X</strong> 上发文称，原定于 <strong>2027 年</strong>上线的<em>约</em> <strong>15 吉瓦</strong> <strong>AI 计算容量</strong>，很可能因为<strong>电力基础设施</strong>尚未准备就绪而<em>处于闲置状态</em>。<strong>Crypto Briefing</strong> 报道了这一警告。其说法并不是芯片无法交付，而是芯片周围的设备——电网设备、铜缆、冷却系统和网络互联——在服务器到位时还没有准备好。</p>
+<p>所谓闲置的 1 吉瓦，是指一个集群已经出现在采购订单上，甚至可能已经安装在架高地板上，但无法获得供电。<strong>马斯克</strong>的帖子认为，原定于 <strong>2027 年</strong>部署的 <strong>AI 计算容量</strong>中，<em>约</em> <strong>15 吉瓦</strong>可能面临这种命运。<strong>Crypto Briefing</strong> 将这篇帖子整理成报道，说明他指责了哪些环节、变压器市场目前的状况，以及同样的瓶颈如何出现在他自己旗下公司的电力与冷却目标中。</p>
+<h2 id="瓶颈不在芯片">瓶颈不在芯片</h2>
+<p><strong>Crypto Briefing</strong> 报道称，他指责的是<strong>变压器</strong>、<strong>布线</strong>、<strong>液冷回路</strong>和<strong>高容量网络</strong>——<em>而不是芯片</em>。这份清单就是现代 AI 机房的物料表。<strong>变压器</strong>将高压电网电力降压到机房可以使用的水平。<strong>布线</strong>把电力输送到园区各处并进入机架。<strong>液冷回路</strong>从高密度加速器上带走空气冷却已无法处理的热量。<strong>高容量网络</strong>则把这些加速器连接成训练网络。四者都不是 GPU，但按照这一说法，正是它们导致原定于 <strong>2027 年</strong>上线的<em>约</em> <strong>15 吉瓦</strong> <strong>AI 计算容量</strong>很可能<em>处于闲置状态</em>。</p>
+<p>强调<em>不是芯片</em>，正是这篇帖子的重点。多年来，行业一直把加速器供应视为真正的约束。<strong>马斯克</strong>于 <strong>2026 年 8 月 29 日</strong>在 <strong>X</strong> 上发文时，却把加速器供应视为已经不再构成约束的因素。如果芯片到位，而<strong>变压器</strong>、<strong>布线</strong>、<strong>液冷回路</strong>和<strong>高容量网络</strong>没有到位，芯片就只能闲置。这就是 <strong>AI 计算容量</strong><em>处于闲置状态</em>的含义：有了硅片，却没有让集群成为集群所需的供电路径、冷却路径或网络路径。</p>
+<p><strong>Crypto Briefing</strong> 的报道没有增加其他责任方。报道没有提到发电短缺或燃料危机，而是列出了交付周期很长的电气和机械设备，以及将站点接入电网的<strong>北美</strong>流程。<strong>马斯克</strong>指责的四项内容属于实体设备；<strong>Crypto Briefing</strong> 与之并列提到的排队和许可则属于程序性问题。两者共同构成了在 <strong>2027 年</strong>浪潮到来时<em>尚未准备就绪</em>的<strong>电力基础设施</strong>。</p>
+<h2 id="高压变压器需要四到五年">高压变压器需要四到五年</h2>
+<p><strong>高压变压器</strong>目前的交付周期为 <strong>48 至 60 个月</strong>，也就是四到五年。2026 年订购、交付周期为 <strong>48 个月</strong>的变压器，不可能成为 <strong>2027 年</strong>可用的资产；若按 <strong>60 个月</strong>计算，时间还会更晚。<strong>马斯克</strong>说<em>约</em> <strong>15 吉瓦</strong> <strong>AI 计算容量</strong>很可能<em>处于闲置状态</em>的那一年，已经错过了这些交付周期。</p>
+<p>交付周期不是比喻，而是从采购订单发出到<strong>高压变压器</strong>交付之间的日历时间。<strong>48 至 60 个月</strong>的交付周期意味着，变压器市场已经告诉 <strong>2027 年</strong>的建设计划：它来晚了。<strong>马斯克</strong>把<strong>变压器</strong>列为 <strong>Crypto Briefing</strong> 报道中的首要责任因素。交付周期数据正是这一指责具有明确时间指向的原因。</p>
+<p><strong>北美电网并网排队</strong>和<strong>许可审批</strong>还会带来<em>进一步延迟</em>。这里的“进一步”，指的是在等待<strong>变压器</strong> <strong>48 至 60 个月</strong>之外的额外延误。并网是将大规模新增负荷接入电网的过程。一个需要数十兆瓦甚至数百兆瓦电力的数据中心，不是插上插头就能运行的，而是要进入一个<strong>排队队列</strong>。<strong>许可审批</strong>则是另一套民事和环境审查时钟。<strong>Crypto Briefing</strong> 将两者都放在<strong>北美</strong>语境下，而美国数据中心电力需求的估算也针对同一地区。</p>
+<p>一个项目可以订购<strong>变压器</strong>，却仍然卡在并网<strong>队列</strong>中；可以通过<strong>队列</strong>，却仍然等待<strong>许可审批</strong>；可以把<strong>布线</strong>、<strong>液冷回路</strong>和<strong>高容量网络</strong>装到现场，却仍然缺少让园区真正启动的高压降压设备。<strong>48 至 60 个月</strong>的变压器日程，以及<strong>北美</strong> <strong>电网并网队列</strong>和<strong>许可审批</strong>的时间表，正是为什么即使芯片已经到位，<strong>电力基础设施仍未准备就绪</strong>。</p>
+<h2 id="需求达到-66-吉瓦15-吉瓦无法通电">需求达到 66 吉瓦，15 吉瓦无法通电</h2>
+<p><strong>分析师估计</strong>，到 <strong>2027 年</strong>，<strong>美国数据中心电力需求</strong>可能达到 <strong>66 吉瓦</strong>。这就是 <strong>马斯克</strong>警告所针对的市场规模。<strong>15 吉瓦无法通电</strong>将<em>放缓行业部署</em>。计算很直接：在 <strong>2027 年</strong>，约 <strong>15 吉瓦</strong>处于闲置状态的 <strong>AI 计算容量</strong>，相对于同年美国数据中心 <strong>66 吉瓦</strong>的电力需求，是一个很大的份额。<strong>Crypto Briefing</strong> 同时报道了这一估算及其后果。</p>
+<p><strong>2027 年</strong>达到 <strong>66 吉瓦</strong>是一个由<strong>分析师</strong>提出的<em>估算</em>，而非已测得的负荷。这是需求侧的数据，对应的正是 <strong>马斯克</strong>所说的、<em>约</em> <strong>15 吉瓦</strong> <strong>AI 计算容量</strong>很可能在同年<em>处于闲置状态</em>。<strong>15 吉瓦无法通电</strong>，就是这一警告在行业层面的表达。部署放缓并非因为芯片缺失，而是因为<strong>电力基础设施</strong>——<strong>变压器</strong>、<strong>布线</strong>、<strong>液冷回路</strong>、<strong>高容量网络</strong>，以及<strong>北美电网并网队列</strong>和<strong>许可审批</strong>——无法让这些吉瓦级容量投入运行。</p>
+<p>如此规模的放缓，既是调度问题，也会拖累资产负债表。原定于 <strong>2027 年</strong>上线却无法供电的容量，无法用于训练、推理服务，也无法产生收入。<strong>分析师</strong>预计 <strong>2027 年</strong> <strong>美国数据中心电力需求</strong>达到 <strong>66 吉瓦</strong>，描述的是一个以电力供应为前提的建设计划；<strong>马斯克</strong>在 <strong>X</strong> 上描述的，则是一个可能得不到电力的建设计划。<strong>15 吉瓦无法通电</strong>，正是 <strong>Crypto Briefing</strong> 将这篇帖子转化为行业影响的方式：<em>放缓行业部署</em>。</p>
+<p>报道中的两个 <strong>15</strong> 很容易混淆，需要加以区分。其中一个是原定于 <strong>2027 年</strong>上线、很可能<em>处于闲置状态</em>的<em>约</em> <strong>15 吉瓦</strong> <strong>AI 计算容量</strong>。另一个出现在同一报道的后半部分：<strong>马斯克</strong>认为 <strong>SpaceX</strong> 的<strong>电力与冷却能力</strong>达到<em>约</em> <strong>15 吉瓦</strong>，比 <strong>20 吉瓦</strong>的目标<em>更现实</em>。它们不是同一对象，却使用同一单位、对应同一年，并表达同一个观点：决定上限的是基础设施，而不是硅片。</p>
+<h2 id="spacex-上市以及从-400-兆瓦起步的增长">SpaceX 上市，以及从 400 兆瓦起步的增长</h2>
+<p>这项警告并不只针对其他公司的机房。<strong>SpaceX</strong>于 <strong>2026 年早些时候上市</strong>，第二季度以 <strong>1.4 吉瓦</strong>计算容量收官，高于第一季度的 <strong>1 吉瓦</strong>和一年前的 <strong>400 兆瓦</strong>。这三个数字呈现出一条增长曲线：一年前为 <strong>400 兆瓦</strong>，第一季度为 <strong>1 吉瓦</strong>，第二季度末为 <strong>1.4 吉瓦</strong>。<strong>SpaceX</strong> <em>计划在 2026 年底前超过 2 吉瓦</em>。</p>
+<p>2026 年早些时候上市，是这一公司的背景。<strong>Crypto Briefing</strong> 报道的是作为上市公司披露的 <strong>SpaceX</strong> 计算容量数据，而不是私人传闻。第二季度末计算容量为 <strong>1.4 吉瓦</strong>，第一季度为 <strong>1 吉瓦</strong>，一年前同一指标为 <strong>400 兆瓦</strong>。这一序列体现了加速增长：从 <strong>400 兆瓦</strong>到 <strong>1 吉瓦</strong>，再到 <strong>1.4 吉瓦</strong>，并提出在 <strong>2026 年底前<em>超过</em> 2 吉瓦</strong>的目标。</p>
+<p>以吉瓦计量的计算容量是功率指标，而不是芯片数量。它与 <strong>马斯克</strong>用于描述 2027 年很可能<em>处于闲置状态</em>的<em>约</em> <strong>15 吉瓦</strong> <strong>AI 计算容量</strong>，以及<strong>分析师</strong>用于描述 <strong>66 吉瓦</strong> <strong>美国数据中心电力需求</strong>的单位相同。<strong>SpaceX</strong> 从 <strong>400 兆瓦</strong>增至 <strong>1.4 吉瓦</strong>，并计划在<em>2026 年底</em> <em>超过</em> <strong>2 吉瓦</strong>，是行业竞相为硅片通电的公司级缩影。这也说明，变压器和并网瓶颈并不是抽象的电网故事，而是与上市公司的计算目标出现在同一张账簿上。</p>
+<p>到 2026 年底超过 <strong>2 吉瓦</strong>，意味着在第二季度末 <strong>1.4 吉瓦</strong>的基础上进一步提升，也远高于一年前的 <strong>400 兆瓦</strong>。相对于这些数据，这一目标颇为激进。<strong>48 至 60 个月</strong>的<strong>高压变压器</strong>交付周期，以及<strong>北美电网并网队列</strong>和<strong>许可审批</strong>带来的延误，解释了为什么激进目标仍可能撞上闲置底线。芯片可以按照半导体日程抵达 <strong>SpaceX</strong> 的机房，但<strong>电力基础设施</strong>要遵循变压器和并网日程。<strong>马斯克</strong>的意思是，这两套日程并不匹配。</p>
+<h2 id="20-吉瓦写在计划上15-吉瓦才是现实数字">20 吉瓦写在计划上，15 吉瓦才是现实数字</h2>
+<p><strong>SpaceX</strong>的目标是到<em>2027 年底</em>实现 <strong>20 吉瓦</strong>的<strong>电力与冷却能力</strong>，而<strong>马斯克</strong>认为<em>约</em> <strong>15 吉瓦</strong> <em>更现实</em>。目标针对的是<strong>电力与冷却能力</strong>，而不是芯片。这与他在 <strong>X</strong> 上的帖子一致。他指责的是<strong>变压器</strong>、<strong>布线</strong>、<strong>液冷回路</strong>和<strong>高容量网络</strong>——也就是构成电力与冷却系统的设备——而不是加速器。</p>
+<p>到<em>2027 年底</em>达到 <strong>20 吉瓦</strong>，是计划演示文稿上的数字；<em>约</em> <strong>15 吉瓦</strong>则是<strong>马斯克</strong>所说的<em>更现实</em>的数字。<strong>Crypto Briefing</strong> 对两者均有报道。与 <strong>20 吉瓦</strong>目标相比，现实的<em>约</em> <strong>15 吉瓦</strong> <strong>电力与冷却能力</strong>，意味着公司层面的下调，而且发生在与行业中<em>约</em> <strong>15 吉瓦</strong>闲置 <strong>AI 计算容量</strong>同一个年份——<em>2027 年底</em>。他下调的不是芯片，而是基础设施。</p>
+<p><strong>xAI</strong> 旗下的<strong>孟菲斯 Colossus</strong>是<em>核心项目</em>。<strong>Nvidia Vera Rubin</strong> 芯片和<em>可能的</em> <strong>Microsoft</strong> 承购也被<em>提及</em>。这些是该<strong>电力与冷却能力</strong>目标所要服务的建设项目中的明确组成部分。孟菲斯的 <strong>Colossus</strong> 是一个 <strong>xAI</strong> 集群；<strong>Crypto Briefing</strong> 仍将其置于包含 <strong>SpaceX</strong> 上市公司计算容量增长在内的同一电力故事核心。<strong>Nvidia Vera Rubin</strong> 芯片是报道中的加速器，也正是 <strong>马斯克</strong>所说的<em>不是</em>瓶颈的<em>芯片</em>。<em>可能的</em> <strong>Microsoft</strong> 承购被列为需求出口，而不是已签署的具体数字。报道使用的是“<em>可能</em>”，并没有将其转化为合同规模。</p>
+<p>将这些名称与 <strong>20 吉瓦</strong>目标和<em>约</em> <strong>15 吉瓦</strong>的现实数字并列，是该媒体把上市公司 <strong>SpaceX</strong> 的电力与冷却计划，与一个 <strong>xAI</strong> 机房、一个 <strong>Nvidia</strong> 芯片世代以及一个<em>可能的</em> <strong>Microsoft</strong> 买方联系起来的方式。但这不会改变变压器的时间表。<strong>高压变压器</strong>仍有 <strong>48 至 60 个月</strong>的交付周期。<strong>北美电网并网队列</strong>和<strong>许可审批</strong>仍会带来<em>进一步延迟</em>。如果 <strong>Vera Rubin</strong> 芯片要做的不只是占据一个闲置机房，<strong>孟菲斯 Colossus</strong> 仍需要<strong>布线</strong>、<strong>液冷回路</strong>和<strong>高容量网络</strong>。</p>
+<p>一个<em>核心</em>集群并不会因此免于排队。如果 <strong>Colossus</strong> 是 <strong>xAI</strong> 建设的<em>核心</em>，它也就是 <strong>马斯克</strong>于 <strong>2026 年 8 月 29 日</strong>描述的<strong>电力基础设施</strong>问题的<em>核心</em>。即使<strong>高压变压器</strong>处于 <strong>48 至 60 个月</strong>的交付周期，<strong>Nvidia Vera Rubin</strong> 芯片也可能是正确的世代，却仍然<em>处于闲置状态</em>。即使<em>可能的</em> <strong>Microsoft</strong> 承购已被提及，也仍然要等待尚未获<strong>许可审批</strong>释放的兆瓦电力。明确的需求并不会自动交付设备。</p>
+<h2 id="闲置集群上的折旧">闲置集群上的折旧</h2>
+<p><em>闲置集群</em>会让<em>昂贵 GPU</em>快速折旧。这是 <strong>Crypto Briefing</strong> 附着于<strong>马斯克</strong> <strong>2026 年 8 月 29 日</strong>帖子上的财务结论。一块无法通电的 GPU 仍然会老化。<em>昂贵 GPU</em>——包括同一报道中提到的 <strong>Nvidia Vera Rubin</strong> 芯片——是在更新换代迅速的市场中使用寿命较短的资本资产。<em>闲置</em>是集群<em>处于黑暗状态</em>时的状态；<em>快速折旧</em>则是这种状态对资产造成的影响。</p>
+<p>行业层面的图景和公司层面的图景在这里交汇。<strong>分析师估计</strong>，到 <strong>2027 年</strong>，<strong>美国数据中心电力需求</strong>可能达到 <strong>66 吉瓦</strong>。<strong>15 吉瓦无法通电</strong>将<em>放缓行业部署</em>。原定于 <strong>2027 年</strong>上线的<em>约</em> <strong>15 吉瓦</strong> <strong>AI 计算容量</strong>，很可能因为<strong>电力基础设施尚未准备就绪</strong>而<em>处于闲置状态</em>。2026 年早些时候上市的 <strong>SpaceX</strong> 可以在第二季度以 <strong>1.4 吉瓦</strong>计算容量收官，计划在 <strong>2026 年底前<em>超过</em> 2 吉瓦</strong>，并以<em>2027 年底</em>达到 <strong>20 吉瓦****电力与冷却能力</strong>为目标；与此同时，<strong>马斯克</strong>认为<em>约</em> <strong>15 吉瓦</strong> <em>更现实</em>。如果现实可用的电力无法到位，集群就会<em>闲置</em>。<em>闲置集群</em>会让<em>昂贵 GPU</em>快速折旧。</p>
+<p>这就是为什么这篇帖子谈的是<strong>电网设备</strong>让 <strong>GPU</strong> 陷入闲置。GPU 并不是被晶圆厂困住的，而是被交付周期为 <strong>48 至 60 个月</strong>的<strong>变压器</strong>困住，被跟不上进度的<strong>布线</strong>、<strong>液冷回路</strong>和<strong>高容量网络</strong>困住，也被带来<em>进一步延迟</em>的<strong>北美电网并网队列</strong>和<strong>许可审批</strong>困住。<strong>Crypto Briefing</strong> 报道称，<strong>马斯克</strong>于 <strong>2026 年 8 月 29 日</strong>在 <strong>X</strong> 上表达了这一观点；报道还指出，<strong>xAI</strong> 旗下的<strong>孟菲斯 Colossus</strong>是<em>核心项目</em>，<strong>Nvidia Vera Rubin</strong> 芯片和<em>可能的</em> <strong>Microsoft</strong> 承购被<em>提及</em>，而一个闲置的<em>约</em> <strong>15 吉瓦</strong>容量，正同时悬在 <strong>66 吉瓦</strong>的美国需求估算和他自己认为<em>更现实</em>的 <strong>15 吉瓦</strong>目标之上。</p>
+<p>服务器可以位于<strong>孟菲斯</strong>，芯片可以是 <strong>Vera Rubin</strong>，买方可以是<em>可能的</em> <strong>Microsoft</strong> 承购方。上市公司可以是 <strong>SpaceX</strong>：在第一季度的 <strong>1 吉瓦</strong>和一年前的 <strong>400 兆瓦</strong>之后，公司第二季度计算容量已经达到 <strong>1.4 吉瓦</strong>，并计划在 <strong>2026 年底前<em>超过</em> 2 吉瓦</strong>。但这些都无法把一座闲置机房变成运行中的机房。<strong>电力基础设施</strong>必须准备就绪。正如 <strong>Crypto Briefing</strong> 报道的那样，<strong>马斯克</strong>的帖子称，对于原定于 <strong>2027 年</strong>上线的<em>约</em> <strong>15 吉瓦</strong> <strong>AI 计算容量</strong>，电力基础设施将无法及时就绪。</p>
+
+  </div>
+
+  
+  <div class="article-tags">
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+  </div>
+
+
+  
+  
+  <aside class="related-posts">
+    <h2>继续阅读</h2>
+    <p class="related-note">通过共同的标题片段匹配</p>
+    <ul>
+      
+      <li>
+        <a href="/zh/ai/anthropic-researcher-departure-signals-ai-safety-concerns/">Anthropic 研究员离职，释放对 AI 安全的担忧信号</a>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/ai/parental-guide-to-ai-impact-on-children/">家长必读：人工智能对儿童的影响</a>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/ai/parents-guide-understanding-ai-impact-today/">家长指南：了解人工智能当下的影响</a>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/ai/are-we-approaching-uncontrollable-ai-systems/">我们是否正在接近不可控的人工智能系统？</a>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/ai/ai-control-crisis-are-we-crossing-the/">AI 控制危机：我们是否正在越过界线？</a>
+        
+      </li>
+      
+    </ul>
+  </aside>
+  
+</article>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="语言">
+        
+          <a no-follow href="/en/ai/musk-says-grid-gear-strands-gpus/">English</a>
+        
+          <a no-follow href="/es/ai/musk-says-grid-gear-strands-gpus/">Español</a>
+        
+          <a no-follow href="/it/ai/musk-says-grid-gear-strands-gpus/">Italiano</a>
+        
+          <a no-follow href="/fr/ai/musk-says-grid-gear-strands-gpus/">Français</a>
+        
+          <a no-follow href="/ar/ai/musk-says-grid-gear-strands-gpus/">العربية</a>
+        
+          <a no-follow href="/la/ai/musk-says-grid-gear-strands-gpus/">Latina</a>
+        
+          <a no-follow href="/hi/ai/musk-says-grid-gear-strands-gpus/">हिन्दी</a>
+        
+          <a no-follow href="/bn/ai/musk-says-grid-gear-strands-gpus/">বাংলা</a>
+        
+          <a no-follow href="/pt/ai/musk-says-grid-gear-strands-gpus/">Português</a>
+        
+          <a no-follow href="/ru/ai/musk-says-grid-gear-strands-gpus/">Русский</a>
+        
+          <a no-follow href="/ur/ai/musk-says-grid-gear-strands-gpus/">اردو</a>
+        
+          <a no-follow href="/zh/ai/musk-says-grid-gear-strands-gpus/" aria-current="page">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

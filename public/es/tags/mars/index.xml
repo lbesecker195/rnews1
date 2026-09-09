@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Mars on Meridian</title>
+		<link>http://localhost:8080/es/tags/mars/</link>
+		<description>Recent content in Mars on Meridian</description>
+		<generator>Hugo</generator>
+		<language>es</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/es/tags/mars/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Un sistema magmático oculto bajo Marte revela cómo el planeta rojo construyó su corteza</title>
+				<link>http://localhost:8080/es/cosmos/mars-magmatic-system/</link>
+				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:8080/es/cosmos/mars-magmatic-system/</guid>
+				<description>&lt;h1 id=&#34;un-sistema-magmático-oculto-bajo-marte-revela-cómo-el-planeta-rojo-construyó-su-corteza&#34;&gt;Un sistema magmático oculto bajo Marte revela cómo el planeta rojo construyó su corteza&lt;/h1&gt;&#xA;&lt;p&gt;Nuevos modelos y datos sísmicos, gravimétricos y de meteoritos apuntan a un &lt;strong&gt;sistema magmático profundo&lt;/strong&gt; que alimentó durante eones la construcción de la corteza marciana sin el reciclaje de placas de la Tierra.&lt;/p&gt;&#xA;&lt;h2 id=&#34;piecing-together-the-evidence&#34;&gt;Encajando las evidencias&lt;/h2&gt;&#xA;&lt;p&gt;InSight, orbitadores y meteoritos SNC coinciden en cámaras y canales de fusión a cientos de kilómetros de profundidad, más persistentes de lo que sugerían los mapas de superficie.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

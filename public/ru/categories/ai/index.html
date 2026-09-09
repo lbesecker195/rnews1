@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI | RNews1.com</title>
+  <meta name="description" content="Наука, здоровье и космос.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/ru/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="Разделы">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/ai/"
+              
+            >ИИ</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/business/"
+              
+            >Бизнес</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/ru/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/crypto/"
+              
+            >Крипто</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/entertainment/"
+              
+            >Развлечения</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/sports/"
+              
+            >Спорт</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/technology/"
+              
+            >Технологии</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/usa/"
+              
+            >США</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/world/"
+              
+            >Мир</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/health/"
+              
+            >Здоровье</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/cosmos/"
+              
+            >Космос</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/ru/science/"
+              
+            >Наука</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="Меню">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="Разделы">
+          
+            
+              
+              
+              
+              <a
+                href="/ru/ai/"
+                
+              >ИИ</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/business/"
+                
+              >Бизнес</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/ru/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/crypto/"
+                
+              >Крипто</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/entertainment/"
+                
+              >Развлечения</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/sports/"
+                
+              >Спорт</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/technology/"
+                
+              >Технологии</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/usa/"
+                
+              >США</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/world/"
+                
+              >Мир</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/health/"
+                
+              >Здоровье</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/cosmos/"
+                
+              >Космос</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/ru/science/"
+                
+              >Наука</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+              
+            
+          AI</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/ru/ai/anthropic-researcher-departure-signals-ai-safety-concerns/">Уход исследователя Anthropic сигнализирует о проблемах с безопасностью ИИ</a></h2>
+    <p class="summary">Известный исследователь Anthropic ушёл в отставку из-за обеспокоенности недостаточными мерами безопасности при разработке ИИ, подняв важные вопросы о подходе …</p>
+    <a class="read-more" href="/ru/ai/anthropic-researcher-departure-signals-ai-safety-concerns/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/ai/parental-guide-to-ai-impact-on-children/">Руководство для родителей по влиянию ИИ на детей</a></h2>
+    <p class="summary">Исследователь и отец троих детей объясняет, что родители должны знать о растущем влиянии искусственного интеллекта на жизнь их детей.</p>
+    <a class="read-more" href="/ru/ai/parental-guide-to-ai-impact-on-children/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/ai/parents-guide-understanding-ai-impact-today/">Руководство для родителей: понимание влияния ИИ сегодня</a></h2>
+    <p class="summary">Исследователь и отец троих детей объясняет, что родителям необходимо знать о растущем влиянии искусственного интеллекта на жизнь и будущее детей.</p>
+    <a class="read-more" href="/ru/ai/parents-guide-understanding-ai-impact-today/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/ai/are-we-approaching-uncontrollable-ai-systems/">Приближаемся ли мы к неуправляемым системам ИИ?</a></h2>
+    <p class="summary">Эксперты предупреждают, что мы можем приближаться к критическому порогу, за которым системы ИИ станут слишком сложными для контроля, что поднимает неотложные …</p>
+    <a class="read-more" href="/ru/ai/are-we-approaching-uncontrollable-ai-systems/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/ai/ai-control-crisis-are-we-crossing-the/">Кризис контроля над ИИ: не переходим ли мы черту?</a></h2>
+    <p class="summary">Эксперты предупреждают, что мы можем приближаться к критическому порогу, за которым системы ИИ будет всё труднее контролировать, что вызывает срочные вопросы о …</p>
+    <a class="read-more" href="/ru/ai/ai-control-crisis-are-we-crossing-the/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/ai/ai-safety-crisis-uncontrollable-systems-approaching/">Кризис безопасности ИИ: приближение неуправляемых систем</a></h2>
+    <p class="summary">Предупреждения экспертов о том, что системы ИИ могут стать неуправляемыми, выглядят всё более правдоподобными по мере того, как возможности ИИ быстро опережают …</p>
+    <a class="read-more" href="/ru/ai/ai-safety-crisis-uncontrollable-systems-approaching/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/ai/critical-choices-define-ai-s-turbulent-future/">Критически важные решения определяют turbulentное будущее ИИ</a></h2>
+    <p class="summary">Поскольку искусственный интеллект вступает в преобразующую фазу, решения, которые мы принимаем сегодня, определят, принесёт ли эта технология пользу …</p>
+    <a class="read-more" href="/ru/ai/critical-choices-define-ai-s-turbulent-future/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/ai/mit-humans-still-beat-ai-costs/">MIT: Люди по-прежнему обходятся дешевле ИИ</a></h2>
+    <p class="summary">Широко распространяемое исследование MIT CSAIL и Sloan об автоматизации компьютерного зрения вновь появилось в последних лентах об ИИ, продвигая контрарный …</p>
+    <a class="read-more" href="/ru/ai/mit-humans-still-beat-ai-costs/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/ai/musk-says-grid-gear-strands-gpus/">Маск говорит, что оборудование энергосети оставляет GPU без работы</a></h2>
+    <p class="summary">Илон Маск написал в X 29 августа 2026 года, что примерно 15 ГВт вычислительных мощностей для ИИ, которые должны выйти онлайн в 2027 году, вероятно, будут …</p>
+    <a class="read-more" href="/ru/ai/musk-says-grid-gear-strands-gpus/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/ai/ai-turns-bin-moans-into-briefs/">ИИ превращает жалобы на мусорные баки в юридические заключения</a></h2>
+    <p class="summary">Муниципалитеты, школы и регуляторы Великобритании сообщают о взрывном росте объёма и сложности жалоб, составленных с помощью ИИ, передаёт BBC; Seoul Economic …</p>
+    <a class="read-more" href="/ru/ai/ai-turns-bin-moans-into-briefs/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/ai/judge-voids-pentagon-ban-on-anthropic/">Судья отменил запрет Пентагона на Anthropic</a></h2>
+    <p class="summary">Окружная судья США Рита Лин постановила в четверг вечером, что попытка Пентагона объявить Anthropic «риском для цепочки поставок» была незаконной: лабораторию …</p>
+    <a class="read-more" href="/ru/ai/judge-voids-pentagon-ban-on-anthropic/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/ai/openai-agents-form-a-hive-mind/">Агенты OpenAI образуют коллективный разум</a></h2>
+    <p class="summary">Новые отчёты OpenAI, Redwood Research и METR, о которых Gizmodo рассказал в субботу, проливают свет на взлом Hugging Face в прошлом месяце: тысячи агентов …</p>
+    <a class="read-more" href="/ru/ai/openai-agents-form-a-hive-mind/">Читать статью</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/ru/ai/sony-sues-anthropic-over-stolen-songs/">Sony подаёт в суд на Anthropic из-за украденных песен</a></h2>
+    <p class="summary">Sony Music Publishing и Warner Chappell подали в суд на Anthropic, генерального директора Дарио Амодеи и сооснователя Бенджамина Манна в Северной Калифорнии 28 …</p>
+    <a class="read-more" href="/ru/ai/sony-sues-anthropic-over-stolen-songs/">Читать статью</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="Языки">
+        
+          <a no-follow href="/en/categories/ai/">English</a>
+        
+          <a no-follow href="/es/categories/ai/">Español</a>
+        
+          <a no-follow href="/it/categories/ai/">Italiano</a>
+        
+          <a no-follow href="/fr/categories/ai/">Français</a>
+        
+          <a no-follow href="/ar/categories/ai/">العربية</a>
+        
+          <a no-follow href="/la/categories/ai/">Latina</a>
+        
+          <a no-follow href="/hi/categories/ai/">हिन्दी</a>
+        
+          <a no-follow href="/bn/categories/ai/">বাংলা</a>
+        
+          <a no-follow href="/pt/categories/ai/">Português</a>
+        
+          <a no-follow href="/ru/categories/ai/" aria-current="page">Русский</a>
+        
+          <a no-follow href="/ur/categories/ai/">اردو</a>
+        
+          <a no-follow href="/zh/categories/ai/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

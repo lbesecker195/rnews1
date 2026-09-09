@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Claude on RNews1.com</title>
+    <link>http://localhost:3003/fr/tags/claude/</link>
+    <description>Recent content in Claude on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+        <atom:link href="http://localhost:3003/fr/tags/claude/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sony poursuit Anthropic pour des chansons volées</title>
+      <link>http://localhost:3003/fr/ai/sony-sues-anthropic-over-stolen-songs/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/fr/ai/sony-sues-anthropic-over-stolen-songs/</guid>
+      <description>&lt;h1 id=&#34;sony-poursuit-anthropic-pour-des-chansons-volées&#34;&gt;Sony poursuit Anthropic pour des chansons volées&lt;/h1&gt;
+&lt;p&gt;Le dernier front dans la bataille sur la façon dont les grands modèles de langage sont construits n’est pas un roman, une archive de presse ou un tas de code source. C’est le répertoire américain. Le &lt;strong&gt;28 août&lt;/strong&gt;, &lt;strong&gt;Sony Music Publishing&lt;/strong&gt; et &lt;strong&gt;Warner Chappell&lt;/strong&gt; sont entrés dans un tribunal fédéral de &lt;em&gt;Californie du Nord&lt;/em&gt; et ont poursuivi &lt;strong&gt;Anthropic&lt;/strong&gt;, le laboratoire derrière la famille de modèles &lt;strong&gt;Claude&lt;/strong&gt;, ainsi que le &lt;strong&gt;PDG Dario Amodei&lt;/strong&gt; et le &lt;strong&gt;cofondateur Benjamin Mann&lt;/strong&gt;. La plainte des éditeurs ne mâche pas ses mots. Elle qualifie l’entraînement de Claude de &lt;em&gt;« l’un des vols de propriété intellectuelle en cours les plus vastes et les plus flagrants de l’histoire »&lt;/em&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Une juge annule l’interdiction du Pentagone visant Anthropic</title>
+      <link>http://localhost:3003/fr/ai/judge-voids-pentagon-ban-on-anthropic/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/fr/ai/judge-voids-pentagon-ban-on-anthropic/</guid>
+      <description>&lt;h1 id=&#34;une-juge-annule-linterdiction-du-pentagone-visant-anthropic&#34;&gt;Une juge annule l’interdiction du Pentagone visant Anthropic&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;La juge de district américaine Rita Lin&lt;/strong&gt; a attendu &lt;strong&gt;jeudi soir&lt;/strong&gt; pour publier son avis, et elle n’a pas tergiversé. La tentative du &lt;strong&gt;Pentagone&lt;/strong&gt; de cataloguer &lt;strong&gt;Anthropic&lt;/strong&gt; comme un &lt;em&gt;« risque pour la chaîne d’approvisionnement »&lt;/em&gt; était &lt;strong&gt;illégale&lt;/strong&gt;. Ce n’était pas, selon son récit, un jugement de sécurité qui serait tombé par hasard sur un prestataire difficile. C’était une &lt;strong&gt;punition&lt;/strong&gt; — &lt;strong&gt;punir le laboratoire pour avoir critiqué les positions du ministère de la Défense sur l’IA militaire&lt;/strong&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

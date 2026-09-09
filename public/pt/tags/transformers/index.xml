@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Transformers on RNews1.com</title>
+    <link>http://localhost:3003/pt/tags/transformers/</link>
+    <description>Recent content in Transformers on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+        <atom:link href="http://localhost:3003/pt/tags/transformers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Musk Diz que Equipamentos da Rede Deixam GPUs Paradas</title>
+      <link>http://localhost:3003/pt/ai/musk-says-grid-gear-strands-gpus/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/pt/ai/musk-says-grid-gear-strands-gpus/</guid>
+      <description>&lt;h1 id=&#34;musk-diz-que-equipamentos-da-rede-deixam-gpus-paradas&#34;&gt;Musk Diz que Equipamentos da Rede Deixam GPUs Paradas&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Elon Musk&lt;/strong&gt; publicou no &lt;strong&gt;X&lt;/strong&gt; em &lt;strong&gt;29 de agosto de 2026&lt;/strong&gt; que &lt;em&gt;cerca de&lt;/em&gt; &lt;strong&gt;15 gigawatts&lt;/strong&gt; de &lt;strong&gt;capacidade de computação de IA&lt;/strong&gt; prevista para entrar em operação em &lt;strong&gt;2027&lt;/strong&gt; provavelmente &lt;em&gt;ficará inativa&lt;/em&gt; porque a &lt;strong&gt;infraestrutura de energia&lt;/strong&gt; não estará pronta. A &lt;strong&gt;Crypto Briefing&lt;/strong&gt; relata o alerta. A afirmação não é que os chips deixarão de ser enviados. É que os equipamentos ao redor dos chips — os equipamentos da rede, o cobre, a refrigeração, a malha — não estarão instalados quando os servidores estiverem.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

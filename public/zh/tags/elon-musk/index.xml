@@ -1,0 +1,78 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Elon Musk on RNews1.com</title>
+    <link>http://localhost:3003/zh/tags/elon-musk/</link>
+    <description>Recent content in Elon Musk on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+        <atom:link href="http://localhost:3003/zh/tags/elon-musk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>马斯克称电网设备让 GPU 闲置</title>
+      <link>http://localhost:3003/zh/ai/musk-says-grid-gear-strands-gpus/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/zh/ai/musk-says-grid-gear-strands-gpus/</guid>
+      <description>&lt;h1 id=&#34;马斯克称电网设备让-gpu-闲置&#34;&gt;马斯克称电网设备让 GPU 闲置&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;埃隆·马斯克&lt;/strong&gt;于 &lt;strong&gt;2026 年 8 月 29 日&lt;/strong&gt;在 &lt;strong&gt;X&lt;/strong&gt; 上发文称，原定于 &lt;strong&gt;2027 年&lt;/strong&gt;上线的&lt;em&gt;约&lt;/em&gt; &lt;strong&gt;15 吉瓦&lt;/strong&gt; &lt;strong&gt;AI 计算容量&lt;/strong&gt;，很可能因为&lt;strong&gt;电力基础设施&lt;/strong&gt;尚未准备就绪而&lt;em&gt;处于闲置状态&lt;/em&gt;。&lt;strong&gt;Crypto Briefing&lt;/strong&gt; 报道了这一警告。其说法并不是芯片无法交付，而是芯片周围的设备——电网设备、铜缆、冷却系统和网络互联——在服务器到位时还没有准备好。&lt;/p&gt;
+&lt;p&gt;所谓闲置的 1 吉瓦，是指一个集群已经出现在采购订单上，甚至可能已经安装在架高地板上，但无法获得供电。&lt;strong&gt;马斯克&lt;/strong&gt;的帖子认为，原定于 &lt;strong&gt;2027 年&lt;/strong&gt;部署的 &lt;strong&gt;AI 计算容量&lt;/strong&gt;中，&lt;em&gt;约&lt;/em&gt; &lt;strong&gt;15 吉瓦&lt;/strong&gt;可能面临这种命运。&lt;strong&gt;Crypto Briefing&lt;/strong&gt; 将这篇帖子整理成报道，说明他指责了哪些环节、变压器市场目前的状况，以及同样的瓶颈如何出现在他自己旗下公司的电力与冷却目标中。&lt;/p&gt;
+&lt;h2 id=&#34;瓶颈不在芯片&#34;&gt;瓶颈不在芯片&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Crypto Briefing&lt;/strong&gt; 报道称，他指责的是&lt;strong&gt;变压器&lt;/strong&gt;、&lt;strong&gt;布线&lt;/strong&gt;、&lt;strong&gt;液冷回路&lt;/strong&gt;和&lt;strong&gt;高容量网络&lt;/strong&gt;——&lt;em&gt;而不是芯片&lt;/em&gt;。这份清单就是现代 AI 机房的物料表。&lt;strong&gt;变压器&lt;/strong&gt;将高压电网电力降压到机房可以使用的水平。&lt;strong&gt;布线&lt;/strong&gt;把电力输送到园区各处并进入机架。&lt;strong&gt;液冷回路&lt;/strong&gt;从高密度加速器上带走空气冷却已无法处理的热量。&lt;strong&gt;高容量网络&lt;/strong&gt;则把这些加速器连接成训练网络。四者都不是 GPU，但按照这一说法，正是它们导致原定于 &lt;strong&gt;2027 年&lt;/strong&gt;上线的&lt;em&gt;约&lt;/em&gt; &lt;strong&gt;15 吉瓦&lt;/strong&gt; &lt;strong&gt;AI 计算容量&lt;/strong&gt;很可能&lt;em&gt;处于闲置状态&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;强调&lt;em&gt;不是芯片&lt;/em&gt;，正是这篇帖子的重点。多年来，行业一直把加速器供应视为真正的约束。&lt;strong&gt;马斯克&lt;/strong&gt;于 &lt;strong&gt;2026 年 8 月 29 日&lt;/strong&gt;在 &lt;strong&gt;X&lt;/strong&gt; 上发文时，却把加速器供应视为已经不再构成约束的因素。如果芯片到位，而&lt;strong&gt;变压器&lt;/strong&gt;、&lt;strong&gt;布线&lt;/strong&gt;、&lt;strong&gt;液冷回路&lt;/strong&gt;和&lt;strong&gt;高容量网络&lt;/strong&gt;没有到位，芯片就只能闲置。这就是 &lt;strong&gt;AI 计算容量&lt;/strong&gt;&lt;em&gt;处于闲置状态&lt;/em&gt;的含义：有了硅片，却没有让集群成为集群所需的供电路径、冷却路径或网络路径。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Crypto Briefing&lt;/strong&gt; 的报道没有增加其他责任方。报道没有提到发电短缺或燃料危机，而是列出了交付周期很长的电气和机械设备，以及将站点接入电网的&lt;strong&gt;北美&lt;/strong&gt;流程。&lt;strong&gt;马斯克&lt;/strong&gt;指责的四项内容属于实体设备；&lt;strong&gt;Crypto Briefing&lt;/strong&gt; 与之并列提到的排队和许可则属于程序性问题。两者共同构成了在 &lt;strong&gt;2027 年&lt;/strong&gt;浪潮到来时&lt;em&gt;尚未准备就绪&lt;/em&gt;的&lt;strong&gt;电力基础设施&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;高压变压器需要四到五年&#34;&gt;高压变压器需要四到五年&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;高压变压器&lt;/strong&gt;目前的交付周期为 &lt;strong&gt;48 至 60 个月&lt;/strong&gt;，也就是四到五年。2026 年订购、交付周期为 &lt;strong&gt;48 个月&lt;/strong&gt;的变压器，不可能成为 &lt;strong&gt;2027 年&lt;/strong&gt;可用的资产；若按 &lt;strong&gt;60 个月&lt;/strong&gt;计算，时间还会更晚。&lt;strong&gt;马斯克&lt;/strong&gt;说&lt;em&gt;约&lt;/em&gt; &lt;strong&gt;15 吉瓦&lt;/strong&gt; &lt;strong&gt;AI 计算容量&lt;/strong&gt;很可能&lt;em&gt;处于闲置状态&lt;/em&gt;的那一年，已经错过了这些交付周期。&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>马斯克交易后，OpenAI切断Cursor供应</title>
+      <link>http://localhost:3003/zh/business/openai-cuts-cursor-after-musk-deal/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/zh/business/openai-cuts-cursor-after-musk-deal/</guid>
+      <description>&lt;h1 id=&#34;马斯克交易后openai切断cursor供应&#34;&gt;马斯克交易后，OpenAI切断Cursor供应&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;OpenAI&lt;/strong&gt;周五表示，在&lt;strong&gt;SpaceX&lt;/strong&gt;于&lt;strong&gt;8月14日&lt;/strong&gt;完成对这家AI编程初创公司的&lt;strong&gt;600亿美元&lt;/strong&gt;收购后，将停止向&lt;strong&gt;Cursor&lt;/strong&gt;提供其模型。拟定的终止日期为&lt;strong&gt;2026年11月12日&lt;/strong&gt;，OpenAI表示不会向Cursor提供未来的模型。一段在Cursor客户看来原本只是普通管道的供应商关系，如今正被重新归类为该实验室不愿承担的风险。&lt;/p&gt;
+&lt;p&gt;这不是一次价格争议，至少从表面上看，也不是在声称Cursor的编辑器违反了某项规则。该实验室写道，&lt;em&gt;&amp;ldquo;根据我们对埃隆·马斯克旗下公司违反合同的经历，我们无法确信SpaceX会在我们的服务条款范围内使用我们的技术。&amp;rdquo;&lt;/em&gt; 新所有者才是OpenAI愿意点名的问题。日期、拒绝提供未来模型，以及援引以往的合同纠纷，共同构成了这项决定的其余部分。&lt;/p&gt;
+&lt;h2 id=&#34;一家600亿美元的编程初创公司&#34;&gt;一家600亿美元的编程初创公司&lt;/h2&gt;
+&lt;p&gt;Cursor是一家AI编程初创公司：它的软件存在于开发者的工作流中，会建议下一个函数、重写文件；而在这个随着大型语言模型变得足以用于软件开发而成长起来的市场版本中，它通常会把这些请求发送给别人的模型。多年来，这个“别人”包括OpenAI。该产品既是路由器，也是目的地。用户不必知道某个提示由哪家实验室回答。他们只需要觉得答案又快又好。&lt;/p&gt;
+&lt;p&gt;这就是SpaceX买下的业务。8月14日，这笔收购以600亿美元完成。对于一家开发者工具而言，这个数字非同寻常；但在当前周期中又很常见——在这一周期里，帮助工程师编写软件的公司，已经成为那些想要构建下一代模型、机器和基础设施的公司的战略资产。SpaceX并不是一家传统的软件收购方。它是埃隆·马斯克的发射公司。截至8月中旬，它还拥有了一个曾是马斯克共同创办的实验室客户、后来又被马斯克告上法庭的编程助手。&lt;/p&gt;
+&lt;p&gt;控制权才是整场争论的核心。8月14日之前，Cursor可以被描述为一家独立的应用公司，按照商业条款购买模型访问权限。8月14日之后，它成了SpaceX的子公司。模型仍会是相同的权重，通过相同的API提供服务，由同一批人，在同一个编辑器里输入文字并使用。OpenAI的立场是，API另一端的法人已经不再是它愿意服务的对象。&lt;/p&gt;
+&lt;p&gt;拟定的终止日期是2026年11月12日，距离现在还有数月。OpenAI并不是要在一夜之间拔掉密钥。它公布了一个日期，拒绝提供未来模型，并留下一个窗口，让Cursor可以迁移流量、完成其所说已经开始的谈判，或者两者兼做。威胁中更重要的部分在于未来。编程工具存在于技术前沿。一个只能使用上一季模型、而竞争对手可以获得下一代模型的产品，用的就不是公用事业，而是一条正在衰退的线路。&lt;/p&gt;
+&lt;h2 id=&#34;中立基础设施与5的份额&#34;&gt;“中立基础设施”与5%的份额&lt;/h2&gt;
+&lt;p&gt;Cursor首席执行官&lt;strong&gt;Michael Truell&lt;/strong&gt;表示，OpenAI模型约占Cursor流量的&lt;strong&gt;5%&lt;/strong&gt;，双方仍在沟通，并称OpenAI是Cursor多年来使用的*“中立基础设施”&lt;em&gt;。每个分句都在发挥作用。流量占比告诉客户和员工，不要把周五的消息当成灭顶之灾。谈判则告诉OpenAI，门仍然开着。&lt;/em&gt;“中立基础设施”*这个说法，代表了Cursor成长其中的市场理论。&lt;/p&gt;
+&lt;p&gt;这一理论认为，前沿实验室就是公用事业。编程助手应该能够像云应用从多个供应商调用对象存储一样，调用任何有用的模型。“中立”意味着，模型制造商不会因为应用制造商同时也是竞争对手的客户、因为它被收购，或因为它属于一个实验室高管早已与之交恶的人，就惩罚应用制造商。Truell是在说，Cursor多年来一直这样对待OpenAI。周五的信则表示，当SpaceX成为相关方时，这家公用事业决定自己并不是公用事业。&lt;/p&gt;
+&lt;p&gt;5%是否是衡量依赖程度的正确数字，是另一个问题；但这是首席执行官公开给出的数字。编程流量并不均质。有些调用是廉价的自动补全，有些是会消耗昂贵上下文的长时间代理循环，还有一些演示能够赢得企业合同。如果最好的OpenAI模型是用户处理困难任务时会选择的那个模型，那么即使请求只占很小份额，也可能占据用户感知质量的很大部分。Truell没有以这种方式拆分5%。他给出了总体数字，同时表示双方仍在沟通。&lt;/p&gt;
+&lt;p&gt;谈判之所以重要，是因为终止仍是拟议中的、有明确日期、尚未执行的事项。2026年11月12日是一个带有日历的截止日期。它距离现在足够远，意味着双方仍可能协商出反转决定、缩小范围的例外，或过渡方案。OpenAI补充表示不会向Cursor提供未来模型，这一点更难收回。即使当前模型持续运行到11月中旬，下一代模型也会被扣下。在一个每隔几个月就重新定义“好”的市场里，这一条款把供应争议变成了产品问题。&lt;/p&gt;
+&lt;h2 id=&#34;服务条款以及openai称其已经拥有的历史&#34;&gt;服务条款，以及OpenAI称其已经拥有的历史&lt;/h2&gt;
+&lt;p&gt;服务条款是AI行业最乏味的文件，但在这场争斗中却是最锋利的武器。OpenAI公开给出的解释并不是Cursor的产品构成了竞争性挑衅，而是该实验室无法确信SpaceX会在这些条款范围内使用技术，而这种不确定性源自其对埃隆·马斯克旗下公司违反合同的经历。&lt;/p&gt;
+&lt;p&gt;据周五报道的措辞，该实验室没有公布一份新的法证式叙述，说明究竟是哪份合同、何时、被哪家马斯克旗下公司违反。它把这种模式当作已知事实。任何关注过去两年马斯克与OpenAI之间诉讼、反诉和社交媒体隔空交锋的人，都会认出这种姿态。OpenAI是在说，它以前经历过这种事，不会让同一个交易对手换个标志后再来一次。&lt;/p&gt;
+&lt;p&gt;这与单纯的竞争性切断是不同的主张。过去两年，AI实验室一直在划定模型可以被谁、用于什么目的——竞争实验室、军事客户、国家，以及越来越多受那些已经与实验室发生冲突的人控制的公司。以服务条款为依据，会把决定归入合规档案，而不是战略档案。它也会让SpaceX，进而让马斯克，处于需要回应合同行为指控的位置，而不是产品重叠指控的位置。&lt;/p&gt;
+&lt;p&gt;实验室重视下游使用是有原因的。前沿模型可能被蒸馏、微调、探测，或被用作竞争系统的隐形教师。它们可能被接入代理，由代理采取原始供应商从未审查过的行动。它们可能运行在供应商无法检查的环境中。服务条款是实验室试图防止商业API变成训练管道或漏洞的方式。OpenAI是在声称，一旦客户变成SpaceX，它就无法确信这些条款仍会得到遵守。在这种说法中，信心就是整个产品。&lt;/p&gt;
+&lt;h2 id=&#34;马斯克我根本不在乎&#34;&gt;马斯克：“我根本不在乎”&lt;/h2&gt;
+&lt;p&gt;马斯克周六发帖称，&lt;em&gt;“我根本不在乎”&lt;/em&gt;，随后称&lt;strong&gt;Sam Altman&lt;/strong&gt;和&lt;strong&gt;Greg Brockman&lt;/strong&gt;不值得信任，并再次声称他们*“窃取”*了一个非营利组织。这一连串动作是这场争斗的缩影。首先是漠不关心：Cursor不需要OpenAI，或者马斯克不需要OpenAI的许可，或者两者皆是。然后是更早的控诉：OpenAI的首席执行官和总裁不可信，而他们领导的实验室被马斯克认为是从他当初加入的非营利结构中夺走的。&lt;/p&gt;
+&lt;p&gt;Altman和Brockman并不是这段故事的旁观者。他们正是马斯克一直起诉、发帖攻击并与之竞争的人。点名他们，而不是以法人身份称呼“OpenAI”，让这场争斗保持个人化。&lt;em&gt;“窃取”非营利组织&lt;/em&gt;这句话，是马斯克针对公司转为营利模式的政治和法律论点核心：一个慈善使命被转变成了他声称自己不会同意的资本结构。他在2024年的诉讼中败诉。法庭仍是这一论点接受检验的地方。&lt;/p&gt;
+&lt;p&gt;从表面上看，马斯克周六的帖子并没有回应OpenAI关于服务条款的主张。他没有逐点解释SpaceX将如何使用Cursor的模型。他驳斥了终止决定，并重申了关于对方品格的指控。*“我根本不在乎”*同时也是发给Cursor用户和那些必须重新分流那5%流量的工程师的信息。新所有者并没有请求继续获得访问权限。&lt;/p&gt;
+&lt;p&gt;公开表现出的漠不关心，并不等同于运营计划上的漠不关心。以600亿美元收购一家AI编程初创公司，是在押注软件编写工具对SpaceX计划下一步构建的任何东西都很重要。在OpenAI一方，扣留未来模型则是在押注这些工具不应建立在其权重之上。马斯克的回应拒绝把第二个赌注当成危机，但并没有让第一个赌注变小。&lt;/p&gt;
+&lt;h2 id=&#34;anthropicclaude与windsurf留下的伤痕&#34;&gt;Anthropic、Claude与Windsurf留下的伤痕&lt;/h2&gt;
+&lt;p&gt;向SpaceX租用算力的&lt;strong&gt;Anthropic&lt;/strong&gt;表示，将增加&lt;strong&gt;Claude&lt;/strong&gt;对Cursor的支持，引发外界对Anthropic早先切断&lt;strong&gt;Windsurf&lt;/strong&gt;供应一事的讥讽。这句话充满了行业不必费心创造的讽刺意味。&lt;/p&gt;
+&lt;p&gt;Anthropic是OpenAI在谨慎、昂贵、面向开发者的模型市场中最直接的竞争对手。Claude已经是Cursor可以提供的答案之一，当用户要求编程代理开展工作时，它可以被调用。增加Claude支持是显而易见的商业举措：如果OpenAI离开，就把插槽填上。但这也很尴尬，因为Anthropic的算力至少有一部分来自SpaceX。OpenAI不愿供应的那个企业集团，同时也是向声称会增加供应的实验室提供基础设施的房东。&lt;/p&gt;
+&lt;p&gt;Windsurf就是那道伤痕。Anthropic早先切断了这家编程初创公司的供应。周五公告没有包含那次切断的细节，但讥讽已经出现。批评Anthropic对Cursor承诺的人不需要发明一套新的虚伪理论。他们有一个近期案例：同一类别的公司——AI编程助手——失去了Claude的访问权限。在切断Windsurf供应后增加对Cursor的支持，在这些批评者看来，提醒人们实验室对编程助手的热情是一项会随着客户改变而改变的政策。&lt;/p&gt;
+&lt;p&gt;这并不意味着Anthropic对Cursor的承诺是虚构的。该公司表示会增加Claude支持。在OpenAI不会向Cursor提供未来模型的世界里，这项承诺是桌面上最具体的替代方案。它无法恢复OpenAI模型，也无法解决OpenAI的合同投诉，但它确实告诉Cursor用户：一家前沿实验室正在靠近这款产品，而另一家正在离开。&lt;/p&gt;
+&lt;p&gt;算力关系又增加了第二层复杂性。如果Anthropic向SpaceX租用算力，那么SpaceX既是Cursor的所有者，也是Anthropic的供应商。OpenAI的切断行动，是试图让自己的模型远离这个集群。Anthropic的扩张，则是决定将更多自己的模型放进去。行业的基础设施地图与产品地图不再重合。一家火箭公司拥有一个编程编辑器，向一家模型实验室出租算力，又被另一家实验室拒绝API访问；而后者的领导者中包括马斯克称为不值得信任的人。&lt;/p&gt;
+&lt;h2 id=&#34;一场持续超过诉讼的争斗&#34;&gt;一场持续超过诉讼的争斗&lt;/h2&gt;
+&lt;p&gt;这场争斗延续自马斯克因OpenAI转为营利模式而提起、但在&lt;strong&gt;2024年&lt;/strong&gt;败诉的诉讼。这就是后来每一次侮辱背后的法律基础。马斯克提起诉讼。他的核心论点是，OpenAI放弃了非营利协议。他败诉了。转型、融资，以及让该实验室得以筹集巨额资金的公司结构，都挺过了这起案件。私人冲突却没有结束。&lt;/p&gt;
+&lt;p&gt;2024年的败诉并没有终结马斯克关于Altman和Brockman*“窃取”*非营利组织的说法。他周六再次重复了这一说法。它也没有让OpenAI愿意把他的公司当作普通API客户对待。周五的信件援引了这些公司违反合同的经历。它没有阻止SpaceX在8月14日以600亿美元收购Cursor，也没有阻止Anthropic向SpaceX租用算力，或承诺让SpaceX如今拥有的编辑器获得更多Claude支持。&lt;/p&gt;
+&lt;p&gt;败诉真正带来的结果，是消除了由法院解决双方关系的希望。2024年之后，各方只能使用自己仍然掌控的工具：模型访问权、收购资本、社交媒体声明，以及那些只想让下一个函数出现在编辑器里的开发者的忠诚。OpenAI周五使用了其中第一个工具。SpaceX此前已经使用了第二个。马斯克周六使用了第三个。Truell正在使用第四个：统计流量份额，并称离开的供应商是基础设施。&lt;/p&gt;
+&lt;p&gt;2026年11月12日这个日期，如今已经出现在OpenAI、SpaceX以及每一家建立在他人模型之上的编程代理公司的日历上。教训并不隐晦。中立基础设施是客户希望被对待的方式，而不是一项权利。一个无法确信的实验室会停止供应、扣留未来模型，并公开写明新所有者的名字就是原因。Cursor表示，这只涉及约5%的流量，谈判仍在继续，而且这个缺口可以被填补——Anthropic也表示会提供更多Claude。整个市场将观察，当那些尚未训练的模型永远不会到来时，5%是否仍会保持为5%。&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

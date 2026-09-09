@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usas | RNews1.com</title>
+  <meta name="description" content="Science, santé et cosmos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/fr/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="Rubriques">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/business/"
+              
+            >Économie</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/fr/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/cosmos/"
+              
+            >Cosmos</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/crypto/"
+              
+            >Crypto</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/entertainment/"
+              
+            >Divertissement</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/health/"
+              
+            >Santé</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/ai/"
+              
+            >IA</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/science/"
+              
+            >Science</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/sports/"
+              
+            >Sports</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/technology/"
+              
+            >Technologie</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/usa/"
+              aria-current="page"
+            >États-Unis</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/fr/world/"
+              
+            >Monde</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="Menu">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="Rubriques">
+          
+            
+              
+              
+              
+              <a
+                href="/fr/business/"
+                
+              >Économie</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/fr/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/cosmos/"
+                
+              >Cosmos</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/crypto/"
+                
+              >Crypto</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/entertainment/"
+                
+              >Divertissement</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/health/"
+                
+              >Santé</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/ai/"
+                
+              >IA</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/science/"
+                
+              >Science</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/sports/"
+                
+              >Sports</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/technology/"
+                
+              >Technologie</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/usa/"
+                aria-current="page"
+              >États-Unis</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/fr/world/"
+                
+              >Monde</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+          États-Unis</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/fr/usa/caitlin-clark-starting-status-world-cup-final/">Statut de titulaire de Caitlin Clark pour la finale de la Coupe du monde</a></h2>
+    <p class="summary">Le staff de Team USA évoque le rôle de remplaçante de Caitlin Clark lors de la phase de groupes et révèle son éventuelle titularisation pour la phase finale …</p>
+    <a class="read-more" href="/fr/usa/caitlin-clark-starting-status-world-cup-final/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/usa/spencer-korwin-usa-triathlete-dies-tragically/">Spencer Korwin : le triathlète américain meurt tragiquement</a></h2>
+    <p class="summary">Spencer Korwin, triathlète de l&#39;équipe américaine, est mort dans un apparent accident de noyade, bouleversant les communautés du triathlon et de la natation de …</p>
+    <a class="read-more" href="/fr/usa/spencer-korwin-usa-triathlete-dies-tragically/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/usa/caitlin-clark-fiba-world-cup-usa-vs/">Caitlin Clark : Coupe du monde FIBA, États-Unis contre Italie</a></h2>
+    <p class="summary">Guide complet pour regarder Caitlin Clark et l&#39;équipe des États-Unis affronter l&#39;Italie lors du match d&#39;aujourd&#39;hui de la Coupe du monde féminine de la FIBA, …</p>
+    <a class="read-more" href="/fr/usa/caitlin-clark-fiba-world-cup-usa-vs/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/usa/team-usa-battles-stomach-illness-at-walker/">L’équipe des États-Unis touchée par une maladie gastrique lors de la Walker Cup</a></h2>
+    <p class="summary">Une épidémie de troubles gastro-intestinaux a touché plusieurs membres de l’équipe des États-Unis pendant la prestigieuse compétition de la Walker Cup, …</p>
+    <a class="read-more" href="/fr/usa/team-usa-battles-stomach-illness-at-walker/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/usa/stomach-illness-disrupts-team-usa-walker-cup/">Une maladie de l’estomac perturbe l’équipe américaine de la Walker Cup</a></h2>
+    <p class="summary">Une épidémie gastro-intestinale touche plusieurs membres de l’équipe américaine avant la prestigieuse compétition de la Walker Cup, suscitant des inquiétudes …</p>
+    <a class="read-more" href="/fr/usa/stomach-illness-disrupts-team-usa-walker-cup/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/usa/stomach-illness-strikes-team-usa-walker-cup/">Une maladie de l’estomac frappe l’équipe américaine à la Walker Cup</a></h2>
+    <p class="summary">Une épidémie de gastro-entérite touchant plusieurs golfeurs de l’équipe américaine à la Walker Cup soulève des questions sur la préparation de l’événement, les …</p>
+    <a class="read-more" href="/fr/usa/stomach-illness-strikes-team-usa-walker-cup/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/usa/paige-bueckers-team-usa-representation-controversy/">La controverse autour de la représentation de Paige Bueckers au sein de Team USA</a></h2>
+    <p class="summary">La surveillance sur les réseaux sociaux s’intensifie autour du contenu TikTok de la star du basketball et de ses implications pour la représentation de l’équipe …</p>
+    <a class="read-more" href="/fr/usa/paige-bueckers-team-usa-representation-controversy/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/usa/us-deports-afghan-ally-relative-abroad/">Les États-Unis expulsent à l’étranger un proche d’un allié afghan</a></h2>
+    <p class="summary">Samedi, les États-Unis ont transporté par avion des dizaines de personnes expulsées vers la République centrafricaine, dont un jeune Afghan dont les frères …</p>
+    <a class="read-more" href="/fr/usa/us-deports-afghan-ally-relative-abroad/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/usa/us-eyes-35-betancourt-oil-cut/">Les États-Unis lorgnent une participation de 35 % dans le pétrole de Betancourt</a></h2>
+    <p class="summary">Le Wall Street Journal a rapporté samedi que le gouvernement américain prévoyait une participation passive de 35 % dans North American Blue Energy Partners, …</p>
+    <a class="read-more" href="/fr/usa/us-eyes-35-betancourt-oil-cut/">Lire l’article</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/fr/usa/us-deports-afghan-to-central-africa/">Les États-Unis expulsent un Afghan vers l’Afrique centrale</a></h2>
+    <p class="summary">Samedi, les États-Unis ont expulsé des dizaines de personnes vers la République centrafricaine, dont un Afghan d’une vingtaine d’années dont les frères avaient …</p>
+    <a class="read-more" href="/fr/usa/us-deports-afghan-to-central-africa/">Lire l’article</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="Langues">
+        
+          <a no-follow href="/en/usa/">English</a>
+        
+          <a no-follow href="/es/usa/">Español</a>
+        
+          <a no-follow href="/it/usa/">Italiano</a>
+        
+          <a no-follow href="/fr/usa/" aria-current="page">Français</a>
+        
+          <a no-follow href="/ar/usa/">العربية</a>
+        
+          <a no-follow href="/la/usa/">Latina</a>
+        
+          <a no-follow href="/hi/usa/">हिन्दी</a>
+        
+          <a no-follow href="/bn/usa/">বাংলা</a>
+        
+          <a no-follow href="/pt/usa/">Português</a>
+        
+          <a no-follow href="/ru/usa/">Русский</a>
+        
+          <a no-follow href="/ur/usa/">اردو</a>
+        
+          <a no-follow href="/zh/usa/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

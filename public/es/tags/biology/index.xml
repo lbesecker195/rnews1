@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Biology on Meridian</title>
+		<link>http://localhost:8080/es/tags/biology/</link>
+		<description>Recent content in Biology on Meridian</description>
+		<generator>Hugo</generator>
+		<language>es</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/es/tags/biology/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>¿Es contagioso el microbioma intestinal? Nueva ciencia revela transmisión entre personas</title>
+				<link>http://localhost:8080/es/science/gut-microbiome-contagious/</link>
+				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:8080/es/science/gut-microbiome-contagious/</guid>
+				<description>&lt;h1 id=&#34;es-contagioso-el-microbioma-intestinal-nueva-ciencia-revela-transmisión-entre-personas&#34;&gt;¿Es contagioso el microbioma intestinal? Nueva ciencia revela transmisión entre personas&lt;/h1&gt;&#xA;&lt;p&gt;Durante años, científicos y aficionados trataron el &lt;strong&gt;microbioma intestinal&lt;/strong&gt; como un ecosistema personal, moldeado sobre todo por la dieta, los fármacos y la genética. Un estudio de finales de agosto de 2026 ha invertido esa idea: hay evidencia sólida de que billones de bacterias, virus y hongos del tracto digestivo pueden &lt;em&gt;pasar de persona a persona&lt;/em&gt; en el contacto social cotidiano.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

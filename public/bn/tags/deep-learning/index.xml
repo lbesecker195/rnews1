@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Deep-Learning on RNews1.com</title>
+    <link>http://localhost:3003/bn/tags/deep-learning/</link>
+    <description>Recent content in Deep-Learning on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>bn</language>
+    
+        <atom:link href="http://localhost:3003/bn/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AI পৃথিবীর ছয়টি গোপন কাঠামোর মানচিত্র তৈরি করেছে</title>
+      <link>http://localhost:3003/bn/science/ai-maps-six-hidden-earth-structures/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/bn/science/ai-maps-six-hidden-earth-structures/</guid>
+      <description>&lt;h1 id=&#34;ai-পথবর-ছযট-গপন-কঠমর-মনচতর-তর-করছ&#34;&gt;AI পৃথিবীর ছয়টি গোপন কাঠামোর মানচিত্র তৈরি করেছে&lt;/h1&gt;
+&lt;p&gt;আপনার পায়ের প্রায় &lt;strong&gt;১,৮০০ মাইল&lt;/strong&gt; নিচে পৃথিবীর &lt;strong&gt;ম্যান্টল&lt;/strong&gt;-এর সঙ্গে &lt;em&gt;তরল বহিঃকোরের&lt;/em&gt; সংযোগ। এই সংযোগ কোনো মসৃণ সেলাইরেখা নয়। এটি একটি ভূদৃশ্য। কয়েক দশক ধরে ভূকম্পবিদেরা জানেন, ম্যান্টলের তলদেশ অমসৃণ; সেখানে অদ্ভুত পদার্থের এমন সব অঞ্চল আছে, যেগুলো দিয়ে যাওয়া ভূমিকম্পের তরঙ্গকে বিচ্ছুরিত করে। সেই অঞ্চলগুলোর মানচিত্র তৈরি করা সবসময়ই ক্ষীণ সংকেত ও অসম পর্যবেক্ষণ-আবরণের বিরুদ্ধে লড়াই। &lt;strong&gt;চাইনিজ অ্যাকাডেমি অব সায়েন্সেস&lt;/strong&gt;-এর গবেষকদের নতুন উদ্যোগে একটি &lt;strong&gt;ডিপ-লার্নিং&lt;/strong&gt; ব্যবস্থা, পুরোনো সিসমোগ্রামের বিশাল ভাণ্ডার এবং মানুষের হাতে করা বিপুল সংশোধন ব্যবহার করে দাবি করা হয়েছে যে এই গুচ্ছগুলো আগের ক্যাটালগে দেখানোর চেয়ে বেশি সংযুক্ত এবং সংখ্যায়ও বেশি।&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

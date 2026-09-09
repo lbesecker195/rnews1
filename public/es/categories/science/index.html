@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Science | RNews1.com</title>
+  <meta name="description" content="Ciencia, salud y cosmos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/es/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="Secciones">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/business/"
+              
+            >Negocios</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/science/"
+              
+            >Ciencia</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/es/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/cosmos/"
+              
+            >Cosmos</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/crypto/"
+              
+            >Cripto</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/entertainment/"
+              
+            >Entretenimiento</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/health/"
+              
+            >Salud</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/ai/"
+              
+            >IA</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/sports/"
+              
+            >Deportes</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/technology/"
+              
+            >Tecnología</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/usa/"
+              
+            >EE. UU.</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/world/"
+              
+            >Mundo</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="Menú">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="Secciones">
+          
+            
+              
+              
+              
+              <a
+                href="/es/business/"
+                
+              >Negocios</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/science/"
+                
+              >Ciencia</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/es/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/cosmos/"
+                
+              >Cosmos</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/crypto/"
+                
+              >Cripto</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/entertainment/"
+                
+              >Entretenimiento</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/health/"
+                
+              >Salud</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/ai/"
+                
+              >IA</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/sports/"
+                
+              >Deportes</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/technology/"
+                
+              >Tecnología</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/usa/"
+                
+              >EE. UU.</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/world/"
+                
+              >Mundo</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+              
+            
+          Science</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/es/science/scientists-debate-potential-alien-life-discovery/">Científicos debaten el posible descubrimiento de vida extraterrestre</a></h2>
+    <p class="summary">Un examen exhaustivo del consenso científico que está surgiendo entre cientos de investigadores que evalúan posibles hallazgos de vida extraterrestre.</p>
+    <a class="read-more" href="/es/science/scientists-debate-potential-alien-life-discovery/">Leer artículo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/es/science/science-and-the-afterlife-evidence-or-mystery/">La ciencia y el más allá: ¿evidencia o misterio?</a></h2>
+    <p class="summary">Exploramos lo que la neurociencia, la física y la investigación médica revelan —y no revelan— sobre la conciencia después de la muerte.</p>
+    <a class="read-more" href="/es/science/science-and-the-afterlife-evidence-or-mystery/">Leer artículo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/es/science/science-explains-death-and-afterlife/">La ciencia explica la muerte y la vida después de la muerte</a></h2>
+    <p class="summary">Exploramos lo que la neurociencia, la física y la biología revelan sobre la conciencia, el proceso de morir y si los marcos científicos pueden abordar el …</p>
+    <a class="read-more" href="/es/science/science-explains-death-and-afterlife/">Leer artículo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/es/science/quirky-science-wins-ig-nobel-recognition/">La ciencia peculiar recibe el reconocimiento del Premio Ig Nobel</a></h2>
+    <p class="summary">La investigación poco convencional sobre la leche de cucaracha y la aerodinámica nasal obtiene el prestigioso reconocimiento del Premio Ig Nobel por impulsar el …</p>
+    <a class="read-more" href="/es/science/quirky-science-wins-ig-nobel-recognition/">Leer artículo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/es/science/quirky-science-wins-recognition-at-ig-nobel/">La ciencia peculiar recibe reconocimiento en los Premios Ig Nobel</a></h2>
+    <p class="summary">Investigadores poco convencionales que estudian la leche de cucaracha y la aerodinámica nasal reciben prestigiosos Premios Ig Nobel por su investigación …</p>
+    <a class="read-more" href="/es/science/quirky-science-wins-recognition-at-ig-nobel/">Leer artículo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/es/science/quirky-science-earns-ig-nobel-recognition/">La ciencia extravagante obtiene el reconocimiento del Ig Nobel</a></h2>
+    <p class="summary">Investigaciones poco convencionales sobre la leche de cucaracha y la dinámica nasal reciben prestigiosos premios Ig Nobel, destacando la importancia de la …</p>
+    <a class="read-more" href="/es/science/quirky-science-earns-ig-nobel-recognition/">Leer artículo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/es/science/daily-steps-science-debunks-10000-step-myth/">Pasos diarios: la ciencia desmonta el mito de los 10.000 pasos</a></h2>
+    <p class="summary">Un estudio innovador revela que el objetivo diario de 10.000 pasos carece de fundamento científico e identifica la cantidad de pasos respaldada por la evidencia …</p>
+    <a class="read-more" href="/es/science/daily-steps-science-debunks-10000-step-myth/">Leer artículo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/es/science/earth-microbes-survive-moon-shadows/">Los microbios terrestres sobreviven a las sombras lunares</a></h2>
+    <p class="summary">Un modelado dirigido por la NASA en Science Advances descubre que bacterias y hongos asociados con los seres humanos podrían sobrevivir durante días en nichos …</p>
+    <a class="read-more" href="/es/science/earth-microbes-survive-moon-shadows/">Leer artículo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/es/science/cancer-car-t-puts-arthritis-in-remission/">La CAR-T contra el cáncer pone la artritis en remisión</a></h2>
+    <p class="summary">Investigadores de Charité, en Berlín, probaron la terapia con células CAR T anti-CD19 en seis personas con artritis reumatoide grave y refractaria al …</p>
+    <a class="read-more" href="/es/science/cancer-car-t-puts-arthritis-in-remission/">Leer artículo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/es/science/roman-telescope-launches-sunday-morning/">El telescopio Roman despega el domingo por la mañana</a></h2>
+    <p class="summary">El telescopio espacial Nancy Grace Roman de la NASA, valorado en 4.300 millones de dólares, tiene previsto despegar a las 7:26 a. m. EDT del domingo 30 de …</p>
+    <a class="read-more" href="/es/science/roman-telescope-launches-sunday-morning/">Leer artículo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/es/science/frozen-frogs-restart-after-hearts-stop/">Ranas congeladas se reinician después de que el corazón se detiene</a></h2>
+    <p class="summary">Una rana de bosque norteamericana puede pasar el invierno con aspecto de muerta y, aun así, saltar en primavera. Hasta el 65 o 70 por ciento del agua de su …</p>
+    <a class="read-more" href="/es/science/frozen-frogs-restart-after-hearts-stop/">Leer artículo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/es/science/ai-maps-six-hidden-earth-structures/">La IA cartografía seis estructuras ocultas de la Tierra</a></h2>
+    <p class="summary">A unos 1.800 millas bajo tus pies, el manto de la Tierra se encuentra con el núcleo externo líquido. Investigadores de la Academia China de Ciencias entrenaron …</p>
+    <a class="read-more" href="/es/science/ai-maps-six-hidden-earth-structures/">Leer artículo</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/es/science/shark-graveyard-found-in-egyptian-desert/">Hallan un cementerio de tiburones en el desierto egipcio</a></h2>
+    <p class="summary">Paleontólogos liderados por Tarek Yassin, de la Universidad de El Cairo, extrajeron 14 dientes fósiles de tiburón de lechos de fosfato en la meseta de …</p>
+    <a class="read-more" href="/es/science/shark-graveyard-found-in-egyptian-desert/">Leer artículo</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="Idiomas">
+        
+          <a no-follow href="/en/categories/science/">English</a>
+        
+          <a no-follow href="/es/categories/science/" aria-current="page">Español</a>
+        
+          <a no-follow href="/it/categories/science/">Italiano</a>
+        
+          <a no-follow href="/fr/categories/science/">Français</a>
+        
+          <a no-follow href="/ar/categories/science/">العربية</a>
+        
+          <a no-follow href="/la/categories/science/">Latina</a>
+        
+          <a no-follow href="/hi/categories/science/">हिन्दी</a>
+        
+          <a no-follow href="/bn/categories/science/">বাংলা</a>
+        
+          <a no-follow href="/pt/categories/science/">Português</a>
+        
+          <a no-follow href="/ru/categories/science/">Русский</a>
+        
+          <a no-follow href="/ur/categories/science/">اردو</a>
+        
+          <a no-follow href="/zh/categories/science/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

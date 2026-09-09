@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Astrobiology on RNews1.com</title>
+    <link>http://localhost:3003/it/tags/astrobiology/</link>
+    <description>Recent content in Astrobiology on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    
+        <atom:link href="http://localhost:3003/it/tags/astrobiology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Una minuscola differenza chimica dell’RNA potrebbe svelare l’origine della vita</title>
+      <link>http://localhost:3003/it/science/rna-chemical-difference-origins-of-life/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3003/it/science/rna-chemical-difference-origins-of-life/</guid>
+      <description>&lt;h1 id=&#34;una-minuscola-differenza-chimica-dellrna-potrebbe-svelare-lorigine-della-vita&#34;&gt;Una minuscola differenza chimica dell’RNA potrebbe svelare l’origine della vita&lt;/h1&gt;
+&lt;p&gt;Una &lt;strong&gt;distinzione chimica minima&lt;/strong&gt; — un ossigeno in più nello zucchero dell’RNA — può spiegare perché i primi replicatori furono di RNA.&lt;/p&gt;
+&lt;h2 id=&#34;the-rna-world-hypothesis-gains-fresh-experimental-support&#34;&gt;L’ipotesi del mondo a RNA trova nuovo sostegno&lt;/h2&gt;
+&lt;p&gt;Quell’ossigeno extra facilita anse e siti attivi che il DNA forma meno facilmente.&lt;/p&gt;
+&lt;h2 id=&#34;how-the-experiments-worked&#34;&gt;Come hanno funzionato gli esperimenti&lt;/h2&gt;
+&lt;p&gt;In pozze asciutte, argille e cicli termici l’RNA ha formato oligomeri funzionali più in fretta.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Elon Musk on RNews1.com</title>
+    <link>http://localhost:3003/pt/tags/elon-musk/</link>
+    <description>Recent content in Elon Musk on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+        <atom:link href="http://localhost:3003/pt/tags/elon-musk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Musk Diz que Equipamentos da Rede Deixam GPUs Paradas</title>
+      <link>http://localhost:3003/pt/ai/musk-says-grid-gear-strands-gpus/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/pt/ai/musk-says-grid-gear-strands-gpus/</guid>
+      <description>&lt;h1 id=&#34;musk-diz-que-equipamentos-da-rede-deixam-gpus-paradas&#34;&gt;Musk Diz que Equipamentos da Rede Deixam GPUs Paradas&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Elon Musk&lt;/strong&gt; publicou no &lt;strong&gt;X&lt;/strong&gt; em &lt;strong&gt;29 de agosto de 2026&lt;/strong&gt; que &lt;em&gt;cerca de&lt;/em&gt; &lt;strong&gt;15 gigawatts&lt;/strong&gt; de &lt;strong&gt;capacidade de computação de IA&lt;/strong&gt; prevista para entrar em operação em &lt;strong&gt;2027&lt;/strong&gt; provavelmente &lt;em&gt;ficará inativa&lt;/em&gt; porque a &lt;strong&gt;infraestrutura de energia&lt;/strong&gt; não estará pronta. A &lt;strong&gt;Crypto Briefing&lt;/strong&gt; relata o alerta. A afirmação não é que os chips deixarão de ser enviados. É que os equipamentos ao redor dos chips — os equipamentos da rede, o cobre, a refrigeração, a malha — não estarão instalados quando os servidores estiverem.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>OpenAI corta o acesso do Cursor após acordo com Musk</title>
+      <link>http://localhost:3003/pt/business/openai-cuts-cursor-after-musk-deal/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/pt/business/openai-cuts-cursor-after-musk-deal/</guid>
+      <description>&lt;h1 id=&#34;openai-corta-o-acesso-do-cursor-após-acordo-com-musk&#34;&gt;OpenAI corta o acesso do Cursor após acordo com Musk&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;A OpenAI&lt;/strong&gt; informou na sexta-feira que deixará de fornecer seus modelos ao &lt;strong&gt;Cursor&lt;/strong&gt; depois que a &lt;strong&gt;SpaceX&lt;/strong&gt; concluiu, em &lt;strong&gt;14 de agosto&lt;/strong&gt;, uma aquisição de &lt;strong&gt;US$ 60 bilhões&lt;/strong&gt; da startup de programação com IA. O corte proposto é em &lt;strong&gt;12 de novembro de 2026&lt;/strong&gt;, e a OpenAI afirmou que não fornecerá modelos futuros ao Cursor. Uma relação com um fornecedor que, para os clientes do Cursor, parecia apenas uma parte comum da infraestrutura está sendo reclassificada como um risco que o laboratório não aceitará assumir.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

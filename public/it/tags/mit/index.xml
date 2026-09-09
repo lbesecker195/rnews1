@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>MIT on RNews1.com</title>
+    <link>http://localhost:3003/it/tags/mit/</link>
+    <description>Recent content in MIT on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    
+        <atom:link href="http://localhost:3003/it/tags/mit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MIT: Gli esseri umani battono ancora l&#39;IA sui costi</title>
+      <link>http://localhost:3003/it/ai/mit-humans-still-beat-ai-costs/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/it/ai/mit-humans-still-beat-ai-costs/</guid>
+      <description>&lt;h1 id=&#34;mit-gli-esseri-umani-battono-ancora-lia-sui-costi&#34;&gt;MIT: Gli esseri umani battono ancora l&amp;rsquo;IA sui costi&lt;/h1&gt;
+&lt;p&gt;Uno studio ampiamente rilanciato del &lt;strong&gt;MIT CSAIL&lt;/strong&gt; e della &lt;strong&gt;Sloan&lt;/strong&gt; sull&amp;rsquo;&lt;em&gt;automazione basata sulla computer vision&lt;/em&gt; torna nei &lt;em&gt;feed sull&amp;rsquo;IA dell&amp;rsquo;ultima ora&lt;/em&gt;, alimentando una &lt;strong&gt;tesi controcorrente sull&amp;rsquo;occupazione&lt;/strong&gt;: &lt;em&gt;l&amp;rsquo;esposizione tecnica non equivale alla sostituzione economica&lt;/em&gt;. La tesi non è che le telecamere non sappiano vedere. È che vedere non equivale a ripagarsi. I ricercatori che hanno modellato i &lt;strong&gt;costi di installazione e gestione&lt;/strong&gt; hanno scoperto che solo &lt;strong&gt;circa il 23% dei salari statunitensi&lt;/strong&gt; legati a &lt;em&gt;mansioni visive&lt;/em&gt; sembra &lt;em&gt;conveniente da automatizzare oggi&lt;/em&gt;. &lt;strong&gt;La maggior parte delle aziende continuerebbe a preferire le persone&lt;/strong&gt; una volta conteggiati &lt;strong&gt;telecamere&lt;/strong&gt;, &lt;strong&gt;modelli&lt;/strong&gt; e &lt;strong&gt;manutenzione&lt;/strong&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

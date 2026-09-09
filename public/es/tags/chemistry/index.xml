@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Chemistry on Meridian</title>
+		<link>http://localhost:8080/es/tags/chemistry/</link>
+		<description>Recent content in Chemistry on Meridian</description>
+		<generator>Hugo</generator>
+		<language>es</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/es/tags/chemistry/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Científicos convierten el plástico PVC, difícil de reciclar, en lubricante de alto rendimiento</title>
+				<link>http://localhost:8080/es/science/pvc-plastic-to-lubricant/</link>
+				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:8080/es/science/pvc-plastic-to-lubricant/</guid>
+				<description>&lt;h1 id=&#34;científicos-convierten-el-plástico-pvc-difícil-de-reciclar-en-lubricante-de-alto-rendimiento&#34;&gt;Científicos convierten el plástico PVC, difícil de reciclar, en lubricante de alto rendimiento&lt;/h1&gt;&#xA;&lt;p&gt;El &lt;strong&gt;PVC&lt;/strong&gt; está en tuberías, envases médicos y marcos de ventana, pero su cloro y aditivos lo hacen enemigo del reciclaje mecánico convencional. Un equipo anunció en agosto de 2026 una ruta que no solo desclora el polímero: lo &lt;em&gt;revaloriza&lt;/em&gt; como base de lubricantes de alto rendimiento.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-pvc-recycling-problem&#34;&gt;El problema del reciclaje del PVC&lt;/h2&gt;&#xA;&lt;p&gt;Al calentarse, el PVC libera cloruro de hidrógeno corrosivo y puede contaminar otros flujos de plástico. Gran parte acaba en vertederos o incineradoras. El nuevo método ataca esa química en lugar de eludirla.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

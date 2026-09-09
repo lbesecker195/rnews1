@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Seismology on RNews1.com</title>
+    <link>http://localhost:3003/ru/tags/seismology/</link>
+    <description>Recent content in Seismology on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    
+        <atom:link href="http://localhost:3003/ru/tags/seismology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ИИ картирует шесть скрытых структур Земли</title>
+      <link>http://localhost:3003/ru/science/ai-maps-six-hidden-earth-structures/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/ru/science/ai-maps-six-hidden-earth-structures/</guid>
+      <description>&lt;h1 id=&#34;ии-картирует-шесть-скрытых-структур-земли&#34;&gt;ИИ картирует шесть скрытых структур Земли&lt;/h1&gt;
+&lt;p&gt;Примерно в &lt;strong&gt;1 800 милях&lt;/strong&gt; под ногами &lt;strong&gt;мантия&lt;/strong&gt; Земли соприкасается с &lt;em&gt;жидким внешним ядром&lt;/em&gt;. Этот контакт — не гладкий шов. Это ландшафт. На протяжении десятилетий сейсмологи знали, что основание мантии неровное: там есть участки необычного материала, рассеивающие проходящие сейсмические волны. Картирование этих участков всегда было борьбой со слабыми сигналами и неравномерным покрытием. Новая работа исследователей &lt;strong&gt;Китайской академии наук&lt;/strong&gt; использует систему &lt;strong&gt;глубокого обучения&lt;/strong&gt;, огромное собрание старых сейсмограмм и немалую долю человеческой проверки, чтобы показать: эти неровности связаны между собой и встречаются чаще, чем указывали прежние каталоги.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

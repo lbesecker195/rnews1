@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Deep-Learning on RNews1.com</title>
+    <link>http://localhost:3003/es/tags/deep-learning/</link>
+    <description>Recent content in Deep-Learning on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+        <atom:link href="http://localhost:3003/es/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>La IA cartografía seis estructuras ocultas de la Tierra</title>
+      <link>http://localhost:3003/es/science/ai-maps-six-hidden-earth-structures/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/es/science/ai-maps-six-hidden-earth-structures/</guid>
+      <description>&lt;h1 id=&#34;la-ia-cartografía-seis-estructuras-ocultas-de-la-tierra&#34;&gt;La IA cartografía seis estructuras ocultas de la Tierra&lt;/h1&gt;
+&lt;p&gt;A unos &lt;strong&gt;1.800 millas&lt;/strong&gt; bajo tus pies, el &lt;strong&gt;manto&lt;/strong&gt; de la Tierra se encuentra con el &lt;em&gt;núcleo externo líquido&lt;/em&gt;. Ese contacto no es una costura lisa. Es un paisaje. Durante décadas los sismólogos han sabido que la base del manto es irregular, con parches de material extraño que dispersan las ondas sísmicas que pasan. Cartografiar esos parches siempre ha sido una lucha contra señales tenues y una cobertura desigual. Un nuevo esfuerzo de investigadores de la &lt;strong&gt;Academia China de Ciencias&lt;/strong&gt; usa un sistema de &lt;strong&gt;aprendizaje profundo&lt;/strong&gt;, una montaña de sismogramas antiguos y mucho trabajo humano de limpieza para argumentar que los bultos están más conectados, y son más numerosos, de lo que mostraban los catálogos anteriores.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

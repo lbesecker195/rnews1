@@ -1,0 +1,28 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Technology on RNews1.com</title>
+    <link>http://localhost:3003/es/tags/technology/</link>
+    <description>Recent content in Technology on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+        <atom:link href="http://localhost:3003/es/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Las decisiones críticas dan forma al futuro de la IA</title>
+      <link>http://localhost:3003/es/technology/critical-decisions-shape-ai-s-future/</link>
+      <pubDate>Sat, 05 Sep 2026 20:41:29 +0000</pubDate>
+      <guid>http://localhost:3003/es/technology/critical-decisions-shape-ai-s-future/</guid>
+      <description>&lt;h1 id=&#34;la-turbulenta-era-de-la-ia-ya-está-aquí-por-qué-nuestras-decisiones-importan-ahora-más-que-nunca&#34;&gt;La turbulenta era de la IA ya está aquí: por qué nuestras decisiones importan ahora más que nunca&lt;/h1&gt;
+&lt;p&gt;Nos encontramos en un punto de inflexión en la historia tecnológica de la humanidad. La inteligencia artificial ha pasado de los laboratorios académicos y las aplicaciones especializadas a formar parte de la conciencia general y del uso cotidiano. Sin embargo, a diferencia de las revoluciones tecnológicas anteriores, que se desarrollaron durante décadas, la transformación impulsada por la IA está ocurriendo a una velocidad vertiginosa. Esta aceleración crea oportunidades sin precedentes y riesgos significativos, y las decisiones que tomemos durante este periodo crítico repercutirán durante generaciones.&lt;/p&gt;</description>
+      
+      
+      
+      <tweet>AI&#39;s trajectory isn&#39;t predetermined. The choices we make now—about safety, governance, access, and equity—will echo for decades. This turbulent era requires all of us to think carefully about the future we&#39;re building. 🤖 #AI #Technology www.rnews1.com/en/technology/critical-decisions-shape-ai-s-future/  @TechCrunch @vergetech #Tech #Innovation #StartUp</tweet>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

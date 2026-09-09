@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>NAFLD on Meridian</title>
+		<link>http://localhost:8080/es/tags/nafld/</link>
+		<description>Recent content in NAFLD on Meridian</description>
+		<generator>Hugo</generator>
+		<language>es</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/es/tags/nafld/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>La dieta cetogénica reduce la grasa hepática un 67% y supera a la mediterránea en un ensayo clave</title>
+				<link>http://localhost:8080/es/health/keto-diet-liver-fat/</link>
+				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:8080/es/health/keto-diet-liver-fat/</guid>
+				<description>&lt;h1 id=&#34;la-dieta-cetogénica-reduce-la-grasa-hepática-un-67-y-supera-a-la-mediterránea-en-un-ensayo-clave&#34;&gt;La dieta cetogénica reduce la grasa hepática un 67% y supera a la mediterránea en un ensayo clave&lt;/h1&gt;&#xA;&lt;p&gt;Un ensayo rigurosamente diseñado publicado en agosto de 2026 encontró que una &lt;strong&gt;dieta cetogénica&lt;/strong&gt; supervisada recortó la grasa hepática medida por imagen en un &lt;strong&gt;67%&lt;/strong&gt; de media, superando a un patrón mediterráneo con restricción calórica similar.&lt;/p&gt;&#xA;&lt;h2 id=&#34;trial-design-and-participant-profile&#34;&gt;Diseño del ensayo y perfil de participantes&lt;/h2&gt;&#xA;&lt;p&gt;Adultos con hígado graso no alcohólico, sin cirrosis, fueron asignados al azar. Ambos brazos recibieron consejo dietético y seguimiento; la diferencia clave fue la composición de macronutrientes, no solo las calorías.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

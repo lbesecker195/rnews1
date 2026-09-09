@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space-Research | RNews1.com</title>
+  <meta name="description" content="Ciencia, salud y cosmos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/es/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="Secciones">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/business/"
+              
+            >Negocios</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/science/"
+              
+            >Ciencia</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/es/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/cosmos/"
+              
+            >Cosmos</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/crypto/"
+              
+            >Cripto</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/entertainment/"
+              
+            >Entretenimiento</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/health/"
+              
+            >Salud</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/ai/"
+              
+            >IA</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/sports/"
+              
+            >Deportes</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/technology/"
+              
+            >Tecnología</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/usa/"
+              
+            >EE. UU.</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/es/world/"
+              
+            >Mundo</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="Menú">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="Secciones">
+          
+            
+              
+              
+              
+              <a
+                href="/es/business/"
+                
+              >Negocios</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/science/"
+                
+              >Ciencia</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/es/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/cosmos/"
+                
+              >Cosmos</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/crypto/"
+                
+              >Cripto</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/entertainment/"
+                
+              >Entretenimiento</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/health/"
+                
+              >Salud</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/ai/"
+                
+              >IA</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/sports/"
+                
+              >Deportes</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/technology/"
+                
+              >Tecnología</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/usa/"
+                
+              >EE. UU.</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/es/world/"
+                
+              >Mundo</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+              
+            
+          Space-Research</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/es/science/scientists-debate-potential-alien-life-discovery/">Científicos debaten el posible descubrimiento de vida extraterrestre</a></h2>
+    <p class="summary">Un examen exhaustivo del consenso científico que está surgiendo entre cientos de investigadores que evalúan posibles hallazgos de vida extraterrestre.</p>
+    <a class="read-more" href="/es/science/scientists-debate-potential-alien-life-discovery/">Leer artículo</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="Idiomas">
+        
+          <a no-follow href="/en/tags/space-research/">English</a>
+        
+          <a no-follow href="/es/tags/space-research/" aria-current="page">Español</a>
+        
+          <a no-follow href="/it/tags/space-research/">Italiano</a>
+        
+          <a no-follow href="/fr/tags/space-research/">Français</a>
+        
+          <a no-follow href="/ar/tags/space-research/">العربية</a>
+        
+          <a no-follow href="/la/tags/space-research/">Latina</a>
+        
+          <a no-follow href="/hi/tags/space-research/">हिन्दी</a>
+        
+          <a no-follow href="/bn/tags/space-research/">বাংলা</a>
+        
+          <a no-follow href="/pt/tags/space-research/">Português</a>
+        
+          <a no-follow href="/ru/tags/space-research/">Русский</a>
+        
+          <a no-follow href="/ur/tags/space-research/">اردو</a>
+        
+          <a no-follow href="/zh/tags/space-research/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

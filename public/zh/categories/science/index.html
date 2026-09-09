@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Science | RNews1.com</title>
+  <meta name="description" content="科学、健康与宇宙。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/zh/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="栏目">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/ai/"
+              
+            >人工智能</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/business/"
+              
+            >商业</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/zh/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/crypto/"
+              
+            >加密货币</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/entertainment/"
+              
+            >文娱</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/sports/"
+              
+            >体育</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/technology/"
+              
+            >科技</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/usa/"
+              
+            >美国</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/world/"
+              
+            >国际</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/health/"
+              
+            >健康</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/science/"
+              
+            >科学</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/cosmos/"
+              
+            >宇宙</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="菜单">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="栏目">
+          
+            
+              
+              
+              
+              <a
+                href="/zh/ai/"
+                
+              >人工智能</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/business/"
+                
+              >商业</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/zh/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/crypto/"
+                
+              >加密货币</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/entertainment/"
+                
+              >文娱</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/sports/"
+                
+              >体育</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/technology/"
+                
+              >科技</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/usa/"
+                
+              >美国</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/world/"
+                
+              >国际</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/health/"
+                
+              >健康</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/science/"
+                
+              >科学</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/cosmos/"
+                
+              >宇宙</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+              
+            
+          Science</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/scientists-debate-potential-alien-life-discovery/">科学家就发现潜在外星生命展开辩论</a></h2>
+    <p class="summary">数百名研究人员就潜在外星生命发现发表意见，本篇全面审视由此逐渐形成的科学共识。</p>
+    <a class="read-more" href="/zh/science/scientists-debate-potential-alien-life-discovery/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/science-and-the-afterlife-evidence-or-mystery/">科学与来世：证据还是谜团</a></h2>
+    <p class="summary">探索神经科学、物理学和医学研究揭示了什么，以及没有揭示什么——关于死亡后的意识。</p>
+    <a class="read-more" href="/zh/science/science-and-the-afterlife-evidence-or-mystery/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/science-explains-death-and-afterlife/">科学解释死亡与死后世界</a></h2>
+    <p class="summary">探索神经科学、物理学和生物学揭示的意识、死亡过程，以及科学框架能否回答生命终极谜题。</p>
+    <a class="read-more" href="/zh/science/science-explains-death-and-afterlife/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/quirky-science-wins-ig-nobel-recognition/">古怪科学赢得搞笑诺贝尔奖认可</a></h2>
+    <p class="summary">对蟑螂奶和鼻腔气流动力学的非传统研究因以意想不到的方式推动人类知识进步而获得享有盛誉的搞笑诺贝尔奖认可。</p>
+    <a class="read-more" href="/zh/science/quirky-science-wins-ig-nobel-recognition/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/quirky-science-wins-recognition-at-ig-nobel/">古怪科学在搞笑诺贝尔奖中获得认可</a></h2>
+    <p class="summary">研究蟑螂奶和鼻腔空气动力学的非传统研究者，凭借真正出于好奇心的科学探究，获得了享有盛誉的搞笑诺贝尔奖。</p>
+    <a class="read-more" href="/zh/science/quirky-science-wins-recognition-at-ig-nobel/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/quirky-science-earns-ig-nobel-recognition/">古怪科学荣获搞笑诺贝尔奖认可</a></h2>
+    <p class="summary">关于蟑螂奶和鼻腔动力学的非传统研究获得了享有盛誉的搞笑诺贝尔奖，彰显了好奇心驱动科学的重要性。</p>
+    <a class="read-more" href="/zh/science/quirky-science-earns-ig-nobel-recognition/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/daily-steps-science-debunks-10000-step-myth/">每日步数：科学揭穿“1万步”神话</a></h2>
+    <p class="summary">一项突破性研究揭示，每日1万步的目标缺乏科学依据，并确定了真正对健康重要的循证步数。</p>
+    <a class="read-more" href="/zh/science/daily-steps-science-debunks-10000-step-myth/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/earth-microbes-survive-moon-shadows/">地球微生物在月影中存活</a></h2>
+    <p class="summary">NASA 主导的《Science Advances》建模研究发现，与人类相关的细菌和真菌可能在月球南极附近的阴影缝隙中存活数日，包括阿耳忒弥斯 III 号候选着陆点。研究人员利用月球勘测轨道飞行器绘制的诺比尔环、连接山脊和德热拉什环地图，测试了常见于皮肤和航天器上的黑曲霉、枯草芽孢杆菌和耐辐射奇异球菌等生物。可存活的微 …</p>
+    <a class="read-more" href="/zh/science/earth-microbes-survive-moon-shadows/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/cancer-car-t-puts-arthritis-in-remission/">癌症 CAR-T 让关节炎进入缓解期</a></h2>
+    <p class="summary">柏林夏里特医院研究人员对六名患有重度、治疗难治性类风湿关节炎的人进行了 CD19 CAR T 细胞疗法试验，这是全球首个此类试验；ScienceDaily 援引 8 月 29 日发表于《自然医学》的论文进行了报道。三名女性和三名男性，年龄 31 至 69 岁，在十年间最多失败过八种靶向或生物制剂疗法。医生采集每位患者的 …</p>
+    <a class="read-more" href="/zh/science/cancer-car-t-puts-arthritis-in-remission/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/roman-telescope-launches-sunday-morning/">罗曼望远镜将于周日早晨发射</a></h2>
+    <p class="summary">NASA耗资43亿美元的南希·格蕾丝·罗曼太空望远镜计划于美国东部夏令时间8月30日周日上午7时26分，由一枚SpaceX“猎鹰重型”火箭从肯尼迪航天中心39A发射台发射。太空军气象官员给出的有利天气条件概率为60%。这座长42英尺、重18,000磅的天文台搭载了一面7.9英尺、与哈勃同级的镜面；这面镜子由美国国家侦察 …</p>
+    <a class="read-more" href="/zh/science/roman-telescope-launches-sunday-morning/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/frozen-frogs-restart-after-hearts-stop/">心脏停止后，冰冻青蛙重新启动</a></h2>
+    <p class="summary">北美林蛙可以整个冬天看起来像死了一样，却在春天重新跳走。其体内多达65%至70%的水会在脑、肺、心脏和眼睛周围结冰，同时冰主要被限制在细胞外，以便细胞膜存活。心跳、呼吸和明显的脑活动都会停止。在最后一次心跳前，心脏会短暂加速，把葡萄糖从肝脏泵送出去；这种糖以及尿素能够限制结冰、维持细胞体积并保护蛋白质。阿拉斯加的林蛙曾 …</p>
+    <a class="read-more" href="/zh/science/frozen-frogs-restart-after-hearts-stop/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/shark-graveyard-found-in-egyptian-desert/">埃及沙漠发现鲨鱼墓地</a></h2>
+    <p class="summary">由开罗大学塔里克·亚辛带领的古生物学家团队，在埃及阿布-塔尔图尔高原的磷酸盐层中发现了14颗鲨鱼化石牙齿；这片西部沙漠约8000万年前曾是一片浅海。牙齿有些像针一样细长，有些宽阔且带锯齿，至少属于5种该遗址此前未发现的已灭绝鼠鲨目物种，使当地记录总数增至7种。其中两种此前从未在埃及有过报道；一种古老的长吻鲨近亲 …</p>
+    <a class="read-more" href="/zh/science/shark-graveyard-found-in-egyptian-desert/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/ai-maps-six-hidden-earth-structures/">AI 绘制出地球六处隐藏结构</a></h2>
+    <p class="summary">在你脚下约 1,800 英里处，地幔与液态外核相接。中国科学院研究人员用 1990 年至 2024 年间超过两百万条地震记录训练深度学习系统，随后人工纠正模型错误。系统提取出 174,929 个微弱的 PKP 前驱波信号——超过此前所有目录总数的十倍——这些波会在核幔边界附近的团块上发生散射，并在更强的波之前抵达。新地 …</p>
+    <a class="read-more" href="/zh/science/ai-maps-six-hidden-earth-structures/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/pvc-plastic-to-lubricant/">科学家将难回收的 PVC 塑料转化为高性能发动机润滑剂</a></h2>
+    <p class="summary">2026年8月公布的一项化学工艺，把聚氯乙烯（PVC）——全球最棘手的塑料之一——转化为发动机和工业机械润滑剂的成分。它中和氯并提升废料价值，或成为循环塑料经济的转折点。</p>
+    <a class="read-more" href="/zh/science/pvc-plastic-to-lubricant/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/gut-microbiome-contagious/">肠道微生物会传染吗？新研究揭示人际传播</a></h2>
+    <p class="summary">2026年8月发表的研究显示，肠道中数万亿微生物可通过日常接触在人际间传播，而不只取决于饮食或抗生素。社交与共享空间会塑造体内生态系统，对个性化医疗、免疫以及医院、学校和公共场所的设计都有影响。</p>
+    <a class="read-more" href="/zh/science/gut-microbiome-contagious/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/science/rna-chemical-difference-origins-of-life/">RNA 的微小化学差异或可揭示地球生命起源</a></h2>
+    <p class="summary">RNA 与 DNA 之间的细微差别，或能解释生命为何选择某一种分子字母表。2026 年的实验为“RNA 世界”假说提供新支持，并更接近前生命化学。</p>
+    <a class="read-more" href="/zh/science/rna-chemical-difference-origins-of-life/">阅读全文</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="语言">
+        
+          <a no-follow href="/en/categories/science/">English</a>
+        
+          <a no-follow href="/es/categories/science/">Español</a>
+        
+          <a no-follow href="/it/categories/science/">Italiano</a>
+        
+          <a no-follow href="/fr/categories/science/">Français</a>
+        
+          <a no-follow href="/ar/categories/science/">العربية</a>
+        
+          <a no-follow href="/la/categories/science/">Latina</a>
+        
+          <a no-follow href="/hi/categories/science/">हिन्दी</a>
+        
+          <a no-follow href="/bn/categories/science/">বাংলা</a>
+        
+          <a no-follow href="/pt/categories/science/">Português</a>
+        
+          <a no-follow href="/ru/categories/science/">Русский</a>
+        
+          <a no-follow href="/ur/categories/science/">اردو</a>
+        
+          <a no-follow href="/zh/categories/science/" aria-current="page">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

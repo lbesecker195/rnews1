@@ -1,0 +1,32 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Geology on RNews1.com</title>
+    <link>http://localhost:3003/pt/tags/geology/</link>
+    <description>Recent content in Geology on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+        <atom:link href="http://localhost:3003/pt/tags/geology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Um sistema magmático oculto sob Marte revela como o planeta vermelho construiu a crusta</title>
+      <link>http://localhost:3003/pt/cosmos/mars-magmatic-system/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3003/pt/cosmos/mars-magmatic-system/</guid>
+      <description>&lt;h1 id=&#34;um-sistema-magmático-oculto-sob-marte-revela-como-o-planeta-vermelho-construiu-a-crusta&#34;&gt;Um sistema magmático oculto sob Marte revela como o planeta vermelho construiu a crusta&lt;/h1&gt;
+&lt;p&gt;Modelos e dados sísmicos, gravimétricos e de meteoritos apontam para um &lt;strong&gt;sistema magmático profundo&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;piecing-together-the-evidence&#34;&gt;Juntar as provas&lt;/h2&gt;
+&lt;p&gt;InSight, orbitadores e meteoritos SNC convergem em câmaras a centenas de quilómetros de profundidade.&lt;/p&gt;
+&lt;h2 id=&#34;a-crust-built-without-plate-tectonics&#34;&gt;Uma crusta sem tectónica de placas&lt;/h2&gt;
+&lt;p&gt;Marte parece ter crescido por impulsos magmáticos verticais e províncias vulcânicas longevas.&lt;/p&gt;
+&lt;h2 id=&#34;implications-for-planetary-habitability-and-exploration&#34;&gt;Habitabilidade e exploração&lt;/h2&gt;
+&lt;p&gt;O calor interno prolongado pode ter sustentado sistemas hidrotermais mais tempo do que se estimava.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Twitch on RNews1.com</title>
+    <link>http://localhost:3003/es/tags/twitch/</link>
+    <description>Recent content in Twitch on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+        <atom:link href="http://localhost:3003/es/tags/twitch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GTA 6 tumba Twitch y Netflix</title>
+      <link>http://localhost:3003/es/technology/gta-6-crashes-twitch-and-netflix/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/es/technology/gta-6-crashes-twitch-and-netflix/</guid>
+      <description>&lt;h1 id=&#34;gta-6-tumba-twitch-y-netflix&#34;&gt;GTA 6 tumba Twitch y Netflix&lt;/h1&gt;
+&lt;p&gt;Durante más de una década, &lt;strong&gt;Grand Theft Auto&lt;/strong&gt; ha sido menos un videojuego que un suceso cívico que resulta que se vende en un disco. Cuando &lt;strong&gt;Rockstar&lt;/strong&gt; mostró por fin el primer gameplay real de &lt;em&gt;GTA 6&lt;/em&gt;, internet lo trató de esa manera. La compañía no puso el metraje primero en su propio canal. Lo puso en &lt;strong&gt;Netflix&lt;/strong&gt;, como un &lt;strong&gt;Extended Look&lt;/strong&gt; exclusivo de Netflix, y luego vio cómo medio salón de internet intentaba colarse por la misma puerta.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Cosmos on Meridian</title>
+		<link>http://localhost:8080/fr/posts/cosmos/</link>
+		<description>Recent content in Cosmos on Meridian</description>
+		<generator>Hugo</generator>
+		<language>fr</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 16:52:00 -0700</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/fr/posts/cosmos/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Le rival d&#39;Hubble de la NASA décolle dimanche</title>
+				<link>http://localhost:8080/fr/posts/cosmos/nasas-hubble-rival-launches-sunday/</link>
+				<pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+				<guid>http://localhost:8080/fr/posts/cosmos/nasas-hubble-rival-launches-sunday/</guid>
+				<description>&lt;h1 id=&#34;le-rival-dhubble-de-la-nasa-décolle-dimanche&#34;&gt;Le rival d&amp;rsquo;Hubble de la NASA décolle dimanche&lt;/h1&gt;&#xA;&lt;h2 id=&#34;a-sunday-slot-that-almost-never-arrived&#34;&gt;Un créneau dominical qui a failli ne jamais arriver&lt;/h2&gt;&#xA;&lt;p&gt;Le &lt;strong&gt;télescope spatial Nancy Grace Roman&lt;/strong&gt; de la NASA, d&amp;rsquo;un coût de &lt;strong&gt;4,3 milliards de dollars&lt;/strong&gt;, doit quitter le pas de tir &lt;strong&gt;39A&lt;/strong&gt; du &lt;strong&gt;Kennedy Space Center&lt;/strong&gt; à &lt;strong&gt;7 h 26, heure de l&amp;rsquo;Est&lt;/strong&gt;, dimanche 30 août (&lt;strong&gt;4 h 26, heure du Pacifique&lt;/strong&gt;) à bord d&amp;rsquo;un &lt;strong&gt;Falcon Heavy de SpaceX&lt;/strong&gt;. L&amp;rsquo;heure est précise parce que la fenêtre l&amp;rsquo;est. L&amp;rsquo;ironie aussi. L&amp;rsquo;observatoire décolle &lt;em&gt;avec neuf mois d&amp;rsquo;avance&lt;/em&gt;, et il décolle tout court seulement après avoir survécu à des tentatives répétées d&amp;rsquo;annulation de la Maison-Blanche.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technologies | RNews1.com</title>
+  <meta name="description" content="科学、健康与宇宙。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/zh/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="栏目">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/ai/"
+              
+            >人工智能</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/business/"
+              
+            >商业</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/zh/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/crypto/"
+              
+            >加密货币</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/entertainment/"
+              
+            >文娱</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/sports/"
+              
+            >体育</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/technology/"
+              aria-current="page"
+            >科技</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/usa/"
+              
+            >美国</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/world/"
+              
+            >国际</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/health/"
+              
+            >健康</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/science/"
+              
+            >科学</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/cosmos/"
+              
+            >宇宙</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="菜单">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="栏目">
+          
+            
+              
+              
+              
+              <a
+                href="/zh/ai/"
+                
+              >人工智能</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/business/"
+                
+              >商业</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/zh/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/crypto/"
+                
+              >加密货币</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/entertainment/"
+                
+              >文娱</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/sports/"
+                
+              >体育</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/technology/"
+                aria-current="page"
+              >科技</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/usa/"
+                
+              >美国</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/world/"
+                
+              >国际</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/health/"
+                
+              >健康</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/science/"
+                
+              >科学</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/cosmos/"
+                
+              >宇宙</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+          科技</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/zh/technology/ai-safety-crisis-researcher-warns-of-existential/">人工智能安全危机：研究人员警告存在生存风险</a></h2>
+    <p class="summary">一位知名人工智能研究人员打破沉默，谈及先进人工智能系统，并紧急指出，如果不立即采取干预措施，可能在未来十年内出现威胁人类生存的风险。</p>
+    <a class="read-more" href="/zh/technology/ai-safety-crisis-researcher-warns-of-existential/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/technology/tiny-e-reader-revolutionizes-digital-reading/">微型电子阅读器掀起数字阅读革命</a></h2>
+    <p class="summary">探索《大西洋月刊》报道的这款电子阅读器为何被誉为突破性技术，以及它如何完美平衡简洁性、便携性与目标明确的设计。</p>
+    <a class="read-more" href="/zh/technology/tiny-e-reader-revolutionizes-digital-reading/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/technology/understanding-ai-s-impact-on-children-today/">了解人工智能如今对儿童的影响</a></h2>
+    <p class="summary">一位顶尖人工智能研究人员兼三个孩子的父亲分享了关于人工智能如何重塑童年，以及家庭应了解什么才能应对这一数字化转型的重要见解。</p>
+    <a class="read-more" href="/zh/technology/understanding-ai-s-impact-on-children-today/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/technology/critical-choices-shape-ai-s-future-now/">关键选择正在塑造 AI 的未来</a></h2>
+    <p class="summary">随着人工智能迅速改变社会，我们今天做出的决定将从根本上决定 AI 是造福人类，还是加剧现有的不平等。</p>
+    <a class="read-more" href="/zh/technology/critical-choices-shape-ai-s-future-now/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/technology/flock-cameras-emerge-as-midterm-campaign-issue/">Flock 摄像头成为中期选举议题</a></h2>
+    <p class="summary">选民日益担忧企业监控技术和数据隐私，使车牌识别器成为中期选举中一个出人意料的政治焦点。</p>
+    <a class="read-more" href="/zh/technology/flock-cameras-emerge-as-midterm-campaign-issue/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/technology/navigating-critical-decisions-in-ai-s-turbulent-era/">在动荡的人工智能时代应对关键决策</a></h2>
+    <p class="summary">随着人工智能重塑社会，我们今天作出的决策将决定这项变革性技术究竟会造福人类，还是加剧现有的不平等。</p>
+    <a class="read-more" href="/zh/technology/navigating-critical-decisions-in-ai-s-turbulent-era/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/technology/critical-decisions-shape-ai-s-future/">关键决策塑造人工智能的未来</a></h2>
+    <p class="summary">随着人工智能进入变革阶段，技术专家、政策制定者和社会如今作出的战略选择，将决定人工智能最终会成为促进广泛人类福祉的工具，还是权力集中的手段。</p>
+    <a class="read-more" href="/zh/technology/critical-decisions-shape-ai-s-future/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/technology/gates-warns-turbulent-ai-era-arrives/">盖茨警告：动荡的人工智能时代已经到来</a></h2>
+    <p class="summary">比尔·盖茨在 Gates Notes 发布新文章，认为动荡的人工智能时代已经到来，而近期的选择将决定收益是否超过危害。文章将其称为“划时代的转变”，敦促制定具体计划，让人工智能惠及所有人，而不是集中上行收益或加速下行风险。文章发布之际，围绕就业自动化成本、基础设施建设和治理的讨论彼此交织，并于周六晚间位居 Google …</p>
+    <a class="read-more" href="/zh/technology/gates-warns-turbulent-ai-era-arrives/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/technology/socket-sensor-warns-before-tissue-injury/">插座传感器在组织受伤前发出警告</a></h2>
+    <p class="summary">浙江工业大学研究人员开发了一种仿生传感层，旨在置于假肢接受腔内部，标记可能损伤残肢皮肤的压力；ScienceAlert据《仿生与仿生系统》的一项研究进行了报道。该原型并不是完整的假肢，它会追踪接受腔施压的位置、力度和持续时间。一个触觉通路报告位置与强度；一个受疼痛启发的通路则利用类似突触的晶体管随时间累积信号，并在类似 …</p>
+    <a class="read-more" href="/zh/technology/socket-sensor-warns-before-tissue-injury/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/technology/abbott-freezes-texas-flock-camera-funding/">阿博特冻结得州 Flock 摄像头资金</a></h2>
+    <p class="summary">得州州长格雷格·阿博特下令州政府机构暂停为 Flock Safety 的人工智能车牌摄像头提供资金，此前隐私反弹和警方滥用指控不断扩散。《德州论坛报》称，该命令发布之际正准备展开调查，调查显示一家州机构通过地方警方拨款，至少向 Flock 网络投入了 3000 万美元。发言人安德鲁·马哈勒里斯表示，大多数城市摄像头资金 …</p>
+    <a class="read-more" href="/zh/technology/abbott-freezes-texas-flock-camera-funding/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/technology/apple-jacks-up-streaming-prices-again/">苹果再次提高流媒体价格</a></h2>
+    <p class="summary">据 Ars Technica 援引 Variety 报道，苹果将美国 Apple TV 的月费提高 2 美元至 15 美元，并将年费从 99 美元上调 20% 至 119 美元。新用户立即按新价格付费；现有用户会提前约一个月收到通知。苹果还将 Apple One 个人版从 20 美元上调至 22 美元，跟随上月 …</p>
+    <a class="read-more" href="/zh/technology/apple-jacks-up-streaming-prices-again/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/technology/activision-serves-cheat-seller-on-camera/">动视当镜头面向作弊卖家送达文件</a></h2>
+    <p class="summary">《使命召唤》官方 X 账号发布了一段一分钟视频，内容是一名送达人员在俄亥俄州一所住宅向知名作弊软件供应商 Elocarry 递交停止侵权通知。视频标注时间为 8 月 22 日上午 9:50，正值《现代战争 4》封闭测试期间，整体被包装成一次现场直播的 RICOCHET 打击行动：“作弊制作者遍布全球。我们也是。”现场代 …</p>
+    <a class="read-more" href="/zh/technology/activision-serves-cheat-seller-on-camera/">阅读全文</a>
+  </article>
+  
+  <article class="post-card">
+    <h2><a href="/zh/technology/gta-6-crashes-twitch-and-netflix/">《GTA 6》让 Twitch 和 Netflix 崩溃</a></h2>
+    <p class="summary">据 Eurogamer 援引 Streams Charts 数据，Rockstar 首次公开《GTA 6》实机演示，并以 Netflix 独家 Extended Look 形式播出，在各直播平台合计达到 3,970,738 名同时在线观众，成为 2026 年规模最大的游戏直播活动。约有 9,038 名主播进行转播或解说 …</p>
+    <a class="read-more" href="/zh/technology/gta-6-crashes-twitch-and-netflix/">阅读全文</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="语言">
+        
+          <a no-follow href="/en/technology/">English</a>
+        
+          <a no-follow href="/es/technology/">Español</a>
+        
+          <a no-follow href="/it/technology/">Italiano</a>
+        
+          <a no-follow href="/fr/technology/">Français</a>
+        
+          <a no-follow href="/ar/technology/">العربية</a>
+        
+          <a no-follow href="/la/technology/">Latina</a>
+        
+          <a no-follow href="/hi/technology/">हिन्दी</a>
+        
+          <a no-follow href="/bn/technology/">বাংলা</a>
+        
+          <a no-follow href="/pt/technology/">Português</a>
+        
+          <a no-follow href="/ru/technology/">Русский</a>
+        
+          <a no-follow href="/ur/technology/">اردو</a>
+        
+          <a no-follow href="/zh/technology/" aria-current="page">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Options on RNews1.com</title>
+    <link>http://localhost:3003/en/tags/options/</link>
+    <description>Recent content in Options on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+        <atom:link href="http://localhost:3003/en/tags/options/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spot Cash, Not Leverage, Fuels BTC</title>
+      <link>http://localhost:3003/en/crypto/spot-cash-not-leverage-fuels-btc/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/en/crypto/spot-cash-not-leverage-fuels-btc/</guid>
+      <description>&lt;h1 id=&#34;spot-cash-not-leverage-fuels-btc&#34;&gt;Spot Cash, Not Leverage, Fuels BTC&lt;/h1&gt;
+&lt;p&gt;Bitcoin’s latest leg higher did not look, on the derivatives tape, like a crowded squeeze. &lt;strong&gt;Blockonomi&lt;/strong&gt; cites &lt;strong&gt;QCP Capital&lt;/strong&gt; arguing that &lt;strong&gt;Bitcoin&lt;/strong&gt;’s climb from about &lt;strong&gt;$63,500&lt;/strong&gt; toward &lt;strong&gt;$80,000&lt;/strong&gt;—briefly above &lt;strong&gt;$81,000&lt;/strong&gt;—rested on &lt;em&gt;spot support&lt;/em&gt;, not &lt;em&gt;crowded leverage&lt;/em&gt;. That is a market-structure claim, not a price target. It says the bid that carried the coin from the mid-sixties toward eighty thousand dollars arrived in cash and in regulated wrappers, while the usual leverage gauges—open interest, funding, options crowding—did not print the signature of a blow-off.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

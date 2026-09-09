@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>FDA on Meridian</title>
+		<link>http://localhost:8080/en/tags/fda/</link>
+		<description>Recent content in FDA on Meridian</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 14:25:00 -0700</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/en/tags/fda/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>FDA Clears First-of-Its-Kind Nonmedication PTSD Treatment Using Personalized Brain Stimulation</title>
+				<link>http://localhost:8080/en/health/fda-ptsd-nonmedication-treatment/</link>
+				<pubDate>Sat, 29 Aug 2026 14:25:00 -0700</pubDate>
+				<guid>http://localhost:8080/en/health/fda-ptsd-nonmedication-treatment/</guid>
+				<description>&lt;h1 id=&#34;fda-clears-first-of-its-kind-nonmedication-ptsd-treatment-using-personalized-brain-stimulation&#34;&gt;FDA Clears First-of-Its-Kind Nonmedication PTSD Treatment Using Personalized Brain Stimulation&lt;/h1&gt;&#xA;&lt;p&gt;Post-traumatic stress disorder affects millions of people worldwide, yet a substantial fraction of patients experience only partial relief from available medications and psychotherapies. In late August 2026 the U.S. Food and Drug Administration granted clearance to a groundbreaking system that delivers &lt;strong&gt;personalized magnetic brain stimulation&lt;/strong&gt; guided by real-time neural activity. The decision marks the first regulatory authorization of a nonmedication, closed-loop neuromodulation therapy specifically for PTSD.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

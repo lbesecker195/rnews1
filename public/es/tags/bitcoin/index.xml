@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Bitcoin on RNews1.com</title>
+    <link>http://localhost:3003/es/tags/bitcoin/</link>
+    <description>Recent content in Bitcoin on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+        <atom:link href="http://localhost:3003/es/tags/bitcoin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El efectivo al contado, no el apalancamiento, impulsa a BTC</title>
+      <link>http://localhost:3003/es/crypto/spot-cash-not-leverage-fuels-btc/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/es/crypto/spot-cash-not-leverage-fuels-btc/</guid>
+      <description>&lt;h1 id=&#34;el-efectivo-al-contado-no-el-apalancamiento-impulsa-a-btc&#34;&gt;El efectivo al contado, no el apalancamiento, impulsa a BTC&lt;/h1&gt;
+&lt;p&gt;El último tramo alcista de Bitcoin no pareció, según los datos de derivados, una liquidación forzada masiva. &lt;strong&gt;Blockonomi&lt;/strong&gt; cita a &lt;strong&gt;QCP Capital&lt;/strong&gt;, que sostiene que el ascenso de &lt;strong&gt;Bitcoin&lt;/strong&gt; desde unos &lt;strong&gt;$63,500&lt;/strong&gt; hacia &lt;strong&gt;$80,000&lt;/strong&gt; —brevemente por encima de &lt;strong&gt;$81,000&lt;/strong&gt;— se apoyó en la &lt;em&gt;demanda al contado&lt;/em&gt;, no en un &lt;em&gt;apalancamiento excesivo&lt;/em&gt;. Esa es una afirmación sobre la estructura del mercado, no un objetivo de precio. Indica que la demanda que llevó la moneda desde la zona media de los sesenta mil hacia los ochenta mil dólares llegó en efectivo y mediante vehículos regulados, mientras que los indicadores habituales de apalancamiento —interés abierto, financiación y concentración en opciones— no mostraron las señales de una subida final eufórica.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Los ETF de Bitcoin rompen la racha de tres mil millones</title>
+      <link>http://localhost:3003/es/crypto/bitcoin-etfs-snap-three-billion-streak/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/es/crypto/bitcoin-etfs-snap-three-billion-streak/</guid>
+      <description>&lt;h1 id=&#34;los-etf-de-bitcoin-rompen-la-racha-de-tres-mil-millones&#34;&gt;Los ETF de Bitcoin rompen la racha de tres mil millones&lt;/h1&gt;
+&lt;p&gt;La puja se quebró un viernes. Los &lt;strong&gt;ETF spot de Bitcoin de EE. UU.&lt;/strong&gt; registraron &lt;strong&gt;201,9 millones de dólares&lt;/strong&gt; de &lt;em&gt;salidas netas&lt;/em&gt;, poniendo fin a una racha compradora de &lt;strong&gt;nueve días&lt;/strong&gt; que había absorbido &lt;strong&gt;3.040 millones de dólares&lt;/strong&gt; —la &lt;em&gt;puja ininterrumpida más fuerte de este mercado bajista&lt;/em&gt;, según &lt;strong&gt;Ecoinometrics&lt;/strong&gt; y &lt;strong&gt;Farside Investors&lt;/strong&gt;. &lt;strong&gt;Bitcoin&lt;/strong&gt; retrocedió cerca de un &lt;strong&gt;3,2 por ciento&lt;/strong&gt; hasta &lt;strong&gt;77.696 dólares&lt;/strong&gt;. El número que había dado un suelo a esta caída era la creación diaria de participaciones de ETF. Durante nueve sesiones, ese suelo aguantó. Luego, no.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

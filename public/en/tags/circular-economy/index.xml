@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Circular Economy on Meridian</title>
+		<link>http://localhost:8080/en/tags/circular-economy/</link>
+		<description>Recent content in Circular Economy on Meridian</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 14:10:00 -0700</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/en/tags/circular-economy/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Scientists Transform Hard-to-Recycle PVC Plastic Into High-Performance Engine Lubricant</title>
+				<link>http://localhost:8080/en/science/pvc-plastic-to-lubricant/</link>
+				<pubDate>Sat, 29 Aug 2026 14:10:00 -0700</pubDate>
+				<guid>http://localhost:8080/en/science/pvc-plastic-to-lubricant/</guid>
+				<description>&lt;h1 id=&#34;scientists-transform-hard-to-recycle-pvc-plastic-into-high-performance-engine-lubricant&#34;&gt;Scientists Transform Hard-to-Recycle PVC Plastic Into High-Performance Engine Lubricant&lt;/h1&gt;&#xA;&lt;p&gt;Polyvinyl chloride, better known as &lt;strong&gt;PVC&lt;/strong&gt;, is one of the most widely used plastics on the planet—and one of the most difficult to recycle. Found in everything from pipes and window frames to medical tubing and credit cards, PVC accounts for a substantial fraction of global plastic production. Yet its chlorine content and complex additive packages have made conventional mechanical recycling inefficient and often environmentally risky.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

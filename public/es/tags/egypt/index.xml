@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Egypt on RNews1.com</title>
+    <link>http://localhost:3003/es/tags/egypt/</link>
+    <description>Recent content in Egypt on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+        <atom:link href="http://localhost:3003/es/tags/egypt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hallan un cementerio de tiburones en el desierto egipcio</title>
+      <link>http://localhost:3003/es/science/shark-graveyard-found-in-egyptian-desert/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/es/science/shark-graveyard-found-in-egyptian-desert/</guid>
+      <description>&lt;h1 id=&#34;hallan-un-cementerio-de-tiburones-en-el-desierto-egipcio&#34;&gt;Hallan un cementerio de tiburones en el desierto egipcio&lt;/h1&gt;
+&lt;p&gt;El &lt;strong&gt;Desierto Occidental&lt;/strong&gt; de Egipto es un lugar de viento y fosfato, no de oleaje. Hace unos &lt;strong&gt;80 millones de años&lt;/strong&gt; era un &lt;em&gt;mar interior poco profundo&lt;/em&gt;. Paleontólogos liderados por &lt;strong&gt;Tarek Yassin, de la Universidad de El Cairo&lt;/strong&gt;, han extraído ahora &lt;strong&gt;14 dientes fósiles de tiburón&lt;/strong&gt; de &lt;strong&gt;lechos de fosfato&lt;/strong&gt; en la &lt;strong&gt;meseta de Abu-Tartur&lt;/strong&gt;, y esos dientes bastan para reescribir el elenco local de cazadores del Cretácico. El hallazgo se presenta como un «cementerio» de tiburones, y las comillas de precaución hacen un trabajo honesto. No es un único montón de animales que murieron juntos. Es un archivo de fondo marino de un margen mixto y rico en nutrientes del &lt;strong&gt;Tetis&lt;/strong&gt;, levantado después hasta convertirse en desierto cuando el mar se retiró.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

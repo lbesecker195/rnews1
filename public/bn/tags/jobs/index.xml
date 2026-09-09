@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Jobs on RNews1.com</title>
+    <link>http://localhost:3003/bn/tags/jobs/</link>
+    <description>Recent content in Jobs on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>bn</language>
+    
+        <atom:link href="http://localhost:3003/bn/tags/jobs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MIT: AI-এর খরচের চেয়ে মানুষ এখনও সাশ্রয়ী</title>
+      <link>http://localhost:3003/bn/ai/mit-humans-still-beat-ai-costs/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/bn/ai/mit-humans-still-beat-ai-costs/</guid>
+      <description>&lt;h1 id=&#34;mit-ai-এর-খরচর-চয-মনষ-এখনও-সশরয&#34;&gt;MIT: AI-এর খরচের চেয়ে মানুষ এখনও সাশ্রয়ী&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;কম্পিউটার-ভিশন অটোমেশন&lt;/em&gt; নিয়ে বহুল পুনঃপ্রচারিত &lt;strong&gt;MIT CSAIL&lt;/strong&gt; ও &lt;strong&gt;Sloan&lt;/strong&gt; গবেষণাটি আবার &lt;em&gt;শেষ মুহূর্তের AI ফিডে&lt;/em&gt; ফিরেছে, যা একটি &lt;strong&gt;প্রচলিত ধারণার বিপরীত চাকরি-বয়ান&lt;/strong&gt; সামনে আনছে: &lt;em&gt;প্রযুক্তিগতভাবে কোনো কাজ করা সম্ভব হওয়া আর অর্থনৈতিকভাবে মানুষকে প্রতিস্থাপন করা এক কথা নয়&lt;/em&gt;। দাবি এই নয় যে ক্যামেরা দেখতে পারে না। দাবি হলো, কোনো কিছু দেখতে পারা আর সেই ব্যবস্থার নিজের খরচ তুলে আনা এক বিষয় নয়। &lt;strong&gt;স্থাপন ও পরিচালন ব্যয়&lt;/strong&gt; মডেল করা গবেষকেরা দেখেছেন, &lt;em&gt;ভিশন-সংক্রান্ত কাজের&lt;/em&gt; সঙ্গে যুক্ত &lt;strong&gt;যুক্তরাষ্ট্রের মজুরির প্রায় ২৩%&lt;/strong&gt;-ই আজ &lt;em&gt;অটোমেশনের জন্য ব্যয়-সাশ্রয়ী&lt;/em&gt; বলে মনে হয়। &lt;strong&gt;ক্যামেরা&lt;/strong&gt;, &lt;strong&gt;মডেল&lt;/strong&gt; ও &lt;strong&gt;রক্ষণাবেক্ষণের&lt;/strong&gt; খরচ ধরলে &lt;strong&gt;অধিকাংশ প্রতিষ্ঠান এখনও মানুষকেই পছন্দ করবে&lt;/strong&gt;।&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

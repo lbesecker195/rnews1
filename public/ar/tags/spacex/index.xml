@@ -1,0 +1,65 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>SpaceX on RNews1.com</title>
+    <link>http://localhost:3003/ar/tags/spacex/</link>
+    <description>Recent content in SpaceX on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language>
+    
+        <atom:link href="http://localhost:3003/ar/tags/spacex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>إطلاق تلسكوب رومان مقرر يوم الأحد</title>
+      <link>http://localhost:3003/ar/cosmos/roman-telescope-launch-set-sunday/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/ar/cosmos/roman-telescope-launch-set-sunday/</guid>
+      <description>&lt;h1 id=&#34;إطلاق-تلسكوب-رومان-مقرر-يوم-الأحد&#34;&gt;إطلاق تلسكوب رومان مقرر يوم الأحد&lt;/h1&gt;
+&lt;p&gt;إن &lt;strong&gt;تلسكوب نانسي غريس رومان الفضائي التابع لناسا، البالغة تكلفته 4.3 مليارات دولار&lt;/strong&gt;، موضوع &lt;em&gt;على هيئة حزمة إطلاق&lt;/em&gt; استعدادًا لانطلاق &lt;strong&gt;فالكون هيفي من سبيس إكس&lt;/strong&gt; من &lt;strong&gt;المنصة 39A في مركز كينيدي للفضاء&lt;/strong&gt; عند &lt;strong&gt;الساعة 7:26 صباحًا بتوقيت شرق الولايات المتحدة&lt;/strong&gt; يوم الأحد، &lt;strong&gt;30 أغسطس&lt;/strong&gt;، بعد &lt;em&gt;اجتماع الجاهزية يوم السبت&lt;/em&gt;. العتاد على الصاروخ. والاجتماع انتهى. والساعة، إذا صمد طقس فلوريدا وبقية العد التنازلي، تشير الآن إلى نافذة صباح الأحد التي وضعها المجتمع الفضائي بالفعل على قائمة &lt;em&gt;الأحداث التي لا بد من متابعتها&lt;/em&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>تسرّب المؤكسد يؤخر Crew-13</title>
+      <link>http://localhost:3003/ar/cosmos/dragon-oxidizer-leak-delays-crew-13/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/ar/cosmos/dragon-oxidizer-leak-delays-crew-13/</guid>
+      <description>&lt;h1 id=&#34;تسرب-المؤكسد-يؤخر-crew-13&#34;&gt;تسرّب المؤكسد يؤخر Crew-13&lt;/h1&gt;
+&lt;p&gt;تعمل &lt;strong&gt;ناسا&lt;/strong&gt; و&lt;strong&gt;سبيس إكس&lt;/strong&gt; على تعديل موعد إطلاق &lt;strong&gt;Crew-13&lt;/strong&gt; إلى &lt;strong&gt;محطة الفضاء الدولية&lt;/strong&gt; بعد اكتشاف &lt;em&gt;تسرّب مؤكسد&lt;/em&gt; في نظام دفع &lt;strong&gt;Dragon&lt;/strong&gt; أثناء &lt;em&gt;إجراءات المعالجة القياسية السابقة للإطلاق&lt;/em&gt;، حسبما قالت ناسا في &lt;strong&gt;29 أغسطس 2026&lt;/strong&gt;. ولا يعني هذا الاكتشاف إجهاضاً في اللحظة الأخيرة على منصة الإطلاق، ولا عطلاً أثناء الرحلة. إنه اكتشاف أرضي حدث بينما كانت المركبة الفضائية تخضع للفحوصات المعتادة التي تسبق السماح لطاقم بركوبها. وُجدت هذه الفحوصات لضمان اكتشاف تسرّب من هذا النوع في فلوريدا، لا في المدار.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>ماسك يقول إن معدات الشبكة تعطل وحدات معالجة الرسوميات</title>
+      <link>http://localhost:3003/ar/ai/musk-says-grid-gear-strands-gpus/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/ar/ai/musk-says-grid-gear-strands-gpus/</guid>
+      <description>&lt;h1 id=&#34;ماكس-يقول-إن-معدات-الشبكة-تعطل-وحدات-معالجة-الرسوميات&#34;&gt;ماكس يقول إن معدات الشبكة تعطل وحدات معالجة الرسوميات&lt;/h1&gt;
+&lt;p&gt;نشر &lt;strong&gt;إيلون ماسك&lt;/strong&gt; على &lt;strong&gt;X&lt;/strong&gt; في &lt;strong&gt;29 أغسطس 2026&lt;/strong&gt; أن &lt;em&gt;نحو&lt;/em&gt; &lt;strong&gt;15 غيغاواط&lt;/strong&gt; من &lt;strong&gt;قدرة حوسبة الذكاء الاصطناعي&lt;/strong&gt; المقرر تشغيلها في &lt;strong&gt;2027&lt;/strong&gt; ستظل على الأرجح &lt;em&gt;متوقفة&lt;/em&gt; لأن &lt;strong&gt;بنية الطاقة التحتية&lt;/strong&gt; لن تكون جاهزة. وتفيد &lt;strong&gt;Crypto Briefing&lt;/strong&gt; بالتحذير. ولا يعني الادعاء أن الشرائح لن تُشحن. بل يعني أن المعدات المحيطة بالشرائح—معدات الشبكة، والنحاس، والتبريد، ونسيج الربط—لن تكون موجودة عندما تكون الخوادم جاهزة.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>OpenAI توقف Cursor بعد صفقة ماسك</title>
+      <link>http://localhost:3003/ar/business/openai-cuts-cursor-after-musk-deal/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/ar/business/openai-cuts-cursor-after-musk-deal/</guid>
+      <description>&lt;h1 id=&#34;openai-توقف-cursor-بعد-صفقة-ماسك&#34;&gt;OpenAI توقف Cursor بعد صفقة ماسك&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;قالت OpenAI&lt;/strong&gt; يوم الجمعة إنها ستتوقف عن تزويد &lt;strong&gt;Cursor&lt;/strong&gt; بنماذجها بعد أن أتمت &lt;strong&gt;SpaceX&lt;/strong&gt; في &lt;strong&gt;14 أغسطس&lt;/strong&gt; استحواذًا بقيمة &lt;strong&gt;60 مليار دولار&lt;/strong&gt; على الشركة الناشئة في مجال الذكاء الاصطناعي للبرمجة. ومن المقترح أن يكون الإيقاف في &lt;strong&gt;12 نوفمبر 2026&lt;/strong&gt;، كما قالت OpenAI إنها لن تمنح Cursor نماذج مستقبلية. وما كان يبدو، بالنسبة إلى عملاء Cursor، علاقة مورّد عادية أشبه بالتمديدات الأساسية، يُعاد تصنيفه الآن باعتباره خطرًا لن تتحمله الشركة.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

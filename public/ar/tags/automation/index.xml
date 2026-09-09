@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Automation on RNews1.com</title>
+    <link>http://localhost:3003/ar/tags/automation/</link>
+    <description>Recent content in Automation on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language>
+    
+        <atom:link href="http://localhost:3003/ar/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MIT: البشر ما زالوا يتفوقون على الذكاء الاصطناعي من حيث التكلفة</title>
+      <link>http://localhost:3003/ar/ai/mit-humans-still-beat-ai-costs/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/ar/ai/mit-humans-still-beat-ai-costs/</guid>
+      <description>&lt;h1 id=&#34;mit-البشر-ما-زالوا-يتفوقون-على-الذكاء-الاصطناعي-من-حيث-التكلفة&#34;&gt;MIT: البشر ما زالوا يتفوقون على الذكاء الاصطناعي من حيث التكلفة&lt;/h1&gt;
+&lt;p&gt;تعود دراسة واسعة التداول من &lt;strong&gt;MIT CSAIL&lt;/strong&gt; و&lt;strong&gt;Sloan&lt;/strong&gt; حول &lt;em&gt;أتمتة الرؤية الحاسوبية&lt;/em&gt; إلى &lt;em&gt;موجزات الذكاء الاصطناعي في اللحظة الأخيرة&lt;/em&gt;، دافعةً بسردية &lt;strong&gt;مغايرة بشأن الوظائف&lt;/strong&gt;: &lt;em&gt;التعرض التقني لا يساوي الاستبدال الاقتصادي&lt;/em&gt;. لا تدعي الدراسة أن الكاميرات لا تستطيع الرؤية، بل إن الرؤية لا تعني بالضرورة أن النظام يغطي تكلفته. فقد وجد الباحثون، بعد نمذجة &lt;strong&gt;تكاليف التركيب والتشغيل&lt;/strong&gt;، أن &lt;strong&gt;نحو 23% فقط من الأجور الأمريكية&lt;/strong&gt; المرتبطة بـ&lt;em&gt;مهام الرؤية&lt;/em&gt; تبدو &lt;em&gt;مجدية من حيث التكلفة للأتمتة اليوم&lt;/em&gt;. &lt;strong&gt;وستظل معظم الشركات تفضل البشر&lt;/strong&gt; بعد احتساب تكلفة &lt;strong&gt;الكاميرات&lt;/strong&gt; و&lt;strong&gt;النماذج&lt;/strong&gt; و&lt;strong&gt;الصيانة&lt;/strong&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>غيتس يحذّر من وصول عصر الذكاء الاصطناعي المضطرب</title>
+      <link>http://localhost:3003/ar/technology/gates-warns-turbulent-ai-era-arrives/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/ar/technology/gates-warns-turbulent-ai-era-arrives/</guid>
+      <description>&lt;h1 id=&#34;غيتس-يحذر-من-وصول-عصر-الذكاء-الاصطناعي-المضطرب&#34;&gt;غيتس يحذّر من وصول عصر الذكاء الاصطناعي المضطرب&lt;/h1&gt;
+&lt;p&gt;نشر &lt;strong&gt;بيل غيتس&lt;/strong&gt; مقالًا جديدًا على &lt;strong&gt;Gates Notes&lt;/strong&gt; يجادل فيه بأن &lt;em&gt;عصر الذكاء الاصطناعي المضطرب&lt;/em&gt; قد بدأ بالفعل، وأن &lt;em&gt;الخيارات القريبة زمنيًا&lt;/em&gt; ستحدد ما إذا كانت الفوائد ستفوق الأضرار. والمقال، الذي يؤطر هذه المرحلة باعتبارها «تحولًا تاريخيًا»، لا يتعامل مع الذكاء الاصطناعي بوصفه توقعًا بعيدًا أو خيالًا علميًا ينتظر اختراقًا مستقبليًا. بل يتعامل مع الحاضر باعتباره الفترة الحاسمة. وهذا التأطير، إلى جانب الدعوة إلى &lt;em&gt;خطة ملموسة&lt;/em&gt; تضمن أن يعمل الذكاء الاصطناعي لصالح الجميع بدلًا من تركيز المكاسب أو تسريع مخاطر الجانب السلبي، هو ما دفع المقال إلى صدارة خلاصات &lt;strong&gt;Google News&lt;/strong&gt; للتكنولوجيا والذكاء الاصطناعي خلال الساعة الأخيرة مساء السبت.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

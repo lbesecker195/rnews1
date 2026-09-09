@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="hi" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Performance-Workers | RNews1.com</title>
+  <meta name="description" content="विज्ञान, स्वास्थ्य और ब्रह्मांड।">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/hi/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="अनुभाग">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/ai/"
+              
+            >एआई</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/business/"
+              
+            >व्यापार</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/hi/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/crypto/"
+              
+            >क्रिप्टो</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/entertainment/"
+              
+            >मनोरंजन</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/sports/"
+              
+            >खेल</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/technology/"
+              
+            >तकनीक</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/usa/"
+              
+            >अमेरिका</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/world/"
+              
+            >विश्व</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/cosmos/"
+              
+            >ब्रह्मांड</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/science/"
+              
+            >विज्ञान</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/health/"
+              
+            >स्वास्थ्य</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="मेनू">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="अनुभाग">
+          
+            
+              
+              
+              
+              <a
+                href="/hi/ai/"
+                
+              >एआई</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/business/"
+                
+              >व्यापार</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/hi/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/crypto/"
+                
+              >क्रिप्टो</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/entertainment/"
+                
+              >मनोरंजन</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/sports/"
+                
+              >खेल</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/technology/"
+                
+              >तकनीक</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/usa/"
+                
+              >अमेरिका</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/world/"
+                
+              >विश्व</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/cosmos/"
+                
+              >ब्रह्मांड</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/science/"
+                
+              >विज्ञान</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/health/"
+                
+              >स्वास्थ्य</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<header class="list-header">
+  <h1>
+            
+            
+              
+            
+          Performance-Worker</h1>
+  
+</header>
+<div class="post-list">
+  
+  <article class="post-card">
+    <h2><a href="/hi/entertainment/las-vegas-strip-shows-face-closure-crisis/">लास वेगास स्ट्रिप के शो बंद होने के संकट का सामना कर रहे हैं</a></h2>
+    <p class="summary">लास वेगास स्ट्रिप के दो प्रमुख प्रोडक्शन बंद हो रहे हैं, जिससे सैकड़ों मनोरंजन कर्मी प्रभावित होंगे और स्थानीय प्रदर्शन उद्योग को बड़ा झटका लगेगा।</p>
+    <a class="read-more" href="/hi/entertainment/las-vegas-strip-shows-face-closure-crisis/">लेख पढ़ें</a>
+  </article>
+  
+</div>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="भाषाएँ">
+        
+          <a no-follow href="/en/tags/performance-workers/">English</a>
+        
+          <a no-follow href="/es/tags/performance-workers/">Español</a>
+        
+          <a no-follow href="/it/tags/performance-workers/">Italiano</a>
+        
+          <a no-follow href="/fr/tags/performance-workers/">Français</a>
+        
+          <a no-follow href="/ar/tags/performance-workers/">العربية</a>
+        
+          <a no-follow href="/la/tags/performance-workers/">Latina</a>
+        
+          <a no-follow href="/hi/tags/performance-workers/" aria-current="page">हिन्दी</a>
+        
+          <a no-follow href="/bn/tags/performance-workers/">বাংলা</a>
+        
+          <a no-follow href="/pt/tags/performance-workers/">Português</a>
+        
+          <a no-follow href="/ru/tags/performance-workers/">Русский</a>
+        
+          <a no-follow href="/ur/tags/performance-workers/">اردو</a>
+        
+          <a no-follow href="/zh/tags/performance-workers/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

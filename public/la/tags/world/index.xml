@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>World on RNews1.com</title>
+    <link>http://localhost:3003/la/tags/world/</link>
+    <description>Recent content in World on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>la</language>
+    
+        <atom:link href="http://localhost:3003/la/tags/world/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CN Novam Projectionis Chartae Revolutionariam Adoptat</title>
+      <link>http://localhost:3003/la/world/un-adopts-revolutionary-map-projection-system/</link>
+      <pubDate>Sat, 05 Sep 2026 20:42:27 +0000</pubDate>
+      <guid>http://localhost:3003/la/world/un-adopts-revolutionary-map-projection-system/</guid>
+      <description>&lt;h1 id=&#34;cn-novam-chartam-mundi-revolutionariam-adoptat-ad-proportiones-geographicas-corrigendas&#34;&gt;CN Novam Chartam Mundi Revolutionariam Adoptat ad Proportiones Geographicas Corrigendas&lt;/h1&gt;
+&lt;h2 id=&#34;gradus-historicus-ad-repraesentationem-globalem-accuratam&#34;&gt;Gradus Historicus ad Repraesentationem Globalem Accuratam&lt;/h2&gt;
+&lt;p&gt;In insigni decisione, quae plus quam quattuor saecula consuetudinis cartographicae provocat, Consociationes Nationum novum systema projectionis chartae publice adoptaverunt, quod veras proportiones regionum et continentium per totum orbem accurate repraesentare destinatur. Hic mutatio gravis a projectione Mercatoris late adhibita recedit; haec, ab introductione sua anno 1569, chartis mundi dominata est et diu reprehensa quod magnitudines relativas nationum detorqueret, praesertim quomodo regiones Globalis Meridiei percipiantur.&lt;/p&gt;</description>
+      
+      
+      
+      <tweet>🌍 UN officially adopts new world map projection! Africa, Asia &amp; South America finally shown in true proportions. A 400-year-old distortion corrected. Geography matters. Equity matters. #Cartography #GlobalEquity www.rnews1.com/en/world/un-adopts-revolutionary-map-projection-system/  @Reuters @AP #WorldNews #International #GlobalNews</tweet>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Health on RNews1.com</title>
+    <link>http://localhost:3003/en/tags/health/</link>
+    <description>Recent content in Health on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+        <atom:link href="http://localhost:3003/en/tags/health/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UCLA Health Contract Ends: Low-Income Crisis</title>
+      <link>http://localhost:3003/en/health/ucla-health-contract-ends-low-income-crisis/</link>
+      <pubDate>Sat, 05 Sep 2026 20:40:01 +0000</pubDate>
+      <guid>http://localhost:3003/en/health/ucla-health-contract-ends-low-income-crisis/</guid>
+      <description>&lt;h1 id=&#34;healthcare-access-crisis-low-income-patients-at-ucla-health-face-uncertain-future&#34;&gt;Healthcare Access Crisis: Low-Income Patients at UCLA Health Face Uncertain Future&lt;/h1&gt;
+&lt;h2 id=&#34;understanding-the-contract-termination-and-its-impact&#34;&gt;Understanding the Contract Termination and Its Impact&lt;/h2&gt;
+&lt;p&gt;The healthcare landscape in Los Angeles is experiencing significant turbulence as low-income patients enrolled in UCLA Health&amp;rsquo;s network face an unprecedented challenge: finding new primary care physicians after a major contract expires. This situation highlights ongoing vulnerabilities in the American healthcare system, particularly for economically disadvantaged populations who rely heavily on academic medical centers and safety-net providers for essential care.&lt;/p&gt;</description>
+      
+      
+      
+      <tweet>UCLA Health contract ends, leaving low-income patients scrambling for new doctors. Healthcare access crisis deepens for vulnerable populations. Continuity of care matters. #HealthEquity #HealthcareAccess www.rnews1.com/en/health/ucla-health-contract-ends-low-income-crisis/
+@WHO @DrFauci #Health #MedicalNews #Wellness</tweet>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

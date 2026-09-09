@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>World on RNews1.com</title>
+    <link>http://localhost:3003/it/tags/world/</link>
+    <description>Recent content in World on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    
+        <atom:link href="http://localhost:3003/it/tags/world/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>L&#39;ONU adotta un rivoluzionario sistema di proiezione cartografica</title>
+      <link>http://localhost:3003/it/world/un-adopts-revolutionary-map-projection-system/</link>
+      <pubDate>Sat, 05 Sep 2026 20:42:27 +0000</pubDate>
+      <guid>http://localhost:3003/it/world/un-adopts-revolutionary-map-projection-system/</guid>
+      <description>&lt;h1 id=&#34;lonu-adotta-una-nuova-carta-del-mondo-rivoluzionaria-per-correggere-le-proporzioni-geografiche&#34;&gt;L&amp;rsquo;ONU adotta una nuova carta del mondo rivoluzionaria per correggere le proporzioni geografiche&lt;/h1&gt;
+&lt;h2 id=&#34;un-passo-storico-verso-una-rappresentazione-globale-accurata&#34;&gt;Un passo storico verso una rappresentazione globale accurata&lt;/h2&gt;
+&lt;p&gt;In una decisione epocale che mette in discussione oltre quattro secoli di convenzioni cartografiche, le Nazioni Unite hanno adottato ufficialmente un nuovo sistema di proiezione cartografica progettato per rappresentare accuratamente le reali proporzioni di paesi e continenti in tutto il mondo. Questo importante cambiamento si allontana dalla proiezione di Mercatore, ampiamente utilizzata, che domina le carte del mondo dalla sua introduzione nel 1569 e che da tempo viene criticata per aver distorto le dimensioni relative delle nazioni, influenzando in particolare il modo in cui percepiamo i paesi del Sud globale.&lt;/p&gt;</description>
+      
+      
+      
+      <tweet>🌍 UN officially adopts new world map projection! Africa, Asia &amp; South America finally shown in true proportions. A 400-year-old distortion corrected. Geography matters. Equity matters. #Cartography #GlobalEquity www.rnews1.com/en/world/un-adopts-revolutionary-map-projection-system/  @Reuters @AP #WorldNews #International #GlobalNews</tweet>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Biology on RNews1.com</title>
+    <link>http://localhost:3003/it/tags/biology/</link>
+    <description>Recent content in Biology on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    
+        <atom:link href="http://localhost:3003/it/tags/biology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Il microbioma intestinale è contagioso? Nuova scienza sulla trasmissione tra persone</title>
+      <link>http://localhost:3003/it/science/gut-microbiome-contagious/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3003/it/science/gut-microbiome-contagious/</guid>
+      <description>&lt;h1 id=&#34;il-microbioma-intestinale-è-contagioso-nuova-scienza-sulla-trasmissione-tra-persone&#34;&gt;Il microbioma intestinale è contagioso? Nuova scienza sulla trasmissione tra persone&lt;/h1&gt;
+&lt;p&gt;Per anni si è trattato il &lt;strong&gt;microbioma intestinale&lt;/strong&gt; come un ecosistema personale. Uno studio di fine agosto 2026 ha capovolto l’idea: questi microbi possono &lt;em&gt;passare da persona a persona&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;why-this-finding-matters-right-now&#34;&gt;Perché conta adesso&lt;/h2&gt;
+&lt;p&gt;L’intestino ospita circa &lt;strong&gt;40 mila miliardi di cellule microbiche&lt;/strong&gt;. Influenzano digestione, immunità e rischio metabolico.&lt;/p&gt;
+&lt;h2 id=&#34;how-microbes-jump-between-people&#34;&gt;Come i microbi saltano tra le persone&lt;/h2&gt;
+&lt;p&gt;Superfici condivise, contatto fisico, aerosol, animali e spazi comuni. &lt;em&gt;Bacteroides&lt;/em&gt; e &lt;em&gt;Faecalibacterium&lt;/em&gt; tra i più trasmissibili.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

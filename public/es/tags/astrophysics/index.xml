@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Astrophysics on Meridian</title>
+		<link>http://localhost:8080/es/tags/astrophysics/</link>
+		<description>Recent content in Astrophysics on Meridian</description>
+		<generator>Hugo</generator>
+		<language>es</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/es/tags/astrophysics/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>El universo sigue acelerándose: un análisis mayor reafirma el dominio de la energía oscura</title>
+				<link>http://localhost:8080/es/cosmos/universe-still-accelerating/</link>
+				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:8080/es/cosmos/universe-still-accelerating/</guid>
+				<description>&lt;h1 id=&#34;el-universo-sigue-acelerándose-un-análisis-mayor-reafirma-el-dominio-de-la-energía-oscura&#34;&gt;El universo sigue acelerándose: un análisis mayor reafirma el dominio de la energía oscura&lt;/h1&gt;&#xA;&lt;p&gt;Tras meses de titulares sobre una posible fisura en el modelo ΛCDM, un &lt;strong&gt;reanálisis combinado&lt;/strong&gt; de supernovas, fondo cósmico de microondas y estructura a gran escala concluye que el universo &lt;em&gt;sigue acelerándose&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-claims-under-scrutiny&#34;&gt;Las afirmaciones bajo escrutinio&lt;/h2&gt;&#xA;&lt;p&gt;Trabajos recientes sugerían que calibraciones de supernovas o tensiones de Hubble podrían eliminar la necesidad de energía oscura. El nuevo estudio replica esos recortes de datos y encuentra que la aceleración reaparece cuando se tratan mejor los sistemáticos.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

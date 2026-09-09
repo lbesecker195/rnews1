@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Data Centers on RNews1.com</title>
+    <link>http://localhost:3003/fr/tags/data-centers/</link>
+    <description>Recent content in Data Centers on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+        <atom:link href="http://localhost:3003/fr/tags/data-centers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Musk affirme que l’équipement du réseau électrique immobilise les GPU</title>
+      <link>http://localhost:3003/fr/ai/musk-says-grid-gear-strands-gpus/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/fr/ai/musk-says-grid-gear-strands-gpus/</guid>
+      <description>&lt;h1 id=&#34;musk-affirme-que-léquipement-du-réseau-électrique-immobilise-les-gpu&#34;&gt;Musk affirme que l’équipement du réseau électrique immobilise les GPU&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Elon Musk&lt;/strong&gt; a publié sur &lt;strong&gt;X&lt;/strong&gt; le &lt;strong&gt;29 août 2026&lt;/strong&gt; qu’&lt;em&gt;environ&lt;/em&gt; &lt;strong&gt;15 gigawatts&lt;/strong&gt; de &lt;strong&gt;capacité de calcul IA&lt;/strong&gt; devant être mis en ligne en &lt;strong&gt;2027&lt;/strong&gt; resteront probablement &lt;em&gt;inutilisés&lt;/em&gt;, car les &lt;strong&gt;infrastructures électriques&lt;/strong&gt; ne seront pas prêtes. &lt;strong&gt;Crypto Briefing&lt;/strong&gt; rapporte cette alerte. Il ne prétend pas que les puces ne seront pas livrées. Il affirme que l’équipement autour des puces — le matériel du réseau, le cuivre, le refroidissement, l’interconnexion — ne sera pas en place lorsque les serveurs le seront.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

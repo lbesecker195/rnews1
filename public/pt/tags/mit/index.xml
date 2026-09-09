@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>MIT on RNews1.com</title>
+    <link>http://localhost:3003/pt/tags/mit/</link>
+    <description>Recent content in MIT on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+        <atom:link href="http://localhost:3003/pt/tags/mit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MIT: Os humanos ainda superam a IA em custos</title>
+      <link>http://localhost:3003/pt/ai/mit-humans-still-beat-ai-costs/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/pt/ai/mit-humans-still-beat-ai-costs/</guid>
+      <description>&lt;h1 id=&#34;mit-os-humanos-ainda-superam-a-ia-em-custos&#34;&gt;MIT: Os humanos ainda superam a IA em custos&lt;/h1&gt;
+&lt;p&gt;Um estudo do &lt;strong&gt;MIT CSAIL&lt;/strong&gt; e da &lt;strong&gt;Sloan&lt;/strong&gt;, amplamente recirculado, sobre &lt;em&gt;automação por visão computacional&lt;/em&gt; voltou aos &lt;em&gt;feeds de IA de última hora&lt;/em&gt;, impulsionando uma &lt;strong&gt;narrativa contrária sobre empregos&lt;/strong&gt;: &lt;em&gt;exposição técnica não equivale a substituição econômica&lt;/em&gt;. A afirmação não é que as câmeras não consigam enxergar. É que enxergar não é o mesmo que se pagar. Pesquisadores que modelaram &lt;strong&gt;custos de instalação e operação&lt;/strong&gt; descobriram que apenas &lt;strong&gt;cerca de 23% dos salários dos EUA&lt;/strong&gt; ligados a &lt;em&gt;tarefas de visão&lt;/em&gt; parecem &lt;em&gt;economicamente viáveis de automatizar hoje&lt;/em&gt;. &lt;strong&gt;A maioria das empresas ainda preferiria pessoas&lt;/strong&gt; quando &lt;strong&gt;câmeras&lt;/strong&gt;, &lt;strong&gt;modelos&lt;/strong&gt; e &lt;strong&gt;manutenção&lt;/strong&gt; entram na conta.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

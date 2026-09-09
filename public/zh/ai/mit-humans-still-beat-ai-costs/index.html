@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIT：人类的成本仍低于 AI | RNews1.com</title>
+  <meta name="description" content="一项被广泛转发的 MIT CSAIL 与 Sloan 计算机视觉自动化研究再次出现在深夜 AI 信息流中，推动一种反主流的就业叙事：技术暴露并不等于经济替代。研究人员对安装和运营成本进行建模后发现，目前看来具备自动化成本效益的、与视觉任务相关的美国工资仅约占 23%；一旦将摄像头、模型和维护纳入定价，大多数企业仍会选择人类。一个面包店案例显示，质量检查视觉任务只占劳动力的一小部分，因此 AI 很少能收回自身成本。作者认为，替代将是渐进式的，只有 AI 即服务规模化或成本大幅下降才可能改变计算结果，从而为政策和再培训留下时间。对 x.com 来说，结论不言自明：机器人正在到来，但发票会先到。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/zh/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="栏目">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/ai/"
+              aria-current="page"
+            >人工智能</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/business/"
+              
+            >商业</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/zh/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/crypto/"
+              
+            >加密货币</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/entertainment/"
+              
+            >文娱</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/sports/"
+              
+            >体育</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/technology/"
+              
+            >科技</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/usa/"
+              
+            >美国</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/world/"
+              
+            >国际</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/health/"
+              
+            >健康</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/science/"
+              
+            >科学</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/cosmos/"
+              
+            >宇宙</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="菜单">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="栏目">
+          
+            
+              
+              
+              
+              <a
+                href="/zh/ai/"
+                aria-current="page"
+              >人工智能</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/business/"
+                
+              >商业</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/zh/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/crypto/"
+                
+              >加密货币</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/entertainment/"
+                
+              >文娱</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/sports/"
+                
+              >体育</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/technology/"
+                
+              >科技</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/usa/"
+                
+              >美国</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/world/"
+                
+              >国际</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/health/"
+                
+              >健康</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/science/"
+                
+              >科学</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/cosmos/"
+                
+              >宇宙</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="post container">
+  <header class="post-header">
+    <h1><a href="">MIT：人类的成本仍低于 AI</a></h1>
+    <div class="post-meta">
+      
+        <span>
+          <a href="/zh/ai/">Ai</a>
+        </span>
+      <span>·</span>
+    
+      <time datetime="2026-08-29">2026年8月29日</time>
+      <span>·</span>
+      <span>1 分钟阅读</span>
+    </div>
+  </header>
+  <div class="post-content">
+    
+<p>一项被广泛转发的 <strong>MIT CSAIL</strong> 与 <strong>Sloan</strong> 关于<em>计算机视觉自动化</em>的研究再次出现在<em>深夜 AI 信息流</em>中，推动一种<strong>反主流的就业叙事</strong>：<em>技术暴露并不等于经济替代</em>。其主张并不是摄像头看不见，而是看见并不等于能够收回自身成本。对<strong>安装和运营成本</strong>进行建模的研究人员发现，目前看来具备<em>自动化成本效益</em>的、与<em>视觉任务</em>相关的<strong>美国工资仅约占 23%</strong>。一旦将<strong>摄像头</strong>、<strong>模型</strong>和<strong>维护</strong>纳入定价，<strong>大多数企业仍会选择人类</strong>。</p>
+<p>这就是全部论点，但足以解释这篇论文为何再次流传。<em>深夜 AI 信息流</em>通常不会停留在成本模型上，而会停留在演示上。这项研究恰恰相反。它追问：当企业必须购买整套系统、让系统持续运行，同时仍需支付视觉技术未触及的劳动成本时，会发生什么？在 <strong>MIT CSAIL</strong> 和 <strong>Sloan</strong> 的核算中，答案是，与视觉工作相关的工资总额中，<em>大多数</em>在<em>今天</em>看起来都不像是值得交给机器的划算交易。</p>
+<h2 id="技术暴露不等于经济替代">技术暴露不等于经济替代</h2>
+<h3 id="拒绝通常捷径的就业故事">拒绝通常捷径的就业故事</h3>
+<p><strong>反主流的就业叙事</strong>毫不修饰地表述为：<em>技术暴露并不等于经济替代</em>。<em>技术暴露</em>是一张熟悉的地图。它询问某个系统能够执行哪些任务、哪些职业包含这些任务，以及哪些劳动者因此看起来面临暴露。<em>经济替代</em>则是另一张地图。它询问，在将<strong>安装和运营成本</strong>计入账目后，企业实际上会从人类手中夺走哪些任务。</p>
+<p>关于<em>计算机视觉自动化</em>的 <strong>MIT CSAIL</strong> 与 <strong>Sloan</strong> 研究位于第二张地图上。计算机视觉是应用型 <strong>AI</strong> 中较为成熟的领域之一。相对于工厂而言，摄像头很便宜。模型可以进行分类、检测和检查。正是这种成熟度，使论文的发现呈现为一个<em>反主流</em>结果。如果有哪类任务理应已经跨过<em>经济替代</em>的门槛，<em>视觉任务</em>应该名列前茅。研究却表示并非如此——至少不是暴露地图所暗示的规模，也不是在<em>今天</em>。</p>
+<p>导语中的<em>广泛转发</em>并非无关紧要。这项研究并没有被当作一条全新的泄露消息，而是被当作一个在<em>就业</em>争论升温时不断回归的发现。周六晚的<em>深夜 AI 信息流</em>有一种特定的传播方式：简短摘要、鲜明对比，以及一句可以四处流传的话。这里流传的句子拒绝了那条捷径：暴露不是替代，能力也不是采购订单。</p>
+<p>这种拒绝关系到我们应如何解读其余数字。该研究没有声称<em>计算机视觉自动化</em>不可能，也没有声称 <strong>AI</strong> 永远不会替代劳动。它的主张是：当对<strong>安装和运营成本</strong>进行建模后，相关工资池中只有少数部分目前看起来具备<em>自动化成本效益</em>。其余工资仍然支付给人类，因为发票金额大于企业可以削减的工资支出。</p>
+<h2 id="目前看来具备成本效益的仅约-23">目前看来具备成本效益的仅约 23%</h2>
+<h3 id="成本模型下保留下来的工资份额">成本模型下保留下来的工资份额</h3>
+<p>研究人员发现，与<em>视觉任务</em>相关的<strong>美国工资仅约占 23%</strong>，目前看来具备<em>自动化成本效益</em>。这个数字指的是<em>工资</em>的份额，不是企业的份额，也不是职业的份额。它代表美国工资总额中与视觉工作相关、在模型为系统计价后仍然算得过来的那一部分。**约 23%**不是一半，也不是大多数，而是与视觉相关的工资池中的少数部分。</p>
+<p>在<em>就业</em>争论中，更有分量的是其余部分。如果只有<strong>约 23%<strong>在<em>今天</em>看来具备<em>成本效益</em>，那么大部分剩余部分就不具备。正是这一剩余部分解释了为什么</strong>大多数企业仍会选择人类</strong>。在这个框架中，选择并非出于情感，而是成本比较的结果。一家选择人类的企业，是在审视<strong>摄像头</strong>、<strong>模型</strong>和<strong>维护</strong>，加上<strong>安装和运营成本</strong>后，认定人类工资仍是完成这项工作的更便宜方式。</p>
+<p><em>今天</em>与<strong>约 23%<strong>同样重要。该研究并不是预测这一比例会固定不变，而是对当前价格下什么看起来具备<em>成本效益</em>的快照。作者随后指出，要<em>改变计算结果</em>，需要</strong>AI 即服务规模化</strong>或<strong>成本大幅下降</strong>。**约 23%**代表改变发生前的计算结果。它说明，<em>计算机视觉自动化</em>可以在技术上可用、在经济上却同时受到限制。</p>
+<p>与<em>视觉任务</em>相关的美国工资也是一个有边界的对象。该研究并没有给全国每一份工作打分，而是在评估视觉系统理论上可以承担的工作的工资价值。即便在这个已经暴露出来的范围内，目前看来具备购买价值的也只有<strong>约 23%</strong>。这种<em>反主流的就业叙事</em>正是建立在这一差距之上：技术地图很宽，经济地图很窄，而成本模型位于两者之间。</p>
+<h2 id="将摄像头模型和维护计入成本">将摄像头、模型和维护计入成本</h2>
+<h3 id="为什么大多数企业仍会选择人类">为什么大多数企业仍会选择人类</h3>
+<p>一旦将<strong>摄像头</strong>、<strong>模型</strong>和<strong>维护</strong>计入成本，<strong>大多数企业仍会选择人类</strong>。这三个项目是该研究拒绝纯软件幻想的方式。视觉系统不只是一个模型，而是必须安装和瞄准的<strong>摄像头</strong>、必须训练、调优和更新的<strong>模型</strong>，以及在首次检查成功后仍不会消失的<strong>维护</strong>负担。</p>
+<p><strong>安装和运营成本</strong>是这套系统上的两只时钟。安装是前期支出：硬件、集成，以及让<strong>摄像头</strong>和<strong>模型</strong>首次适配生产线或商店。运营成本是持续支出：<strong>维护</strong>、更新、故障，以及让系统保持可靠运行的人员。研究人员对两者都进行了建模。当两项成本都被纳入价格，并且比较对象是工资而非演示视频时，就得出了<em>选择人类</em>的结果。</p>
+<p>“计入成本”是保持论证诚实的关键表述。只计算模型时看起来便宜的系统，在<strong>摄像头</strong>和<strong>维护</strong>加入账本后可能显得昂贵。研究框架中的<strong>大多数企业</strong>并不是因为怀疑技术而拒绝或推迟<em>计算机视觉自动化</em>，而是因为完整价格无法击败已经完成这项工作的人员。这就是即便存在<em>技术暴露</em>，<em>经济替代</em>仍然失败。</p>
+<p>同样的三个项目也解释了为什么低至<strong>约 23%<strong>的全国工资份额可以与视觉产品的泛滥并存。产品可以存在，供应商可以销售，试点可以运行。<strong>MIT CSAIL</strong> 与 <strong>Sloan</strong> 所提出的问题是：将</strong>摄像头</strong>、<strong>模型</strong>和<strong>维护</strong>在内的<em>运营</em>与<em>安装</em>账单，是否使与<em>视觉任务</em>相关的<em>美国工资</em>在大范围内实现<em>今天具备成本效益的替代</em>。对于大部分工资池，答案是否定的，而<strong>大多数企业仍会选择人类</strong>。</p>
+<h2 id="一个面包店案例以及微小的劳动力份额">一个面包店案例，以及微小的劳动力份额</h2>
+<h3 id="质量检查视觉很少能收回自身成本">质量检查视觉很少能收回自身成本</h3>
+<p>一个<strong>面包店案例</strong>显示，<em>质量检查视觉</em>只占<em>劳动力的一小部分</em>，因此 <strong>AI</strong> <em>很少能收回自身成本</em>。面包店不是一个比喻，而是同一成本模型在生产现场的具体示例。质量检查是典型的<em>视觉任务</em>。但在该案例中，它也只占<em>劳动力的一小部分</em>。如果 <strong>AI</strong> 能够看见的任务只占工资总额的一小部分，那么自动化这部分工作所节省的工资就不足以支付<strong>摄像头</strong>、<strong>模型</strong>和<strong>维护</strong>的成本。</p>
+<p>这就是为什么在面包店场景中，<strong>AI</strong> <em>很少能收回自身成本</em>。系统可以很准确，也可以成功安装，但在计入<strong>安装和运营成本</strong>后，它仍必须击败那<em>一小部分劳动力</em>的成本。<em>微小的份额</em>构成了一个严苛的分母。替代质量检查工作所能节省的金额很小，因为质量检查从来就不是面包店支付给员工的大部分工作。混合、搬运、包装、销售以及其他劳动仍然存在。视觉部分看起来可以自动化，但规模不足以承担整张账单。</p>
+<p>因此，面包店代表了 <strong>MIT CSAIL</strong> 与 <strong>Sloan</strong> 研究中的一个更大模式。人们经常谈论<em>计算机视觉自动化</em>，仿佛可见的任务就是整个工作。质量检查视觉是可见的，但在该案例中规模很小。当研究人员将<strong>安装和运营成本</strong>与这个小额工资目标进行比较时，替代无法通过<em>具备成本效益</em>的检验。<strong>AI</strong> <em>很少能收回自身成本</em>，并不是因为面包店不能使用摄像头，而是因为与<em>一小部分劳动力</em>相连的摄像头无法抹去足够多的工资支出。</p>
+<p>该案例还让**约 23%**这一发现不再脱离工作场所而独自漂浮。与<em>视觉任务</em>相关的全国<em>美国工资</em>是一个总量，而面包店是一个具体场所。在那里，视觉工作是质量检查，劳动力份额很<em>小</em>，经济结果是 <strong>AI</strong> <em>很少能收回自身成本</em>。如果把同样的结构推广到视觉只占工作一部分的企业，就更容易理解为什么即便技术有效，<strong>大多数企业仍会选择人类</strong>。</p>
+<h2 id="渐进式替代以及改变计算结果所需的条件">渐进式替代，以及改变计算结果所需的条件</h2>
+<h3 id="ai-即服务规模化或成本大幅下降">AI 即服务规模化或成本大幅下降</h3>
+<p>作者认为，<strong>替代将是渐进式的</strong>，只有<strong>AI 即服务规模化</strong>或<strong>成本大幅下降</strong>才可能<em>改变计算结果</em>。渐进式是从<em>今天</em>仅有**23%**的份额，以及面包店中视觉只占<em>劳动力一小部分</em>这两点得出的就业结论。如果与视觉相关的工资中只有少数部分目前看来具备<em>自动化成本效益</em>，那么替代浪潮就不是一个开关，而是一个等待价格变化的过程。</p>
+<p><strong>AI 即服务规模化</strong>是改变价格的一种方式。与其让每家企业都购买<strong>摄像头</strong>、训练<strong>模型</strong>并承担<strong>维护</strong>，不如由一项服务将这些<strong>安装和运营成本</strong>分摊到众多客户身上。在这种叙述中，规模化并不意味着模型更大，而是以更低成本交付同样的<em>计算机视觉自动化</em>，使工资池中更多部分开始看起来具备<em>自动化成本效益</em>。在规模化到来之前，研究中的<em>今天</em>仍然成立。</p>
+<p><strong>成本大幅下降</strong>是另一条路径。如果<strong>摄像头</strong>、<strong>模型</strong>和<strong>维护</strong>变得便宜得多，那么更多与<em>视觉任务</em>相关的<em>美国工资</em>就会从“<em>选择人类</em>”跨过门槛，转向“<em>自动化</em>”。作者并未把这种下降视为已经发生，而是将其视为<em>改变计算结果</em>所需的条件。在没有<strong>AI 即服务规模化</strong>或<strong>成本大幅下降</strong>的情况下，<strong>约 23%<strong>仍是看起来值得购买的部分，而</strong>替代将是渐进式的</strong>。</p>
+<p>渐进式替代也是对时间的表述。当新模型发布时，<em>技术暴露</em>可能迅速扩大；当<strong>安装和运营成本</strong>下降到足够程度，或者服务规模改变了成本承担者时，<em>经济替代</em>才会移动。<strong>MIT CSAIL</strong> 与 <strong>Sloan</strong> 的作者认为，决定<em>就业</em>的是第二只时钟。第一只时钟解释了为什么<em>深夜 AI 信息流</em>不断期待突然断裂，第二只时钟则解释了为什么该研究的<em>反主流就业叙事</em>认为，断裂并没有在<em>今天</em>发生。</p>
+<h2 id="政策与再培训时间">政策与再培训时间</h2>
+<h3 id="一张缓慢到来的发票留在日历上的时间">一张缓慢到来的发票留在日历上的时间</h3>
+<p>同一批作者表示，这条渐进式路径<em>为政策和再培训留下时间</em>。这句话是成本模型面向公众的后果。如果<strong>替代将是渐进式的</strong>，因为与<em>视觉任务</em>相关的**美国工资仅约占 23%**在<em>今天</em>看来具备<em>自动化成本效益</em>，那么政府和企业面对的就不是视觉相关工作一夜之间被抹去，而是一个窗口期。</p>
+<p><em>政策与再培训时间</em>并不是说政策已经被妥善运用，而是说，按照通过<strong>安装和运营成本</strong>建模的<em>计算机视觉自动化</em>经济学，大部分暴露工资池并不会被迫立即替代。将<strong>摄像头</strong>、<strong>模型</strong>和<strong>维护</strong>计入成本后，<strong>大多数企业仍会选择人类</strong>。面包店的<em>质量检查视觉</em>只占<em>劳动力的一小部分</em>，所以 <strong>AI</strong> <em>很少能收回自身成本</em>。这些结果结合起来，就<em>留下了</em>时间。</p>
+<p><em>政策</em>的时间，是决定应如何对待一种技术上已经准备就绪、经济上却只具部分可行性的技术。<em>再培训</em>的时间，是在计算结果改变前帮助人们转型的时间。再次强调，改变结果并非假定必然发生，而取决于<strong>AI 即服务规模化</strong>或<strong>成本大幅下降</strong>。在其中一项到来之前，<strong>MIT CSAIL</strong> 与 <strong>Sloan</strong> 的研究表示，<em>计算机视觉自动化</em>对<em>就业</em>的影响仍比暴露地图所显示的范围更窄，而<em>政策与再培训</em>的日程仍然敞开。</p>
+<p>这就是为什么一篇<em>广泛转发</em>的论文能够在没有新就业人数数据的情况下，以新闻形式重返<em>深夜 AI 信息流</em>。再次传播的是威胁的形状。突然替代的故事不留时间；一个以<em>今天</em>的**23%**发现和仍然偏向人类的成本为基础的<em>渐进式</em> <strong>替代</strong>故事，则<em>为政策和再培训留下时间</em>。归根结底，这个<em>反主流就业叙事</em>讲的就是那段剩余时间。</p>
+<h2 id="对-xcom-来说发票会先到">对 x.com 来说，发票会先到</h2>
+<h3 id="不言自明的结论">不言自明的结论</h3>
+<p>对 <strong>x.com</strong> 来说，结论不言自明：<em>机器人正在到来，但发票会先到</em>。这句话本身并不是研究发现，而是对研究发现进行适合信息流传播的压缩。<em>机器人正在到来</em>是<em>技术暴露</em>的一半：计算机视觉能够完成比过去更多的观察工作。<em>发票会先到</em>是<em>经济替代</em>的一半：<strong>安装和运营成本</strong>、<strong>摄像头</strong>、<strong>模型</strong>和<strong>维护</strong>会先于工资节省出现，而后者对大多数与视觉相关的劳动力而言还不足以证明替代值得进行。</p>
+<p>这就是为什么该研究能够被<em>广泛转发</em>，同时仍让人觉得像一条<em>深夜</em>新闻。<strong>x.com</strong>不需要新数据集来制造这个结论，只需要这个对比：一套成熟的<em>计算机视觉自动化</em>系统、一份 <strong>MIT CSAIL</strong> 与 <strong>Sloan</strong> 的成本模型、目前看来具备<em>自动化成本效益</em>的<strong>约 23% 美国工资</strong>，以及<strong>大多数企业</strong>仍然<em>会选择人类</em>。再加上<strong>面包店案例</strong>——其中<em>质量检查视觉</em>只占<em>劳动力的一小部分</em>，<strong>AI</strong> <em>很少能收回自身成本</em>——这句关于发票的玩笑就有了一个真实的工作场所。</p>
+<p>这个结论也符合作者更长远的主张。如果除非<strong>AI 即服务规模化</strong>或<strong>成本大幅下降</strong><em>改变计算结果</em>，否则<strong>替代将是渐进式的</strong>，那么机器人可以在技术意义上不断到来，而发票则在经济意义上不断先到。<em>政策与再培训时间</em>存在于这两次到来之间的间隙中。这个<em>反主流就业叙事</em>选择把这段间隙当作故事，而不是把暴露视为命运。</p>
+<p>这一切并不需要臆造更广泛的崩溃或繁荣。关于<em>计算机视觉自动化</em>的 <strong>MIT CSAIL</strong> 与 <strong>Sloan</strong> 研究说的就是它所说的内容：<em>技术暴露并不等于经济替代</em>。相关<em>美国工资</em>中，目前看来具备<em>自动化成本效益</em>的仅有<strong>约 23%</strong>。一旦将<strong>摄像头</strong>、<strong>模型</strong>和<strong>维护</strong>计入成本，<strong>大多数企业仍会选择人类</strong>。一家<strong>面包店</strong>说明了为什么<em>一小部分劳动力</em>无法承担整套系统。作者认为，其余替代将是<em>渐进式的</em>，取决于规模化或<strong>成本大幅下降</strong>，而这段延迟<em>为政策和再培训留下时间</em>。对 <strong>x.com</strong> 来说，这已经是一条完整的帖子：<em>机器人正在到来，但发票会先到。</em></p>
+
+  </div>
+
+  
+  <div class="article-tags">
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+  </div>
+
+
+  
+  
+  <aside class="related-posts">
+    <h2>继续阅读</h2>
+    <p class="related-note">通过共同的标题片段匹配</p>
+    <ul>
+      
+      <li>
+        <a href="/zh/ai/anthropic-researcher-departure-signals-ai-safety-concerns/">Anthropic 研究员离职，释放对 AI 安全的担忧信号</a>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/ai/parental-guide-to-ai-impact-on-children/">家长必读：人工智能对儿童的影响</a>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/ai/parents-guide-understanding-ai-impact-today/">家长指南：了解人工智能当下的影响</a>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/ai/are-we-approaching-uncontrollable-ai-systems/">我们是否正在接近不可控的人工智能系统？</a>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/ai/ai-control-crisis-are-we-crossing-the/">AI 控制危机：我们是否正在越过界线？</a>
+        
+      </li>
+      
+    </ul>
+  </aside>
+  
+</article>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="语言">
+        
+          <a no-follow href="/en/ai/mit-humans-still-beat-ai-costs/">English</a>
+        
+          <a no-follow href="/es/ai/mit-humans-still-beat-ai-costs/">Español</a>
+        
+          <a no-follow href="/it/ai/mit-humans-still-beat-ai-costs/">Italiano</a>
+        
+          <a no-follow href="/fr/ai/mit-humans-still-beat-ai-costs/">Français</a>
+        
+          <a no-follow href="/ar/ai/mit-humans-still-beat-ai-costs/">العربية</a>
+        
+          <a no-follow href="/la/ai/mit-humans-still-beat-ai-costs/">Latina</a>
+        
+          <a no-follow href="/hi/ai/mit-humans-still-beat-ai-costs/">हिन्दी</a>
+        
+          <a no-follow href="/bn/ai/mit-humans-still-beat-ai-costs/">বাংলা</a>
+        
+          <a no-follow href="/pt/ai/mit-humans-still-beat-ai-costs/">Português</a>
+        
+          <a no-follow href="/ru/ai/mit-humans-still-beat-ai-costs/">Русский</a>
+        
+          <a no-follow href="/ur/ai/mit-humans-still-beat-ai-costs/">اردو</a>
+        
+          <a no-follow href="/zh/ai/mit-humans-still-beat-ai-costs/" aria-current="page">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Referendum on RNews1.com</title>
+    <link>http://localhost:3003/es/tags/referendum/</link>
+    <description>Recent content in Referendum on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+        <atom:link href="http://localhost:3003/es/tags/referendum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El voto europeo de Islandia, en el filo, cierra</title>
+      <link>http://localhost:3003/es/world/icelands-knife-edge-eu-vote-closes/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/es/world/icelands-knife-edge-eu-vote-closes/</guid>
+      <description>&lt;h1 id=&#34;el-voto-europeo-de-islandia-en-el-filo-cierra&#34;&gt;El voto europeo de Islandia, en el filo, cierra&lt;/h1&gt;
+&lt;p&gt;Los islandeses votaron el sábado si reabrir las negociaciones de adhesión a la Unión Europea, 13 años después de que Reikiavik congelara una solicitud de 2009. Las urnas cerraron a las 10 p.m. GMT con la carrera demasiado reñida para llamarla. Una encuesta de Gallup del viernes mostró una ligera ventaja del No tras anteriores ventajas del Sí. La isla tiene la costumbre de hacer que las decisiones grandes parezcan pequeñas hasta que no lo son. Esta no se resolverá en un solo gráfico de televisión.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Dragon on RNews1.com</title>
+    <link>http://localhost:3003/ru/tags/dragon/</link>
+    <description>Recent content in Dragon on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    
+        <atom:link href="http://localhost:3003/ru/tags/dragon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Утечка окислителя на Dragon откладывает Crew-13</title>
+      <link>http://localhost:3003/ru/cosmos/dragon-oxidizer-leak-delays-crew-13/</link>
+      <pubDate>Sat, 29 Aug 2026 19:18:00 -0700</pubDate>
+      <guid>http://localhost:3003/ru/cosmos/dragon-oxidizer-leak-delays-crew-13/</guid>
+      <description>&lt;h1 id=&#34;утечка-окислителя-на-dragon-откладывает-crew-13&#34;&gt;Утечка окислителя на Dragon откладывает Crew-13&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;NASA&lt;/strong&gt; и &lt;strong&gt;SpaceX&lt;/strong&gt; корректируют запуск &lt;strong&gt;Crew-13&lt;/strong&gt; к &lt;strong&gt;Международной космической станции&lt;/strong&gt; после того, как во время &lt;em&gt;стандартной предстартовой подготовки&lt;/em&gt; в двигательной системе &lt;strong&gt;Dragon&lt;/strong&gt; была обнаружена &lt;em&gt;утечка окислителя&lt;/em&gt;, сообщило NASA &lt;strong&gt;29 августа 2026 года&lt;/strong&gt;. Это обнаружение не является аварийной отменой в последний момент на стартовой площадке и не означает отказа в полёте. Это наземная неисправность, выявленная во время обычных проверок, которые проходят перед тем, как экипажу разрешают лететь на корабле. Эти проверки нужны именно для того, чтобы подобная утечка была обнаружена во Флориде, а не на орбите.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

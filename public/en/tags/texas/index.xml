@@ -1,0 +1,27 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Texas on RNews1.com</title>
+    <link>http://localhost:3003/en/tags/texas/</link>
+    <description>Recent content in Texas on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+        <atom:link href="http://localhost:3003/en/tags/texas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Abbott freezes Texas Flock camera funding</title>
+      <link>http://localhost:3003/en/technology/abbott-freezes-texas-flock-camera-funding/</link>
+      <pubDate>Sat, 29 Aug 2026 18:11:00 -0700</pubDate>
+      <guid>http://localhost:3003/en/technology/abbott-freezes-texas-flock-camera-funding/</guid>
+      <description>&lt;h1 id=&#34;abbott-freezes-texas-flock-camera-funding&#34;&gt;Abbott freezes Texas Flock camera funding&lt;/h1&gt;
+&lt;p&gt;Texas Gov. &lt;strong&gt;Greg Abbott&lt;/strong&gt; ordered state agencies to pause funding for &lt;strong&gt;Flock Safety&amp;rsquo;s&lt;/strong&gt; AI-powered license-plate cameras as privacy backlash and alleged police misuse spread. The &lt;strong&gt;Texas Tribune&lt;/strong&gt; said the order came as it prepared an investigation showing a state agency had put at least &lt;strong&gt;$30 million&lt;/strong&gt; into the Flock network via local-police grants.&lt;/p&gt;
+&lt;p&gt;A pause is not a ban. It is a governor hitting freeze on a network that can already see a lot of Texas asphalt. Spokesman &lt;strong&gt;Andrew Mahaleris&lt;/strong&gt; said most city camera money is &lt;em&gt;federal&lt;/em&gt;, and Texas agencies are clarifying that &lt;em&gt;state&lt;/em&gt; funds cannot be used for Flock. That split is the whole fight: who paid, who can look, and who gets to keep looking while Austin pretends the tap is off.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

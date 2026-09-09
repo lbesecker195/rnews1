@@ -1,0 +1,30 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Sustainability on RNews1.com</title>
+    <link>http://localhost:3003/pt/tags/sustainability/</link>
+    <description>Recent content in Sustainability on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+        <atom:link href="http://localhost:3003/pt/tags/sustainability/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cientistas transformam o PVC, plástico difícil de reciclar, em lubrificante de alto desempenho</title>
+      <link>http://localhost:3003/pt/science/pvc-plastic-to-lubricant/</link>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3003/pt/science/pvc-plastic-to-lubricant/</guid>
+      <description>&lt;h1 id=&#34;cientistas-transformam-o-pvc-plástico-difícil-de-reciclar-em-lubrificante-de-alto-desempenho&#34;&gt;Cientistas transformam o PVC, plástico difícil de reciclar, em lubrificante de alto desempenho&lt;/h1&gt;
+&lt;p&gt;O &lt;strong&gt;PVC&lt;/strong&gt; está em tubos e embalagens médicas, mas o cloro trava a reciclagem mecânica. Uma equipa anuncia uma via que o &lt;em&gt;valoriza&lt;/em&gt; como base de lubrificante.&lt;/p&gt;
+&lt;h2 id=&#34;the-pvc-recycling-problem&#34;&gt;O problema da reciclagem do PVC&lt;/h2&gt;
+&lt;p&gt;Aquecido, o PVC liberta ácido clorídrico corrosivo e pode contaminar outros fluxos.&lt;/p&gt;
+&lt;h2 id=&#34;how-the-new-process-works&#34;&gt;Como funciona o novo processo&lt;/h2&gt;
+&lt;p&gt;Catalisadores retiram o cloro e reorganizam as cadeias de carbono em moléculas semelhantes a óleos sintéticos.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

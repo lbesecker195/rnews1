@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Earth-Interior on RNews1.com</title>
+    <link>http://localhost:3003/pt/tags/earth-interior/</link>
+    <description>Recent content in Earth-Interior on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    
+        <atom:link href="http://localhost:3003/pt/tags/earth-interior/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A IA mapeia seis estruturas ocultas da Terra</title>
+      <link>http://localhost:3003/pt/science/ai-maps-six-hidden-earth-structures/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/pt/science/ai-maps-six-hidden-earth-structures/</guid>
+      <description>&lt;h1 id=&#34;a-ia-mapeia-seis-estruturas-ocultas-da-terra&#34;&gt;A IA mapeia seis estruturas ocultas da Terra&lt;/h1&gt;
+&lt;p&gt;A cerca de &lt;strong&gt;1.800 milhas&lt;/strong&gt; sob seus pés, o &lt;strong&gt;manto&lt;/strong&gt; da Terra encontra o &lt;em&gt;núcleo externo líquido&lt;/em&gt;. Esse contato não é uma emenda lisa. É uma paisagem. Há décadas, os sismólogos sabem que a base do manto é irregular, com áreas de material incomum que dispersam as ondas sísmicas que passam por elas. Mapear essas áreas sempre foi uma luta contra sinais fracos e uma cobertura desigual. Um novo trabalho de pesquisadores da &lt;strong&gt;Academia Chinesa de Ciências&lt;/strong&gt; usa um sistema de &lt;strong&gt;aprendizagem profunda&lt;/strong&gt;, uma montanha de sismogramas antigos e muita revisão humana para argumentar que essas irregularidades são mais conectadas e mais numerosas do que os catálogos anteriores mostravam.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

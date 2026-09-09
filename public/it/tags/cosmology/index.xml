@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Cosmology on Meridian</title>
+		<link>http://localhost:8080/it/tags/cosmology/</link>
+		<description>Recent content in Cosmology on Meridian</description>
+		<generator>Hugo</generator>
+		<language>it</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:8080/it/tags/cosmology/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Il telescopio spaziale Roman della NASA decolla: perché può cambiare l’astronomia</title>
+				<link>http://localhost:8080/it/cosmos/roman-space-telescope-launch/</link>
+				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:8080/it/cosmos/roman-space-telescope-launch/</guid>
+				<description>&lt;h1 id=&#34;il-telescopio-spaziale-roman-della-nasa-decolla-perché-può-cambiare-lastronomia&#34;&gt;Il telescopio spaziale Roman della NASA decolla: perché può cambiare l’astronomia&lt;/h1&gt;&#xA;&lt;p&gt;Il &lt;strong&gt;telescopio spaziale Nancy Grace Roman&lt;/strong&gt; è pronto. Specchio paragonabile a Hubble, campo assai più ampio, pensato per &lt;em&gt;censire&lt;/em&gt; il cielo.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-telescope-built-for-surveys&#34;&gt;Un telescopio fatto per i survey&lt;/h2&gt;&#xA;&lt;p&gt;Una singola esposizione di Roman copre più di cento campi Hubble.&lt;/p&gt;&#xA;&lt;h2 id=&#34;dark-energy-and-the-expanding-universe&#34;&gt;Energia oscura e universo in espansione&lt;/h2&gt;&#xA;&lt;p&gt;Misurerà lenti deboli, supernove e oscillazioni acustiche barioniche per capire se l’energia oscura è una costante.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>L’universo accelera ancora: una grande analisi riafferma il dominio dell’energia oscura</title>
+				<link>http://localhost:8080/it/cosmos/universe-still-accelerating/</link>
+				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:8080/it/cosmos/universe-still-accelerating/</guid>
+				<description>&lt;h1 id=&#34;luniverso-accelera-ancora-una-grande-analisi-riafferma-il-dominio-dellenergia-oscura&#34;&gt;L’universo accelera ancora: una grande analisi riafferma il dominio dell’energia oscura&lt;/h1&gt;&#xA;&lt;p&gt;Dopo mesi di titoli su una possibile crepa nel modello ΛCDM, una &lt;strong&gt;rianalisi combinata&lt;/strong&gt; conclude che l’universo &lt;em&gt;accelera ancora&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-claims-under-scrutiny&#34;&gt;Le affermazioni sotto esame&lt;/h2&gt;&#xA;&lt;p&gt;Calibrazioni di supernove o tensione di Hubble: il nuovo studio trova che l’accelerazione riemerge con sistematici migliori.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-acceleration-matters&#34;&gt;Perché conta l’accelerazione&lt;/h2&gt;&#xA;&lt;p&gt;Se l’espansione non accelerasse bisognerebbe riscrivere la densità di energia del cosmo.&lt;/p&gt;&#xA;&lt;h2 id=&#34;consistency-across-probes&#34;&gt;Coerenza tra sonde&lt;/h2&gt;&#xA;&lt;p&gt;La forza dell’argomento è la &lt;strong&gt;concordanza&lt;/strong&gt; tra metodi indipendenti.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

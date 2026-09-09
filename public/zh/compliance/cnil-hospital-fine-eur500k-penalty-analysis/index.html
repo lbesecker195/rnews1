@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CNIL 医院罚款：50 万欧元处罚分析 | RNews1.com</title>
+  <meta name="description" content="法国数据保护机构 CNIL 因影响 72.7 万条记录的数据泄露事件，对一家医院处以 50 万欧元的重大罚款，标志着医疗保健合规领域的执法力度进一步升级。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/zh/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="栏目">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/ai/"
+              
+            >人工智能</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/business/"
+              
+            >商业</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/zh/compliance/"
+              aria-current="page"
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/crypto/"
+              
+            >加密货币</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/entertainment/"
+              
+            >文娱</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/sports/"
+              
+            >体育</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/technology/"
+              
+            >科技</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/usa/"
+              
+            >美国</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/world/"
+              
+            >国际</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/health/"
+              
+            >健康</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/science/"
+              
+            >科学</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/zh/cosmos/"
+              
+            >宇宙</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="菜单">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="栏目">
+          
+            
+              
+              
+              
+              <a
+                href="/zh/ai/"
+                
+              >人工智能</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/business/"
+                
+              >商业</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/zh/compliance/"
+                aria-current="page"
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/crypto/"
+                
+              >加密货币</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/entertainment/"
+                
+              >文娱</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/sports/"
+                
+              >体育</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/technology/"
+                
+              >科技</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/usa/"
+                
+              >美国</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/world/"
+                
+              >国际</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/health/"
+                
+              >健康</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/science/"
+                
+              >科学</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/zh/cosmos/"
+                
+              >宇宙</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="post container">
+  <header class="post-header">
+    <h1><a href="">CNIL 医院罚款：50 万欧元处罚分析</a></h1>
+    <div class="post-meta">
+      
+        <span>
+          <a href="/zh/compliance/">Compliance</a>
+        </span>
+      <span>·</span>
+    
+      <time datetime="2026-09-05">2026年9月5日</time>
+      <span>·</span>
+      <span>1 分钟阅读</span>
+    </div>
+  </header>
+  <div class="post-content">
+    
+<h2 id="执行摘要">执行摘要</h2>
+<p>法国国家信息与自由委员会（Commission Nationale de l&rsquo;Informatique et des Libertés，CNIL）是法国独立的数据保护机构。该机构因一家法国医院违反《通用数据保护条例》（GDPR），对其处以 50 万欧元的高额罚款。此次事件导致约 72.7 万条患者记录遭到泄露，是法国近年来监管历史上最严重的医疗数据泄露事件之一。这一执法行动凸显了欧洲数据保护机构不断加大的处罚力度，也为医疗保健组织履行 GDPR 及法国数据保护法规定的义务敲响了重要警钟。</p>
+<h2 id="事件规模与范围">事件：规模与范围</h2>
+<p>此次影响 72.7 万条记录的数据泄露，意味着大量敏感个人数据和健康数据暴露。在患者信息极其敏感且受到严格监管的医疗保健领域，此类泄露会对受影响个人及相关组织产生深远影响。这一事件影响了 75 万人中的大约四分之三，表明问题并非孤立的安全疏漏，而是数据保护控制体系存在系统性失效。</p>
+<p>根据 GDPR 第 9 条，健康信息属于最敏感的个人数据类别之一，被归类为“特殊类别数据”。这一分类要求采取强化保护措施、遵循更高的问责标准，并在实施技术和组织保障措施时保持更高程度的审慎。健康记录遭到泄露可能给患者带来严重后果，包括身份盗窃、保险歧视、就业歧视，以及因隐私遭到侵犯而产生的心理伤害。</p>
+<h2 id="cnil-的执法方式">CNIL 的执法方式</h2>
+<p>50 万欧元的罚款体现了 CNIL 在医疗保健数据保护方面日益严格的执法立场。法国数据保护机构已表现出追究组织 GDPR 违规责任的坚定意愿，尤其是在泄露涉及大量记录或特别脆弱人群时。</p>
+<p>根据 GDPR 第 83 条，行政罚款最高可达 2000 万欧元或上一年度全球营业额的 4%，以较高者为准。不过，CNIL 处以 50 万欧元罚款，说明其可能考虑了以下几个重要因素：</p>
+<p><strong>比例性评估</strong>：该机构可能在确定罚款金额时考虑了医院的规模、财务能力和违规严重程度。医疗服务提供方，特别是公立医院，通常受到预算限制，因此监管机构需要谨慎调整罚款，同时维持其威慑效果。</p>
+<p><strong>违规类别</strong>：该医院可能违反了多项 GDPR 条款，包括：</p>
+<ul>
+<li>安全措施不足（第 32 条）</li>
+<li>未能落实设计和默认的数据保护（第 25 条）</li>
+<li>访问控制不足</li>
+<li>数据泄露通知程序存在缺陷（第 33 条）</li>
+<li>未能充分履行数据主体权利</li>
+</ul>
+<p><strong>加重因素</strong>：受影响人数达到 72.7 万，显然构成了重要的加重因素。大规模泄露表明组织在数据保护治理方面存在系统性失效，或安全控制的实施存在疏忽。</p>
+<h2 id="医疗保健行业的脆弱性">医疗保健行业的脆弱性</h2>
+<p>医疗保健行业面临独特的合规挑战，这些挑战促成了此次执法行动，并持续威胁着组织的数据安全：</p>
+<h3 id="旧有系统基础设施">旧有系统基础设施</h3>
+<p>许多医疗机构仍在使用现代网络安全标准出现之前设计的过时信息系统。医院通常维护着电子健康记录（EHR）系统、医学影像数据库和行政平台，而这些系统在设计之初并未配备现代加密、访问控制或审计日志功能。与从一开始就将安全性融入新系统相比，在旧有系统中后期加装安全机制要困难且昂贵得多。</p>
+<h3 id="复杂的数据访问需求">复杂的数据访问需求</h3>
+<p>医疗保健的临床使命要求广泛的数据访问权限。医生、护士、专科医师、行政人员、账单人员以及无数其他专业人员都需要合法访问患者记录。这一运营需求给实施最小权限访问控制带来了重大挑战，而最小权限访问控制是 GDPR 的一项基本安全要求。</p>
+<h3 id="人员与资源限制">人员与资源限制</h3>
+<p>公立医疗系统通常缺乏专职的网络安全和数据保护人员。与拥有完善安全团队的大型金融机构或科技公司不同，许多医院由于劳动力市场竞争激烈且预算有限，难以招聘和留住专业的数据保护人才。</p>
+<h3 id="监管复杂性">监管复杂性</h3>
+<p>医疗保健组织必须同时遵守 GDPR、国家医疗保健法规、行业指令以及机构内部政策。这种相互重叠的监管环境容易造成混乱并增加合规成本，尤其是对于合规专业能力有限的组织而言。</p>
+<h2 id="cnil-的监管权限与管辖范围">CNIL 的监管权限与管辖范围</h2>
+<p>CNIL 是负责数据保护的法国独立行政机构，拥有广泛的执法权。该机构成立于 1978 年，并在 GDPR 于 2018 年 5 月生效后被重新赋予实施 GDPR 的职责，现已发展成为欧洲最积极的数据保护执法机构之一。</p>
+<p>CNIL 权限的主要方面包括：</p>
+<p><strong>调查权</strong>：CNIL 可以对涉嫌违反 GDPR 的行为展开调查，包括现场检查、文件审查，以及访谈组织人员和数据主体。</p>
+<p><strong>罚款权</strong>：如前所述，CNIL 可以处以 GDPR 规定上限以内的行政罚款，不过通常会考虑比例性和组织的具体情况。</p>
+<p><strong>纠正措施</strong>：除经济处罚外，CNIL 还可以要求采取具体的补救措施，包括改进安全性、修订政策和重组组织架构。</p>
+<p><strong>确立先例</strong>：CNIL 的执法决定会影响法国各地组织的合规行为，并通过指导意见和公开报告参与确立欧洲数据保护规范。</p>
+<p>这项具体罚款向法国医疗保健行业发出了明确信号，表明 CNIL 对数据保护治理和问责制有着怎样的期望。</p>
+<h2 id="对医疗保健合规计划的影响">对医疗保健合规计划的影响</h2>
+<p>CNIL 的罚款对法国及欧洲各地的医疗保健组织具有重大影响：</p>
+<h3 id="监管审查加强">监管审查加强</h3>
+<p>这一执法行动表明，CNIL 正在积极调查医疗保健数据保护合规情况。医院应预期可能会收到该机构的审计、检查或信息请求。组织应主动评估自身的 GDPR 合规状况，以便在监管调查之前发现薄弱环节。</p>
+<h3 id="合规投资势在必行">合规投资势在必行</h3>
+<p>这一处罚凸显了数据保护是一项对业务至关重要的投资领域，而不是可有可无的合规成本。医疗保健机构董事会和高管应认识到，数据保护投入不足会带来重大的法律、财务和声誉风险。50 万欧元的罚款很可能超过该医院在全面数据保护基础设施上的投入，这一现实应当为组织的预算分配决策提供参考。</p>
+<h3 id="安全增强要求">安全增强要求</h3>
+<p>医疗保健组织应立即评估技术安全控制措施，包括：</p>
+<ul>
+<li>对静态数据和传输中数据进行加密</li>
+<li>对系统访问实施多因素身份验证</li>
+<li>对临床系统进行网络分段隔离</li>
+<li>入侵检测和防御系统</li>
+<li>安全信息和事件管理（SIEM）平台</li>
+<li>定期渗透测试和漏洞评估</li>
+</ul>
+<h3 id="治理与问责">治理与问责</h3>
+<p>组织必须建立健全的数据保护治理结构，包括：</p>
+<ul>
+<li>设立拥有充足资源和独立性的专职数据保护官（DPO）职位</li>
+<li>在董事会层面监督数据保护和网络安全</li>
+<li>对全体人员开展定期合规培训</li>
+<li>建立具有明确升级机制的事件响应程序</li>
+<li>记录安全决策和实施工作</li>
+</ul>
+<h3 id="第三方风险管理">第三方风险管理</h3>
+<p>医疗保健组织经常聘用可以访问患者数据的供应商、承包商和服务提供商。全面的数据处理协议、供应商审计以及合同中的安全要求，都是必不可少的合规要素。</p>
+<h2 id="泄露通知与响应">泄露通知与响应</h2>
+<p>医院如何处理泄露事件的发现和通知，很可能是 CNIL 作出处罚的部分原因。GDPR 要求组织在发生数据泄露后 72 小时内通知监管机构（第 33 条），并在许多情况下毫不延迟地通知受影响的数据主体（第 34 条）。</p>
+<p>医疗保健组织应建立包括以下内容的数据泄露响应程序：</p>
+<ul>
+<li>立即遏制受影响的系统</li>
+<li>开展取证调查，以确定泄露范围和原因</li>
+<li>记录受影响的数据类别和个人</li>
+<li>及时通知 CNIL 和受影响的患者</li>
+<li>通过公开沟通说明补救措施和支持资源</li>
+</ul>
+<p>未能妥善实施这些程序会加重监管违规，并增加执法处罚。</p>
+<h2 id="欧洲比较执法环境">欧洲比较执法环境</h2>
+<p>CNIL 的罚款体现了更广泛的欧洲执法趋势。其他国家级数据保护机构也已对医疗保健组织处以高额罚款：</p>
+<ul>
+<li>意大利 Garante 曾因泄露和安全措施不足，对医疗服务提供方及健康保险组织处以罚款</li>
+<li>德国数据保护机构曾对医疗保健设施采取重大执法行动</li>
+<li>西班牙 AEPD 曾广泛调查医疗保健行业的数据泄露事件</li>
+<li>英国 ICO 已将医疗保健列为重点执法领域</li>
+</ul>
+<p>这种协调一致的关注表明，欧洲监管机构认为医疗保健数据保护至关重要，并将在不同司法管辖区积极追究违规行为。</p>
+<h2 id="对医疗保健组织的建议">对医疗保健组织的建议</h2>
+<h3 id="立即行动">立即行动</h3>
+<ol>
+<li><strong>合规评估</strong>：开展全面的 GDPR 合规审计，重点关注数据安全、访问控制和数据泄露响应程序</li>
+<li><strong>向董事会沟通</strong>：向组织领导层汇报监管风险和合规要求</li>
+<li><strong>强化 DPO 职能</strong>：确保数据保护官拥有充足资源，并能直接接触高级管理层</li>
+<li><strong>员工培训</strong>：为所有可以访问患者数据的人员实施强制性数据保护培训</li>
+</ol>
+<h3 id="中期举措">中期举措</h3>
+<ol>
+<li><strong>安全现代化</strong>：制定并落实技术路线图，解决旧有系统的漏洞</li>
+<li><strong>流程文档化</strong>：建立关于合规工作、安全决策和控制措施实施情况的完整记录</li>
+<li><strong>第三方审计</strong>：委托外部机构评估安全控制和合规状况</li>
+<li><strong>事件响应规划</strong>：制定数据泄露检测、调查和通知的详细程序</li>
+</ol>
+<h3 id="长期战略">长期战略</h3>
+<ol>
+<li><strong>融入治理体系</strong>：将数据保护纳入组织治理结构和战略规划</li>
+<li><strong>供应商管理</strong>：建立完善的供应商管理计划，并提出全面的安全要求</li>
+<li><strong>持续监控</strong>：实施持续的合规监控、风险评估和控制测试</li>
+<li><strong>行业参与</strong>：参与医疗保健行业协会和数据保护社区，分享最佳实践</li>
+</ol>
+<h2 id="结论">结论</h2>
+<p>CNIL 因一家法国医院发生影响 72.7 万条记录的数据泄露而处以 50 万欧元罚款，这是一项具有重大意义且对医疗保健数据保护合规产生深远影响的执法行动。这一处罚体现了监管机构保护患者敏感健康信息、追究组织 GDPR 违规责任的决心。</p>
+<p>对于法国和欧洲各地的医疗保健组织而言，这一执法行动再次提醒人们，数据保护是一项不可妥协的合规要求，违规将带来严重的财务和运营后果。医疗保健领导者应将此案视为开展全面合规评估、加大安全投资以及改善治理的契机，从而确保患者数据得到充分保护。</p>
+<p>通过吸取这一执法行动的经验并落实建议的合规措施，医疗保健组织可以降低数据泄露风险，展现对监管要求的重视，并有效保护患者的敏感信息。与这项高额 CNIL 罚款所揭示的数据保护失效带来的财务、法律和声誉后果相比，合规投资的成本微不足道。</p>
+
+  </div>
+
+  
+  <div class="article-tags">
+    
+      
+      
+      
+        <a href="/zh/tags/compliance/">compliance</a>
+      
+    
+  </div>
+
+
+  
+  
+  <aside class="related-posts">
+    <h2>继续阅读</h2>
+    <p class="related-note">通过共同的标题片段匹配</p>
+    <ul>
+      
+      <li>
+        <a href="/zh/compliance/cnil-s-eur500k-hospital-fine-sets-precedent/">CNIL 对医院处以 50 万欧元罚款，树立执法先例</a>
+        
+          <ul class="matched-headings">
+            
+              
+              <li><a href="/zh/compliance/cnil-s-eur500k-hospital-fine-sets-precedent/#%e6%89%a7%e8%a1%8c%e6%91%98%e8%a6%81">执行摘要</a></li>
+            
+              
+              <li><a href="/zh/compliance/cnil-s-eur500k-hospital-fine-sets-precedent/#%e4%ba%8b%e4%bb%b6%e8%a7%84%e6%a8%a1%e4%b8%8e%e8%8c%83%e5%9b%b4">事件：规模与范围</a></li>
+            
+              
+              <li><a href="/zh/compliance/cnil-s-eur500k-hospital-fine-sets-precedent/#%e7%bb%93%e8%ae%ba">结论</a></li>
+            
+          </ul>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/compliance/flock-security-overhaul-addresses-law-enforcement-abuse/">Flock 安全改革应对执法滥用问题</a>
+        
+          <ul class="matched-headings">
+            
+              
+              <li><a href="/zh/compliance/flock-security-overhaul-addresses-law-enforcement-abuse/#%e6%89%a7%e8%a1%8c%e6%91%98%e8%a6%81">执行摘要</a></li>
+            
+              
+              <li><a href="/zh/compliance/flock-security-overhaul-addresses-law-enforcement-abuse/#%e7%bb%93%e8%ae%ba">结论</a></li>
+            
+          </ul>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/business/boring-company-seeks-strategic-investor-support/">Boring Company 寻求战略投资者支持</a>
+        
+          <ul class="matched-headings">
+            
+              
+              <li><a href="/zh/business/boring-company-seeks-strategic-investor-support/#%e6%89%a7%e8%a1%8c%e6%91%98%e8%a6%81">执行摘要</a></li>
+            
+              
+              <li><a href="/zh/business/boring-company-seeks-strategic-investor-support/#%e7%bb%93%e8%ae%ba">结论</a></li>
+            
+          </ul>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/compliance/critical-cybersecurity-threats-reshape-compliance-strategy/">重塑合规战略的重大网络安全威胁</a>
+        
+          <ul class="matched-headings">
+            
+              
+              <li><a href="/zh/compliance/critical-cybersecurity-threats-reshape-compliance-strategy/#%e7%bb%93%e8%ae%ba">结论</a></li>
+            
+          </ul>
+        
+      </li>
+      
+      <li>
+        <a href="/zh/compliance/emerging-cyber-threats-shape-next-crisis/">新兴网络威胁正在塑造下一场危机</a>
+        
+          <ul class="matched-headings">
+            
+              
+              <li><a href="/zh/compliance/emerging-cyber-threats-shape-next-crisis/#%e7%bb%93%e8%ae%ba">结论</a></li>
+            
+          </ul>
+        
+      </li>
+      
+    </ul>
+  </aside>
+  
+</article>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="语言">
+        
+          <a no-follow href="/en/compliance/cnil-hospital-fine-eur500k-penalty-analysis/">English</a>
+        
+          <a no-follow href="/es/compliance/cnil-hospital-fine-eur500k-penalty-analysis/">Español</a>
+        
+          <a no-follow href="/it/compliance/cnil-hospital-fine-eur500k-penalty-analysis/">Italiano</a>
+        
+          <a no-follow href="/fr/compliance/cnil-hospital-fine-eur500k-penalty-analysis/">Français</a>
+        
+          <a no-follow href="/ar/compliance/cnil-hospital-fine-eur500k-penalty-analysis/">العربية</a>
+        
+          <a no-follow href="/la/compliance/cnil-hospital-fine-eur500k-penalty-analysis/">Latina</a>
+        
+          <a no-follow href="/hi/compliance/cnil-hospital-fine-eur500k-penalty-analysis/">हिन्दी</a>
+        
+          <a no-follow href="/bn/compliance/cnil-hospital-fine-eur500k-penalty-analysis/">বাংলা</a>
+        
+          <a no-follow href="/pt/compliance/cnil-hospital-fine-eur500k-penalty-analysis/">Português</a>
+        
+          <a no-follow href="/ru/compliance/cnil-hospital-fine-eur500k-penalty-analysis/">Русский</a>
+        
+          <a no-follow href="/ur/compliance/cnil-hospital-fine-eur500k-penalty-analysis/">اردو</a>
+        
+          <a no-follow href="/zh/compliance/cnil-hospital-fine-eur500k-penalty-analysis/" aria-current="page">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>Music Publishing on RNews1.com</title>
+    <link>http://localhost:3003/zh/tags/music-publishing/</link>
+    <description>Recent content in Music Publishing on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+        <atom:link href="http://localhost:3003/zh/tags/music-publishing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>索尼起诉 Anthropic，指控其窃取歌曲</title>
+      <link>http://localhost:3003/zh/ai/sony-sues-anthropic-over-stolen-songs/</link>
+      <pubDate>Sat, 29 Aug 2026 16:52:00 -0700</pubDate>
+      <guid>http://localhost:3003/zh/ai/sony-sues-anthropic-over-stolen-songs/</guid>
+      <description>&lt;h1 id=&#34;索尼起诉-anthropic指控其窃取歌曲&#34;&gt;索尼起诉 Anthropic，指控其窃取歌曲&lt;/h1&gt;
+&lt;p&gt;围绕大型语言模型如何构建的斗争，最新战线既不是小说、新闻档案，也不是一堆源代码，而是美国歌曲宝库。&lt;strong&gt;8 月 28 日&lt;/strong&gt;，&lt;strong&gt;Sony Music Publishing&lt;/strong&gt; 与 &lt;strong&gt;Warner Chappell&lt;/strong&gt; 走进&lt;em&gt;北加州&lt;/em&gt;联邦法院，起诉了开发 &lt;strong&gt;Claude&lt;/strong&gt; 系列模型的实验室 &lt;strong&gt;Anthropic&lt;/strong&gt;，以及其&lt;strong&gt;首席执行官 Dario Amodei&lt;/strong&gt; 和&lt;strong&gt;联合创始人 Benjamin Mann&lt;/strong&gt;。出版商的诉状措辞毫不含糊，称 Claude 的训练是*“历史上规模最大、最明目张胆且仍在持续的知识产权盗窃案之一。”*&lt;/p&gt;
+&lt;p&gt;这句话就是为了传播。它也意在构建一种损害赔偿理论：如果陪审团最终接受法律规定的最高额度，其金额将足以重新安排一家前沿实验室的经济格局。诉状要求每部作品&lt;strong&gt;最高 15 万美元&lt;/strong&gt;，并针对*“数万”&lt;em&gt;首作品中&lt;strong&gt;每个被删除的版权管理标签&lt;/strong&gt;额外索赔&lt;strong&gt;2.5 万美元&lt;/strong&gt;——金额&lt;/em&gt;可能达到数十亿美元*。Anthropic &lt;strong&gt;未立即发表评论&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这起案件处于整个行业盘旋了两年多的一个交汇点：以工业化规模摄入受版权保护的文本，然后回应用户索要副歌或诗节的请求，究竟属于研究、产品开发，还是盗窃。音乐出版商已经决定，他们知道答案。他们正请求这个国家最重要的科技诉讼地点之一的法院予以认同。&lt;/p&gt;
+&lt;h2 id=&#34;诉状中的曲库&#34;&gt;诉状中的曲库&lt;/h2&gt;
+&lt;h3 id=&#34;五首歌曲以及一种损害理论&#34;&gt;五首歌曲，以及一种损害理论&lt;/h3&gt;
+&lt;p&gt;文件中点名的作品并非鲜为人知的冷门曲目。几十年来，它们一直出现在收音机、婚礼、体育场和流媒体播放列表中。诉状列出了**“Ain’t No Mountain High Enough”&lt;strong&gt;——由 Holland-Dozier-Holland / Ashford &amp;amp; Simpson 创作、后经 Marvin Gaye 和 Tammi Terrell 演绎成为摩城丰碑的经典歌曲；列出了&lt;/strong&gt;Bon Jovi 的 “Livin’ on a Prayer”&lt;strong&gt;，一首工薪阶层的力量民谣，酒吧乐队弹到转调时仍能让全场沸腾；列出了&lt;/strong&gt;Earth, Wind &amp;amp; Fire 的 “September”&lt;strong&gt;，一首超越其诞生年代、人人都会跟唱的日历主题歌曲；列出了&lt;/strong&gt;“Hallelujah”&lt;strong&gt;，Leonard Cohen 创作的、关于怀疑与欲望的圣歌，翻唱次数之多，以至于许多听众已经记不清自己最初爱上的是哪个版本；还列出了&lt;/strong&gt;Taylor Swift 的 “Paper Rings”**，这首较晚时期的曲库作品提醒法院，这不仅是关于 20 世纪 60 年代和 80 年代的争斗。&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

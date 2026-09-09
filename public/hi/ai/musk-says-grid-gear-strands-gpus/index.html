@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="hi" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3002&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>मस्क का कहना है कि ग्रिड उपकरण GPU को बेकार छोड़ रहे हैं | RNews1.com</title>
+  <meta name="description" content="एलन मस्क ने 29 अगस्त 2026 को X पर पोस्ट किया कि 2027 में ऑनलाइन होने वाली लगभग 15 गीगावॉट AI कंप्यूटिंग क्षमता संभवतः बंद पड़ी रहेगी, क्योंकि बिजली का बुनियादी ढाँचा तैयार नहीं होगा। क्रिप्टो ब्रीफिंग के अनुसार, उन्होंने चिप्स को नहीं, बल्कि ट्रांसफॉर्मर, वायरिंग, लिक्विड-कूलिंग लूप और उच्च-क्षमता नेटवर्किंग को जिम्मेदार ठहराया। हाई-वोल्टेज ट्रांसफॉर्मरों की लीड टाइम अब 48 से 60 महीने है; उत्तरी अमेरिकी ग्रिड इंटरकनेक्शन कतारें और परमिटिंग अतिरिक्त देरी जोड़ते हैं। विश्लेषकों का अनुमान है कि 2027 तक अमेरिका में डेटा सेंटरों की बिजली मांग 66 GW तक पहुँच सकती है; 15 GW को बिना बिजली के छोड़ना उद्योग की तैनाती धीमी कर देगा। 2026 की शुरुआत में सार्वजनिक हुई SpaceX ने Q2 का समापन 1.4 GW कंप्यूट के साथ किया—Q1 के 1 GW और एक साल पहले के 400 MW से अधिक—और 2026 के अंत तक 2 GW से अधिक होने का लक्ष्य रखा है। 2027 के अंत तक वह 20 GW बिजली और कूलिंग का लक्ष्य रखती है, जबकि मस्क लगभग 15 GW को अधिक यथार्थवादी मानते हैं। xAI के अंतर्गत Memphis Colossus मुख्य केंद्र है; Nvidia Vera Rubin चिप्स और संभावित Microsoft ऑफटेक का उल्लेख किया गया है। निष्क्रिय क्लस्टर महँगे GPU पर तेज़ मूल्यह्रास का बोझ डालते हैं।">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      position: relative;
+    }
+    .site-title {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.5rem;
+    }
+    .site-nav a {
+      display: inline-block;
+      padding: 0.4rem 0.4rem;
+      white-space: nowrap;
+    }
+    .site-nav a[aria-current="page"] { font-weight: 700; }
+
+     
+    .desktop-nav {
+      display: none;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+    }
+
+     
+    .mobile-nav-toggle {
+      position: relative;
+    }
+    .mobile-nav-toggle > summary {
+      list-style: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid currentColor;
+      border-radius: 6px;
+    }
+    .mobile-nav-toggle > summary::-webkit-details-marker { display: none; }
+    .mobile-nav-toggle > summary::marker { content: ""; }
+    .nav-button-bars,
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      display: block;
+      width: 1.15rem;
+      height: 2px;
+      background: currentColor;
+      position: relative;
+    }
+    .nav-button-bars::before,
+    .nav-button-bars::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    .nav-button-bars::before { top: -6px; }
+    .nav-button-bars::after { top: 6px; }
+
+    .mobile-nav-dropdown {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      inset-inline-end: 0;
+      top: calc(100% + 0.5rem);
+      min-width: min(18rem, calc(100vw - 2rem));
+      padding: 0.75rem 1rem;
+      background: var(--header-bg, #fff);
+      color: inherit;
+      border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px color-mix(in srgb, #000 16%, transparent);
+      z-index: 20;
+    }
+
+    @media (min-width: 960px) {
+      .desktop-nav {
+        display: flex;
+      }
+      .mobile-nav-toggle {
+        display: none;
+      }
+    }
+  </style>
+
+    
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEXLCGT84D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FEXLCGT84D');
+  </script>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a no-follow href="/hi/" class="site-title">RNews1.com</a>
+      
+      
+      <nav class="site-nav desktop-nav" aria-label="अनुभाग">
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/ai/"
+              aria-current="page"
+            >एआई</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/business/"
+              
+            >व्यापार</a>
+          
+        
+          
+            
+            
+            
+              
+            
+            <a
+              no-follow href="/hi/compliance/"
+              
+            >Compliance</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/crypto/"
+              
+            >क्रिप्टो</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/entertainment/"
+              
+            >मनोरंजन</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/sports/"
+              
+            >खेल</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/technology/"
+              
+            >तकनीक</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/usa/"
+              
+            >अमेरिका</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/world/"
+              
+            >विश्व</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/cosmos/"
+              
+            >ब्रह्मांड</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/science/"
+              
+            >विज्ञान</a>
+          
+        
+          
+            
+            
+            
+            <a
+              no-follow href="/hi/health/"
+              
+            >स्वास्थ्य</a>
+          
+        
+      </nav>
+
+      
+      <details class="mobile-nav-toggle">
+        <summary aria-label="मेनू">
+          <span class="nav-button-bars" aria-hidden="true"></span>
+        </summary>
+        <nav class="site-nav mobile-nav-dropdown" aria-label="अनुभाग">
+          
+            
+              
+              
+              
+              <a
+                href="/hi/ai/"
+                aria-current="page"
+              >एआई</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/business/"
+                
+              >व्यापार</a>
+            
+          
+            
+              
+              
+              
+                
+              
+              <a
+                href="/hi/compliance/"
+                
+              >Compliance</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/crypto/"
+                
+              >क्रिप्टो</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/entertainment/"
+                
+              >मनोरंजन</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/sports/"
+                
+              >खेल</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/technology/"
+                
+              >तकनीक</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/usa/"
+                
+              >अमेरिका</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/world/"
+                
+              >विश्व</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/cosmos/"
+                
+              >ब्रह्मांड</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/science/"
+                
+              >विज्ञान</a>
+            
+          
+            
+              
+              
+              
+              <a
+                href="/hi/health/"
+                
+              >स्वास्थ्य</a>
+            
+          
+        </nav>
+      </details>
+    </div>
+  </header>
+  <main class="container">
+    
+<article class="post container">
+  <header class="post-header">
+    <h1><a href="">मस्क का कहना है कि ग्रिड उपकरण GPU को बेकार छोड़ रहे हैं</a></h1>
+    <div class="post-meta">
+      
+        <span>
+          <a href="/hi/ai/">Ai</a>
+        </span>
+      <span>·</span>
+    
+      <time datetime="2026-08-29">29 अगस्त 2026</time>
+      <span>·</span>
+      <span>12 मिनट का पाठ</span>
+    </div>
+  </header>
+  <div class="post-content">
+    
+<p><strong>एलन मस्क</strong> ने <strong>29 अगस्त 2026</strong> को <strong>X</strong> पर पोस्ट किया कि <em>लगभग</em> <strong>15 गीगावॉट</strong> की <strong>AI कंप्यूटिंग क्षमता</strong>, जो <strong>2027</strong> में ऑनलाइन आने वाली है, संभवतः <em>बंद पड़ी रहेगी</em>, क्योंकि <strong>बिजली का बुनियादी ढाँचा</strong> तैयार नहीं होगा। <strong>क्रिप्टो ब्रीफिंग</strong> ने इस चेतावनी की रिपोर्ट की है। दावा यह नहीं है कि चिप्स की आपूर्ति विफल होगी। बात यह है कि चिप्स के आसपास का उपकरण—ग्रिड का ढाँचा, तांबा, कूलिंग और नेटवर्क—सर्वर आने तक तैयार नहीं होगा।</p>
+<p>बंद पड़ा हुआ एक गीगावॉट ऐसा क्लस्टर है जो खरीद आदेश पर मौजूद है और शायद उठे हुए फ्लोर पर भी मौजूद हो, लेकिन जिसे बिजली नहीं दी जा सकती। <strong>मस्क</strong> की पोस्ट में यह स्थिति <em>लगभग</em> <strong>15 गीगावॉट</strong> की <strong>AI कंप्यूटिंग क्षमता</strong> पर लागू होती है, जो <strong>2027</strong> के लिए निर्धारित है। <strong>क्रिप्टो ब्रीफिंग</strong> वह माध्यम है जिसने इस पोस्ट को उनकी जिम्मेदार ठहराई गई चीज़ों, ट्रांसफॉर्मर बाजार की स्थिति और उनकी अपनी कंपनियों के बिजली और कूलिंग लक्ष्यों में मौजूद इसी बाधा की रिपोर्ट में बदला।</p>
+<h2 id="बध-चप-नह-ह">बाधा चिप नहीं है</h2>
+<p><strong>क्रिप्टो ब्रीफिंग</strong> के अनुसार, उन्होंने <strong>ट्रांसफॉर्मर</strong>, <strong>वायरिंग</strong>, <strong>लिक्विड-कूलिंग लूप</strong> और <strong>उच्च-क्षमता नेटवर्किंग</strong> को जिम्मेदार ठहराया—<em>चिप्स को नहीं</em>। यह आधुनिक AI हॉल की सामग्री-सूची है। <strong>ट्रांसफॉर्मर</strong> हाई-वोल्टेज ग्रिड बिजली को हॉल में उपयोग योग्य स्तर तक घटाते हैं। <strong>वायरिंग</strong> उस बिजली को पूरे परिसर और रैक तक पहुँचाती है। <strong>लिक्विड-कूलिंग लूप</strong> घने एक्सेलेरेटरों से गर्मी निकालते हैं, जिसे हवा अब संभाल नहीं सकती। <strong>उच्च-क्षमता नेटवर्किंग</strong> इन एक्सेलेरेटरों को प्रशिक्षण नेटवर्क में जोड़ती है। इन चारों में से कोई भी GPU नहीं है। फिर भी इस विवरण के अनुसार, यही कारण है कि <strong>2027</strong> में आने वाली <em>लगभग</em> <strong>15 गीगावॉट</strong> की <strong>AI कंप्यूटिंग क्षमता</strong> संभवतः <em>बंद पड़ी रहेगी</em>।</p>
+<p><em>चिप्स को नहीं</em> कहने पर जोर देना पोस्ट का मुख्य बिंदु है। उद्योग ने वर्षों तक एक्सेलेरेटर आपूर्ति को सबसे महत्वपूर्ण बाधा माना है। <strong>29 अगस्त 2026</strong> को <strong>X</strong> पर पोस्ट करते हुए <strong>मस्क</strong> एक्सेलेरेटर आपूर्ति को ऐसी बाधा मान रहे हैं जो अब बाधा नहीं रही। यदि चिप्स आ जाएँ और <strong>ट्रांसफॉर्मर</strong>, <strong>वायरिंग</strong>, <strong>लिक्विड-कूलिंग लूप</strong> तथा <strong>उच्च-क्षमता नेटवर्किंग</strong> न आएँ, तो चिप्स पड़े रहेंगे। <strong>AI कंप्यूटिंग क्षमता</strong> के संदर्भ में <em>बंद पड़ी रहना</em> का यही अर्थ है: ऐसा सिलिकॉन जिसके पास बिजली का मार्ग, कूलिंग का मार्ग या नेटवर्क का मार्ग नहीं है, जो किसी क्लस्टर को वास्तव में क्लस्टर बनाता है।</p>
+<p><strong>क्रिप्टो ब्रीफिंग</strong> की रिपोर्ट में अन्य दोषियों को नहीं जोड़ा गया है। इसमें उत्पादन की कमी या ईंधन संकट का उल्लेख नहीं है। इसमें लंबे समय में मिलने वाले विद्युत और यांत्रिक उपकरणों के साथ-साथ किसी साइट को ग्रिड से जोड़ने वाली <strong>उत्तरी अमेरिकी</strong> प्रक्रिया का उल्लेख है। <strong>मस्क</strong> द्वारा बताई गई चारों चीज़ें भौतिक हैं। <strong>क्रिप्टो ब्रीफिंग</strong> ने इनके साथ जिन कतारों और परमिटों का उल्लेख किया है, वे प्रक्रियात्मक हैं। मिलकर ये वही <strong>बिजली का बुनियादी ढाँचा</strong> हैं जो <strong>2027</strong> की लहर के लिए <em>तैयार नहीं होगा</em>।</p>
+<h2 id="हई-वलटज-टरसफरमर-क-लए-चर-स-पच-वरष">हाई-वोल्टेज ट्रांसफॉर्मर के लिए चार से पाँच वर्ष</h2>
+<p><strong>हाई-वोल्टेज ट्रांसफॉर्मरों</strong> की लीड टाइम अब <strong>48 से 60 महीने</strong> है। यह चार से पाँच वर्ष की अवधि है। <strong>2026</strong> में <strong>48 महीने</strong> की समयसीमा पर ऑर्डर किया गया ट्रांसफॉर्मर <strong>2027</strong> की संपत्ति नहीं होगा। <strong>60 महीने</strong> की समयसीमा में तो वह और भी देर से आएगा। जिस वर्ष <strong>मस्क</strong> ने कहा कि <em>लगभग</em> <strong>15 गीगावॉट</strong> की <strong>AI कंप्यूटिंग क्षमता</strong> संभवतः <em>बंद पड़ी रहेगी</em>, उस वर्ष तक ये लीड टाइम पहले ही समय से पीछे हो चुके हैं।</p>
+<p>लीड टाइम कोई रूपक नहीं है। यह खरीद आदेश और <strong>हाई-वोल्टेज ट्रांसफॉर्मर</strong> की डिलीवरी के बीच का कैलेंडर है। <strong>48 से 60 महीने</strong> की लीड टाइम का अर्थ है कि ट्रांसफॉर्मर बाजार ने <strong>2027</strong> के निर्माण कार्यक्रम को पहले ही बता दिया है कि वह देर से चल रहा है। <strong>क्रिप्टो ब्रीफिंग</strong> की रिपोर्ट के अनुसार, <strong>मस्क</strong> ने सूची में सबसे पहले <strong>ट्रांसफॉर्मरों</strong> को जिम्मेदार ठहराया। लीड टाइम का आँकड़ा बताता है कि इस दोषारोपण की समय-संदर्भित वजह क्या है।</p>
+<p><strong>उत्तरी अमेरिकी ग्रिड इंटरकनेक्शन कतारें</strong> और <strong>परमिटिंग</strong> <em>अतिरिक्त देरी</em> जोड़ते हैं। यहाँ अतिरिक्त का अर्थ <strong>48 से 60 महीने</strong> के ट्रांसफॉर्मर इंतजार के ऊपर होने वाली देरी है। इंटरकनेक्शन किसी बड़े नए लोड को ग्रिड से जोड़ने की प्रक्रिया है। दसियों या सैकड़ों मेगावॉट चाहने वाला डेटा सेंटर सीधे प्लग इन नहीं कर सकता। उसे एक <strong>कतार</strong> में प्रवेश करना पड़ता है। <strong>परमिटिंग</strong> अलग नागरिक और पर्यावरणीय समयसीमा है। <strong>क्रिप्टो ब्रीफिंग</strong> दोनों को <strong>उत्तरी अमेरिका</strong> में रखती है, जहाँ <strong>अमेरिकी डेटा सेंटर बिजली मांग</strong> का अनुमान भी लागू होता है।</p>
+<p>कोई परियोजना <strong>ट्रांसफॉर्मर</strong> का ऑर्डर देकर भी इंटरकनेक्शन <strong>कतार</strong> में अटकी रह सकती है। वह <strong>कतार</strong> पार करके भी <strong>परमिटिंग</strong> का इंतजार कर सकती है। साइट पर <strong>वायरिंग</strong>, <strong>लिक्विड-कूलिंग लूप</strong> और <strong>उच्च-क्षमता नेटवर्किंग</strong> होने के बावजूद उसमें हाई-वोल्टेज को कम करने वाली व्यवस्था नहीं हो सकती, जो परिसर को सक्रिय बनाती है। <strong>48 से 60 महीने</strong> का ट्रांसफॉर्मर कैलेंडर और <strong>उत्तरी अमेरिकी</strong> <strong>ग्रिड इंटरकनेक्शन कतारों</strong> तथा <strong>परमिटिंग</strong> की समयसीमाएँ यही कारण हैं कि चिप्स होने पर भी <strong>बिजली का बुनियादी ढाँचा तैयार नहीं होगा</strong>।</p>
+<h2 id="66-गगवट-क-मग-15-बन-बजल-क">66 गीगावॉट की मांग, 15 बिना बिजली के</h2>
+<p><strong>विश्लेषकों का अनुमान है</strong> कि <strong>अमेरिकी डेटा सेंटर बिजली मांग</strong> <strong>2027</strong> तक <strong>66 GW</strong> तक पहुँच सकती है। यही वह बाजार आकार है जिसे <strong>मस्क</strong> की चेतावनी संबोधित करती है। <strong>15 GW को बिना बिजली के छोड़ना</strong> <em>उद्योग की तैनाती धीमी कर देगा</em>। गणित सीधा है: उसी वर्ष के <strong>66 GW</strong> के अमेरिकी डेटा सेंटर बिजली आँकड़े की तुलना में <em>लगभग</em> <strong>15 गीगावॉट</strong> की <strong>AI कंप्यूटिंग क्षमता</strong> का बंद पड़ा रहना बड़ा हिस्सा है। <strong>क्रिप्टो ब्रीफिंग</strong> ने अनुमान और परिणाम दोनों की रिपोर्ट की है।</p>
+<p><strong>2027</strong> तक <strong>66 GW</strong> एक <em>अनुमान</em> है, जिसका श्रेय <strong>विश्लेषकों</strong> को दिया गया है, न कि मापे गए लोड को। यह उसी वर्ष की मांग का पक्ष है जिसमें <strong>मस्क</strong> ने कहा कि <em>लगभग</em> <strong>15 गीगावॉट</strong> की <strong>AI कंप्यूटिंग क्षमता</strong> संभवतः <em>बंद पड़ी रहेगी</em>। <strong>15 GW को बिना बिजली के छोड़ना</strong> उस चेतावनी का उद्योग-स्तरीय रूप है। तैनाती इसलिए धीमी होगी क्योंकि चिप्स गायब हैं, ऐसा नहीं, बल्कि इसलिए कि <strong>बिजली का बुनियादी ढाँचा</strong>—<strong>ट्रांसफॉर्मर</strong>, <strong>वायरिंग</strong>, <strong>लिक्विड-कूलिंग लूप</strong>, <strong>उच्च-क्षमता नेटवर्किंग</strong>, और <strong>उत्तरी अमेरिकी ग्रिड इंटरकनेक्शन कतारें</strong> तथा <strong>परमिटिंग</strong>—इन गीगावॉट को सक्रिय नहीं कर पाएगा।</p>
+<p>इस स्तर की मंदी एक समय-सारणी की समस्या है, जिसका असर बैलेंस शीट तक जाता है। <strong>2027</strong> में ऑनलाइन आने वाली लेकिन बिजली न पा सकने वाली क्षमता प्रशिक्षण नहीं कर सकती, अनुमान-सेवा नहीं दे सकती और कमाई नहीं कर सकती। <strong>2027</strong> तक <strong>अमेरिकी डेटा सेंटर बिजली मांग</strong> को <strong>66 GW</strong> बताने वाले <strong>विश्लेषक</strong> ऐसे निर्माण का वर्णन कर रहे हैं जो बिजली मिलने की धारणा पर आधारित है। <strong>X</strong> पर <strong>मस्क</strong> ऐसे निर्माण का वर्णन कर रहे हैं जिसे शायद बिजली न मिले। <strong>15 GW को बिना बिजली के छोड़ना</strong> वह तरीका है जिससे <strong>क्रिप्टो ब्रीफिंग</strong> पोस्ट के प्रभाव को उद्योग के स्तर पर अनुवादित करती है: <em>उद्योग की तैनाती धीमी करना</em>।</p>
+<p>रिपोर्ट में मौजूद दोनों <strong>15</strong> के आँकड़ों को आसानी से भ्रमित किया जा सकता है, इसलिए ऐसा नहीं होना चाहिए। एक है <strong>2027</strong> में ऑनलाइन आने वाली <em>लगभग</em> <strong>15 गीगावॉट</strong> की <strong>AI कंप्यूटिंग क्षमता</strong>, जो संभवतः <em>बंद पड़ी रहेगी</em>। दूसरा, उसी रिपोर्ट में बाद में, <strong>मस्क</strong> का कहना है कि <strong>SpaceX</strong> की <strong>बिजली और कूलिंग</strong> के <em>लगभग</em> <strong>15 GW</strong> को <strong>20 GW</strong> के लक्ष्य से <em>अधिक यथार्थवादी</em> मानना चाहिए। ये एक ही वस्तु नहीं हैं। ये एक ही वर्ष में, एक ही इकाई में, एक ही बात कहते हैं: सीमा सिलिकॉन नहीं, बुनियादी ढाँचा तय करता है।</p>
+<h2 id="spacex-सरवजनक-कपन-और-400-मगवट-स-बढत">SpaceX, सार्वजनिक कंपनी और 400 मेगावॉट से बढ़त</h2>
+<p>यह चेतावनी केवल दूसरे लोगों के हॉल के बारे में नहीं है। <strong>SpaceX</strong>, जो <em>2026 की शुरुआत में सार्वजनिक कंपनी बनी</em>, ने <strong>Q2</strong> का समापन <strong>1.4 GW</strong> कंप्यूट के साथ किया—<strong>Q1</strong> के <strong>1 GW</strong> और एक वर्ष पहले के <strong>400 MW</strong> से अधिक। ये तीन आँकड़े बढ़त दिखाते हैं: एक वर्ष पहले <strong>400 MW</strong>, पहली तिमाही में <strong>1 GW</strong>, और दूसरी तिमाही के अंत में <strong>1.4 GW</strong>। <strong>SpaceX</strong> <em>2026 के अंत तक 2 GW से अधिक होने का लक्ष्य रखती है</em>।</p>
+<p><strong>2026</strong> की शुरुआत में सार्वजनिक कंपनी बनना कॉर्पोरेट पृष्ठभूमि है। <strong>क्रिप्टो ब्रीफिंग</strong> <strong>SpaceX</strong> के कंप्यूट आँकड़ों को किसी निजी अफवाह के रूप में नहीं, बल्कि सार्वजनिक कंपनी के आँकड़ों के रूप में रिपोर्ट करती है। <strong>Q2</strong> का समापन <strong>1.4 GW</strong> कंप्यूट पर हुआ। <strong>Q1</strong> में यह <strong>1 GW</strong> था। एक वर्ष पहले यही माप <strong>400 MW</strong> था। यह क्रम तेज़ी दिखाता है: <strong>400 MW</strong> से <strong>1 GW</strong>, फिर <strong>1.4 GW</strong>, और <strong>2026</strong> के अंत तक <em>2 GW से अधिक</em> होने का घोषित लक्ष्य।</p>
+<p>गीगावॉट में कंप्यूट चिपों की संख्या नहीं, बल्कि बिजली की रेटिंग है। यह वही इकाई है जिसका उपयोग <strong>मस्क</strong> ने <strong>2027</strong> में <em>बंद पड़ी रहने वाली</em> <em>लगभग</em> <strong>15 गीगावॉट</strong> की <strong>AI कंप्यूटिंग क्षमता</strong> के लिए किया, और वही इकाई है जिसका उपयोग <strong>विश्लेषकों</strong> ने <strong>अमेरिकी डेटा सेंटर बिजली मांग</strong> के <strong>66 GW</strong> के लिए किया। <strong>SpaceX</strong> का <strong>400 MW</strong> से <strong>1.4 GW</strong> तक बढ़ना, और <em>2026 के अंत तक 2 GW से अधिक</em> होने का लक्ष्य, सिलिकॉन को सक्रिय करने की उद्योग की दौड़ का कंपनी-स्तरीय रूप है। यही कारण है कि ट्रांसफॉर्मर और इंटरकनेक्शन की बाधा कोई अमूर्त ग्रिड कहानी नहीं है। यह सार्वजनिक कंपनी के कंप्यूट लक्ष्य के समान खाते में दर्ज है।</p>
+<p><strong>2026</strong> के अंत तक <strong>2 GW</strong> से अधिक होना <strong>Q2</strong> के अंत के <strong>1.4 GW</strong> से आगे की छलांग होगी, और एक वर्ष पहले के <strong>400 MW</strong> से काफी ऊपर। उन आँकड़ों की तुलना में लक्ष्य आक्रामक है। <strong>48 से 60 महीने</strong> की <strong>हाई-वोल्टेज ट्रांसफॉर्मर</strong> लीड टाइम और <strong>उत्तरी अमेरिकी ग्रिड इंटरकनेक्शन कतारों</strong> तथा <strong>परमिटिंग</strong> की देरी यही कारण है कि आक्रामक लक्ष्य भी एक अंधेरे फ्लोर से टकरा सकता है। चिप्स सेमीकंडक्टर कैलेंडर पर <strong>SpaceX</strong> के फ्लोर तक पहुँच सकते हैं। <strong>बिजली का बुनियादी ढाँचा</strong> ट्रांसफॉर्मर और इंटरकनेक्शन कैलेंडर पर पहुँचता है। <strong>मस्क</strong> कह रहे हैं कि ये कैलेंडर आपस में मेल नहीं खाते।</p>
+<h2 id="सलइड-पर-20-गगवट-यथरथवद-नशन-क-रप-म-15">स्लाइड पर 20 गीगावॉट, यथार्थवादी निशान के रूप में 15</h2>
+<p><strong>SpaceX</strong> <em>2027 के अंत तक</em> <strong>20 GW</strong> <strong>बिजली और कूलिंग</strong> का <em>लक्ष्य रखती है</em>, जबकि <strong>मस्क</strong> <em>लगभग</em> <strong>15 GW</strong> को <em>अधिक यथार्थवादी</em> मानते हैं। लक्ष्य <strong>बिजली और कूलिंग</strong> का है, चिप्स का नहीं। यह <strong>X</strong> पर की गई पोस्ट से मेल खाता है। उन्होंने <strong>ट्रांसफॉर्मर</strong>, <strong>वायरिंग</strong>, <strong>लिक्विड-कूलिंग लूप</strong> और <strong>उच्च-क्षमता नेटवर्किंग</strong> को जिम्मेदार ठहराया—वही उपकरण जो <em>बिजली और कूलिंग</em> का हिस्सा हैं—और एक्सेलेरेटरों को नहीं।</p>
+<p><em>2027 के अंत तक</em> <strong>20 GW</strong> स्लाइड पर दिखाया गया लक्ष्य है। <strong>मस्क</strong> ने <em>लगभग</em> <strong>15 GW</strong> को <em>अधिक यथार्थवादी</em> कहा। <strong>क्रिप्टो ब्रीफिंग</strong> दोनों की रिपोर्ट करती है। <strong>20 GW</strong> के लक्ष्य के मुकाबले <strong>बिजली और कूलिंग</strong> के <em>लगभग</em> <strong>15 GW</strong> का यथार्थवादी आँकड़ा कंपनी स्तर पर कटौती है, और यह उसी वर्ष—<em>2027 के अंत</em>—में दिया गया है जिसमें उद्योग की <em>लगभग</em> <strong>15 गीगावॉट</strong> की <strong>AI कंप्यूटिंग क्षमता</strong> अंधेरे में रहने वाली है। वह जिस चीज़ को कम कर रहे हैं, वह सिलिकॉन नहीं, बुनियादी ढाँचा है।</p>
+<p><strong>xAI</strong> के अंतर्गत <strong>Memphis Colossus</strong> <em>मुख्य केंद्र</em> है। <strong>Nvidia Vera Rubin</strong> चिप्स और <em>संभावित</em> <strong>Microsoft</strong> ऑफटेक का <em>उल्लेख किया गया है</em>। ये उस निर्माण के नामित हिस्से हैं जिसकी सेवा के लिए <strong>बिजली और कूलिंग</strong> का लक्ष्य बनाया गया है। <strong>Memphis</strong> का <strong>Colossus</strong> एक <strong>xAI</strong> क्लस्टर है; फिर भी <strong>क्रिप्टो ब्रीफिंग</strong> इसे उसी बिजली की कहानी के केंद्र में रखती है जिसमें <strong>SpaceX</strong> की सार्वजनिक कंप्यूट बढ़त शामिल है। <strong>Nvidia Vera Rubin</strong> चिप्स इस परिदृश्य के एक्सेलेरेटर हैं—वे ही <em>चिप्स</em> जिन्हें <strong>मस्क</strong> ने बाधा <em>नहीं</em> बताया था। <em>संभावित</em> <strong>Microsoft</strong> ऑफटेक को मांग के संभावित खरीदार के रूप में चिह्नित किया गया है, न कि हस्ताक्षरित आँकड़े के रूप में। शब्द <em>संभावित</em> है। रिपोर्ट इसे किसी अनुबंध के आकार में नहीं बदलती।</p>
+<p>इन नामों को <strong>20 GW</strong> के लक्ष्य और <em>लगभग</em> <strong>15 GW</strong> के यथार्थवादी निशान के साथ रखने से माध्यम एक सार्वजनिक <strong>SpaceX</strong> बिजली और कूलिंग योजना को <strong>xAI</strong> हॉल, <strong>Nvidia</strong> पीढ़ी और <em>संभावित</em> <strong>Microsoft</strong> खरीदार से जोड़ता है। इससे ट्रांसफॉर्मर का कैलेंडर नहीं बदलता। <strong>हाई-वोल्टेज ट्रांसफॉर्मरों</strong> की लीड टाइम अब भी <strong>48 से 60 महीने</strong> है। <strong>उत्तरी अमेरिकी ग्रिड इंटरकनेक्शन कतारें</strong> और <strong>परमिटिंग</strong> अब भी <em>अतिरिक्त देरी</em> जोड़ते हैं। यदि <strong>Vera Rubin</strong> चिप्स को अंधेरे फ्लोर पर पड़े रहने के बजाय काम करना है, तो <strong>Memphis Colossus</strong> को अब भी <strong>वायरिंग</strong>, <strong>लिक्विड-कूलिंग लूप</strong> और <strong>उच्च-क्षमता नेटवर्किंग</strong> की आवश्यकता होगी।</p>
+<p>कोई <em>मुख्य</em> क्लस्टर खुद को कतार से अलग नहीं कर सकता। यदि <strong>Colossus</strong>, <strong>xAI</strong> के निर्माण के लिए <em>मुख्य</em> है, तो वह <strong>29 अगस्त 2026</strong> को <strong>मस्क</strong> द्वारा बताई गई <strong>बिजली के बुनियादी ढाँचे</strong> की समस्या के लिए भी <em>मुख्य</em> है। <strong>Nvidia Vera Rubin</strong> चिप्स सही पीढ़ी के हो सकते हैं और फिर भी <em>बंद पड़े रह सकते हैं</em>, यदि <strong>ट्रांसफॉर्मर</strong> <strong>48 से 60 महीने</strong> की समयसीमा पर हैं। <em>संभावित</em> <strong>Microsoft</strong> ऑफटेक का उल्लेख हो सकता है और फिर भी वह उन मेगावॉट का इंतजार कर सकता है जिन्हें <strong>परमिटिंग</strong> ने जारी नहीं किया है। नामित मांग उपकरण की आपूर्ति नहीं करती।</p>
+<h2 id="बद-पड-कलसटर-पर-मलयहरस">बंद पड़े क्लस्टर पर मूल्यह्रास</h2>
+<p><em>निष्क्रिय क्लस्टर</em> <em>महँगे GPU</em> पर <em>तेज़ मूल्यह्रास</em> का बोझ डालते हैं। <strong>क्रिप्टो ब्रीफिंग</strong> <strong>29 अगस्त 2026</strong> की <strong>मस्क</strong> की पोस्ट से जुड़ा यही वित्तीय निष्कर्ष निकालती है। जिस GPU को बिजली नहीं मिल सकती, वह फिर भी पुराना होता जाता है। <em>महँगे GPU</em>—जिनमें उसी रिपोर्ट में उल्लिखित <strong>Nvidia Vera Rubin</strong> चिप्स भी शामिल हैं—ऐसे बाजार में पूँजीगत संपत्तियाँ हैं जिनका उपयोगी जीवन छोटा है और जहाँ पीढ़ियाँ तेज़ी से बदली जाती हैं। <em>निष्क्रिय</em> उस क्लस्टर की स्थिति है जो <em>बंद पड़ा रहता है</em>। <em>तेज़ मूल्यह्रास</em> उस स्थिति का संपत्ति पर प्रभाव है।</p>
+<p>उद्योग का चित्र और कंपनी का चित्र वहीं मिलते हैं। <strong>विश्लेषकों का अनुमान है</strong> कि <strong>अमेरिकी डेटा सेंटर बिजली मांग</strong> <strong>2027</strong> तक <strong>66 GW</strong> तक पहुँच सकती है। <strong>15 GW को बिना बिजली के छोड़ना</strong> <em>उद्योग की तैनाती धीमी कर देगा</em>। <strong>2027</strong> में ऑनलाइन आने वाली <em>लगभग</em> <strong>15 गीगावॉट</strong> की <strong>AI कंप्यूटिंग क्षमता</strong> संभवतः <em>बंद पड़ी रहेगी</em>, क्योंकि <strong>बिजली का बुनियादी ढाँचा तैयार नहीं होगा</strong>। <strong>SpaceX</strong>, जो <strong>2026</strong> की शुरुआत में सार्वजनिक कंपनी बनी, <strong>Q2</strong> में <strong>1.4 GW</strong> कंप्यूट पर बंद कर सकती है, <strong>2026</strong> के अंत तक <em>2 GW से अधिक</em> होने का लक्ष्य रख सकती है और <em>2027 के अंत तक</em> <strong>20 GW</strong> <strong>बिजली और कूलिंग</strong> का लक्ष्य रख सकती है, जबकि <strong>मस्क</strong> <em>लगभग</em> <strong>15 GW</strong> को <em>अधिक यथार्थवादी</em> मानते हैं। यदि यथार्थवादी बिजली उपलब्ध नहीं होती, तो क्लस्टर <em>निष्क्रिय</em> हो जाते हैं। <em>निष्क्रिय क्लस्टर</em> <em>महँगे GPU</em> पर <em>तेज़ मूल्यह्रास</em> का बोझ डालते हैं।</p>
+<p>इसीलिए पोस्ट <strong>ग्रिड उपकरणों</strong> द्वारा <strong>GPU को बेकार छोड़ने</strong> के बारे में है। GPU किसी फाउंड्री की वजह से बेकार नहीं हो रहे। वे <strong>48 से 60 महीने</strong> की लीड टाइम वाले <strong>ट्रांसफॉर्मरों</strong>, पीछे रह जाने वाली <strong>वायरिंग</strong>, <strong>लिक्विड-कूलिंग लूप</strong> और <strong>उच्च-क्षमता नेटवर्किंग</strong>, तथा <em>अतिरिक्त देरी</em> जोड़ने वाली <strong>उत्तरी अमेरिकी ग्रिड इंटरकनेक्शन कतारों</strong> और <strong>परमिटिंग</strong> के कारण बेकार हो रहे हैं। <strong>क्रिप्टो ब्रीफिंग</strong> की रिपोर्ट के अनुसार, <strong>मस्क</strong> ने <strong>29 अगस्त 2026</strong> को <strong>X</strong> पर यही कहा, जिसमें <strong>xAI</strong> के अंतर्गत <strong>Memphis Colossus</strong> को <em>मुख्य</em>, <strong>Nvidia Vera Rubin</strong> चिप्स और <em>संभावित</em> <strong>Microsoft</strong> ऑफटेक को <em>चिह्नित</em>, तथा <strong>66 GW</strong> के अमेरिकी मांग अनुमान और उनके अपने <em>अधिक यथार्थवादी</em> <strong>15 GW</strong> निशान—दोनों पर मंडराता <em>लगभग 15 गीगावॉट</em> का अंधेरा हिस्सा बताया गया।</p>
+<p>सर्वर <strong>Memphis</strong> में हो सकते हैं। चिप्स <strong>Vera Rubin</strong> हो सकती हैं। खरीदार <em>संभावित</em> <strong>Microsoft</strong> ऑफटेक हो सकता है। सार्वजनिक कंपनी <strong>SpaceX</strong> हो सकती है, जो एक वर्ष पहले के <strong>400 MW</strong> और <strong>Q1</strong> के <strong>1 GW</strong> के बाद पहले ही <strong>1.4 GW</strong> कंप्यूट पर पहुँच चुकी है और <strong>2026</strong> के अंत तक <em>2 GW से अधिक</em> होने का लक्ष्य रखती है। इनमें से कोई भी चीज़ अंधेरे हॉल को सक्रिय हॉल में नहीं बदलती। <strong>बिजली का बुनियादी ढाँचा</strong> तैयार होना चाहिए। <strong>क्रिप्टो ब्रीफिंग</strong> की रिपोर्ट के अनुसार <strong>मस्क</strong> की पोस्ट कहती है कि <strong>2027</strong> में आने वाली <em>लगभग</em> <strong>15 गीगावॉट</strong> की <strong>AI कंप्यूटिंग क्षमता</strong> के लिए ऐसा नहीं होगा।</p>
+
+  </div>
+
+  
+  <div class="article-tags">
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+  </div>
+
+
+  
+  
+  <aside class="related-posts">
+    <h2>आगे पढ़ें</h2>
+    <p class="related-note">साझा शीर्षक अंशों से मिलाया गया</p>
+    <ul>
+      
+      <li>
+        <a href="/hi/ai/anthropic-researcher-departure-signals-ai-safety-concerns/">एंथ्रोपिक शोधकर्ता का जाना AI सुरक्षा संबंधी चिंताओं का संकेत</a>
+        
+      </li>
+      
+      <li>
+        <a href="/hi/ai/parental-guide-to-ai-impact-on-children/">बच्चों पर AI के प्रभाव के लिए माता-पिता की मार्गदर्शिका</a>
+        
+      </li>
+      
+      <li>
+        <a href="/hi/ai/parents-guide-understanding-ai-impact-today/">माता-पिता के लिए मार्गदर्शिका: आज AI के प्रभाव को समझना</a>
+        
+      </li>
+      
+      <li>
+        <a href="/hi/ai/are-we-approaching-uncontrollable-ai-systems/">क्या हम अनियंत्रित AI प्रणालियों के करीब पहुँच रहे हैं?</a>
+        
+      </li>
+      
+      <li>
+        <a href="/hi/ai/ai-control-crisis-are-we-crossing-the/">AI नियंत्रण संकट: क्या हम सीमा पार कर रहे हैं?</a>
+        
+      </li>
+      
+    </ul>
+  </aside>
+  
+</article>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 RNews1.com</p>
+      <nav class="lang-switch" aria-label="भाषाएँ">
+        
+          <a no-follow href="/en/ai/musk-says-grid-gear-strands-gpus/">English</a>
+        
+          <a no-follow href="/es/ai/musk-says-grid-gear-strands-gpus/">Español</a>
+        
+          <a no-follow href="/it/ai/musk-says-grid-gear-strands-gpus/">Italiano</a>
+        
+          <a no-follow href="/fr/ai/musk-says-grid-gear-strands-gpus/">Français</a>
+        
+          <a no-follow href="/ar/ai/musk-says-grid-gear-strands-gpus/">العربية</a>
+        
+          <a no-follow href="/la/ai/musk-says-grid-gear-strands-gpus/">Latina</a>
+        
+          <a no-follow href="/hi/ai/musk-says-grid-gear-strands-gpus/" aria-current="page">हिन्दी</a>
+        
+          <a no-follow href="/bn/ai/musk-says-grid-gear-strands-gpus/">বাংলা</a>
+        
+          <a no-follow href="/pt/ai/musk-says-grid-gear-strands-gpus/">Português</a>
+        
+          <a no-follow href="/ru/ai/musk-says-grid-gear-strands-gpus/">Русский</a>
+        
+          <a no-follow href="/ur/ai/musk-says-grid-gear-strands-gpus/">اردو</a>
+        
+          <a no-follow href="/zh/ai/musk-says-grid-gear-strands-gpus/">中文</a>
+        
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

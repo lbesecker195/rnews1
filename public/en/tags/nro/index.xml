@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://w3.org">
+  <channel>
+    <title>NRO on RNews1.com</title>
+    <link>http://localhost:3003/en/tags/nro/</link>
+    <description>Recent content in NRO on RNews1.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+        <atom:link href="http://localhost:3003/en/tags/nro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Roman Telescope Launch Set Sunday</title>
+      <link>http://localhost:3003/en/cosmos/roman-telescope-launch-set-sunday/</link>
+      <pubDate>Sat, 29 Aug 2026 20:04:00 -0700</pubDate>
+      <guid>http://localhost:3003/en/cosmos/roman-telescope-launch-set-sunday/</guid>
+      <description>&lt;h1 id=&#34;roman-telescope-launch-set-sunday&#34;&gt;Roman Telescope Launch Set Sunday&lt;/h1&gt;
+&lt;p&gt;NASA&amp;rsquo;s &lt;strong&gt;$4.3 billion Nancy Grace Roman Space Telescope&lt;/strong&gt; is &lt;em&gt;stacked&lt;/em&gt; for a &lt;strong&gt;SpaceX Falcon Heavy&lt;/strong&gt; liftoff from &lt;strong&gt;Kennedy Space Center&amp;rsquo;s Pad 39A&lt;/strong&gt; at &lt;strong&gt;7:26 a.m. EDT&lt;/strong&gt; Sunday, &lt;strong&gt;Aug. 30&lt;/strong&gt;, after &lt;em&gt;Saturday&amp;rsquo;s go briefing&lt;/em&gt;. The hardware is on the rocket. The briefing is done. The clock, if Florida weather and the remaining countdown hold, now points at a Sunday morning window that the space community has already marked as a &lt;em&gt;must-watch&lt;/em&gt;.&lt;/p&gt;</description>
+      
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>
